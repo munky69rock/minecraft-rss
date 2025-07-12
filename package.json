@@ -3,9 +3,16 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@prettier/plugin-oxc": "^0.0.4",
+    "@types/bun": "latest",
+    "oxlint": "^1.6.0",
+    "prettier": "^3.6.2"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "scripts": {
+    "lint": "oxlint --fix --fix-suggestions",
+    "format": "prettier --write ."
   }
 }
