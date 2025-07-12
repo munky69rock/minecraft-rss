@@ -7,7 +7,7 @@
     <item>
       <title>Minecraft - 1.21.93 (Bedrock)</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/37810171798029-Minecraft-1-21-93-Bedrock</link>
-      <pubDate>Invalid Date</pubDate>
+      <pubDate>Sat, 12 Jul 2025 06:27:44 GMT</pubDate>
       <description>Posted: 3 July 2025A new update has been released to address a few issues with the 1.21.90 release.Bug Fixes and FeaturesGeneral
 Fixed a bug causing packs in world templates to disappear (MCPE-222906)
 Added music disc &quot;Lava Chicken&quot; by Hyper PotionsDrops when defeating a baby Zombie riding a Chicken (Chicken Jockey)
@@ -32,13 +32,13 @@ Added a new condition is_baby that allows checking if the entity that is dropp
     <item>
       <title>Minecraft: Java Edition 1.21.7</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/37749451341965-Minecraft-Java-Edition-1-21-7</link>
-      <pubDate>Invalid Date</pubDate>
+      <pubDate>Sat, 12 Jul 2025 06:27:45 GMT</pubDate>
       <description>A hot-as-lava hotfix. It&apos;s Minecraft 1.21.7, bringing updates to your disco, plus a fresco and some crash and bug fixes. We&apos;ve added a new 3x3 painting to honor everyone&apos;s best friend, as well as refreshed the loot dropped by an iconic mob. The Baby Zombie riding a Chicken (Chicken Jockey) will drop the “Lava Chicken” music disc when defeated.We will be back with the next snapshot in a few weeks.Happy Mining!New FeaturesAdded a painting of a good boy by artist Sarah BoevingAdded music disc &quot;Lava Chicken&quot; by Hyper PotionsDrops when defeating a Baby Zombie riding a Chicken (Chicken Jockey)Technical ChangesThe Data Pack version is now 81The Resource Pack version is now 64Fixed bugs in 1.21.7MC-280354 - Loading and unloading a resource pack that uses a x32000 atlas breaks the gameMC-297748 - The moon is rendered incorrectly on some Qualcomm graphicsMC-298448 - Filled maps are rendered incorrectly on some Qualcomm graphicsMC-298681 - Text displays with the &quot;shadow&quot; tag enabled and the &quot;see_through&quot; tag disabled exhibit z-plane fighting at a close distanceMC-298710 - TTF glyphs are incorrectly rendered over some elementsMC-298818 - Good boy is missing from Java EditionMC-298832 - The breaking particles of droppers and dispensers facing up or down appear incorrect on some Qualcomm graphicsMC-298856 - Blindness and darkness fog effects no longer work underwaterMC-298879 - The game crashes upon startup on some AMD graphicsMC-298898 - TextureAtlas leaks textures after resource reloadMC-298919 - Sometimes you pass through the happy ghast when you get off while going forwardMC-298986 - Repeatedly reloading a 512x512 resource pack will eventually result in severe graphics corruptionMC-299017 - Text on glowing signs is not visible on some graphicsMC-299071 - Memory Leak in ItemStackRenderState leads to OutOfMemoryErrorMC-299110 - Force upgrading does not write new DataVersion to converted dataMC-299126 - The server crashes when certain mobs ride a turtleGet the ReleaseTo install the Release, open up the Minecraft Launcher and click play! Make sure your Launcher is set to the &quot;Latest Release” option.Cross-platform server jar:Minecraft server jarReport bugs here:Minecraft issue tracker!Want to give feedback?For any feedback and suggestions, head over to the Feedback site. If you&apos;re feeling chatty, join us over at the official Minecraft Discord.</description>
     </item>
     <item>
       <title>Minecraft - 1.21.92 (Bedrock)</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/37486954069645-Minecraft-1-21-92-Bedrock</link>
-      <pubDate>Invalid Date</pubDate>
+      <pubDate>Wed, 18 Jun 2025 15:00:00 GMT</pubDate>
       <description>Posted: 19 June 2025
 A new update has been released to address a few issues with the 1.21.90 release. Please continue to report and upvote any bugs you find at bugs.mojang.com. 
 Please note: This update will be rolling to the various platforms as they become available, so please allow time for the update to reach you.
@@ -73,7 +73,7 @@ Fix to restore original behavior where null components in entity definition file
     <item>
       <title>Minecraft: Java Edition 1.21.6 - Chase the Skies</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/37432144057997-Minecraft-Java-Edition-1-21-6-Chase-the-Skies</link>
-      <pubDate>Invalid Date</pubDate>
+      <pubDate>Sat, 12 Jul 2025 06:27:45 GMT</pubDate>
       <description>Experience the joy of soaring above the Overworld with our Chase the Skies drop! This drop not only brings an exciting flying mount to Minecraft but opens up the skies for exploring, building – and more. Raise your ghastling with care and it&apos;ll let you soar with friends above the clouds once fully grown.With 1.21.6 we are also taking steps towards adding Vibrant Visuals to Java. In this release, there are new fog improvements and clouds will extend all the way to the horizon.Go out and explore the Overworld, build high into the sky, leash a caravan of camels together, uncover new music, and find wandering friends with the Player Locator bar.
 New Features
 
@@ -1850,7 +1850,7 @@ For any feedback and suggestions, head over to the Feedback site. If you&apos;r
     <item>
       <title>Minecraft: Bedrock Edition 1.21.90 - Chase the Skies</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/37393460002957-Minecraft-Bedrock-Edition-1-21-90-Chase-the-Skies</link>
-      <pubDate>Invalid Date</pubDate>
+      <pubDate>Mon, 16 Jun 2025 15:00:00 GMT</pubDate>
       <description>Posted: 17 June 2025
 Experience the joy of soaring above the Overworld with our Chase the Skies drop! This drop not only brings an exciting flying mount to Minecraft but opens up the skies for exploring, building – and more. Raise your ghastling with care and it&apos;ll let you soar with friends above the clouds once fully grown. Build high into the sky, leash a caravan of camels together, uncover a new music disc, find wandering friends with the Player Locator bar, and more. Players on Bedrock Edition can also soak in breath-taking views with Minecraft&apos;s biggest official visual refresh – Vibrant Visuals. Are you ready to begin a skyward adventure? Play today!
 
@@ -3548,7 +3548,7 @@ Namespaces can now be used in Template Pool element location and Jigsaw Block id
     <item>
       <title>Minecraft - 1.21.84 (Xbox Only)</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/37160753929741-Minecraft-1-21-84-Xbox-Only</link>
-      <pubDate>Invalid Date</pubDate>
+      <pubDate>Wed, 04 Jun 2025 15:00:00 GMT</pubDate>
       <description>Posted: 5 June 2025
 A new update has been released on Xbox consoles to address an issue with the 1.21.80 release.
 
@@ -3557,7 +3557,7 @@ Fixed an issue where worlds were not appearing in the world list on Xbox (MCPE-2
     <item>
       <title>Minecraft - 1.21.81/82 (Bedrock)</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/36539685655053-Minecraft-1-21-81-82-Bedrock</link>
-      <pubDate>Invalid Date</pubDate>
+      <pubDate>Tue, 13 May 2025 15:00:00 GMT</pubDate>
       <description>Update: 19 May 2025
 Another small hotfix (1.21.82) is being rolled out on Windows.
 
@@ -3592,7 +3592,7 @@ Components
     <item>
       <title>Minecraft - 1.21.80 (Bedrock)</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/36236281562637-Minecraft-1-21-80-Bedrock</link>
-      <pubDate>Invalid Date</pubDate>
+      <pubDate>Mon, 05 May 2025 15:00:00 GMT</pubDate>
       <description>Posted: 6 May 2025
 
 Have you ever looked out across the Overworld and just wished it was… flatter? Well, good news! Flat world presets are now available in Bedrock Edition! Whether you prefer to build on a clean slate or have an aversion to pointy landscapes, now you can have your pick of several exciting in-game presets, from Classic Flat to Water World. If that wasn&apos;t enough, there&apos;s also tons of bug fixes and some exciting features waiting behind the experimental toggle.
@@ -4856,7 +4856,7 @@ When Custom Components V2 experiment is enabled, custom components are flattened
     <item>
       <title>Minecraft - 1.21.72 (Bedrock)</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/35674713271949-Minecraft-1-21-72-Bedrock</link>
-      <pubDate>Invalid Date</pubDate>
+      <pubDate>Mon, 07 Apr 2025 15:00:00 GMT</pubDate>
       <description>Posted: 8 April 2025
 A new update has been released to address a few more important issues since the 1.21.70 release. Please continue to report and upvote any bugs you find at bugs.mojang.com.
 Please note: This update will be rolling out to the various platforms as they become available - thank you for your patience!
@@ -4871,7 +4871,7 @@ Fixed some cases of players&apos; locations being massively rewound during long 
     <item>
       <title>Minecraft - 1.21.71 (Bedrock)</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/35325099799821-Minecraft-1-21-71-Bedrock</link>
-      <pubDate>Invalid Date</pubDate>
+      <pubDate>Thu, 27 Mar 2025 15:00:00 GMT</pubDate>
       <description>Posted: 28 March 2025
 A new update has been released to address a few issues with the 1.21.70 release. Please continue to report and upvote any bugs you find at bugs.mojang.com.
 Fixes:
