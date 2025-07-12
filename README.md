@@ -78,6 +78,13 @@ minecraft-rss/
 
 毎日0:00 UTCに自動的にRSSフィードを更新します。手動実行も可能です。
 
+### Pull Request自動マージ
+
+CI（テスト、型チェック、リント、フォーマット確認）がすべて成功した場合、以下の条件でPull Requestが自動的にマージされます：
+
+- Dependabotによる依存関係更新PR
+- `auto-merge`ラベルが付けられたPR
+
 ## 技術スタック
 
 - [Bun](https://bun.sh) - JavaScriptランタイム
