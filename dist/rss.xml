@@ -1,0 +1,4885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Minecraft Release Changelogs</title>
+    <link>https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs</link>
+    <description>Minecraft release changelogs</description>
+    <item>
+      <title>Minecraft - 1.21.93 (Bedrock)</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/37810171798029-Minecraft-1-21-93-Bedrock</link>
+      <pubDate>Invalid Date</pubDate>
+      <description>Posted: 3 July 2025A new update has been released to address a few issues with the 1.21.90 release.Bug Fixes and FeaturesGeneral
+Fixed a bug causing packs in world templates to disappear (MCPE-222906)
+Added music disc &quot;Lava Chicken&quot; by Hyper PotionsDrops when defeating a baby Zombie riding a Chicken (Chicken Jockey)
+
+Split-screen players on PlayStation and Switch can now access their player data (e.g. inventory) created in 1.21.80 and earlier (MCPE-222048)
+Graphical
+Slightly reduced the emissive intensity of Torches, Redstone Torches, Soul Torches, and Soul Lanterns in Vibrant Visuals (MCPE-222020)
+Fixed parent_setup not running with the correct context, which caused animation issues in some packs
+Glowing text on Signs no longer gets overly bright when looked at directly in Vibrant Visuals
+Mobs
+Fixed performance degradation when a Happy Ghast is leashed close to the ground (MCPE-222147)
+Air friction is now only applied to Boats when they are leashed (MCPE-222298)
+Boats are still prevented from orbiting the player when leashed
+Boats once again retain momentum when moving off ledges
+
+
+User InterfaceFixed issue where the player was not able to move the camera while using the interact buttons on touch devices (MCPE-220353)Technical UpdatesAPI
+Added a new condition passenger_of_entity that allows checking which vehicle entity type is being ridden by the damaged entity that is dropping lootLike damaged_by_entity, allows specifying an entity_type field to check against when deciding which entry in a loot table to select
+
+Added a new condition is_baby that allows checking if the entity that is dropping loot is a baby</description>
+    </item>
+    <item>
+      <title>Minecraft: Java Edition 1.21.7</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/37749451341965-Minecraft-Java-Edition-1-21-7</link>
+      <pubDate>Invalid Date</pubDate>
+      <description>A hot-as-lava hotfix. It&apos;s Minecraft 1.21.7, bringing updates to your disco, plus a fresco and some crash and bug fixes. We&apos;ve added a new 3x3 painting to honor everyone&apos;s best friend, as well as refreshed the loot dropped by an iconic mob. The Baby Zombie riding a Chicken (Chicken Jockey) will drop the “Lava Chicken” music disc when defeated.We will be back with the next snapshot in a few weeks.Happy Mining!New FeaturesAdded a painting of a good boy by artist Sarah BoevingAdded music disc &quot;Lava Chicken&quot; by Hyper PotionsDrops when defeating a Baby Zombie riding a Chicken (Chicken Jockey)Technical ChangesThe Data Pack version is now 81The Resource Pack version is now 64Fixed bugs in 1.21.7MC-280354 - Loading and unloading a resource pack that uses a x32000 atlas breaks the gameMC-297748 - The moon is rendered incorrectly on some Qualcomm graphicsMC-298448 - Filled maps are rendered incorrectly on some Qualcomm graphicsMC-298681 - Text displays with the &quot;shadow&quot; tag enabled and the &quot;see_through&quot; tag disabled exhibit z-plane fighting at a close distanceMC-298710 - TTF glyphs are incorrectly rendered over some elementsMC-298818 - Good boy is missing from Java EditionMC-298832 - The breaking particles of droppers and dispensers facing up or down appear incorrect on some Qualcomm graphicsMC-298856 - Blindness and darkness fog effects no longer work underwaterMC-298879 - The game crashes upon startup on some AMD graphicsMC-298898 - TextureAtlas leaks textures after resource reloadMC-298919 - Sometimes you pass through the happy ghast when you get off while going forwardMC-298986 - Repeatedly reloading a 512x512 resource pack will eventually result in severe graphics corruptionMC-299017 - Text on glowing signs is not visible on some graphicsMC-299071 - Memory Leak in ItemStackRenderState leads to OutOfMemoryErrorMC-299110 - Force upgrading does not write new DataVersion to converted dataMC-299126 - The server crashes when certain mobs ride a turtleGet the ReleaseTo install the Release, open up the Minecraft Launcher and click play! Make sure your Launcher is set to the &quot;Latest Release” option.Cross-platform server jar:Minecraft server jarReport bugs here:Minecraft issue tracker!Want to give feedback?For any feedback and suggestions, head over to the Feedback site. If you&apos;re feeling chatty, join us over at the official Minecraft Discord.</description>
+    </item>
+    <item>
+      <title>Minecraft - 1.21.92 (Bedrock)</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/37486954069645-Minecraft-1-21-92-Bedrock</link>
+      <pubDate>Invalid Date</pubDate>
+      <description>Posted: 19 June 2025
+A new update has been released to address a few issues with the 1.21.90 release. Please continue to report and upvote any bugs you find at bugs.mojang.com. 
+Please note: This update will be rolling to the various platforms as they become available, so please allow time for the update to reach you.
+Fixes:
+Gameplay
+
+Fixed an issue that could cause split-screen players to always show as Guests on Xbox (MCPE-222048) 
+Fixed an issue that could cause players to get disconnected from multiplayer worlds when attempting to add split-screen players
+
+Projectiles
+
+Projectile tolerance margin is now incremented based on the total time active in the world (MCPE-220496)
+
+Previously, projectile tolerance margin was expanded for every flight tick
+Now, projectile tolerance margin is expanded for every active tick, regardless of projectile travel state
+
+
+
+Technical Updates
+Items
+
+Items that are less than 16 pixels in width or height now render properly again
+
+Graphical
+
+Custom skyboxes in texture packs will now render on non-Vibrant Visuals settings (MCPE-221318)
+
+Mobs
+
+Fix to restore original behavior where null components in entity definition files were allowed to parse and load correctly</description>
+    </item>
+    <item>
+      <title>Minecraft: Java Edition 1.21.6 - Chase the Skies</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/37432144057997-Minecraft-Java-Edition-1-21-6-Chase-the-Skies</link>
+      <pubDate>Invalid Date</pubDate>
+      <description>Experience the joy of soaring above the Overworld with our Chase the Skies drop! This drop not only brings an exciting flying mount to Minecraft but opens up the skies for exploring, building – and more. Raise your ghastling with care and it&apos;ll let you soar with friends above the clouds once fully grown.With 1.21.6 we are also taking steps towards adding Vibrant Visuals to Java. In this release, there are new fog improvements and clouds will extend all the way to the horizon.Go out and explore the Overworld, build high into the sky, leash a caravan of camels together, uncover new music, and find wandering friends with the Player Locator bar.
+New Features
+
+Added Happy Ghast mob
+Added Dried Ghast block
+Added Harness items
+Added the Locator Bar, a new HUD element that shows the direction of other Players in multiplayer
+Added a new Music Disc with the track &quot;Tears&quot; by Amos Roddy
+Added 5 new music tracks by Amos Roddy
+Added new advancements
+Added Old Spelling Indonesian (Indonesian pre-reform) and Cantabrian language support
+
+Happy Ghast
+The Happy Ghast is a new mountable flying mob.
+Dried Ghast Block
+
+The Dried Ghast block is found in Nether Fossil structures and is the first stage of the Happy Ghast mob
+Can be crafted with 1 Soul Sand block and 8 Ghast Tears
+When waterlogged, it undergoes 3 hydration level changes over approximately 20 minutes until it spawns a Ghastling mob
+The hydration level decreases when it is no longer waterlogged, using the same timescale
+The hydration level is not preserved when mined
+Makes sounds and shows particles depending on its hydration level
+The Dried Ghast block emits a vibration frequency of 11 when its block state changes
+
+Ghastling Mob
+
+The Ghastling is a young version of the Happy Ghast mob
+Spawns from a Dried Ghast block that has continuously been waterlogged for about 20 minutes
+After spawning, the Ghastling will try and follow:
+
+Players within a 16-block radius or
+An adult, non-aquatic passive mob or some of the neutral mobs within a 16-block radius
+
+
+If no player or suitable mob is close around, the Ghastling will idle around within 32 blocks from its home position where it spawned or was last interacted with
+
+It will reset its home position if it is moved more than 16 blocks away from the border of its home position
+
+
+Can be tempted and fed using Snowballs
+Will grow up into a Happy Ghast after about 20 minutes, or faster if fed Snowballs
+
+Happy Ghast Mob
+
+Can be equipped with a Harness and then be mounted by up to four players
+Tempted by Snowballs and Harness
+
+The Happy Ghast can only be tempted with a Harness when it has no harness equipped
+
+
+Slowly regenerates health, with regeneration speeding up during rain, snow or when flying at the same height as clouds
+The first player that mounts the Happy Ghast will control it, sitting above it in the front seat
+
+When controlled, the goggles of the Happy Ghast flip down to cover its eyes
+
+
+Players mounting after the first player are placed in slots on each side of it, starting clockwise from the first player
+Pressing the sneak key dismounts the player on top of the Happy Ghast
+If the Happy Ghast detects players standing on top of it, it ceases all movement and rotates to the closest cardinal direction
+
+This happens regardless of whether it has a Harness equipped or not
+
+
+When mounted on the Happy Ghast, the third-person camera is further away from the player
+When there are no players mounted or walking on the Happy Ghast, it starts its roaming behavior
+
+If players dismount midair, the Happy Ghast will descend towards the ground before it starts roaming
+The roaming behavior is similar to the Ghastling, except for the radius being 64 blocks
+When wearing a Harness, the Happy Ghast roams closer to the home position, within a 32 block radius
+When leashed, the Happy Ghast has a roaming distance of 10 blocks
+The Happy Ghast will try to stay close to blocks when roaming
+
+
+Cannot be bred
+Cannot enter boats
+Has no panic behavior when taking damage
+
+Harness Item
+
+The Harness is a new item that can be equipped on a Happy Ghast to allow players to ride it
+The Harness comes in 16 different colors
+Can be crafted out of 3 Leather, 2 Glass blocks and 1 Wool block
+
+The Harness will have the same color as the Wool block used when crafting
+
+
+Can be re-dyed in the crafting grid
+Can only be equipped on a Happy Ghast
+Allows up to 4 players to mount the Happy Ghast
+Can be removed from the Happy Ghast using Shears when no players are mounted
+
+ 
+Locator Bar
+The Locator Bar is a new UI element that displays the direction of other players in the world.
+
+If another player is in the world (and that player is not hiding) the Locator Bar will display in the same area as experience bar
+
+When experience is gained the experience bar will appear
+If there are no other players in the world the experience bar will display as normal
+
+
+Facing other players within a 120 degree range will display those players as colored indicators on the Locator Bar
+
+Other players that are above/below the screen will also display an up/down arrow together with their indicator
+The indicator will change to different sized icons depending on how far away the other Player is
+Colored indicators are randomized for each player
+
+Operators can modify the colors of indicators with the /waypoint command
+
+e.g.: /waypoint modify @s color red to set an indicator to red
+
+
+Players on a team will override their default indicator color with their team color
+
+
+
+
+Players can hide by crouching, wearing a mob head or a Carved Pumpkin, or using a Potion of Invisibility
+Players in Spectator Mode are not visible on the Locator Bar
+
+However, spectators are visible to each other
+
+
+The Locator Bar can be toggled off by setting the locatorBar game rule to false
+
+
+Music and Sound
+
+Added a new music disc:
+
+&quot;Tears&quot; by Amos Roddy
+
+Can be obtained by killing a Ghast with a Fireball deflected by a Player
+Has a comparator output of 10 when played in a Jukebox
+
+
+
+
+Added 5 new background music tracks by Amos Roddy:
+
+&quot;Below and Above&quot;
+&quot;Broken Clocks&quot;
+&quot;Fireflies&quot;
+&quot;Lilypad&quot;
+&quot;O&apos;s Piano&quot;
+
+
+Added a new sound for when a Lead snaps
+Added new custom sounds for shearing Saddles, Horse Armor, and Carpets from Llamas
+Added new sound volume category called &quot;UI&quot; for sounds played by UI elements, like button clicks
+Music now plays even when the game is paused
+Added an option to the Music &amp; Sound settings that allows players to change how frequently music plays while in a game world
+Added an option to the Music &amp; Sound settings that enables a music toast to be shown whenever a song starts playing
+
+With this option enabled, the song that is currently playing will always be seen in the top left corner of the in-game Pause Menu
+
+Advancements
+
+Added new &quot;Stay Hydrated!&quot; Husbandry Advancement when a Dried Ghast block is placed into Water
+Added &quot;Heart Transplanter&quot; Adventure Advancement that is unlocked when a player places a Creaking Heart with the correct alignment between two Pale Oak Log blocks
+
+Changes
+
+Changed leash mechanics and updated recipe for Lead
+Saddles are now craftable and shearable
+Updated Ghast texture
+Improvements to fog
+Updates to music and sound
+Improvements to the Realms configuration screen and introduced a region preference setting
+Piglins can now give Dried Ghast blocks when bartered with
+Splash Potions effect strength is now based on the distance of the hitboxes
+The target tolerance margin of projectiles now changes over time
+Changed Elytra so that while gliding, using a Firework Rocket will only be used as a boost even if it could be placed on a block
+Spectators will now teleport together with entities that move to other dimensions, but will stop spectating them
+Increased the third-person camera distance when spectating or riding Ghasts or Ender Dragons
+The fix to MC-3697 has been partially reverted
+
+Decorative hanging entities such as paintings and item frames are now immune to explosions from submerged TNT while items and armor stands are once again vulnerable to them
+
+
+Wolves, Sheep and Pigs now have their legs mirrored
+The test framework will no longer try to restart running tests after a server restart
+Clouds now exist all the way to the horizon, with an option to reduce them
+Updated the pattern of clouds in the sky
+Horses, Donkeys, and Mules can now be fed Carrots to heal, grow, and improve their temper
+Updated the main screen panorama
+Removed Herobrine
+
+
+
+Leash Changes
+
+The Slime Ball in the Lead recipe has been replaced with a String
+Improved leash mechanics, with reworked leash physics, allowing for more stable leash connection, especially when leashed entities are not on ground
+
+When dragged on the leash, leashed objects will now orient themselves towards the entity holding the leash
+Using a Firework Rocket when flying with leashed entities will now break the leash connections
+
+
+Leashes are now rendered twice as thick, matching Minecraft: Bedrock Edition
+Leashes can now be used to leash two mobs together
+
+Sneak-interact on any mob while holding leashed mobs will leash these mobs to the entity interacted with
+Re-leashing an entity is prevented if the re-leashing would result in immediate leash snapping due to distance
+
+
+Leashes can be snipped from an entity when interacting with them using Shears
+
+This applies to its own leash connection as well as all entities attached to it
+Dispensers can now snip leashes from entities in front of them when they are equipped with Shears
+
+
+When leashing an already leashed mob, their previous leash snaps
+You cannot steal leashed entities from other players
+Interactions with a Leash Knot/Fences:
+
+Fails for entities that are not in range of the Leash Knot/Fence
+All entities leashed to the player will be leashed to the Leash Knot/Fence
+Transfers all its leashed entities to the player if the player has no entities leashed
+Sneak-interact only ever attaches leashes
+Shearing or punching the Leash Knot will result in all current connections to be broken
+
+
+A Leash Knot requires at least one connection to exist
+Boats and large mobs that can be leashed but cannot fit in a Boat (Horses, Donkey, Mule, Camel and Sniffer) can be leashed in a special quad connection to the Happy Ghast
+
+Happy Ghast will also show a custom layer when it&apos;s leashing something using a quad connection
+Entities leashed in quad connection are now rendered without slack
+
+Leash snapping distance has been changed from 10 to 12 blocks
+
+Happy Ghast has a leash snapping distance of 16 blocks
+The distance between two leashed entities is determined based on the center of their bounding boxes, rather than their feet
+
+
+
+
+
+Saddle Changes
+Crafting Saddles
+
+Saddles can now be crafted with 3 Leather and 1 Iron Ingot
+The recipe is unlocked when a player picks up their first Leather
+
+Removing Saddles and Equipment
+
+Saddles, Horse Armor, Harnesses and Carpets can now be removed from the mobs by using Shears
+
+This does not work in case the mob has a rider, or if the player is crouching
+Saddles cannot be removed from Ravagers using Shears
+
+
+Dispensers with Shears cannot remove Saddles, Horse Armor, Harnesses or Carpets equipped on mobs
+Shearing Saddles, Horse Armor, and Carpets will emit a vibration frequency of 6, along with the Unequip frequency of 4
+
+Loot Table Changes
+The following loot tables have had Saddles removed from them and replaced with 1-5 Leather:
+
+Monster Room chests
+Ancient City chests
+Desert Pyramid chests
+Jungle Pyramid chests
+Stronghold altar chests
+
+Fog
+
+Fog was tweaked for improved atmospheric perspective
+It now becomes foggier when it rains
+Fog is now applied to 3D HUD elements such as first-person player hands and items in hands
+
+Ambient Desert Block Sounds Changes
+
+Ambient sand sounds no longer require sky access to play
+Ambient sand sounds now have a slightly decreased chance to play
+Terracotta blocks no longer trigger ambient sand sounds
+Sand blocks no longer trigger ambient wind sounds
+Terracotta blocks no longer trigger ambient wind sounds
+Short Dry Grass and Tall Dry Grass can now trigger ambient wind sounds when above 2 Sand, Red Sand or Terracotta blocks
+Dead Bush ambient sounds now have a slightly increased chance of playing
+
+Music and Sound
+
+The following sound categories have been renamed:
+
+Friendly Creatures -&gt; Friendly Mobs
+Hostile Creatures -&gt; Hostile Mobs
+
+
+Rules for when ambient desert blocks sounds play have been tweaked
+
+Realms
+
+Changed the layout of the Realms configuration screen to use tabs
+
+The Worlds tab allows changes to any of the world slots, creating new worlds and changing their settings
+The Players tab allows management of the players that have access and their level of access to the Realm
+The Subscription tab allows management of the Realms subscription
+The Settings tab allows changing the settings of the Realm
+
+
+Introduced a Region Preference setting that allows for more granular control over what region a Realm is hosted in
+Changed wording for Close/Open Realm to Temporarily close/Reopen Realm
+Added the Realms logo to the Realms loading screens
+Added region information when connecting to a Realm
+
+Projectile Targeting
+
+The target tolerance margin of projectiles now changes over time
+
+Previously, all projectiles had a target tolerance margin of 0.3 blocks
+Now, all projectiles start with no margin for the first two ticks of their flight
+After that, the target margin will expand by 0.05 blocks per tick until it reaches the previous 0.3 blocks margin
+This allows for better precision close to the shooting player or entity, while still allowing for some collision leeway when the projectile is further away
+
+
+
+Splash Potions
+
+Splash Potions distance to affected entities now depends on the closest distance between the entity hitbox and the splash potion hitbox where it landed
+
+This means that if an entity is hit directly by the splash potion, it will receive the full effect of the potion
+If the entities are grouped together, they will receive the same effect strength
+
+
+
+Technical Changes
+
+The Data Pack version is now 80
+The Resource Pack version is now 63
+All JSON files (in worlds, packs, configuration, etc.) are now parsed in strict mode
+Pressing F3 + V now prints client-side version information
+&quot;Command Syntax&quot; report now contains information about required permission level
+
+--quickPlaySingleplayer command line argument can now be used without an identifier to launch into the last played world
+
+Data Pack Versions 72 Through 80
+
+Dimension Type definitions have a new optional field, cloud_height that indicates on what y-level the clouds start in the dimension
+New version command has been added
+New datapack create subcommand has been added
+Added a way to display very simple dialogs to users
+Added a Server-authoritative Waypoint broadcasting system for controlling the Locator Bar behavior for Players
+Added custom - a new click_event action type for text components
+New optional fields can_be_sheared and shearing_sound have been added to the equippable item component
+Added player_sheared_equipment advancement trigger
+
+Commands
+Added version
+
+Prints the current version information on the server side.
+
+Takes no arguments
+Available in singleplayer or for server operators
+
+Added datapack create
+
+Creates a new empty directory data pack for the current world.
+
+The supported pack version is always equal to one supported by the game
+Available only to server owners
+Syntax: datapack create &lt;id&gt; &lt;name&gt;
+
+
+id - new pack name, must be a valid directory name
+
+name - text component to be placed in description in pack.mcmeta
+
+
+
+
+Modified playsound
+
+
+Added new category ui
+
+Sounds in this category will continue playing when paused, similarly to music
+
+
+
+
+Added waypoint
+
+This is a new command for querying and modifying waypoints.
+waypoint listwaypoint modify &lt;entity-selector&gt; color &lt;color&gt;waypoint modify &lt;entity-selector&gt; color hex &lt;hex-color&gt;waypoint modify &lt;entity-selector&gt; color resetwaypoint modify &lt;entity-selector&gt; style &lt;waypoint_style/resource&gt;waypoint modify &lt;entity-selector&gt; style reset
+Arguments:
+
+
+entity-selector: For selecting entities that are transmitting as waypoints (see waypoint_transmit_range attribute)
+
+color: Overrides the Locator Bar icon color for this waypoint
+
+hex &lt;hex-color&gt; arguments are in web format (RRGGBB)
+
+Red is either hex F00 or hex FF0000
+
+Cornflower blue is hex 6495ED
+
+
+
+
+style: For changing the icon spriteset and selection distances
+
+
+set &lt;waypoint_style/resource&gt; changes the style to a specific asset under waypoint_style/ (see Waypoint Styles section below)
+
+reset will restore the default icon behavior of the Locator Bar
+
+
+
+Waypoint Broadcasting
+The Locator Bar works through a server-controlled Waypoint system. Waypoints are received by Players, and connections between Waypoints and Players are managed by the multiplayer server.
+
+By default, all Players transmit a Waypoint from themselves, and all Players receive all Waypoints
+Individual Players can have their transmission and receive ranges controlled by the waypoint_transmit_range and waypoint_receive_range attributes
+
+Dialogs
+
+Added a way to display simple modal dialogs to a user
+Dialogs are stored in a minecraft:dialog registry, but can also be defined inline
+Dialogs are an experimental feature
+To avoid user confusion, dialog screens are marked with a warning sign next to the title
+
+Clicking on this warning leads to a screen that explains to user that this screen is provided by custom content
+It also gives the user an option to leave the current world to avoid them being locked in an infinite loop of dialogs
+If a new dialog is received by the client while warning screen is visible, it will not replace it, but when user clicks the &quot;Back&quot; button, the new dialog will be restored instead
+
+
+Dialogs can be displayed by server in play and configuration connection phases
+
+However, only inline registries are allowed in configuration, since registries are not yet available in that phase
+Additionally, run_command click event is not available in configuration phase
+
+
+Dialogs by default will close after the Escape key is pressed
+
+When this happens, dialog will run action specific to dialog type described as &quot;exit action&quot; below
+This behavior is configurable
+
+
+When the dialog screen is closed, the game goes back to previously displayed non-dialog screen or back to gameplay
+
+That means that new dialogs always replace already opened ones, if any
+
+
+Dialogs can be configured to be accessible from Pause menu
+
+This replaces and expands the &quot;Server Links&quot; button added in previous versions
+
+
+New key bind called &quot;Quick Actions&quot; has been added to allow accessing content-configured dialogs
+Most dialogs follow a common layout, however exact contents depend on type:
+
+Header with title and warning button
+Body elements, scrollable if needed:
+
+messages and items
+inputs
+actions buttons
+
+
+Optional footer, contains main buttons and submit actions
+
+
+
+
+Developer&apos;s Note: Dialogs are not supposed to fully describe any in-game UI, but just to allow custom content to display simple messages and get input from users. This feature is intentionally limited to match that use case.
+
+ 
+Dialog Description Format
+
+Dialogs are stored in minecraft:dialog registry that can be provided by a datapack
+
+Fields:
+
+
+type - one of dialog types from minecraft:dialog_type registry
+
+&lt;type-specific&gt; - see below
+
+Common Dialog Fields
+
+Most dialog types share some fields. To avoid duplication, they are listed in this section
+
+Fields:
+
+
+title - screen title, text component
+
+Should be always visible on screen, no matter the specific type
+
+
+
+external_title - name to be used for a button leading to this dialog (for example from Pause screen), optional text component
+
+If not present, title will be used instead
+
+
+
+body - optional list of body elements or a single element, see below
+
+inputs - optional list of inputs, see below
+
+can_close_with_escape - can dialog be dismissed with Escape key, default true
+
+
+pause - should the dialog screen pause the game in single-player mode, default: true
+
+
+after_action - additional operation performed on dialog after click or submit actions, default: close
+
+
+close - closes dialog and returns to previous non-dialog screen (if any)
+
+none - do nothing, i.e., keep the current screen open
+
+only available if pause is false to avoid locking the game in single-player mode
+
+
+
+wait_for_response - replace the current dialog with a &quot;Waiting for Response&quot; screen
+
+this option is intended to prevent users from sending multiple actions on laggy connections
+
+servers are expected to eventually replace this screen with a new dialog
+
+
+to avoid accidental locking, a &quot;Back&quot; button will become active after 5 seconds
+
+clicking this button will continue as if the dialog was closed (i.e., game returns to the previous non-dialog screen, if any)
+
+
+&quot;Waiting for Response&quot; screen will unpause the game in single-player mode to avoid locking the game
+
+
+
+
+
+Dialog Types
+minecraft:notice
+
+A simple screen with one action in footer
+Exit action: same as action
+
+
+Fields:
+
+Common dialog fields (see above)
+
+action - main action (see below), defaults to a button with gui.ok label and no action or tooltip
+
+minecraft:confirmation
+
+A simple screen with two actions in footer
+Exit action: same as no action
+
+Fields:
+
+Common dialog fields (see above)
+
+yes - action (see below) for positive outcome
+
+no - action (see below) for negative outcome
+
+minecraft:multi_action
+
+A scrollable list of actions arranged in columns
+Screen can have optional exit action that will appear in footer
+Exit action: same as exit_action, if present
+
+Fields:
+
+Common dialog fields (see above)
+
+actions - non-empty list of actions (see below)
+
+exit_action - optional action (see below) in footer
+
+columns - positive integer describing number of columns, default: 2
+
+
+minecraft:server_links
+
+A scrollable list of links received from server in minecraft:server_links packet, arranged in columns
+Note: this is a replacement for the previous Server Links screen, but now with an additional body
+Exit action: same as exit_action, if present
+
+Fields:
+
+Common dialog fields (see above)
+
+exit_action - optional action (see below) in footer
+
+columns - positive integer describing number of columns, default: 2
+
+
+button_width - width of buttons in the list, integer from 1 to 1024 (inclusive) with default 150
+
+
+minecraft:dialog_list
+
+A scrollable list of buttons leading directly to other dialogs, arranged in columns
+
+Titles of those buttons will be taken from external_title fields of targeted dialogs
+
+
+Exit action: same as exit_action, if present
+
+Fields:
+
+Common dialog fields (see above)
+
+dialogs - dialog, a list of dialogs or a dialog tag
+
+exit_action - optional action (see below) in footer
+
+columns - positive integer describing number of columns, default: 2
+
+
+button_width - width of buttons in the list, integer from 1 to 1024 (inclusive) with default 150
+
+
+Dialog Body Types
+
+All dialogs have a list of body elements describing contents between title and actions or inputs
+Hover and click events on text components within bodies function as expected
+
+Click events are handled by dialog screen like any other action - that means it will also run after_action
+
+
+
+
+Fields:
+
+
+type - one of dialog body types from minecraft:dialog_body_type registry
+
+&lt;type-specific&gt; - see below
+
+minecraft:plain_message
+
+A multiline label
+
+Fields:
+
+
+contents - text component
+
+width - maximum width of message, integer from 1 to 1024 (inclusive) with default 200
+
+
+minecraft:item
+
+Item with optional description
+
+If a description is present, it will be rendered to the right of item
+
+
+The Item will be rendered as if it was in inventory slot
+The Item is not scaled even if width and height are set to values other than default
+
+Fields:
+
+
+item - item stack with count
+
+description - optional object with fields:
+
+
+contents - text component
+
+width - maximum width of contents, integer from 1 to 1024 with default 200
+
+Can also just be text component
+
+
+
+show_decorations - if true, count and damage bar will be rendered over the item, default: true
+
+
+show_tooltip - if true, item tooltip will show up when item is hovered, default: true
+
+
+width - horizontal size of element, integer from 1 to 256 (inclusive) with default: 16
+
+
+height - vertical size of element, integer from 1 to 256 (inclusive) with default: 16
+
+
+Input Control Types
+
+Dialog can contain a set of controls that accept user input
+When submitted, the current value of the input will be used to build response to the server according to action selected by user (see below)
+
+When a value is inserted into a macro, template substitution form is used
+When a value is sent as a tag, tag form is used
+
+
+
+Fields:
+
+
+type - one of input control types from minecraft:input_control_type registry
+
+key - string identifier of value used when submitting data, must be a valid template argument (letters, digits and _)
+
+&lt;type-specific&gt; - see below
+
+minecraft:text
+
+A simple text input
+Output values:
+
+As template substitution: contents with special characters escaped to fit in a SNBT literal (note: both &apos; and &quot; are escaped)
+As tag: a string tag with contents without modification
+
+
+
+Fields:
+
+
+width - width of the text input, integer from 1 to 1024 (inclusive) with default: 200
+
+
+label - a text component to be displayed to the left of control
+
+label_visible - controls label visibility, default: true
+
+
+initial - initial contents, default: &quot;&quot; (empty)
+
+max_length - maximum length of the text input, positive integer with default of 32
+
+multiline - if present, allows users to input multiple lines, optional object with fields:
+
+
+max_lines - if present, limits maximum lines, optional positive integer
+
+height - height of input, optional integer in range 1 to 512
+
+If this field is omitted, but max_lines is present, the height will be chosen to fit the maximum number of lines (but can&apos;t exceed 512)
+If this and max_lines are both omitted, it will default to a height that fits 4 lines
+
+
+
+
+
+minecraft:boolean
+
+A plain checkbox with a label
+Output values:
+
+As template substitution: on_true when checked, on_false when unchecked
+As tag: 1b when checked, 0b when unchecked
+
+
+
+Fields:
+
+
+label - a text component to be displayed to the right of control
+
+initial - an initial value, default: false (i.e., unchecked)
+
+on_true - a string value to send when control is checked, default: true
+
+
+on_false - a string value to send when control is unchecked, default: false
+
+
+minecraft:single_option
+
+A button that cycles between a set of options when clicked
+Output values:
+
+As template substitution: contents of id field of currently selected option
+As tag: a string tag with contents of id field of currently selected option
+
+
+
+Fields:
+
+
+label - a text component to be displayed on the button
+
+label_visible - if true, label will be incorporated into button text, default: true
+
+
+width - width of the button, integer from 1 to 1024 (inclusive) with default: 200
+
+
+options - a list of objects with fields:
+
+
+id - a string value to send on submit
+
+display - a text component to display on button, optional (if not present, id is used)
+
+initial - an optional boolean flag that selects initial option (only one option can have this be set to true)
+Additionally, the list might also contain a plain string - in that case it&apos;s equivalent to a single entry with field id set to that string and other fields set to default
+
+
+
+minecraft:number_range
+
+A slider for picking a numeric value out of some range
+Sends currently selected value
+Output values:
+
+As template substitution: text representation of current value
+
+Whole numbers will be sent without decimal point
+
+
+As tag: a float tag with current value
+
+
+
+Fields:
+
+
+label - a text component to be used as a slider label
+
+label_format - a translation key to be used for building label (first argument is contents of label field, second argument is current value), default: options.generic_value
+
+
+width - width of input, integer from 1 to 1024 (inclusive) with default: 200
+
+
+start - start value (when slider is in leftmost position) (inclusive), float
+
+end - end value (when slider is in rightmost position) (inclusive), float
+
+initial - initial value of the slider, float, defaults to the middle of slider range
+
+step - step size, optional positive float
+
+If present, only values of initial + &lt;any integer&gt; * step will be allowed
+If absent, any value from range the is allowed
+
+
+
+Actions
+Dialogs have at least one action, presented to the user as a button. After every action dialog will always evaluate contents of after_action field (see above).
+Fields:
+
+
+label - a button label, text component
+
+tooltip - an optional text component to display when the button is hovered or focused
+
+width - the width of the button, integer from 1 to 1024 (inclusive) with default 150
+
+
+action - an action to perform when the button is clicked, optional object with fields:
+
+
+type - value from minecraft:dialog_action_type registry
+
+&lt;type-specific&gt; - see below, depends on type
+
+
+
+
+Static Dialog Action Types
+All existing click_event actions (except for open_file) are included as dialog action types.
+Uses same format as click_event on text components (but with action replaced with type) For example, when using show_dialog, the entry for action button will look like this:
+{    &quot;label&quot;: &quot;some label&quot;,    &quot;action&quot;: {        &quot;type&quot;: &quot;show_dialog&quot;,        &quot;dialog&quot;: &quot;some:id&quot;    }}
+
+minecraft:dynamic/run_command Action Type
+
+This action will build a run_command event using a provided macro template
+The macro will be expanded with string values from inputs
+
+For example, if the macro template is some_command $(some_input), the string value from input with key of some_input parameter will be used for the template expansion
+Inputs not used in macro will be ignored, while macro parameters not matching any inputs will be replaced with an empty string
+
+
+
+Fields:
+
+
+template - a string with a macro template to be interpreted as a command
+
+
+minecraft:dynamic/custom Action Type
+
+This method will build a minecraft:custom event using all input values
+All input contents will be sent together inside a compound tag, with tag value of each input put under id from key field of that input
+Additional static fields can be added to payload
+
+Fields:
+
+
+additions - fields to be added to payload, optional compound tag
+
+id - namespaced ID
+
+Built-in Dialogs
+The built-in datapack contains some custom dialogs to provide customization of specific screens used by the client.
+minecraft:server_links
+
+Replacement for the previously existing &quot;Server Links&quot; screen
+Meant to simplify migration for servers that previously used this feature
+
+minecraft:custom_options
+
+Shows contents of minecraft:pause_screen_additions tag (see below)
+Allows the user to select a specific dialog if this tag contains multiple entries
+Note: Since this tag is meant for interoperability, any content that replaces this dialog should be careful not to hide other dialog providers
+
+Dialog Command
+
+New command has been added to show dialog to clients
+
+Syntax:
+
+
+dialog show &lt;targets&gt; &lt;dialog&gt; - show dialog to player(s)
+
+
+&lt;targets&gt; - player name, UUID or a player selector
+
+&lt;dialog&gt; - a namespaced ID from minecraft:dialog registry or inline dialog value as described above
+Returns the number of players in targets argument
+
+
+
+dialog clear &lt;targets&gt; - clean dialog for player(s), if they have any visible
+
+
+&lt;targets&gt; - player name, UUID or a player selector
+Returns the number of players in targets argument
+
+
+
+Pause Screen Configuration
+
+A data pack can request some of the available dialogs to be accessible from Pause screen
+This feature replaces the &quot;Server Links&quot; button and is placed on Pause screen according to the same rules
+Buttons leading to dialogs exposed in this way will use label described in external_title field
+This feature is configured by minecraft:pause_screen_additions dialog tag:
+
+If this tag is not specified or is empty but the server has sent server_links packet, the tag will be handled as if it contained minecraft:server_links dialog
+
+Note: this matches previous Server Links feature behavior
+If this dialog is removed, the tag remains empty
+
+
+If this tag is still empty, the button will not be visible (&quot;Send Feedback&quot; and &quot;Report Bugs&quot; buttons are visible instead)
+If this tag has a single element, the pause screen button will lead directly to that dialog
+If this tag has multiple elements, the pause screen button will lead to a minecraft:custom_options dialog which (by default) lets user select one of the tag elements
+
+If this dialog is removed, the button is will not be visible
+
+
+
+
+
+Quick Actions Key Bind
+
+A new key bind has been added that allows users to access a set of dialogs
+Default key: G
+
+This feature is configured by minecraft:quick_actions dialog tag
+
+If this tag is empty, the key bind will do nothing
+If this tag has a single element, the key bind will open that dialog
+If this tag has multiple elements, the key bind will lead to minecraft:quick_actions dialog which (by default) lets user select one of the tag elements
+
+If this dialog is removed, the key bind will do nothing
+
+
+
+
+This option is intended for use in custom content and by servers, so this tag is empty in the Vanilla pack
+
+Text Components
+Click Events
+
+Users will now be prompted for confirmation before executing a command from the run_command click action in books and chat if the command can&apos;t be parsed or requires elevated permissions (i.e., higher than 0)
+
+Added minecraft:custom
+
+
+A new click action called minecraft:custom has been added
+
+When user clicks a component with this click action, the client will send a dedicated packet minecraft:custom_click_action to a server
+The intended use is as an alternative for run_command to be used by modded servers without worrying about having to add custom commands
+This packet has no functionality on Vanilla servers
+Fields:
+
+
+id - namespaced ID
+
+payload - optional tag field
+
+
+
+
+
+Added minecraft:show_dialog
+
+
+A new action called show_dialog has been added
+
+When user clicks this component, a dialog will be opened for them
+Fields:
+
+
+dialog - a namespaced ID from minecraft:dialog registry or inline dialog value as described above
+
+
+
+
+
+Game Rules
+Added locatorBar
+
+
+Default is true: enabling the Locator Bar
+Changing to false will remove all existing Waypoints from all players
+
+Attributes
+Added camera_distance
+
+
+Default value: 4.0
+
+Modifies the distance at which the camera is placed away from the player or spectated entity when in a third-person view
+If the entity being ridden has a larger camera_distance attribute, that distance will be used
+This distance is multiplied by the scale attribute to get a final target camera distance
+
+Added waypoint_transmit_range and waypoint_receive_range
+
+
+
+Default: 0.0, Minimum: 0.0, Maximum: 60000000.0
+
+
+Players have a default transmission and reception range of 60,000,000
+
+
+Mobs with a transmission range above zero will send waypoint packets to nearby receivers that are within that range
+
+
+Similarly, receivers only receive waypoints that are inside their reception range (and receive nothing if that range is zero) Examples:
+
+
+/attribute @s minecraft:waypoint_transmit_range base set 0 will prevent a player from transmitting (hiding them)
+
+
+/attribute @s minecraft:waypoint_transmit_range base set 80 will only let a player transmit up to 80 blocks (hiding them from players further than that)
+
+
+/attribute @s minecraft:waypoint_receive_range base set 0 will prevent a player from receiving (turns off their Locator Bar)
+
+
+/attribute @s minecraft:waypoint_receive_range base set 120 will only let a player see Locator Bar dots that are within 120 blocks (hiding all players further than that)
+
+
+Changed flying_speed
+
+
+The flying_speed attribute now also applies to Ghasts and Happy Ghasts
+
+Data Components
+
+equippable Item Component
+
+Added a new optional field: can_be_sheared (boolean)
+
+If true, players can use Shears to remove this equippable item from a target mob by right-clicking, provided all other shearing conditions are satisfied
+If not specified, it defaults to false
+
+
+
+Added a new optional field: shearing_sound (sound event)
+
+It&apos;s a sound event that plays when the equippable item is sheared
+If not specified, it defaults to the item.shears.snip sound event
+
+
+
+
+attribute_modifiers Item Component
+
+Added an optional display field to attribute_modifiers entries
+
+There are 3 display types:
+
+
+default - Current behavior of showing the calculated attribute modifier values on the tooltip
+
+hidden - Does not show the attribute modifier entry
+
+override - Replaces the shown attribute modifier text
+
+Contains a single field value for the text contents to show for this attribute modifier entry
+
+
+
+
+
+
+
+
+painting/variant Item Component
+
+No longer accepts inline variants
+
+Entity Data
+
+Added the home_pos and home_radius fields to all mobs
+
+Mobs with set home position will limit their pathfinding to stay within the indicated area
+Some mobs, such as Bats, Slimes, Magma Cubes, Phantoms and Ender Dragons may ignore it
+Interacting with leashes or riding may change the home position of the mob
+
+
+
+area_effect_cloud
+
+The Particle field has been renamed to custom_particle, and now always functions as an exact override for the default colored entity_effect particle
+
+The field will not be written if no override is specified
+The color will no longer be inherited from the potion contents when specifying the entity_effect or tinted_leaves particle types
+
+
+
+tnt
+
+The entity that primed the TNT is now stored in an optional owner field (UUID of Living entity)
+
+vex
+
+The owner of a Vex is now stored in an optional owner field (UUID of mob)
+
+Advancements
+Added minecraft:player_sheared_equipment trigger
+
+Can Trigger when a player shears off a shearable equipment from an Entity
+Conditions:
+
+
+item - Item that is sheared
+
+entity - The entity that was sheared
+
+
+
+Tags
+Block Tags
+
+Added #triggers_ambient_desert_dry_vegetation_block_sounds - blocks that can trigger ambient desert dry vegetation sounds to play from blocks above
+Added #happy_ghast_avoids - blocks that Happy Ghasts avoid getting close to
+
+#plays_ambient_desert_block_sounds has been renamed to #triggers_ambient_desert_sand_block_sounds
+
+Added triggers_ambient_dried_ghast_block_sounds - blocks that can trigger ambient Dried Ghast sounds to play when a Dried Ghast block is placed on them
+
+Item Tags
+
+Added #happy_ghast_food - items that can be used to feed Happy Ghasts
+Added #happy_ghast_tempt_items - items that can be used to tempt Happy Ghasts
+
+Entity Tags
+
+Added #can_equip_harness - entities that can equip the Harness items
+Added #followable_friendly_mobs - non-baby entities that will be followed by Baby Happy Ghasts
+
+Resource Pack Versions 56 Through 63
+
+The game will now consistently respect the blur texture parameter in .png.mcmeta files
+All core shader uniforms are now uniform blocks
+The cloud texture (clouds.png) can no longer be colored
+Cube rotations in block models are no longer limited to multiples of 22.5 degrees
+Updated Unifont to 16.0.03
+Panorama textures must now all be the same size, and square
+Added oversized_in_gui item model field
+Added new player head special model type
+
+Waypoint Styles
+These define custom icons to be displayed on the Locator Bar and are within the waypoint_style/ asset directory.
+
+
+near_distance and far_distance are optional and default to the values 128 and 332 respectively
+
+
+far_distance distance must be greater than near_distance
+
+
+
+
+sprites is a list of at least one sprite IDs within the prefix of hud/locator_bar_dot/ (the directory textures/gui/sprites/hud/locator_bar_dot)
+An example &quot;bowtie&quot; waypoint style is provided and accessible via the command:
+
+/waypoint modify &lt;entity-selector&gt; style set bowtie
+
+
+When the distance to the waypoint is less than near_distance, the first sprite in the list will be selected
+When the distance to the waypoint is greater than far_distance, the last sprite in the list will be selected
+Between this range, sprites will be selected based on the linear progress between the near and far distances
+
+Sounds
+
+Changed location on the sounds for Glow Squid, Squid, Guardian, Horse, Rabbit and Pufferfish from entity folder to the mob folder
+Added entity/leashknot/break for when a Lead snaps
+The following sounds have been renamed:
+
+
+entity/leashknot/break1 -&gt; entity/leashknot/unleash1
+
+
+entity/leashknot/break2 -&gt; entity/leashknot/unleash2
+
+
+entity/leashknot/break3 -&gt; entity/leashknot/unleash3
+
+
+entity/leashknot/place1 -&gt; entity/leashknot/leash1
+
+
+entity/leashknot/place2 -&gt; entity/leashknot/leash2
+
+
+entity/leashknot/place3 -&gt; entity/leashknot/leash3
+
+
+
+The following sounds have been added for shearing Saddles, Horse Armor, and Carpets
+
+mob/horse/armor_unequip
+mob/horse/saddle_unequip
+mob/llama/unequip
+
+
+
+Sound Events
+
+
+block.sand.wind has been renamed to block.dry_grass.ambient
+
+
+entity.leash_knot.break had been replaced with item.lead.break and item.lead.untied
+
+
+entity.leash_knot.place has been renamed to item.lead.tied
+
+The following sound events have been added:
+
+block.dried_ghast.break
+block.dried_ghast.step
+block.dried_ghast.fall
+block.dried_ghast.ambient
+block.dried_ghast.ambient_water
+block.dried_ghast.place
+block.dried_ghast.place_in_water
+block.dried_ghast.transition
+entity.ghastling.ambient
+entity.ghastling.death
+entity.ghastling.hurt
+entity.ghastling.spawn
+entity.happy_ghast.ambient
+entity.happy_ghast.death
+entity.happy_ghast.hurt
+entity.happy_ghast.riding
+entity.happy_ghast.equip
+entity.happy_ghast.unequip
+entity.happy_ghast.harness_goggles_up
+entity.happy_ghast.harness_goggles_down
+item.horse_armor.unequip
+item.llama_carpet.unequip
+item.shears.snip
+item.saddle.unequip
+
+
+
+UI Sprites
+
+The mob effect atlas has been removed, and sprites in the textures/mob_effect/ folder are now included within the GUI atlas
+
+This means mob effect sprites now support GUI sprite scaling properties
+
+
+Added icon/music_notes and toast/now_playing sprites
+
+Font
+Unifont
+
+Updated Unifont to 16.0.03
+Added previously omitted Unifont glyphs for Private Use Areas
+
+Those glyphs are loaded as a separate sub-font minecraft:include/unifont_pua and are not included in any normally used font
+Characters in those areas are managed by Under-CSUR (Under-ConScript Unicode Registry), which adds various scripts not present in official Unicode set, like Tengwar or Sitelen Pona
+
+
+
+
+unihex Font Provider
+
+The size_overrides field is now optional (defaults to empty list)
+
+Equipment Assets
+
+Added new happy_ghast_body layer type, rendering in the body slot of the Happy Ghast
+
+Item Models
+
+Item model definitions now have a boolean field oversized_in_gui which is false by default
+
+If true, the item model will be allowed to be bigger than its item slot
+If false, the item model will be clipped to the item slot size when being rendered in gui
+This ability of items being rendered outside their slots should not be considered officially supported, it was temporarily restored as an exception since many servers are relying on it
+At some point in the future we hope to replace it with an officially supported way of achieving similar functionality
+
+
+Introduced new item model minecraft:player_head to handle player profile texture loading and rendering
+Removed support for minecraft:profile from minecraft:head
+
+
+
+minecraft:player_head Special Model Type
+
+Renders a player head
+Uses profile from minecraft:profile component to load a texture. Renders a default texture until the profile texture is fully loaded
+No fields
+
+
+minecraft:head Special Model Type
+
+No longer supports profile from minecraft:profile component to load a player texture
+Renders a default player texture when kind is player and no texture override is supplied
+Fields remain unchanged
+
+Block Models
+
+
+elements[].rotation.angle value in block models is no longer limited to multiplies of 22.5 degrees and can now be any angle from -45 to +45
+
+
+Shaders &amp; Post-process Effects
+
+Developer&apos;s Note: Although it is possible in Resource Packs, overriding Core Shaders is considered as unsupported and not an intended Resource Pack feature. These shaders exist as part of the internal implementation of the game, and as such, may change at any time as the game&apos;s internals evolve. We understand that overriding Core Shaders is used for very cool Resource Pack features, many of which lack supported alternatives. We would like to provide better, supported alternatives in the future.
+
+
+All built-in uniforms are now uniform blocks instead of opaque loose uniforms
+Custom uniforms provided to post-process shaders are now uniform blocks
+Uniform definitions inside json files are now per-block
+
+Post-process Effect Definitions
+
+Entries in the targets map have been expanded to support new properties
+
+New optional boolean field: persistent (default: false)
+
+If true, this render target will be persistent across frames
+The contents of the target will be cleared when the screen is resized
+
+
+New optional field: clear_color (default: [0, 0, 0, 0])
+
+Format: integer ARGB value, or float array in order [R, G, B, A]
+
+When this target is created or cleared, it will be filled with this color
+
+
+
+
+The uniforms values is now a list-per-block, instead of a global list
+
+e.g. uniforms: { &quot;UniformBlockName&quot;: [ { &quot;type&quot;: &quot;vec2&quot;, &quot;value&quot;: [...] } ] }
+
+The order of uniforms in a block must match the order in the shader
+
+
+
+
+
+name as part of a uniform definition is no longer used
+
+We encourage setting it to help keep the json file organized/readable, but the game won&apos;t use it
+
+
+
+value as part of a uniform definition replaces the old values, and the type depends on the type field
+
+This field is required
+
+&quot;type&quot;: &quot;int&quot; needs &quot;value&quot;: 123 (a single int)
+
+&quot;type&quot;: &quot;float&quot; needs &quot;value&quot;: 123.4 (a single float)
+
+&quot;type&quot;: &quot;vec2&quot; needs &quot;value&quot;: [1.2, 3.4] (two floats)
+
+&quot;type&quot;: &quot;vec3&quot; needs &quot;value&quot;: [1.2, 3.4, 5.6] (three floats)
+
+&quot;type&quot;: &quot;ivec3&quot; needs &quot;value&quot;: [1, 2, 3] (three ints)
+
+&quot;type&quot;: &quot;vec4&quot; needs &quot;value&quot;: [1.2, 3.4, 5.6, 7.8] (four floats)
+
+&quot;type&quot;: &quot;matrix4x4&quot; needs &quot;value&quot;: [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0] (four rows of four columns of floats)
+
+
+We do not validate that the uniform block is valid for a given shader, giving incorrect information will cause undefined and funky behavior
+
+Post-process Effect Shaders
+
+Instead of every uniform being an individual opaque type, they are now grouped in uniform blocks
+
+They will be set according to the pass definition in the json file, and may be shared across both vertex and fragment shaders
+
+
+The list of sizes (all vec2 *Size uniforms) are now replaced with a single SamplerInfo uniform block
+
+This contains, in order, the size of the output texture followed by the size of every input texture
+The order of textures in the definition file will dictate the order of samplers in this uniform
+For most post chains this is just OutSize and InSize as before
+All sizes are vec2
+
+
+
+
+post/bits.fsh
+
+Expects a BitsConfig of float Resolution and float MosaicSize
+
+
+post/blit.fsh
+
+Expects a BlitConfig of vec4 ColorModulate
+
+
+
+post/blur.vsh and post/box_blur.fsh
+
+
+Expects a BlurConfig of vec2 BlurDir and float Radius
+
+
+post/color_convolve.fsh
+
+Expects a ColorConfig of vec3 RedMatrix, vec3 GreenMatrix and vec3 BlueMatrix
+
+
+post/invert.fsh
+
+Expects a InvertConfig of float InverseAmount
+
+
+post/rotscale.vsh
+
+Expects a RotScaleConfig of vec2 InScale, vec2 InOffset and float InRotation
+
+
+post/spiderclip.fsh
+
+Expects a SpiderConfig of vec4 Scissor and vec4 Vignette
+
+
+Shader Fog Changes
+
+The fog is now split into environmental and render-distance-based fog
+Previously both those concepts were mixed in the same uniforms
+Environmental fog is supposed to represent the &quot;fogginess&quot; of the environment the player is in
+
+e.g. lava, water, and now also atmosphere
+
+
+Render distance fog is supposed to obscure the border of visible terrain
+Environmental fog uses spherical distance to determine its intensity, render distance fog uses cylindrical distance
+The resulting fog value for any given vertex is the maximum of both
+
+
+Globals Uniform Block
+
+Available through #moj_import &lt;minecraft:globals.glsl&gt; for convenience
+Most shaders are able to receive this uniform block, even if they don&apos;t normally use it
+Contains ScreenSize, GlintAlpha, GameTime and MenuBlurRadius (new)
+
+
+MenuBlurRadius is the blur radius of the background when a menu is open
+
+
+
+
+Fog Uniform Block
+
+Available through #moj_import &lt;minecraft:fog.glsl&gt; for convenience
+Most shaders are able to receive this uniform block, even if they don&apos;t normally use it
+Contains FogColor, FogEnvironmentalStart (new), FogEnvironmentalEnd (new), FogRenderDistanceStart (renamed from FogStart), FogRenderDistanceEnd (renamed from FogEnd), FogSkyEnd (new) and FogCloudsEnd (new)
+
+
+FogSkyEnd is new and represents where the fog should end when drawing for the sky
+
+FogCloudsEnd is new and represents where the fog should end when drawing the clouds
+
+FogRenderDistanceStart is the render distance fog start
+
+FogRenderDistanceEnd is the render distance fog end
+
+FogEnvironmentalStart is new and represents the start of environment-based fog
+
+FogEnvironmentalEnd is new and represents the end of environment-based fog
+
+FogShape was removed. Render distance fog is now cylindrical and environmental fog is spherical
+
+
+
+
+Projection Uniform Block
+
+Available through #moj_import &lt;minecraft:projection.glsl&gt; for convenience
+Most shaders are able to receive this uniform block, even if they don&apos;t normally use it
+Contains ProjMat with no changes
+
+
+DynamicTransforms Uniform Block
+
+Available through #moj_import &lt;minecraft:dynamictransforms.glsl&gt; for convenience
+Is no longer available to shaders that do not normally use it
+Contains ModelViewMat, ColorModulator, ModelOffset, TextureMat, LineWidth
+
+These are very likely to change in the near future
+The values of some of these are often hard coded and may not make sense for a given shader, i.e., LineWidth in any non-line based pipeline
+
+
+
+
+Lighting Uniform Block
+
+Available through #moj_import &lt;minecraft:light.glsl&gt; for convenience
+Most shaders are able to receive this uniform block, even if they don&apos;t normally use it
+
+The values may not make sense if the shader wouldn&apos;t normally expect it, however
+
+
+Contains Light0_Direction and Light1_Direction
+
+
+
+CloudInfo Uniform Block
+
+Only available to the cloud shaders (rendertype_clouds.vsh/rendertype_clouds.fsh)
+
+Contains CloudColor, CloudOffset and CellSize (new)
+
+
+CellSize contains the size of an individual cloud cell
+
+
+
+
+
+
+LightmapInfo Uniform Block
+
+Only available to the lightmap shader (lightmap.fsh)
+Contains AmbientLightFactor, SkyFactor, BlockFactor, UseBrightLightmap, NightVisionFactor, DarknessScale, DarkenWorldFactor, BrightnessFactor, SkyLightColor with no change in behavior
+
+Fixed bugs in 1.21.6
+
+
+MC-36696 - Clicking on the statistics button on the menu screen advances the game by 1 tick
+
+MC-69821 - TNT &quot;forgets&quot; the player that ignited it when the world is reloaded
+
+MC-94800 - URL shown in open URL dialog is not shortened
+
+MC-97423 - Horse temporarily stuck in jump animation if dismounted
+
+MC-103511 - Sound/Song stops playing after adjusting the volume
+
+MC-104231 - Loading a custom structure doesn&apos;t load rails correctly
+
+MC-112730 - Beacon beam and structure block render twice per frame
+
+MC-118081 - Sounds don&apos;t pause when game is paused on some UI screens
+
+MC-118430 - Vex summoner is not stored in NBT despite being used for AI task
+
+MC-118432 - Vex summoner is not reset once it is dead
+
+MC-140819 - Lectern model extends past inventory slot
+
+MC-147260 - Map icons are not displayed in the cartography table
+
+MC-148278 - You can select multiple buttons at once in the book editing GUI by repeatedly pressing Tab
+
+MC-189246 - Unable to copy and paste on title page of a Book &amp; Quill
+
+MC-191306 - Sounds played using /playsound are played in all dimensions
+
+MC-200092 - /setworldspawn seems to ignore the &apos;angle&apos; parameter
+
+MC-200925 - Ghasts are not affected by potions thrown on their head
+
+MC-217887 - Unsigned books written in 1.9-pre1 or earlier don&apos;t upgrade properly
+
+MC-224704 - Block cracks are not affected by the fog from powder snow or lava
+
+MC-228451 - You cannot move the cursor around on the title page of a book and quill
+
+MC-229483 - Withers are not affected by instant harming and healing splash potions thrown above their heads
+
+MC-230902 - Black shapes sometimes appear in the end sky at low render distance
+
+MC-236464 - Beacon beams emitted from below the player are invisible after reloading chunks
+
+MC-237015 - The cursor in the book signing GUI doesn&apos;t turn fully invisible when blinking
+
+MC-238931 - Clouds stop rendering before they are hidden by fog
+
+MC-239701 - Rendering issue when breaking ice and flying with &quot;Chunk Builder&quot; set to Threaded
+
+MC-240121 - &quot;1x1_b5.nbt&quot; piece does not generate in woodland mansions
+
+MC-248682 - Translucent blocks moved by pistons aren&apos;t affected by fog correctly
+
+MC-248688 - Falling translucent blocks aren&apos;t affected by fog correctly
+
+MC-256411 - Clouds not fully rendered depending on angle
+
+MC-257532 - Clouds don&apos;t fill the sky after 1.18 height change
+
+MC-258336 - Frost Walker causes frequent visual corruption near chunk borders on Threaded and Semi-Blocking Chunk Builder
+
+MC-262268 - Keyboard navigation does not work in the book and quill GUI
+
+MC-264431 - #minecraft:sand tag has two minecraft:suspicious_sand
+
+MC-266318 - Trapdoors and doors have inconsistent subtitles for being opened and closed
+
+MC-269744 - Out of memory crash when using a preset with a large layer
+
+MC-270279 - Disabled item cooldown overlay renders incorrectly over stack size number
+
+MC-272825 - Custom filled maps from 23w31a and earlier do not upgrade properly in later versions
+
+MC-275374 - Drowneds with CanBreakDoors:1b don&apos;t break doors
+
+MC-276264 - Advancement screen shadow renders below item icons
+
+MC-276665 - Music is never turning on when it&apos;s toggled in the menu
+
+MC-277369 - The draft report icon isn&apos;t initially visible when saving a report as a draft
+
+MC-277370 - The draft report icon doesn&apos;t initially disappear when a report is discarded
+
+MC-277486 - Mob effect icons ignore &quot;scaling&quot; parameter in mcmeta files
+
+MC-277903 - Creative inventory tab icons can display item cooldown overlay
+
+MC-277991 - The 2 brightest pixel colors on pale oak boat items are still switched
+
+MC-277992 - 1 color in the pale chest boat item is incorrect
+
+MC-278231 - Space characters at the end of a line in book and quill are invisible even if given a texture
+
+MC-278459 - unifont.json contains trailing comma
+
+MC-278466 - Bundle experiment data pack related strings are not in deprecated.json
+
+MC-278873 - The data fixer regenerates chunks containing items obtained from flower pots using Ctrl + Pick Block before version 1.13, or it crashes the game if the item is in the player&apos;s inventory
+
+MC-279284 - Experience orbs from thrown bottles o&apos; enchanting are very prone to getting stuck inside blocks
+
+MC-279417 - Luring mobs onto blocks at Y=-64 will instead make them pathfind to the highest elevation
+
+MC-279515 - The game stalls when running the &quot;/test clearall&quot; command with large radiuses
+
+MC-279875 - Cannot diagonally climb slab through suspended scaffolding
+
+MC-280047 - Temperate cows use their 1.14 texture with the Programmer Art resource pack enabled
+
+MC-280266 - Firefly bushes don&apos;t produce as many, or as constant, amounts of particles as on Bedrock Edition
+
+MC-280268 - Blazes and breezes use &quot;large&quot; spawn eggs despite mobs of a similar size using &quot;medium&quot;
+
+MC-280276 - Some item models can still clip into the block below when hovering on the ground
+
+MC-280281 - Fishing bobbers rapidly jitter when attached to entities that are moving
+
+MC-280297 - The volume level between grass and dirt is inconsistent
+
+MC-280471 - The Particle.color field in area effect clouds is read-only
+
+MC-280502 - Translation key snbt.parser.undescore_not_allowed has a typo
+
+MC-293619 - The chicken spawn egg texture in Programmer Art is missing pixels that match the inventory slot background color
+
+MC-293754 - Minecraft causes OpenGL errors occasionally
+
+MC-295395 - Entities interact differently with nether portals
+
+MC-295677 - Title screen fades in from black after closing the &quot;Welcome to Minecraft&quot; screen
+
+MC-295681 - Leaf litter can generate inside of woodland mansions
+
+MC-295690 - Players stay on fire for a while after barely touching fire
+
+MC-295850 - Done and Cancel buttons on the world creation Edit Game Rules screen do the same thing
+
+MC-295866 - The /setblock and /fill commands no longer update redstone power in some situations
+
+MC-295867 - Structures from previous versions fail with DataFixerUpper
+
+MC-295879 - Sprint-hitting boats and then getting in them causes the boat to fall through the block underneath
+
+MC-295895 - 1.21.5 breaks minecart behavior when travelling through nether portals
+
+MC-295914 - Loot table files accept invalid JSON
+
+MC-295944 - Reloading a professionless zombie villager causes it to gain random profession clothing
+
+MC-296035 - Two pixels from &quot;mooshroom_spawn_egg&quot; are the same as &quot;cow_spawn_egg&quot;
+
+MC-296099 - Nether portal collision is or isn&apos;t working depending on the cardinal direction
+
+MC-296121 - ClientboundLevelChunkPacketData buffer size is too big
+
+MC-296311 - TNT touching water will destroy blocks and damage entities but will ignore decorative entities
+
+MC-296337 - Minecarts cause memory usage increases and crashes
+
+MC-296348 - NoAI:1b mobs cannot be ridden in 1.21.5+
+
+MC-296624 - Old Brown Mooshroom texture is missing from Programmer Art
+
+MC-296638 - Clocks, compasses, and lodestone compasses do not render enchantment glint in certain display contexts when using Fabulous! graphics
+
+MC-296701 - Transformed entities do not retain their custom_data component
+
+MC-296709 - All non-default jukebox_playable components are deleted from existing items when updating past 1.21.4
+
+MC-296784 - The &quot;Welcome to Minecraft&quot; screen is missing its fade out
+
+MC-296866 - Predicates of particular namespaces failed to be accessed on /execute
+
+MC-297264 - Cat breeds are not seed based anymore
+
+MC-297347 - Tamed animals no longer sit when their owner changes dimension
+
+MC-297461 - Equipment and sleeping pos data cannot be loaded in 1.21.4, but can be loaded in 1.21.5 to bees spawned from bee nest and bee hive
+
+MC-297524 - Connection with realm gives weird HTML text
+
+MC-297537 - Extra &quot;entity.wolf_whine.whine&quot; sound event exists in sounds.json
+
+MC-297591 - Ender pearls can unexpectedly come to a halt
+
+MC-297614 - Area effect clouds with duration greater than or equal to 2147483628 disappear after a tick
+
+MC-297868 - Items in the armor.body and saddle slots are not kept when dying while the game rule keepInventory is set to true
+
+MC-297893 - prevent_equipment_drop enchantment effect does not work with armor.body and saddle slots
+
+MC-297894 - /clear command does not clear armor.body and saddle slots
+
+Get the Release
+To install the Release, open up the Minecraft Launcher and click play! Make sure your Launcher is set to the &quot;Latest Release” option.
+Cross-platform server jar:
+
+Minecraft server jar
+
+Report bugs here:
+
+
+Minecraft issue tracker!
+
+Want to give feedback?
+
+For any feedback and suggestions, head over to the Feedback site. If you&apos;re feeling chatty, join us over at the official Minecraft Discord.</description>
+    </item>
+    <item>
+      <title>Minecraft: Bedrock Edition 1.21.90 - Chase the Skies</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/37393460002957-Minecraft-Bedrock-Edition-1-21-90-Chase-the-Skies</link>
+      <pubDate>Invalid Date</pubDate>
+      <description>Posted: 17 June 2025
+Experience the joy of soaring above the Overworld with our Chase the Skies drop! This drop not only brings an exciting flying mount to Minecraft but opens up the skies for exploring, building – and more. Raise your ghastling with care and it&apos;ll let you soar with friends above the clouds once fully grown. Build high into the sky, leash a caravan of camels together, uncover a new music disc, find wandering friends with the Player Locator bar, and more. Players on Bedrock Edition can also soak in breath-taking views with Minecraft&apos;s biggest official visual refresh – Vibrant Visuals. Are you ready to begin a skyward adventure? Play today!
+
+Features and Bug Fixes
+Blocks
+Dried Ghast
+
+Can be found in the Nether in Nether Fossil structures
+Can be crafted with 1 Soul Sand Block and 8 Ghast Tears
+When waterlogged it undergoes 3 states over about 20 minutes until it spawns a Ghastling mob
+Makes sounds and shows particles depending on state
+If mined during the waterlogging, it will revert to its “dry” state regardless of what state it has reached during waterlogging
+Will revert states back to its initial “dry” state when it is taken away from being waterlogged, using the same time scale
+Piglins can give Dried Ghast Blocks when bartered with
+Added new achievement &quot;Stay Hydrated!&quot;
+
+
+Mobs
+Ghastling
+Ghastling is a young version of the Happy Ghast mob
+
+
+Spawns from a Dried Ghast block that has continuously been waterlogged for about 20 minutes
+
+
+After spawning, the Ghastling will try and follow:
+
+Players within a 16-block radius or
+
+An adult, non-aquatic passive mob (and some neutral mobs) within a 16-block radius
+
+
+
+If no player or suitable mob is close around the Ghastling will idle around within 32 blocks from its home position (where it spawned or was last interacted with)
+
+
+Can be tempted and fed using Snowballs
+
+
+Will grow up into a Happy Ghast after about 20 minutes (or faster if fed Snowballs)
+
+
+Can be summoned using the command: /summon happy_ghast ~ ~ ~ ~ ~ minecraft:spawn_baby
+
+
+Happy Ghast
+The Happy Ghast is a new flying mount that can carry up to four players
+
+Spawns from a Ghastling after about 20 minutes (or faster if Ghastling is fed Snowballs)
+Can be equipped with a harness and then be mounted by up to 4 players
+Tempted by Snowballs and Harness. Harness tempting only works if the Happy Ghast is unharnessed
+Has no panic behavior when taking damage
+Cannot be bred
+Slowly regenerates health, with regeneration speeding up during rain, snow or when flying at the same height as clouds are rendered
+The first player that mounts the Happy Ghast will control it, sitting in front of the Happy Ghast, just above its face
+When a player mounts, the goggles on the Happy Ghast go down to cover its eyes, indicating that it can now be controlled
+Other players who mount after the pilot is mounted, are placed in slots on each side of the Happy Ghast, starting clockwise from the “pilot” player
+Pressing crouch button dismounts the player on top of the Happy Ghast
+If the Happy Ghast detects players on top of it, it then ceases all movement and aligns to the closest cardinal horizontal direction
+This happens regardless of it having a harness equipped or not
+3rd person camera is moved back when player is mounted on the Happy Ghast
+When there are no players mounted or walking on the Happy Ghast, the goggles go up and the Happy Ghast starts to roam around the home position
+If players dismount midair, the Happy Ghast will descend towards the ground before it resumes roaming
+Cannot enter Boats
+Idles around within 64 blocks from its home position (where it spawned or last was interacted with)
+If wearing a harness, the Happy Ghast idles closer to the home position (within 32 blocks)
+The Happy Ghast will try to stay close to blocks when roaming on its own
+
+Items
+Harness
+Harness is a new item that can be equipped on a Happy Ghast to allow players to ride it
+
+Crafted out of 3 Leather, 2 Glass Blocks and 1 Wool Block, the Harness will have the same color as the Wool Block used when crafting
+Can be re-dyed
+Can only be equipped on a Happy Ghast
+Allows up to 4 players to mount the Happy Ghast
+Can be removed from the Happy Ghast using Shears but only when no players are mounted
+
+Locator Bar
+
+The Locator Bar is a new UI element on the Player HUD that displays the direction of other Players in the World
+When there are multiple Players in a World, the Locator Bar will appear on-screen for each Player, replacing the Experience Bar. The Player Level number will still be visible as before above the Locator Bar
+The Locator Bar will display colored indicators when the camera is facing within 120 degrees towards another Player. If another Player is 30 degrees above or below the camera&apos;s viewport (the screen) an up or down arrow will be displayed
+Crouching will hide the Player, preventing their indicator from appearing on the Locator Bar of other Players
+Players in Spectator Mode are not visible on the Locator Bar
+A Mob Head or a Carved Pumpkin will similarly hide Players from the Locator Bar when worn in the head slot.
+Using a Potion of Invisibility will also hide players from the Locator Bar
+
+Saddles Updates
+
+We are making Saddles craftable and generally making it easier to remove them from mobs by using Shears. We have also added Leather to some loot tables instead of Saddles
+
+Crafting Saddles
+
+
+Saddles can now be crafted with 3 Leather and 1 Iron Ingot
+
+
+Recipe popup happens when a player picks up their first Leather
+
+
+Loot Table Changes
+Some loot tables have had Saddles removed from them and replaced with 1-5 Leather:
+
+Monster Room chests
+Ancient City chests
+Desert Pyramid chests
+Jungle Pyramid chests
+Stronghold altar chests
+
+Leashing Updates
+We are expanding the functionality of leads, to make it possible to leash any leashable entity to another leashable entity and by doing so create chains of leashed entities
+
+
+Attaching a leashed entity to another entity and using Shears to cut leashes now take precedence over other interactions
+
+Example: Attempting to shear a leashed Sheep will now un-leash it instead of shearing it
+
+
+
+Leash break distance is now calculated between the centers of the two entities&apos; collision boxes, aligning with the rest of the leash physics calculations
+
+
+Elytra
+
+Using a Firework Rocket to boost while flying with an Elytra now causes leashed mobs to unleash
+
+Leash Knots
+
+Entities can now be leashed to a pre-existing Leash Knot by interacting with it
+Players can retrieve entities tied to a Leash Knot by interacting with it
+
+Leashing Entities to Other Entities
+Any leashable entity can now be leashed to any other leashable entity
+
+To leash an entity to another entity, the player must:
+
+Have the entity already leashed to themselves
+Sneak and interact with the target entity while holding the leash
+
+
+Leashed entities can now be &quot;stolen&quot; by leashing them again, transferring ownership to the player
+If re-leashing an entity would result in immediate leash snapping due to distance, the re-leashing cannot be done
+To prevent erratic behavior when leashed to each other, Llamas that are leashed no longer attempt to form caravans
+A leashed entity cannot be leashed to itself
+Baby mobs can only be leashed one way - to another entity; they cannot have other mobs leashed to them
+Known issue: When two mobs are connected, it results in the lead being rendered with an erroneous y-axis offset and appearing below one of the mobs
+
+Physics
+All leashable entities now behave more naturally when being pulled
+
+When leashed to a Happy Ghast, Horses, Camels, Donkeys, Mules, Boats, Chest Boats, and Sniffers now adjust their position gradually over time, aligning smoothly with their leash holder when suspended mid-air
+In all other cases, entities align to the direction they are being pulled and no longer behave erratically when suspended mid-air
+Mid-air friction now applies to Boats just like any other entity, meaning they can no longer orbit the player or behave excessively bouncily
+The distance at which leashes break has been increased to 12 blocks, except for the Happy Ghast, which has a leash break distance of 16 blocks
+When dragged on the leash, leashed objects will now orient themselves towards the leasher
+The distance between centers of entities bounding boxes, rather than their feet is used to determine the distance between two leashed entities
+
+Rendering
+
+Boats and large leashable mobs that cannot fit in a Boat (Horses, Donkeys, Mules, Camels, and Sniffers) when leashed to a Happy Ghast are rendered with four leashes instead of one
+In this configuration, the harnessed Happy Ghast also features a custom rope layer wrapping around it
+
+Shearing Updates
+
+
+Shears can now be used on leashed entities to unleash them, removing both incoming and outgoing leash connections
+
+
+Shears can now be used to remove Leash Knots
+
+
+Players cannot cut other players&apos; leashes
+
+
+Dispensers can now use shears to unleash leashed entities
+
+
+Saddles, Horse Armor, Harnesses, and Carpets can now be removed from the mobs they can be equipped on by using Shears
+
+
+Saddles, Horse Armor, Harnesses, and Carpets cannot be removed by using Shears while the mob has a rider
+
+
+Saddles, Horse Armor, Harnesses, and Carpets cannot be removed by using Shears while the player is sneaking
+
+
+Saddles cannot be removed from Ravagers using Shears
+
+
+Dispensers with Shears cannot remove Saddles, Horse Armor, Harnesses, or Carpets equipped on mobs
+
+
+Removing Saddles, Horse Armor, Harnesses, and Carpets using Shears now plays custom sounds
+
+
+Music
+
+Added the following new music tracks by Amos Roddy to Cherry Groves, Forest, Desert, Grove, and Lush Cave Biomes:
+
+Below and Above
+Broken Clocks
+Fireflies
+Lilypad
+O&apos;s Piano
+
+
+Added a new Music Disc with the track &quot;Tears&quot; by Amos Roddy
+The Ghast now drops the &quot;Tears&quot; Music Disc when killed by a Fireball deflected by a Player
+
+Vibrant Visuals
+
+Vibrant Visuals is Minecraft&apos;s biggest official visual enhancement - delivering a dazzling cosmetic upgrade with a new modern graphics pipeline and an array of visual improvements. Sunrises are more vivid, water reflects, forests become shaded, and more!
+Vibrant Visuals preserves what makes Minecraft uniquely special - pixelated shadows, caustics, and reflections have been carefully crafted to preserve and enhance Minecraft&apos;s signature blocky style
+With updated textures for blocks, items, and more that decide how different light sources interact with them, builds will become more vivid and visually interesting!
+Updated art settings and post-processing effects tie the visuals together in a signature Minecraft way
+As a cosmetic enhancement to the game, Vibrant Visuals does not impact Minecraft&apos;s gameplay, meaning you can play on Realms with friends whether they have Vibrant Visuals enabled or not (Realms subscription sold separately. Multiplayer functionality will require platform specific online subscriptions, also sold separately)
+
+Graphical
+
+
+Made Vibrant Visuals the default graphics mode for supported devices
+
+
+To switch to Vibrant Visuals on Xbox One, Xbox One S, PlayStation 4, and some Android devices, players need to select &quot;Vibrant Visuals&quot; in the Video menu using the Graphics Mode drop-down. Performance may degrade for these devices.
+
+
+Customized atmospherics, color grading, fog and lighting for the End, the Nether, the Overworld dimensions and a variety of biomes in Vibrant Visuals
+
+Temporarily reverted weather-related changes to sky color in Vibrant Visuals while some issues are sorted out.
+
+
+
+Added MERS texture support for Signs in Vibrant Visuals
+
+
+Added new texture assets for a variety of trims, particles, spawn eggs, water and the dark oak boat in Vibrant Visuals
+
+
+Updated the appearance of metals for a variety of block textures in Vibrant Visuals
+
+
+Updated the Cave Vines, Chorus Flower, Pumpkin, Firefly Bush and a variety of other plant textures in Vibrant Visuals.
+
+
+Updated the Bee, Dolphin, Ghast, Pig Saddle and Strider textures in Vibrant Visuals
+
+
+Updated a variety of MERS textures in Vibrant Visuals
+
+Made Glass Blocks more reflective
+Tweaked metallics on Cauldrons and Ancient Debris
+Tweaked emissives on Eyeblossom
+Fixed an issue with Leather armor having a stripe of emissive across the texture
+Added emissive to the Ender Crystal Block to match item icon
+Added MERS textures for Happy Ghast and Harnesses
+Adjusted the Glow Lichen block emissive
+
+
+
+Fixed water not being rendered on the opposite side of clouds in Vibrant Visuals (MCPE-203239)
+
+
+Reduced ghosting of waterfalls from camera movement when volumetric fog is enabled in Vibrant Visuals. (MCPE-204062)
+
+
+The Night Vision effect now brightens the scene more consistently across brightness settings with Vibrant Visuals enabled (MCPE-201809)
+
+
+Volumetric fog no longer becomes suddenly bright when the player moves towards a block light in Vibrant Visuals (MCPE-201984)
+
+
+The back faces of transparent items held in hand, like Stained Glass, are no longer visible in Vibrant Visuals
+
+
+Clouds no longer have a pink or yellow tint, during sunrise and sunset respectively, in Vibrant Visuals
+
+
+Fixed an issue in Vibrant Visuals where black boxes sometimes appeared on End Portals when using TAAU at a non-native resolution (MCPE-212398)
+
+
+Fixed a bug in Vibrant Visuals where materials with certain properties rendered black
+
+
+Updated the clouds texture
+
+
+Item bobbing will no longer stagger when the amount of days is high (MCPE-190647)
+
+
+Entering pause while breaking a block will reset the breaking animation (MCPE-191029)
+
+
+The local player&apos;s vehicle will now always be eligible for rendering, no matter the orientation of the model compared to the render bounding box
+
+
+Ambient Weather Sounds
+
+the_end_light_flash sound effect now triggers when the light flashes in The End dimension in Vibrant Visuals
+
+Blocks
+
+
+Crimson and Warped Roots cannot be lit on fire or burn anymore (MCPE-80066)
+
+
+Fixed issue where Jungle Leaves did not become transparent when setting all leaf types to be transparent (MCPE-110630)
+
+
+Dispensing a Lava Bucket on waterlogged blocks no longer empties the bucket without placing Lava (MCPE-178295)
+
+
+Maximum Beacon beam height is now 2048 (MCPE-190223)
+
+
+Beacon now renders from any loaded chunk in worlds versioned 1.21.90 and higher
+
+
+Fixed Sculk Vein block looking small and elongated when held or in an item frame
+
+
+Accessibility
+
+Text to speech will select an appropriate voice if available when changing in-game language on Android, iOS, and Win10
+
+Commands
+
+
+Fixed a bug where players could hear sounds played with /playsound even if they were in a different dimension than the one the sound was played in (MCPE-184566)
+
+
+The camera default command will now properly reset third person camera view offset values
+
+
+The /controlscheme command no longer requires the &quot;Experimental Creator Camera&quot; toggle
+
+
+Gameplay
+
+
+Fixed a crash that would sometimes occur when using Command Blocks
+
+
+Fixed an issue where swapping item slots during an attack against a mob would re-select the original item slot used during the attack instead of staying on the new inventory slot item
+
+
+Fixed entering the water while sprinting from double tapping forward no longer automatically enters the swimming state (MCPE-216867)
+
+
+Repositioned the teleporting point when using an End Gateway to not be too close to a cliff edge, if possible. As a result, End island portals that teleport the player outside of the map border will no longer kill the player (MCPE-174465) (MCPE-174465)
+
+
+Fixed issue where sprint jump attacking would sometimes remove all of the player&apos;s momentum (MCPE-189501)
+
+
+Fixed a bug where hitting blocks while swimming would cause players to slow down too much (MCPE-201832)
+
+
+Using a custom equippable block item in creative mode will no longer duplicate the item and equip it; it will simply place the block in the world
+
+
+Added a painting of a good boy by artist Sarah Boeving
+
+
+General
+
+Gamertags are now used on all platforms to identify players in cross-platform multiplayer games
+
+Items
+
+
+The Trident is now grouped with other tools/weapons in the Creative inventory (MCPE-181002)
+
+
+Mace with Wind Burst enchantment once again launches players as high as it does on Java Edition (MCPE-185829)
+
+
+The recipe for Leads has been updated to no longer require a Slime Ball
+
+
+Now the Mooshroom Spawn Egg uses its own colors and no longer has two pixels that are the same as the Cow Spawn Egg texture
+
+
+Spore Blossoms destroyed by water are now dropped as items (MCPE-127677)
+
+
+The size of the Blaze and Breeze spawn eggs have been reduced to better match the mobs&apos; in-game size (MCPE-217634)
+
+
+Fixed inconsistent pixels on the Pale Oak Boat and Pale Oak Boat with Chest items to match other boat items
+
+
+The Green Harness item no longer uses the Gray Harness texture when Vibrant Visuals is enabled
+
+
+Mobs
+
+
+Piglin Brutes will now despawn properly on peaceful difficulty (MCPE-88837)
+
+
+Mobs will no longer clip through blocks sometimes when viewing them at a distance when they auto step up a block
+
+
+Shadows are no longer rendered for entities that are riding a vehicle, unless said vehicle is invisible (MCPE-200797)
+
+
+Pigs saddled by hand no longer drop two saddles when killed (All pigs saddled by hand between 1.21.70 and now will still drop their duplicated saddles on death)
+
+
+Increased attack range for Blaze from 16 to 48 blocks to match its target detection range (MCPE-35647)
+
+
+Increased Blaze attack sound distance to 32 to match Java Edition
+
+
+Fixed bug where Ghasts could not move while shooting fireballs (MCPE-201849)
+
+
+Slimes and Magma Cubes no longer jump twice when finding or losing their targets (MCPE-114701)
+
+
+Fixed a bug where Magma Cubes and Slimes could still damage players briefly after dying (MCPE-166394)
+
+
+Now the Cold Cow variant has the correct mirroring of its horn texture
+
+
+Flying mobs no longer make footstep sounds when moving close to the ground
+
+
+Ghasts can no longer spawn in areas that are too small, preventing suffocation on spawn
+
+
+Spiders and Cave Spiders can once again spawn with a Stray rider in cold biomes (MCPE-89549)
+
+
+Spiders and Cave Spiders can once again spawn with a Wither Skeleton rider in the Nether (MCPE-89549)
+
+
+Horses, Donkeys, and Mules can now be fed carrots to heal, grow, and improve their temper
+
+
+Happy Ghast can now be pushed by other mobs even while being ridden, except when made immobile by a player standing on it
+
+
+Sounds
+
+
+Fixed a bug where Parrots imitating a Drowned used Zombie sounds
+
+
+Fixed a bug where Parrots imitating a Wither Skeleton used Skeleton sounds (MCPE-174857)
+
+
+Sound files for breaking and placing Grass blocks are now slightly louder
+
+
+Leashing, unleashing, collecting leashed mobs, and leashing mobs to other mobs now play custom sounds
+
+
+Fence knots now play a sound when destroyed, either by being punched or when all their leashed entities are gone (MCPE-21743)
+
+
+Music will now fade normally when leaving a world if game pause is disabled (MCPE-212932)
+
+
+Ambient Sounds
+
+
+Updated the frequency and location of various ambient block sounds
+
+
+Dead Bush ambient sounds now have a slightly increased chance of playing
+
+
+Ambient Sand sounds no longer require sky access to play, have a slightly decreased chance to play, and can now play in all biomes
+
+
+Terracotta block no longer triggers ambient Sand sounds
+
+
+Sand blocks no longer trigger ambient wind sounds
+
+
+Short Dry Grass blocks and Tall Dry Grass blocks can now trigger ambient wind sounds when above 2 Sand/Red Sand or Terracotta blocks
+
+
+Terracotta blocks no longer trigger ambient wind sounds
+
+
+Projectiles
+
+
+Projectiles now have a tolerance margin that changes over time (MCPE-201608)
+
+Previously, all projectiles had a fixed 0.3 blocks tolerance margin added to the collision
+Now, all projectiles start with no margin for the first two ticks of their flight
+After that, the target margin will expand by 0.05 blocks per tick until it reaches the target margin of 0.3 blocks
+This allows for more precise collision on targets close to the shooting player or entity, while still allowing for some collision leeway for targets further away
+
+
+
+Realms
+
+Realm owners can now choose to require members to opt into the Timeline in order to play on the Realm
+
+To turn this feature on, go to Realms Stories --&gt; Settings and enable &quot;Require opt in to Timeline&quot;
+
+The feature can be turned on and off at will
+
+
+While the feature is on, Realm members who have not opted in will remain members of the Realm, but will not be able to play until they opt in
+
+If a Realm member who previously opted in chooses to opt out, they will not be able to play on the Realm until they opt in again
+
+
+Realm owners will be able to play on the Realm regardless of whether they have opted in
+
+
+On the Realm tab, the &apos;Options&apos; button has been replaced with two buttons:
+
+&apos;Settings&apos; takes the user to a Realm Settings page where the user can edit their worlds or make other adjustments to their Realm
+&apos;Add friends&apos; takes the user to a page where they can manage members of their Realm and add new ones
+
+
+
+Splash Potions
+
+The effect radius of Splash Potions is now calculated based on the distance to the bounding box of the target instead of their position (MCPE-201604)
+
+Stability and Performance
+
+
+Fix a crash in split-screen mode when a player would destroy a chest or book an other player had open
+
+
+Fixed an issue where a resource pack error could be encountered when transferring between servers that use different versions of the same resource pack
+
+
+Fixed an issue where downloading server resources would infinitely hang if another device requested to download the same resources at the same time
+
+
+Fixed a crash when adding or changing priority of resource packs in the Create New World screen
+
+
+User Interface
+
+
+Cursor position now correctly updates when pressing down on L3 or D-pad while hovering a bundle (MCPE-189314)
+
+
+Bundle tooltip no longer overlaps with item tooltips when quickly interacting with empty inventory slots on touch devices (MCPE-187171)
+
+
+Bundle UI now correctly disappears when switching Inventory tabs with controller input
+
+
+Tapping on the Bundles Tooltip on Touch devices no longer interacts with the UI behind it
+
+
+The Text Background Opacity accessibility setting now also affects hotbar tooltips, chat message backgrounds, and leaderboard displays (MCPE-79331)
+
+
+Fixed an issue where only changing the access of PlayStation friends to your world would not be saved when exiting the menu
+
+
+To maintain feature parity with the flat world presets in the Java Edition, the Snowy Kingdom flat world preset has been updated to use a snow layer instead of a snow block (MCPE-194367)
+
+
+Splitting an item stack using touch controls and moving it to a Bundle now transfers the selected amount (MCPE-188353)
+
+
+The Text Background Opacity accessibility setting now also affects hotbar tooltips and leaderboard displays (MCPE-79331)
+
+
+Chat background opacity can now be controlled with a new accessibility setting
+
+
+Empty open Bundle icon now renders correctly when Bundles are tapped with Touch Controls
+
+
+The &quot;Game is paused&quot; text from the pause screen will no longer go out of bounds (MCPE-217394)
+
+
+Hotbar tooltip text now has a drop shadow, to make the text more readable against bright backgrounds (MCPE-217870)
+
+
+Fixed the issue where adjusting the brightness in the Vibrant Visuals setting caused the Creeper face icons to inaccurately reflect their expected shades, and where the brightness of the Creeper face icons were affected by the in-game environment (MCPE-199256)
+
+
+The Text Background Opacity accessibility setting now defaults to 60% opacity
+
+
+The vertical angle upon which the Locator Bar arrow icons become visible now corresponds to the player&apos;s FOV setting
+
+
+Closing an Anvil or an Enchanting Table now results in the Experience Bar being shown for 5 seconds instead of the Locator Bar
+
+
+Fixed an issue where some on-screen UI elements would let the user interact with the world under them
+
+
+While using the &quot;Joystick &amp; tap to interact&quot; touch mode, the &quot;Joystick Visibility Option&quot; is now forced into &quot;Visible Joystick&quot; while using the player_relative_strafe or camera_relative_strafe control scheme
+
+
+Storage settings page is now scrollable (MCPE-187962)
+
+
+Fixed a bug where keyboard button hints would be shown on the death screen (MCPE-218652)
+
+
+Vanilla Parity
+
+
+Fixed a bug where Sponges would absorb water from waterlogged Barriers (MCPE-174826)
+
+
+Zoglin and Zombified Piglin are no longer faster when chasing the player in the Bedrock version
+
+
+Piglins and Hoglins naturally spawned in Bastion Remnants will now drop XP when killed (MCPE-166103)
+
+
+Fixed the Frozen Peaks biome generation so, like Java Edition, no Ice blocks are generated in the sea under the top sheet (MCPE-194838)
+
+
+Fixed a bug where players could not use usable items while sneaking and looking at interactive blocks (MCPE-64477)
+
+
+Parrots now imitate nearby monsters less frequently (MCPE-80319)
+
+
+Fixed blocks in Minecarts not being lit properly (MCPE-22533)
+
+
+Nether Fossils have been tweaked to have a placement frequency more closely aligned with Java Edition (MCPE-74632)
+
+
+Boats are now able to be pulled out of water using a Lead
+
+
+Technical Updates
+API
+
+Added a new condition damaged_by_entity that allows checking which entity type applied damage to an entity that is dropping loot
+
+Similar to the killed_by_entity and entity_killed conditions, allows specifying an entity_type field to check against when deciding which entry in a loot table to select
+
+
+
+
+@minecraft/server 2.0.0
+
+
+@minecraft/server 2.0.0 is now released, 2.1.0-beta is the new beta version for @minecraft/server. See https://learn.microsoft.com/en-us/minecraft/creator/documents/scriptingv2.0.0overview for more details on 2.0.0
+
+
+AddedisValid property on Camera from beta to stable
+
+
+Moved TicksPerDay from beta to stable
+
+
+Moved enum ScriptTintMethod from beta to stable
+
+
+Moved enum ScriptBlockMapColorComponent from beta to stable
+
+
+Added integer overflow detection in ScoreboardObjective.addScore. Original value will be retained when overflow is detected
+
+
+NamespaceNameError now has better error information and the name property value will now be set to &quot;NamespaceNameError&quot;
+
+
+BlockComponentPlayerDestroyEvent renamed to BlockComponentPlayerBreakEvent
+
+
+PlayerPlaceBlockBeforeEvent
+
+
+permutationBeingPlaced renamed to permutationToPlace
+
+
+
+
+BlockCustomComponent
+
+
+onPlayerDestroy renamed to onPlayerBreak
+
+
+
+
+Added lookAt method on Entity
+
+
+Added customComponentParameters: CustomComponentParameters to ItemCustomComponentInstance
+
+
+Added customComponentParameters: CustomComponentParameters to BlockCustomComponentInstance
+
+
+Custom components V2 now support assigning string, array, object, bool, or number
+
+
+GameMode enum member names changed
+
+
+survival renamed to Survival
+
+
+creative renamed to Creative
+
+
+adventure renamed to Adventure
+
+
+spectator renamed to Spectator
+
+
+
+
+Released getBlockBelow and getBlockAbove on Dimension to 2.0.0
+
+
+Changed players property on PlayAnimationOptions to an array of Player objects, instead of string names in 2.0.0
+
+
+Changed the following APIs to use the local coordinates on a unit cube rather than the world coordinates for 2.0.0 (MCPE-216825)
+
+Example: The location { x: 123.123, y: -22.44, z: -400.678 } will now be { x: 0.123, y: 0.44, z: 0.678 }
+
+BlockRaycastHit.faceLocation
+BlockHitInformation.faceLocation
+BlockComponentPlayerInteractEvent.faceLocation
+PlayerPlaceBlockBeforeEvent.faceLocation
+ItemUseOnAfterEvent.faceLocation
+ItemComponentUseOnEvent.faceLocation
+PlayerInteractWithBlockAfterEvent.faceLocation
+PlayerInteractWithBlockBeforeEvent.faceLocation
+
+
+
+Released error ContainerRulesError to 2.0.0
+
+
+Removed CameraDefaultOptions for V2.0
+
+Added setDefaultCamera(cameraPreset: string, easeOptions?: CameraEaseOptions): void to V2.0. This will replace passing the CameraDefaultOptions into the Camera.setCamera function. Will also now reset the position and rotation of third-person cameras back to the values defined in the JSON
+
+
+
+Added localizationKey read only property to Dimension, which is the key for localization of a dimension&apos;s name used in language files
+
+
+Added EntityHungerComponent, EntitySaturationComponent, EntityExhaustionComponent that allows read and write access to Hunger, Saturation, and Exhaustion values on player objects
+
+
+Added totalArmor and totalToughness read only properties to EntityEquippableComponent
+
+
+Renamed CameraEaseOptions to just EaseOptions to for V2.0 scripting
+
+
+Fixed a bug where the includeLiquidBlocks property on BlockRaycastOptions would not correctly result in hits on Flowing water This affects the following API methods in all versions:
+
+
+entity.getBlockFromViewDirection, dimension.getBlockFromRay, dimension.getBlockBelow &amp; dimension.getBlockAbove
+
+
+
+
+Improved the naming used for the name property of several custom error classes
+
+
+Block custom component event beforeOnPlayerPlace is now called when an item using replace_block_item is set to true for V2.0.0 and higher custom components
+
+In 2.0.0, when using setCurrentValue of an EntityAttributeComponent, the desired value is checked against the effectiveMin and effectiveMax. If the value is out of bounds, an error is thrown
+
+
+
+Moved class ShutdownEvent from beta to 2.0.0
+
+
+Moved class ShutdownBeforeEventSignal from beta to 2.0.0
+
+
+Moved isEditorWorld on System from beta to 2.0.0
+
+
+Moved enum GraphicsMode from beta to 2.0.0
+
+
+Moved graphicsMode on Player from beta to 2.0.0
+
+
+@minecraft/server-admin
+
+Updated transferPlayer to support NetherNet transfers. It now takes either a hostname/port combination or a NetherNet ID
+
+
+@minecraft/server-ui 2.0.0
+
+
+@minecraft/server-ui 2.0.0 is now released, 2.1.0-beta is the new beta version for @minecraft/server-ui
+
+Fixed bug where sliders move super fast when using gamepad. Added a timeout to avoid this problem
+Moved ModalFormDataDropdownOptions from beta to 2.0.0.
+Moved ModalFormDataSliderOptions from beta to 2.0.0.
+Moved ModalFormDataTextFieldOptions from beta to 2.0.0.
+Moved ModalFormDataToggleOptions  from beta to 2.0.0.
+All of the Options interfaces above include a new tooltip property for adding tooltips.
+Class ActionFormData
+
+Moved method header from beta to 2.0.0.
+Moved method label from beta to 2.0.0.
+Moved method divider from beta to 2.0.0.
+
+
+Class ModalFormData:
+
+Moved method toggle from beta to 2.0.0.
+Moved method slider from beta to 2.0.0.
+Moved method dropdown from beta to 2.0.0.
+Moved method textField from beta to 2.0.0.
+Moved method header from beta to 2.0.0.
+Moved method label from beta to 2.0.0.
+Moved method divider from beta to 2.0.0.
+
+
+
+Block Components
+
+
+Fixed a bug with the minecraft:geometry component where the full block geometry identifier minecraft:geometry.full_block was being ignored for several behaviors, including:
+
+Mob spawning (mobs with custom spawn rules can now spawn on blocks using full block geometry)
+Chest obstruction (blocks with full block geometry will now obstruct Chests)
+Grass and Farmland survival (Grass and Farmland will turn into Dirt with a block using full block geometry above them)
+Nylium survival (Nylium will turn into Netherrack with a block using full block geometry above it)
+Vine growth (Vines will now spread to blocks using full block geometry)
+Breathability (Mobs and actors can no longer breathe in blocks using full block geometry)
+
+
+
+Blocks
+
+
+Add a parameter to the culling rules schema to disable culling against full and opaque blocks
+
+&quot;condition&quot; field is now optional
+removed &quot;default&quot; as a value for &quot;condition&quot; field in the culling rules schema.
+added new optional &quot;cull_against_full_and_opaque&quot; boolean field in the culling rules schema.
+
+if not specified, it will be set to true
+if set to &quot;false&quot; culling against full and opaque blocks will not be considered
+
+
+
+
+
+When custom components v2 experiment is enabled, custom components can be assigned string, array, object, bool, or number
+
+
+&quot;components&quot;: {      &quot;example_namespace:example_component&quot;:    &quot;foo&quot;,    &quot;example_namespace:example_component2&quot;: 4,    &quot;example_namespace:example_component3&quot;: [        &quot;hello&quot;,        &quot;world&quot;    ],    &quot;example_namespace:example_component4&quot;: true,    &quot;example_namespace:example_component5&quot;: {        &quot;stuff&quot;: 4    },}  
+
+
+Custom components v2 experiment no longer required to use custom components v2
+
+
+Custom components v2 is available in JSON versions 1.21.90 and higher
+
+
+&quot;minecraft:custom_components&quot; deprecated in 1.21.90
+
+
+The &quot;minecraft:material_instances&quot; component will no longer produce a content error if the &quot;*&quot; material is missing
+
+
+Replaced emitter_intensity with emitter_particle_count in block_destruction.json and block_slide.json. This is to go in line with the particle_count field in the BlockDestructionParticlesComponent. emitter_intensity will still be used in the previous versions of these files
+
+
+Fixed crash when blocks that specify non-existent textures as carried_textures are held in hand
+
+
+Fixing a crash that could occur when a block&apos;s textures are configured to point to an empty atlas entry
+
+
+testforblock ignores block states (JIRA (MCPE-194284)
+
+Fixing bug introduced in 1.21.70 where the testforblock command no longer recognizes block states (E.g. [&quot;button_pressed_bit&quot; = true] would always return true regardless of button state)
+
+
+
+&quot;culling_layer&quot; field in the block&apos;s geometry component has been moved out of experimental
+
+
+&quot;condition&quot; field in &quot;rules&quot; for culling has been moved out of experimental
+
+
+&quot;alpha_test_to_opaque&quot;, &quot;alpha_test_single_sided_to_opaque&quot;, and &quot;blend_to_opaque&quot; will not shift to &quot;opaque&quot; in the distance. This is a temporary rollback of functionality that will be fixed later
+
+
+Camera
+
+Unlocked over the shoulder is now unlocked by using the camera_relative control scheme with the follow_orbit preset
+
+Commands
+
+
+Added integer overflow detection in /scoreboard players operation for +=, -=, *=, /= and %=. Original value will be retained when overflow is detected
+
+
+Attempting to run extremely long commands will no longer cause a disconnection error. Instead the command will simply fail (MCPE-177722)
+
+
+The /controlscheme command no longer requires the &quot;Experimental Creator Camera&quot; toggle
+
+
+Components
+
+
+Fixed incorrect warnings for using valid older block ids with &quot;minecraft:block_placer&quot; component
+
+
+Added the &quot;minecraft:remove_in_peaceful&quot; component:
+
+Determines whether an entity should despawn on &quot;Peaceful&quot; difficulty
+
+
+
+Content warnings will log missing texture references for &quot;minecraft:material_instances&quot; block component
+
+
+Added the &quot;minecraft:leashable_to&quot; component:
+
+Allows players to leash entities to the owner entity, retrieve those already leashed, or free them using shears
+Players can leash entities to the owner entity by sneaking and interacting while having entities leashed to themselves
+The &quot;can_retrieve_from&quot; field determines whether players can retrieve entities leashed to the owner entity
+
+
+
+Added new fields to the &quot;minecraft:leashable&quot; component:
+
+
+&quot;can_be_cut&quot;: Determines whether players can cut both incoming and outgoing leashes by using shears on the entity
+
+
+&quot;spring_type&quot;: A &quot;presets&quot; subfield that defines the type of spring-like force pulling the entity toward its leash holder
+
+Available values:
+
+&quot;bouncy&quot;: Simulates a highly elastic spring that never reaches equilibrium if the leashed entity is suspended mid-air
+&quot;dampened&quot;: Simulates a dampened spring attached to the front of the leashed entity&apos;s collision that reaches equilibrium if the entity is suspended mid-air and aligns with its movement direction.
+&quot;quad_dampened&quot;: Simulates four dampened springs connected to the center of each side of the entity&apos;s collision that reaches equilibrium if the entity is suspended mid-air and gradually aligns with the leash holder over time
+
+
+
+
+
+&quot;rotation_adjustment&quot;: A &quot;presets&quot; subfield that adjusts the rotation at which the entity reaches equilibrium
+
+
+
+
+Fixed incorrect warning for using valid entity with event identifier in &quot;minecraft:entity_placer&quot; component
+
+
+The &quot;minecraft:input_air_controlled&quot; component no longer requires &quot;use_beta_features&quot;
+
+
+Added validation for asset references in particle effect Json
+
+texture reference in &quot;basic_render_parameters&quot;
+block references in &quot;minecraft:particle_expire_if_in_blocks&quot;
+block references in &quot;minecraft:particle_expire_if_not_in_blocks&quot;
+
+
+
+Content warnings will log missing block and biome references in Biome JSON
+
+
+Fixed incorrect content warnings for missing block textures in &quot;minecraft:material_instances&quot; component
+
+
+The &quot;minecraft:interact&quot; component&apos;s &quot;spawn_items&quot; field now has a &quot;y_offset&quot; subfield, which allows to adjust the vertical spawn position of items
+
+
+Dedicated Server
+
+Exposed a new parameter for dedicated server to disallow usage of Vibrant Visuals while connected
+
+Editor
+We are excited to announce Editor v1.0.0! With this milestone Editor is officially out of beta. To learn more about Editor and its multiblock world editing capabilities, check out the documents HERE, or learn how to build an Editor Extension HERE
+Feature Highlights in Editor v1.0.0
+Updated Movement Controls
+Editor just got a serious upgrade! 🎮 We&apos;ve revamped the movement controls to make navigation smoother and more intuitive. The default up/down keys are now E and Q, freeing up Shift and Space for other actions. You can now toggle mouse mode with the T key, and scroll zooms toward your cursor for better control. We&apos;ve also added middle-click drag to pan across the XZ plane, plus Z and C keys to orbit around your block cursor. Need a broader view? Use SHIFT+Z and SHIFT+C to orbit around your entire selection. Dive in and explore with ease! 🧭
+Vibrant Visual Settings Improvements
+We&apos;ve made it easier to fine-tune your visual style with updates to Vibrant Visual Settings! 🌇 New controls give you more flexibility when adjusting lighting, atmosphere, and other visual elements. We&apos;ve also added time-of-day scrubbers, so you can instantly see how your settings look across different times of day—making it simpler to achieve the perfect mood for your world.
+
+Pick blocks by color in the Block Picker
+Building just got more colorful! 🌈 You can now filter blocks by color in the Block Picker, making it easier to focus on aesthetics over specific block types. Whether you&apos;re going for bold gradients or matching a vibe, this new feature helps you create highly visual builds with ease. Let your creativity shine! 🎨✨
+Hollow Selection Trim Action
+Added a new Hollow trim action to Selection. This trim action converts your current selection into a new selection volume representing only the fully enclosed non-air blocks—perfect for hollowing out brush-shaped structures and creating internal spaces with ease.
+Line Tool Improvements
+Added new mouse controls and hotkeys to the Line Tool for faster, more flexible editing. You can now left-click to add connected points or Ctrl+click to add disconnected ones. New shortcuts let you nudge points, adjust line thickness, convert to selection, and more—all designed to streamline your building workflow.
+Full Editor Changelogs
+
+
+Adding a toggle to the Smart Fill tool to allow the user to select if operations should be limited to the selected blocks only
+
+
+Added &apos;Show Locator Bar&apos; to export/Upload To Realms options
+
+
+Added exported world file path to the log panel after successful world export
+
+
+Updated movement controls for Tool mode
+
+Changed default up/down keys to E and Q, Shift, and Space are no longer defaults
+Changed cursor settings mouse mode toggle shortcut from C to T key
+Mouse Scroll now zooms toward the cursor. Updated fixed cursor mode offset to use Shift + Scroll
+Added middle-click drag to pan in the XZ plane
+Added Z and C keys to orbit around the existing block cursor
+Added SHIFT+Z and SHIFT+C keys to orbit around the existing selection
+
+
+
+Added block picker modes to filter blocks either by name or color
+
+
+Added Block Inspector &quot;Reset Block Data&quot; button to reset the block states to all defaults
+
+
+Added a hollow trim action to selection. This converts the current selection volume to a new volume which represents all of the fully obscured non-air blocks (i.e. generate a selection which represents the inside of any shape inside the current selection)
+
+
+Added Color Timeline API (IColorTimelinePropertyItem). The Color Timeline uses one dimensional graph to represent color interpolation over time
+
+
+Added Number Timeline API (INumberTimelinePropertyItem). The Number Timeline uses two dimensional graph to represent linear interpolation between two nodes over time The two new APIs can be used in the Editor AGFX settings
+
+
+Added ability to specify a tooltip to the editor menu items
+
+
+Added ability to append an icon to the editor menu action items
+
+
+Added optional property uniqueId in IPropertyPaneOptions API to create panes with unique identifiers
+
+
+Added various tooltips to the Editor menu items
+
+
+Added IPropertyPane.addProxyPane API function to display an existing sub pane within another pane
+
+
+Added Numeric &amp; Color Timeline graphs to Vibrant Visuals Settings
+
+
+Added support for localized help and tool tips into the schema
+
+
+Added &apos;Export&apos; button for Vibrant Visuals Settings pane
+
+
+Added a &quot;Save &amp; Exit&quot; option to the Editor File menu
+
+
+Added visibility persistence for scripted panes with unique ids
+
+
+Added an action bar menu item for Deferred Lighting settings
+
+
+Added missing tooltips
+
+
+Updated Action Bar items to open automatically once added to Action Bar list
+
+
+Updated the default UI scale changed to 75% for resolutions that support it. Resolutions that do not support it use a default of 100%
+
+
+Updated Download from Realms to provide the user with the directory the world was downloaded to.
+
+
+Updated Workbench tool to enable block modification outside of selection
+
+
+Updated Freehand Selection carve mode so that if there&apos;s already a freehand selection, user can just hold CTRL to remove blocks without resetting it. Previously, this required SHIFT &amp; CTRL to be held together
+
+
+Updated Editor logging to not flash the screen when a global error occurs
+
+
+Updated tutorial step confirmation for movement stage
+
+
+Updated the farm tool to have a preview bounding box
+
+
+Updated the block image thumbnail size from 128x128 to 64x64 resulting in 1/4 texture memory requirements for terrain blocks
+
+
+Updated Line Tool Functionality
+
+Updated UI, added tooltip labels and quick action buttons
+Ability to make lines with multiple points/segments instead of just one line between two points
+Ability to adjust thickness (weights) of the lines
+Ability to nudge lines in any direction by 1 block
+Ability to convert current lines into a selection volume (clears all lines after)
+Most Line Tool actions now undo/redo-able
+Ability to select all/none points so they can all be moved at once
+Line algorithm dropdown now updates live and applies to all (and new) points
+Line Tool Mouse Controls
+
+Left-click to create a &apos;connected&apos; control point (creates a line segment between the previous point and the new point)
+Ctrl+Left-click to create a separated, &apos;disconnected&apos; control point (no line segment is created between the previous point and the new point)
+
+
+Line Tool Hotkeys
+
+Nudge Selected Points (Ctrl+Shift + Up/Down/Left/Right/PgUp/PgDown)
+Convert to Selection (Alt+S)
+Toggle Select All (Ctrl+A)
+Fill (Ctrl+F)
+Delete Blocks (ie., Fill with Air) (Del)
+Clear All Points (Ctrl+Backspace)
+Clear Selected Points (Ctrl+Shift+Backspace)
+Increase/decrease Horizontal Line Thickness (Shift + Left/Right)
+Increase/decrease Vertical Line Thickness (Shift + Up/Down)
+Increase/decrease Uniform Line Thickness (when Uniform is enabled) (Shift + Left/Right/Up/Down)
+
+
+
+
+
+Updated BlockLine implementation (now BlockShapes)
+
+
+Updated water parameters to be available and modified in the Deferred Lighting Settings window again.
+
+
+Updated Editor to no longer default projects to vibrant visuals graphics mode. It can be toggled on from Deferred Rendering Settings
+
+
+Updated Paste Preview keyboard shortcuts
+
+
+Past Preview is now initiated using CTRL+V global key sequence
+
+
+CTRL+V in paste preview mode places the current previewed clipboard selection into the world
+
+
+SHIFT+CTRL+V will immediately paste the clipboard selection into the world, previously global CTRL+V key sequence
+
+
+
+
+Updated Fill to log a warning message (similar to Selection Tool) when attempting to Fill when no lines or points exist in the world
+
+
+Updated the Block Picker Modal to use the currently selected block as the new block by default
+
+
+Updated the size of the drop down action selector to be a bit wider
+
+
+Updated structures list to more clearly indicate which item is selected
+
+
+Updated Menu Bar items
+
+
+Updated numerous strings for consistency and completeness
+
+
+Updated setBrushshapeOffsets to no longer double the distance being offset for brushes
+
+
+Update &apos;RestrictSmartFillToSelection&apos; to false by default
+
+
+Updated shortcuts for &apos;Marquee&apos; mode in Selection tool
+
+Left Mouse Button + SHIFT now creates a volume from the previous origin to the mouse click
+Left Mouse Button + CTRL now adds a new 1x1x1 volume at mouse click
+
+
+
+Updated Pan directions (still has an issue with smoothness)
+
+
+Updated Paste Preview to default to &apos;Face&apos; Target mode instead of &apos;Block&apos;
+
+
+Updated Time of Day and Weather settings to persist when exiting and re-entering a Project
+
+
+Updated UI Settings to be consolidated into a single Settings panel and removed its menu item
+
+
+Updated clicking &quot;Restore All Defaults&quot; in the Keyboard Settings with changed keybinds no longer crashes the game in some builds
+
+
+Updated the Line Tool to support undo/redo.
+
+
+Updated marking read only structures for deletion along with editable ones no longer disables the delete button
+
+
+Fixed a bug to ensure the Terrain Tool&apos;s indicator appears after mouse click
+
+
+Fixed a bug where a player could incorrectly load another player&apos;s hotbar setting in a multiplayer session after re-entering a game
+
+
+Fixed a bug that was causing property pane item additions to not update properly on the UI
+
+Whenever a property item or sub-pane is added, the parent pane is automatically notified and refreshed
+Introduced optional beginConstruct and endConstruct functions in the IPropertyPane API to delay notifications until the entire pane is constructed. This improves performance by reducing unnecessary notifications
+
+
+
+Fixed a bug where modals with large text couldn&apos;t scroll
+
+
+Fixed a bug causing the grapple camera transition to stutter
+
+
+Fixed a bug to prevent crashes when multiple players try concurrently exporting
+
+
+Fixed a bug where block thumbnail images weren&apos;t correctly presented after changing video mode while in an Editor world
+
+
+Fixed a crash while using the Flatten Brush tool while targeting air
+
+
+Fixed a bug where clicking the color box didn&apos;t close the open color picker popup
+
+
+Fixes begin transaction error when selecting a selection point outside the maximum volume size
+
+
+Updated Block Inspector &quot;Refresh Block Data&quot; button logic to update the pane with the current block state
+
+
+Fix a bug where a player could incorrectly load another player&apos;s hotbar setting in a multiplayer session after re-entering a game
+
+
+Fixing bug where the ladder could be interacted with using the workbench tool
+
+
+Fixed a bug where the export directory location was incorrect in the log panel
+
+
+Fixed a bug that caused show function of IRootPropertyPane to not display the panel
+
+
+Fixed a bug where the Export Pane weather cycle setting was being set incorrectly
+
+
+Fixed a bug where FlattenBrush, BrushPainter, SmoothRoughen, and SelectionModeFreehand tools threw an assert when a painting action was in progress
+
+
+Fixed a bug where the Tutorial Movement stage didn&apos;t wait for pan and look actions to complete
+
+
+Fixed a bug that caused brush paint to not end when the Tutorial stage changes
+
+
+Fixed a bug that caused Contiguous Selection Settings in Extrude tool pane to not show
+
+
+Fixed a bug where the clipboard origin incorrectly showed fractional origin values when clipboard item had an even size
+
+
+Fixed a bug with structure data validation so that it doesn&apos;t try to test all the sibling rules against the property it&apos;s looking for (this was resulting in lots of reported errors in the water properties, but they weren&apos;t actually errors)
+
+
+Fixed a bug where banners did not copy specific colors or patterns, but copy the default color instead
+
+
+Fixed a bug where the rotation of added blocks didn&apos;t align with selected block for Extrude expand mode
+
+
+Fixed flashing selected blocks when selecting different target positions using the smart fill tool
+
+
+Fixed a bug that caused Cancel button in Block Picker to not work
+
+
+Fixed an exception when switching modes to/from Crosshair
+
+
+Fixed Void and Flat world images for create new project
+
+
+Fixed an issue with Client Widgets (Entity Components) throwing asserts when going into the game menu while in Editor
+
+
+Fixed an issue with saving a large structure from a selection on the Structure Panel no longer makes the game unresponsive
+
+
+Removed the Marquee Selection info panel when in freehand/magic select mode
+
+
+Removed Point Lights in Vibrant Visuals settings when Deferred Technical Preview is disabled
+
+
+Removed Disable Achievement screens for Editor
+
+
+Entity Components
+
+
+Added &quot;minecraft:body_rotation_always_follows_head&quot; entity component
+
+Ensures the entity&apos;s body is always aligned with the head
+Does not override the &quot;minecraft:body_rotation_blocked&quot; component
+
+
+
+Entity Filters
+
+
+Added the new is_riding_self (entity filter
+
+Returns true if the subject entity is riding the calling entity on which the filter is used
+
+
+
+Added the &quot;is_vehicle_family&quot; entity filter, which returns true when the subject entity is riding a vehicle with the specified family
+
+
+Experiments
+
+Custom Components v2 experiment removed. Custom Components v2 is enabled when using @minecraft/server version 2.0.0 and above
+
+Items
+
+When using Custom Components v2, custom components can be assigned string, array, object, bool, or number
+
+&quot;components&quot;: {      &quot;example_namespace:example_component&quot;:    &quot;foo&quot;,    &quot;example_namespace:example_component2&quot;: 4,    &quot;example_namespace:example_component3&quot;: [        &quot;hello&quot;,        &quot;world&quot;    ],    &quot;example_namespace:example_component4&quot;: true,    &quot;example_namespace:example_component5&quot;: {        &quot;stuff&quot;: 4    },}  
+
+Custom components v2 experiment no longer required to use custom components v2
+Custom components v2 is available in JSON versions 1.21.90 and higher
+&quot;minecraft:custom_components&quot; deprecated in 1.21.90
+Fix for incorrect normals and/or crashes when holding certain items in hand with Vibrant Visuals enabled
+
+Gameplay
+
+
+Fixed issue with the player_relative control scheme that made it really hard to travel directly forward or directly backwards
+
+
+Fixed an issue where the player&apos;s head would sometimes jitter when using certain control schemes
+
+
+Fixed the default control schemes for all cameras
+
+
+Fixed the minecraft:follow_orbit camera not having the correct control scheme in its allow list
+
+
+Fixed the camera_relative_strafe control scheme
+
+
+Deprecated align_target_and_camera_forward. Use control_scheme to switch between control schemes instead
+
+
+Goals
+
+&quot;minecraft:rideable&quot; component&apos;s &quot;dismount_mode&quot; is now correctly applied when passengers are forced to dismount by the &quot;minecraft:behavior.float&quot; goal
+
+Graphical
+
+
+Added the ability to data-drive some of the Vibrant Visuals / Deferred Graphics related settings per biome. Creators can provide multiple versions of atmospherics, color grading, lighting and/or water configurations as long as each has a unique identifier and file name. The reserved JSON names for each group of settings (e.g., lighting/global.json) will continue to function as before. Creators can utilize the minecraft:atmosphere_identifier, minecraft:color_grading_identifier, minecraft:lighting_identifier, and minecraft:water_identifier in Client Biome JSONs to connect particular rendering settings to a given biome. Note that certain parameters, such as tone mapping operators, caustics and wave simulation on/off cannot be customized per biome at this time. Parameters will be spatially blended as players move between biomes. See updated Creator Documentation for more details
+
+
+Particles rendered without the &quot;minecraft:particle_appareance_lighting&quot; component are now rendered as expected in Vibrant Visuals
+
+
+Removed &apos;;&apos; debug feature for toggling graphics modes
+
+
+Recalibrated all emissive values in MERS textures in Vibrant Visuals
+
+
+Update shadow configurations for &quot;Favors Performance&quot; targets on all Xbox platforms in Vibrant Visuals mode
+
+
+Update Volumetric configs for &quot;Prefers Performance&quot; targets on Xbox One and Xbox One X in Vibrant Visuals mode
+
+
+Reduced the intensity and speed of the caustics animation in Vibrant Visuals
+
+
+Fixed an issue where the screen would render black on Xclipse GPUs running Android 15 with Vibrant Visuals (MCPE-203972)
+
+
+Increased emissive intensity and adjusted tone mapping parameters in Vibrant Visuals.
+
+
+Added temperature grading settings to the color grading JSON files for Vibrant Visuals. Schemas must specify a format version of 1.21.90 to access this new setting
+
+New temperature object added to color_grading
+
+
+enabled set to true or false controls if temperature grading is enabled
+
+type set to either white_balance or color_temperature controls the type of grading applied
+
+
+white_balance uses the temperature value to adjust the camera&apos;s white point. Lower temperature values will cause the scene to appear more blue
+
+color_temperature is the inverse of the white balance operation. Lower temperature values will cause the scene to appear more red
+
+
+
+temperature sets the temperature in kelvin
+Example:
+...&quot;color_grading&quot;: {    &quot;temperature&quot;: {        &quot;enabled&quot;: true,        &quot;type&quot;: &quot;color_temperature&quot;,        &quot;temperature&quot;: 6500.0    }}...
+
+
+
+
+Added henyey_greenstein_g settings to the fog JSON files
+
+New section henyey_greenstein_g allows specifying value for both air and water
+
+Example:
+
+
+
+{    &quot;format_version&quot;: &quot;1.21.90&quot;,      &quot;minecraft:fog_settings&quot;: {        &quot;description&quot;: {            &quot;identifier&quot;: &quot;minecraft:test_henyey_greenstein_g&quot;        },        &quot;volumetric&quot;: {            &quot;henyey_greenstein_g&quot;: {                &quot;air&quot;: {                    &quot;henyey_greenstein_g&quot;: 0.5                }            }        }    }}
+
+
+Items equipped in off-hand will no longer be displaced when the game is paused (MCPE-190716)
+
+
+Fix inconsistent cloud rendering during split-screen gameplay (MCPE-188934)
+
+
+Fixed an issue with 0 being incorrectly discarded on the g and a values of on_fire_color inside render controllers. This caused entities like the Ghast&apos;s fireballs to be tinted green. (MCPE-218297)
+
+
+Items
+
+
+Extended &quot;minecraft:wearable&quot; item component to allow hiding Players&apos; locations, similar to Mob Heads and the Carved Pumpkin
+
+The new &quot;hides_player_location&quot; boolean field defines whether Players are hidden on the Locator Bar and Locator Maps when equipped in the appropriate wearable slot, defined by the &quot;slot&quot; field
+The default value of &quot;hides_player_location&quot; is false
+All &quot;minecraft:wearable&quot; item components defined previously will have the value of &quot;hides_player_location&quot; default to false
+
+
+
+Molang
+
+
+Fixed query.health in resource packs to return 0 for the Wither once it has died
+
+
+Fixed query.health to work for the Wither to properly reflect the elapsed ticks since it started dying
+
+
+Added the query.is_riding_any_entity_of_type Molang query, which checks whether an entity is riding another entity of any specified type
+
+
+Network Protocol
+
+Added ActorFlags::BODY_ROTATION_ALWAYS_FOLLOWS_HEAD
+
+Experimental Technical Updates
+API
+
+Updated error messaging when imports can&apos;t be found
+Removed content warning when a custom component was registered without closures for custom components V2
+
+This allows &apos;data-only&apos; components to be registered in script and added to blocks and items that only contain parameters without functionality
+
+
+
+@minecraft/diagnostics
+
+Updated SentryOptions properties:
+
+
+dsn: Updated to allow the usage of SecretString, allowing for secrets from @minecraft/server-admin to be used to initialize Sentry
+(new) maxBreadcrumbs: The maximum number of breadcrumbs to store and report per error event to Sentry. Default is 20, supported values range from 0 (no breadcrumbs) to 100
+(new) sampleRate: A number between 0 and 1 that indicates the percentage of events that should be sent to Sentry. For example, a value of 0.5 means that 50% of events will be sent. Default is 1 (100% of events). 0 means no events will be sent
+(new) debug: When set to true, additional content logging from the Sentry system will be enabled. Defaults to false
+
+
+
+
+@minecraft/server 2.1.0-beta
+
+
+Custom Command registration will create an alias from the command name without the namespace
+
+If the name has already been claimed, then the alias will not be created and a content log warning will appear
+
+
+
+Removed unused classes: EntityIterator, EntityTypeIterator, FilterGroup, and PlayerIterator
+
+
+Added class PlayerHotbarSelectedSlotChangeAfterEvent. This will be triggered every time the hotbar slot changes.
+
+
+Added enum PlayerInventoryType
+
+
+Added class PlayerInventoryItemChangeAfterEvent. This will be triggered every time an item changes in the player&apos;s inventory. This includes the 27 inventory slots and 9 for hotbar
+
+
+Updated class Container
+
+
+reverseFind has been renamed to findLast
+
+
+contains now returns undefined if it fails to find the item
+
+firstEmptySlot now returns undefined if it fails to find an empty slot
+
+firstItem now returns undefined if it fails to find the item
+
+find now returns undefined if it fails to find the item
+
+reverseFindnow returns undefined if it fails to find the item
+
+
+
+Added stopSound and stopAllSounds to Dimension and Player
+
+
+Added enum LiquidSettings in beta
+
+
+Added optional property liquidSettings to scripting interfaces JigsawPlaceOptions and JigsawStructurePlaceOptions in beta. Defaults to ApplyWaterlogging
+
+
+New cheatsRequired property on CustomCommand interface
+
+If undefined or true (default is true), custom command execution requires that cheats are enabled. If false, then the custom command can execute without cheats enabled.
+
+
+
+Removed Player.isOp()
+
+
+Add read-only property playerPermissionLevel to Player
+
+
+Add property commandPermissionLevel to Player
+
+
+Added PlayerPermissionLevel enum with Visitor, Member, Operator values
+
+
+Added enum ContainerRulesErrorReason to beta. Contains the reasons that ContainerRulesError can fail.
+
+
+Added interface ContainerRules to beta. Contains rules that if broken on container operations will throw a ContainerRulesError
+
+
+Container
+
+
+Added optional property readonly containerRules?: ContainerRules to beta. If the rules of the container are broken will throw a ContainerRulesError
+
+
+Added property readonly weight: number to beta. The total weight of all ItemStacks in the container
+
+
+
+
+ItemStack
+
+Added property readonly weight: number to beta. The total weight all the items in the ItemStack
+
+
+
+
+Added class ItemInventoryComponent to beta. This component will be on all items that contain a minecraft:storage_item component and will allow access to its container
+
+
+BlockMovableComponent APIs have been added to beta
+
+BlockMovableComponent::movementType
+BlockMovableComponent::stickyType
+
+
+
+Enabled Player.applyImpulse and Player.clearVelocity in beta, which no longer throw errors
+
+
+
+@minecraft/debug-utilities 1.0.0-beta
+
+Added new Debug Drawing feature
+
+Added new classes: DebugArrow, DebugBox, DebugCircle, DebugDrawer, DebugLine, DebugShape, DebugSphere, DebugText
+
+Added new global object for accessing and using this new feature: debugDrawer: DebugDrawer
+
+
+
+Fixed a crash with the Debug Drawing system after using the /reload command
+Fixed an issue where Debug Drawing primitives wouldn&apos;t be visible after using the /reload command
+Fixed an issue where Debug Drawing primitives wouldn&apos;t be visible for new players joining the world
+
+Blocks
+
+Added minecraft:random_offset component under the Upcoming Creator Features toggle. This allows for blocks to randomly offset like foliage does in the Vanilla gameExample:
+
+{      &quot;format_version&quot;: &quot;1.21.80&quot;,    &quot;minecraft:block&quot;: {       &quot;description&quot;: {          &quot;identifier&quot;: &quot;test:test_block&quot;       },       &quot;components&quot;: {          &quot;minecraft:collision_box&quot;: {             &quot;origin&quot;: [-4.0, 4.0, -4.0],             &quot;size&quot;: [8, 8, 8]          },          &quot;minecraft:random_offset&quot;: {             &quot;x&quot;: {                // This is the range of possible values we can pick from                &quot;range&quot;: {                   &quot;min&quot;: -4,                   &quot;max&quot;: 4                },                // This is the equally spaced steps across the given range.                 // Provide 0 for all possible values in the range                &quot;steps&quot;: 16             },             &quot;y&quot;: {                &quot;range&quot;: {                   &quot;min&quot;: -4,                   &quot;max&quot;: 4                },                &quot;steps&quot;: 16             },             &quot;z&quot;: {                &quot;range&quot;: {                   &quot;min&quot;: -4,                   &quot;max&quot;: 4                },                &quot;steps&quot;: 16             }          }       }    }
+
+
+Added minecraft:movable component under the Upcoming Creator Features toggle. This allows for blocks to configure how they should react when moved by a Piston
+
+&quot;movement_type&quot; (Required): Specifies how the block should react when moved by a piston
+
+&quot;push_pull&quot;: Will allow a block to be pushed by a Piston/Sticky Piston and pulled by a Sticky Piston (e.g. Grass)
+&quot;push&quot;: Will allow a block to be pushed by a Piston/Sticky Piston (e.g. Glazed Terracotta)
+&quot;immovable&quot;: Will not allow a block to be pushed or pulled by a Piston/Sticky Piston (e.g. Bedrock)
+&quot;popped&quot;: Will pop a block when pushed by a Piston/Sticky Piston (e.g. Leaves)
+
+
+&quot;sticky&quot; (Optional): Specifies how the block should handle adjacent blocks when moved by a Piston
+
+&quot;none&quot;: Default. Will not add any additional behavior
+&quot;same&quot;: Will move adjacent blocks along with it when moved by a piston. It will not move different blocks with &quot;sticky&quot;: &quot;same&quot; (e.g. A Honey Block can move another Honey Block but not a Slime Block)
+
+NOTE: This field only works when used with &quot;movement_type&quot;: &quot;push_pull&quot; &quot;format_version&quot;: &quot;1.21.90&quot;,&quot;minecraft:movable&quot;: {&quot;movement_type&quot;: &quot;push_pull&quot;,&quot;sticky&quot;: &quot;same&quot;
+
+
+
+
+
+
+
+Block Components
+
+
+Added field &quot;uv_lock&quot; to &quot;minecraft:geometry&quot; block component behind UpcomingCreatorFeatures experiment
+
+UV locking will allow faces to have the same texture orientations as the default geometry state, regardless of how &quot;minecraft:transformation&quot; component rotates the geometry
+UV locking will not be supported for geometry using Box UVs if the box sides are not equal, in other words the box has non square UVs. Geometry with per-face UVs and non-square faces will be supported
+UV locking will not be supported if Block Json format_version is less than 1.19.80.
+
+
+
+Commands
+
+Added optional property liquidSettings to /place structure and /place jigsaw commands. Defaults to apply_waterlogging
+
+
+Jigsaw
+
+
+Jigsaw structures being placed in water no longer replace water incorrectly
+
+
+Added optional property liquid_settings to minecraft:jigsaw JSON to allow control over handling liquids when placing structures. Defaults to apply_waterlogging.
+
+
+Components
+
+The BlockDestructionParticlesComponent has a new field called particle_count allowing creators to determine the amount of particles that are generated on the destruction of the block
+
+User Interface
+
+The touch screen d-pad control now shows the correct buttons when using camera relative control schemes
+
+World Generation
+
+
+Terrain Matching Jigsaw Template pools will no longer create floating islands
+
+
+Namespaces can now be used in Template Pool element location and Jigsaw Block identifiers</description>
+    </item>
+    <item>
+      <title>Minecraft - 1.21.84 (Xbox Only)</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/37160753929741-Minecraft-1-21-84-Xbox-Only</link>
+      <pubDate>Invalid Date</pubDate>
+      <description>Posted: 5 June 2025
+A new update has been released on Xbox consoles to address an issue with the 1.21.80 release.
+
+Fixed an issue where worlds were not appearing in the world list on Xbox (MCPE-218647)</description>
+    </item>
+    <item>
+      <title>Minecraft - 1.21.81/82 (Bedrock)</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/36539685655053-Minecraft-1-21-81-82-Bedrock</link>
+      <pubDate>Invalid Date</pubDate>
+      <description>Update: 19 May 2025
+Another small hotfix (1.21.82) is being rolled out on Windows.
+
+Fixed a crash that could occur when loading a world with a high number of custom blocks
+
+Posted: 14 May 2025
+A new update has been released to address a few issues with the 1.21.80 release. Please continue to report and upvote any bugs you find at bugs.mojang.com.
+Fixes:
+Graphical
+
+Fixed an issue where Vibrant Visuals (Experimental) would sometimes apply to worlds that do not correctly support it
+Fixed an issue that could cause pixelated distortion on specific iOS devices (MCPE-218490)
+
+Gameplay
+
+Fixed a bug where hitting blocks while swimming would cause players to slow down too much (MCPE-201832)
+
+Performance and Stability
+
+Fixed a crash that could occur when loading a world with leashed entities in it
+Fixed a crash that could occur after activating &quot;SplashPotChange&quot; and &quot;LingeringPotChange&quot; resource packs (MCPE-217599)
+
+API
+
+Fixed bug where block custom component event beforeOnPlayerPlace was not using read only privilege. Due to V1.X.X of scripting releasing without read only privilege, the fix is now only applied to V2.X.X and higher versions of scripting
+
+Components
+
+&quot;minecraft:leashable&quot; component values can once again be updated at runtime via component groups
+&quot;minecraft:leashable&quot; presets are now re-evaluated every tick instead of only when the entity is leashed</description>
+    </item>
+    <item>
+      <title>Minecraft - 1.21.80 (Bedrock)</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/36236281562637-Minecraft-1-21-80-Bedrock</link>
+      <pubDate>Invalid Date</pubDate>
+      <description>Posted: 6 May 2025
+
+Have you ever looked out across the Overworld and just wished it was… flatter? Well, good news! Flat world presets are now available in Bedrock Edition! Whether you prefer to build on a clean slate or have an aversion to pointy landscapes, now you can have your pick of several exciting in-game presets, from Classic Flat to Water World. If that wasn&apos;t enough, there&apos;s also tons of bug fixes and some exciting features waiting behind the experimental toggle.
+Features and Bug Fixes
+Flat World Presets
+
+
+In the Advanced tab of the Create New World screen, enable Flat World to access flat world presets
+
+Classic Flat
+Tunnelers&apos; Dream
+Water World
+Overworld
+Snowy Kingdom
+Bottomless Pit
+Desert
+Redstone Ready
+
+
+
+Accessibility
+
+Fixed an issue where Text To Speech wasn&apos;t working on Android Fire Tablet devices
+
+Audio Fixes
+
+
+Fixed an issue where all sound in Windows stops working after 40-41% loading (MCPE-175138)
+
+
+Music and sounds will no longer play once the save and exit button is pressed (MCPE-190632)
+
+
+Fixed Wolf spawning sounds not using the appropriate sound variants (MCPE-190576)
+
+
+Fixed credits music not playing if entering credits from the settings menu while game is paused. (MCPE-190625)
+
+
+Ambient Block Sounds
+
+The ambient sounds for Sand block, Dead Bush block and Terracotta block can now play (MCPE-194677)
+
+Blocks
+
+
+Sapling &quot;age_bit&quot; no longer regresses after an unsuccessful growth attempt, preventing nearby Observers from activating incorrectly (MCPE-190286)
+
+
+Fix ambient occlusion issue for non 1x1x1 blocks
+
+When a block around any of these smaller non 1x1x1 blocks is broken, the AO computation is correctly applied to the face in the direction of that broken block. Previously the wrong face could be seen getting lightened/darkened.
+A list of blocks affected: stairs, walls, gates, buttons, cakes, plates, fences, anvil, grindstone, hopper, bell, lectern, eggs, brewing stand
+
+
+
+Flowers now have the same random offset range and values as Java
+
+
+Bamboo, Hanging Roots, Mangrove Propagule, and Nether Sprouts now have the same random offset range and values as Java Edition
+
+
+Coral Fans and Coral Plants now have the same random offset range and values as Java Edition
+
+
+Double tall plants, like sunflowers, now have the same random offset range and values as Java Edition
+
+
+Pointed Dripstone, Tall Grass, and Dry Grass now have the same random offset range and values as Java Edition
+
+
+Basalt can be created if the soul soil is placed last after the lava and blue ice are already in place again (MCPE-194008)
+
+
+Bundles
+
+Empty open Bundle icon now renders correctly when Bundles are tapped with Touch Controls
+
+Character Creator
+
+Fixed an issue that caused the wrong sized player model to show when using custom skins (MCPE-189739)
+
+Gameplay
+
+
+Players will no longer pass through Blocks placed around x or z coordinates that are a power of 2. (Example 256, 512, 1024 ...) (MCPE-173843)
+
+
+Removed access to Virtual and Mixed Reality gameplay.
+
+
+Fixed server client desync issue during portal travel on Realms (MCPE-188731)
+
+
+Added &apos;music_definition&apos; field to &apos;minecraft:biome_music&apos; component in client_biome json files to control the music played in the biome. The default music will be determined by the dimension if the biome_music component or music_definition property is left off. An empty string can be used if the biome is intended to be silent
+
+
+Fixed an issue where the player would momentarily lay under or beside a Bed when going to sleep
+
+
+Deepslate Redstone Ore once again lights up after interacting with it (MCPE-191381)
+
+
+Deepslate Redstone Ore no longer stays infinitely lit up after interacting with it (MCPE-136864)
+
+
+When respawning from death while gliding or swimming players will now have the correct collision (MCPE-189554)
+
+
+Fixed a bug that a player can sprint in water faster than swimming
+
+
+Changed Elytra so that while gliding, using a firework will only be used as a boost even if placed on a block
+
+
+Fixed an issue where using a Firework with Elytra in another block like Sugar Cane would result in rubberbanding (MCPE-191595)
+
+
+Trail ruins now generate at the same location in Mutated Birch Forests between Java and Bedrock on the same world seed
+
+
+General
+
+Enabled Filter Profanity toggle on PlayStation, Nintendo, and Xbox platforms.
+
+Items
+
+
+Fixed a bug where most usable items could not be used while targeting a Mob Spawner (MCPE-58999)
+
+
+Mangrove Roots can now be used as fuel in Furnaces (MCPE-155605)
+
+
+Fixed an issue where adding items to a slot in a Chest while it is being updated by a Hopper might remove the items (MCPE-166390)
+
+
+Mobs
+
+
+Fixed a bug where named Slimes and Magma Cubes lose their names when splitting (MCPE-14975)
+
+
+Creakings no longer despawn on world reload (MCPE-190845)
+
+
+Parrots can now imitate Phantoms, Zoglins, Guardians, Ravagers, Pillagers, and Blazes (MCPE-164404)
+
+
+Wither Skeletons and Zombified Piglins can now walk in lava (MCPE-46806)
+
+
+Farm animal spawn eggs used in the Mangrove Swamp biome will now spawn the same variants of Chicken, Cow, and Pig as seen in the Java Edition (MCPE-190750)
+
+
+Mobs no longer have difficulty inflicting recurring hits when very close to non-moving players (MCPE-189535)
+
+
+Camels no longer spawn in spaces that are too small for them (MCPE-190700)
+
+
+Farmer villagers no longer occasionally get stuck when collecting grown crops (MCPE-166344)
+
+
+Fixed Evoker legs not moving when walking (MCPE-191193)
+
+
+Realms
+
+Fixed a crash when clicking several times while trying to upload a world to an inactive Realm slot
+Realms Server Hosting Region Preference Selection:
+
+Added a new &quot;Advanced&quot; tab to the Realms settings screen where Realm owners can select which datacenter region they would like to host their Realm in
+
+Options include a list of regions, or allowing the Realms service to automatically select the best region for the Realm owner or the first player to join the Realm in a given session
+Note that this selection is a preference only and due to server capacity, your Realm may be hosted in a different region than selected and in that case, the next closest region to your preference will be selected
+
+
+Added a message during joining a Realm to indicate which server region your Realm is assigned to for that session
+For more information on Realms regional server hosting, read this detailed article: Improved Realms Regional Support | Minecraft
+
+
+
+
+Recipes
+
+Fixed a bug where players could still craft unknown recipes when dolimitedcrafting game rule was enabled (MCPE-186699)
+
+Stability and Performance
+
+
+Fixed a bug that occasionally caused an error when creating a Realm on an empty slot
+
+
+Fixed a crash that could sometimes occur when certain foliage textures fail to load
+
+
+Fixed an issue that caused a crash while generating chunks
+
+
+Fixed bugs causing marketplace addon content to sometimes not load in a world
+
+
+User Interface
+
+
+Fixed a bug that could prevent Minecraft from loading the main menu, after cancelling a server transfer request from another server. (MCPE-189096)
+
+
+Potion of Slowness IV (standard, splash, lingering) is no longer separated from other slowness potions in Creative Menu (MCPE-101923)
+
+
+Touch Controls: Updated icons for Dismount and Jump buttons (when mounted) to be clearer and consistent between the touch control schemes (MCPE-184403)
+
+
+Suspending/minimizing the game with Screen Animations disabled no longer resets the world seed in the Create New World screen. (MCPE-188975)
+
+
+Touch Controls: Spectators can now also customize controls (MCPE-184704)
+
+
+Touch Controls: Fixed a bug that could cause issues when customizing touch controls during the death animation in Hardcore mode (MCPE-186584)
+
+
+Added modal to handle Not Enough Disc Space error in Edit World screen, Resource Packs tab
+
+
+Fixed &quot;Download all missing packs&quot; button not working under specific conditions
+
+
+Fixed a bug where the bed screen would display the wrong message when sleeping during a thunderstorm (MCPE-190178)
+
+
+Stopped main menu background rotation when entering new player flow
+
+
+Stopped main menu background rotation and logo text movement when the &quot;screen animations&quot; option is disabled.
+
+
+Worlds are no longer missing from the Storage menu
+
+
+Bundle tooltip no longer sometimes renders as if having a different amount of items
+
+
+Adding &quot;Manage Storage&quot; button if download fails due to lack of space with instructions on what needs to be cleared out.
+
+
+Adding &quot;Clear Download Cache&quot; button to storage for clearing files that got stuck due to a downloading error.
+
+
+Auto clearing the download cache on startup if it detects that it is running out of space.
+
+
+Fixed an issue which prevented the escape keyboard shortcut from working in certain scenarios on the death screen
+
+
+Bundle slot selection using gamepad right stick no longer skips slots when playing in split screen
+
+
+Stacks are now correctly splitting across slots when moving cursor and holding the left mouse button to split a stack evenly across slots
+
+
+Updated the friends drawer status to tell if a friend is playing in the same world as you
+
+
+Bundle UI now correctly disappears when interacting with Inventory tabs in Pocket UI
+
+
+Fixed a bug where the game would be unresponsive for a short while after leaving the bed screen.
+
+
+Vanilla Parity
+General
+
+Add magic crit particles for enchanted weapons, to better match the Java edition (MCPE-18704)
+
+Items
+
+
+Cut Sandstone Slabs can now be crafted in the Stonecutter using Cut Sandstone (MCPE-42734)
+
+
+Cut Red Sandstone Slabs can now be crafted in the Stonecutter using Cut Red Sandstone (MCPE-42734)
+
+
+Totem of Undying now gives the same 45 second regeneration as Java (MCPE-90716)
+
+
+Shears now consume durability when used on Beehives and Bee Nests with full Honey level (MCPE-63995)
+
+
+Shields now take durability damage from explosions (MCPE-121484)
+
+
+Mobs
+
+The maximum amount of Raw Rabbits dropped from Rabbits is now increased by 1 for each level of Looting (MCPE-47125)
+
+Structures
+Woodland Mansion
+
+Iron Axe with Efficiency I now always generates in a Chest inside Woodland Mansion&apos;s tree-chopping room (MCPE-109048)
+
+Experimental Features
+Game Drop 2 2025 Experiments
+
+Enable the &quot;Drop 2 2025&quot; experimental toggle to test out these new features!
+
+Blocks
+Dried Ghast
+
+Can be found in the Nether in Nether Fossil structures
+Can be crafted with 1 Bone block and 8 Ghast Tears
+When waterlogged it undergoes 3 states over about 20 minutes until it spawns a Ghastling mob
+Makes sounds and shows particles depending on state
+If mined during the waterlogging, it will revert to its &quot;dry&quot; state regardless of what state it has reached during waterlogging
+Will revert states back to its initial &quot;dry&quot; state when it is taken away from being waterlogged, using the same time scale
+
+Mobs
+Ghastling
+Ghastling is a young version of the Happy Ghast mob.
+
+Spawns from a Dried Ghast block that has continuously been waterlogged for about 20 minutes.
+After spawning, the Ghastling will try and follow:
+
+
+Players within a 16-block radius or
+
+An adult, non-aquatic passive mob (and some neutral mobs) within a 16-block radiusIf no player or suitable mob is close around the Ghastling will idle around within 32 blocks from its home position (where it spawned or last was interacted with).
+
+
+Can be tempted and fed using Snowballs
+Will grow up into a Happy Ghast after about 20 minutes (or faster if fed Snowballs)
+Can be summoned using the command: &quot;/summon happy_ghast ~ ~ ~ ~ ~ minecraft:spawn_baby&quot;
+
+Happy Ghast
+The Happy Ghast is a new flying mount that can carry up to four players.
+
+Spawns from a Ghastling after about 20 minutes (or faster if Ghastling is fed Snowballs)
+Can be equipped with a harness and then be mounted by up to 4 players
+Tempted by Snowballs and Harness. Harness tempting only works if the Happy Ghast is unharnessed
+Has no panic behavior when taking damage
+Cannot be bred
+Slowly regenerates health, with regeneration speeding up during rain, snow or when flying at the same height as clouds are rendered
+The first player that mounts the Happy Ghast will control it, sitting in front of the Happy Ghast, just above its face
+When a player mounts, the goggles on the Happy Ghast go down to cover its eyes, indicating that it now can be controlled
+Other players who mount after the pilot is mounted, are placed in slots on each side of the Happy Ghast, starting clockwise from the &quot;pilot&quot; player
+Pressing crouch button dismounts the player on top of the Happy Ghast
+If the Happy Ghast detects players on top of it, it then ceases all movement and aligns to the closest cardinal horizontal direction
+This happens regardless of it having a harness equipped or not
+3rd person camera is moved back when player is mounted on the Happy Ghast
+When there are no players mounted or walking on the Happy Ghast, the goggles go up and the Happy Ghast starts to roam around the home position
+If players dismount midair, the Happy Ghast will descend towards the ground before it resumes roaming
+Cannot enter boats
+Idles around within 64 blocks from its home position (where it spawned or last was interacted with)
+If wearing a harness, the Happy Ghast idles closer to the home position (within 32 blocks).
+The Happy Ghast will try to stay close to blocks when roaming on its own
+
+Known Issue: The Happy Ghast&apos;s health is currently set to 40 when it should be 20. We will be addressing this as soon as possible!
+
+Ghast
+
+Updated Ghast texture
+
+Items
+Harness
+Harness is a new item that can be equipped on a Happy Ghast to allow players to ride it.
+
+Crafted out of 3 leather, 2 glass blocks and 1 wool block, the harness will have the same color as the wool block used when crafting
+Can be re-dyed
+Can only be equipped on a Happy Ghast
+Allows up to 4 players to mount the Happy Ghast
+Can be removed from the Happy Ghast using Shears but only when no players are mounted
+
+Commands
+
+Added the Game Rule command locatorBar to enable or disable the Locator Bar feature
+
+Vibrant Visuals
+The features, lighting, effects, and assets are still in development, so expect things to change and improve over time as we continue to iterate.
+Supported devices include Xbox Series X|S, Xbox One, PlayStation 4, PlayStation 5, Android, iOS, and PC.
+
+Android: Adreno 640, Mali-G68, Mali-G77, or Xclipse 530 or higher
+iOS: A12 or M1 or higher
+PC: Running Minecraft on DX12
+
+Our team is hard at work testing Vibrant Visuals on even more Minecraft: Bedrock Edition devices, and we hope to be able to update this list of supported devices in the future.
+To use Vibrant Visuals in a World, you must enable the &quot;Vibrant Visuals&quot; toggle in the Experimental tab in the Create New World or Edit World screens. This will expose Vibrant Visuals as an option in the in-game Video settings Graphics Mode dropdown, which can then be selected alongside the other existing rendering modes.
+Presets for choosing between &quot;Favor Visuals&quot; and &quot;Favor Performance&quot; are available in the Video Settings. Specific feature and visual settings can also be adjusted by expanding &quot;Vibrant Visuals Options&quot;.
+Splitscreen is not supported with Vibrant Visuals and the game will switch to Fancy or Simple rendering if multiple players are joined locally.
+Marketplace Add-Ons, Skins, and Persona items will work with Vibrant Visuals, however, Worlds and Texture Packs are not compatible with the new mode at this time.
+Known Issues
+
+Some visual corruptions may exist on certain Android devices, particularly with Mali GPUs
+Surfaces deeper than eight blocks underwater are dark
+Light may leak into underground areas or shadows may pop in and out, especially near cave entrances
+Textures may turn pink after suspend and resume, opening Settings, or exiting world
+Metallic surfaces might appear with some visual bugs in certain conditions
+Emissive surfaces might not glow or appear white in certain conditions
+
+You can report any issues at bugs.mojang.com and please send us your feedback at aka.ms/mcvibrantvisualsfeedback
+Locator Bar
+
+
+The Locator Bar is a new UI element on the Player HUD that displays the direction of other Players in the World.
+
+
+When the Locator Bar Experiment is enabled and there are multiple Players in a World, the Locator Bar will appear on-screen for each Player, replacing the Experience Bar. The Player Level number will still be visible as before above the Locator Bar.
+
+
+The Locator Bar will display colored indicators when the camera is facing within 120 degrees towards another Player. If another Player is 30 degrees above or below the camera&apos;s viewport (the screen) an up or down arrow will be displayed.
+
+
+Crouching will hide the Player, preventing their indicator from appearing on the Locator Bar of other Players.
+
+
+Players in Spectator Mode are not visible on the Locator Bar.
+
+
+A Mob Head or a Carved Pumpkin will similarly hide Players from the Locator Bar when worn in the head slot.
+
+
+Using a Potion of Invisibility will also hide players from the Locator Bar.
+
+
+
+Developer&apos;s note: When the Locator Bar moves out of experimental, we plan on making it a feature that Players can toggle on and off.
+
+
+
+Player Dots on the Locator Bar now show correctly regardless of Simulation Distance
+
+
+Dots are now shown representing Players in Spectator Mode to other Players also in Spectator Mode on the Locator Bar
+
+
+Known Issues
+
+The Locator Bar has the following known issue, so we recommend testing it with a Simulation Distance of 4 chunks
+
+If the Simulation Distance is set to greater than 4 chunks then the Locator Bar may not show players in between 4 chunks and the Simulation Distance
+
+
+
+Technical Updates
+API
+
+
+Fixed an issue with BlockPermutation::withState in outdated scripts that prevented some states from being set correctly on a number of blocks
+
+Affected blocks include any which have had their directional or placement states recently changed
+Scripts created after these blocks were changed may need to be updated to avoid unintended behavior
+
+
+
+Moved the following Player methods from beta to v1.18.0
+
+setPropertyOverrideForEntity
+removePropertyOverrideForEntity
+clearPropertyOverridesForEntity
+
+
+
+Moved enum Difficulty from beta to v1.19.0
+
+
+World
+
+
+Move getDifficulty(): Difficulty from beta to v1.19.0
+
+
+Move setDifficulty(difficulty: Difficulty): void from beta to v1.19.0
+
+
+
+
+Moved the following Player methods from beta to v1.19.0
+
+
+Renamed BoundingBox to BlockBoundingBox and released from beta to v1.19.0.
+
+
+Renamed BoundingBoxUtils to BlockBoundingBoxUtils.
+
+
+Moved dimension.placeFeature and dimension.placeFeatureRule from beta to v1.19.0
+
+
+
+@minecraft/server 1.19.0
+
+
+Moved methods StructureManager.placeJigsaw and StructureManager.placeJigsawStructure from beta to 1.19.0.
+
+
+Moved interface JigsawPlaceOptions from beta to 1.19.0.
+
+
+Moved interface JigsawStructurePlaceOptions from beta to 1.19.0.
+
+
+Moved error class PlaceJigsawError from beta to 1.19.0.
+
+
+
+@minecraft/server 2.0.0-beta
+
+
+Coroutines (promises) are now flushed in early execution to allow async imports to interact with early execution APIs like Custom Components and Custom Commands.
+
+
+Added support for custom command enums.
+
+
+Added Enum type to CustomCommandParamType
+
+
+spawnEntity method of Dimension no longer supports using a spawn event inside the identifier parameter. SpawnEntityOptions interface now has an optional string member spawnEvent?: string for specifying a spawn event to be sent to the entity when it is spawned. Please update any existing usages of spawn events inside identifier to instead use this new spawnEvent option. For example: spawnEntity(&quot;minecraft:horse&lt;minecraft:ageable_grow_up&gt;&quot;, {x:0, y:0, z:0}) should become spawnEntity(&quot;minecraft:horse&quot;, {x:0, y:0, z:0}, {spawnEvent: &apos;minecraft:ageable_grow_up&apos;})
+
+
+EntityGroundOffsetComponent has been remove.
+
+
+Block method getComponent will return BlockCustomComponentInstance for custom components registered with BlockComponentRegistry in 2.0.0.
+
+
+
+@minecraft/server-ui 2.0.0-beta
+
+Class ModalFormResponse
+
+
+Changed type for formValues property from (boolean | number | string)[] to (boolean | number | string | undefined)[].
+
+New Signature: formValues?: (boolean | number | string | undefined)[].
+Old Signature: formValues?: (boolean | number | string)[].
+
+
+
+formValues array now contains entries for all the elements provided by the request. It means that labels, headers, and dividers are considered into the response with an undefined value.
+
+
+
+
+Molang
+
+
+query.graphics_mode_is_any no longer requires the Upcoming Creator Features experiment
+
+Biomes
+
+
+Moved Vanilla biome JSON files from an internal folder to the appropriate Vanilla behavior packs
+
+
+Removed remainder of support for unused &quot;minecraft:consolidated_features&quot; and &quot;minecraft:legacy_world_generation_rules&quot; JSON components
+
+
+Blocks
+
+
+Blocks using the minecraft:block_placer component now can get added as loose items in the creative inventory and recipe book again
+
+
+From 1.21.80 onward, when using a minecraft:geometry component or minecraft:material_instances component, you must include both
+
+
+New render_method type available for minecraft:material_instances. They are meant to support the same behavior of block turning opaque in the far rendering like Leaves in contrast to other disappearing like Bamboo Stalk.
+
+&quot;render_method&quot;: &quot;blend_to_opaque&quot;
+&quot;render_method&quot;: &quot;alpha_test_to_opaque&quot;
+&quot;render_method&quot;: &quot;alpha_test_single_sided_to_opaque&quot;
+
+
+
+The field &quot;tint_method&quot; in the &quot;minecraft:map_color&quot; component no longer requires the &quot;upcoming creator features&quot; toggle
+
+
+The field &quot;tint_method&quot; in the &quot;minecraft:destruction_particles&quot; component no longer requires the &quot;upcoming creator features&quot; toggle
+
+
+The field &quot;tint_method&quot; in the &quot;minecraft:material_instances&quot; component no longer requires the &quot;upcoming creator features&quot; toggle
+
+
+Block using the minecraft:destruction_particles component will now correctly be sent to player connecting to a host.
+
+
+Block Components
+
+
+Removed UpcomingCreatorFeatures experiment requirement for field &quot;isotropic&quot; in &quot;minecraft:material_instances&quot; component
+
+
+Fixed isotropic textures in &quot;minecraft:material_instances&quot; being squashed and stretched for non-square faces
+
+
+Commands
+
+Released /place structure and /place jigsaw out of the Data-Driven Jigsaw Structures experiment
+
+Components
+
+
+The &quot;minecraft:rideable&quot; component now has three new additional fields:
+
+&quot;dismount_mode&quot; defines where riders are placed when dismounting the entity:
+
+&quot;default&quot;, riders are placed on a valid ground position around the entity, or at the center of the entity&apos;s collision box if none is found
+&quot;on_top_center&quot;, riders are placed at the center of the top of the entity&apos;s collision box
+
+
+&quot;on_rider_enter_event&quot;, defines the event to execute on the owner entity when an entity starts riding it
+&quot;on_rider_exit_event&quot;, defines the event to execute on the owner entity when an entity stops riding it
+
+
+
+Content errors will log missing texture references in the &quot;minecraft:icon&quot; item component
+
+
+The &quot;minecraft:rideable&quot; component&apos;s Seat definition now has two additional fields:
+
+&quot;third_person_camera_radius&quot; can be used to set a different camera radius when in third person or third person front camera. The value needs to be in the range [1.0, 64.0]. Value 0.0 is ignored.
+&quot;camera_relax_distance_smoothing&quot; adds springiness to the camera movement when the camera moves back to its radius after being pushed closer to the player by and obstacle. A higher value means a stiffer spring. The value needs to be in the range [1.0, 32.0]. Value 0.0 is ignored.
+
+
+
+The &quot;minecraft:leashable&quot; component now support multiple presets:
+
+A list of presets can be defined in the new &quot;presets&quot; field
+Each preset determines how the entity behaves when leashed to another entity
+A preset is selected when the entity is leashed and remains active until it is leashed to something else
+The first preset whose &quot;filter&quot; conditions are met will be applied
+If no presets match, a default configuration is used instead
+The following fields are now part of each preset:
+
+&quot;filter&quot;: Defines the condition that selects this preset out of all the presets upon leashing
+&quot;soft_distance&quot;: Distance at which the spring effect begins
+&quot;hard_distance&quot;: Distance at which the leash stiffens
+&quot;max_distance&quot;: Distance at which the leash breaks
+&quot;can_be_stolen&quot;: Determines if a player can steal the leashed entity using a Lead
+
+
+
+
+
+Added validation for block asset references in components
+
+Content errors will log missing block references for the following components:
+
+item component &quot;minecraft:digger&quot;
+item component &quot;minecraft:entity_placer&quot;
+item component &quot;minecraft:block_placer&quot;
+spawn rules component &quot;minecraft:spawns_on_block_filter&quot;
+spawn rules component &quot;minecraft:spawns_on_block_prevented_filter&quot;
+spawn rules component &quot;minecraft:spawns_above_block_filter&quot;
+
+
+
+
+
+&quot;can_be_stolen&quot; has been moved from &quot;presets&quot; back to being a direct sub-field of the &quot;minecraft:leashable&quot; component
+
+
+Content errors will log missing entity references in the &quot;minecraft:entity_placer&quot; and &quot;minecraft:projectile&quot; item components
+
+
+Documentation
+
+
+Include biome and client_biome JSON files in generated documentation
+
+
+Fixed a bug where incorrect Json errors would appear for valid item texture references
+
+
+Introduced a &quot;drop_item_y_offset&quot; parameter to the &quot;minecraft:interact&quot; component
+
+Defines a custom y-axis offset for when an item is dropped
+Requires &quot;drop_item_slot&quot; to be specified
+
+
+
+The &quot;minecraft:leashable&quot; component&apos;s &quot;on_unleash&quot; trigger triggers on the leash breaking with format version 1.21.80 and later
+
+The old behavior is still available to opt in to by setting &quot;on_unleash_interact_only&quot; to true
+
+
+
+Editor
+We are excited to announce Editor v0.9.5! To learn more about Editor and its multiblock world editing capabilities, check out the documents HERE, or learn how to build an Editor Extension HERE
+Feature Highlights in Editor v0.9.5
+Selection Updates
+The selection experience in Editor has been completely revamped! Enjoy a new, widget-based system with click-and-drag Marquee selection, undo/redo support, and updated keyboard shortcuts for faster, more precise editing. We&apos;ve also added two new Trim Actions—Trim and Remove Air—to help refine your selections down to just the blocks you need. Plus, the new Magic Select mode lets you quickly grab non-air blocks above a selected point, making it easier than ever to work with structures. Give these tools a try and level up your building flow!
+New Tutorial System
+We added a new tutorial flow accessible from the Help menu. It&apos;s designed to help new users quickly get up to speed with how to use Editor and its core features.
+Full Editor Changelogs
+
+
+Selection system has been completely overhauled and now leverage client widgets
+
+Selection Marquee now support click and drag to select
+Selection Marquee still supports opposing corner mode using CTRL key
+Marquee and Freehand selection now support undo and redo
+Widgets colors are integrated with the theme manager
+Updates to keyboard shortcuts:
+
+Keyboard control for selection volumes now supports keyboard repeat
+(Marquee) SHIFT+Click create multiple volumes
+(Freehand) SHIFT+CTRL removes brush voxels from selection
+(Freehand) SHIFT adds brush voxels to existing selection
+ALT+Arrow keys move the selection volume (Marquee &amp; Freehand)
+CTRL+Arrow keys resize the selection volume (Marquee only)
+ENTER selects a volume
+SHIFT+ENTER selects an additional volume
+CTRL+S enters selection mode. CTRL+S again (while in selection mode) cycles between Marquee and Freehand
+
+
+
+
+
+Added a new toggle group for Trim Actions
+
+
+Added 2 new trim actions Trim (shrink the selection bounding volume to include only the specified non-air blocks) and Remove Air(remove all air blocks (and specified blocks) from the selection to create a new selection containing only the specified blocks)
+
+
+Added &quot;Magic Select&quot; to selection modes. This mode allows users to quickly select non-air blocks at and above a selected block. This is extremely useful when working with structures. The current implementation is prototype and only has an 8-block search radius, upwards from the point of click. Holding SHIFT while clicking will make the selection additive to any existing selections
+
+
+Added an indicator to the 3D Block Cursor to show the face that the mouse is pointing at
+
+
+Added a new tutorial flow which can be activated from Help menu.
+
+
+Added a new RelativeVolumeListBlockVolume volume type for Editor use to replace CompoundBlockVolume
+
+
+Added a new Client Widget Bounding Box and Volume Outline components
+
+
+Added keyboard repeat to cursor controls
+
+
+Added visualization to Smart Fill tool
+
+
+Added visualization to Extrude tool
+
+
+Added visualization to Line tool
+
+
+Added fields &apos;Spawn Position&apos;, &apos;Time of Day&apos; and &apos;Weather&apos; in a new section of initial play settings.
+
+
+Added feedback UI to show the progress and result.
+
+
+Added a &apos;Custom Mapping&apos; subpane to the Workbench extension which adds the ability to add mappings for custom block properties
+
+
+Added global keybind for activating Workbench
+
+
+Added a tool mode key shortcut for Reload operation, it will be unbound by default
+
+
+Added a new editorConstants object to the player context. This provides access to a number of constant values and methods that are commonly used across Editor (both in TypeScript and Native code)
+
+
+Added game rules to Export: Limited Crafting, Show Death Message, Show Item Tags, Command Block Output, Send Command Feedback, Max Command Chain Length, Fire Damage, Freeze Damage, Fall Damage, Drowning Damage, Insomnia, Show Border Effect, Function Command Limit
+
+
+Added a missing string when there is an empty slot in the Realms Slot dropdown
+
+
+Added unbound keybindings for Trim and Remove Air from Selection
+
+
+Adding an animation on the viewport and opening the log panel when an error is logged.
+
+
+Updated performance on Smart Fill &amp; Extrude
+
+
+Updated brush shape settings to be local to the modal tool and specific configuration of that tool
+
+Removed registerBrushShape from BrushShapeManager API, only core brushes will be supported for core tools.
+
+
+
+Updated icon for delete inside the selection tool.
+
+
+Updated naming of color setters and getters in the Widget system to use the same terminology (Outline for borders, Hull for fills, Highlight for specialized borders)
+
+
+Updated the Structure Panel to have the ability to create a new Structure from an existing selection
+
+
+Updated the Structure Panel to allow the editing of the origin field
+
+
+Updated editing fields for structures in the structure panel to allow saving while a field is being edited
+
+
+Updated the brush volume max sizes so that they don&apos;t exceed our max voxel count for selection operations
+
+
+Updated core modal tool ordering in the tool rail
+
+
+Removed deprecated property pane API
+
+
+Removed CompoundBlockVolume usage in Editor Script APIss
+
+
+Fixed a bug that prevented theme to be changed to Redstone from UI Settings
+
+
+Fixed a bug that caused Keyboard Settings buttons to be misaligned in certain resolutions
+
+
+Fixed a bug where visualizations beyond 100x100x100 in the Repeater tool would appear
+
+
+Fixed Crash on exit editor when selection volume is visible
+
+
+Fixed the brush visualization reset when jumping from matches to no matches (artifacts of the old match state were left attached to the visualization)
+
+
+Fixed Publish to Realms bug by cleaning up local world copy that&apos;s created during publish process
+
+
+Fixed a bug where passing a complex volume with non-contiguous voxels was copying only the contents of the bounding rectangle to the clipboard. Only the specified voxels should have been copied. This now allows us to create structures where air and structure voids are stripped out
+
+
+Fixed an issue with Freehand select near or outside of dimension bounds that could cause selection to become unusable
+
+
+Fixed issues with selection volumes being able to translate or resize past world bounds. This also fixes using large brush shapes with freehand selection (and magic select) close to a world boundary
+
+
+Fixed a bug that caused Extrude Axis options to be incorrect for Pyramid brush shape
+
+
+Fixed an issue related to files and folders being permanently deleted when deleting structures in the structure panel
+
+
+Fixed a bug where moving a structure to the clipboard while in Paste Preview (with no actual active clipboard) did not update the clipboard client widget
+
+
+Fixed some bugs around freehand selection with very large volumes
+
+
+Fixed a bug where a number of script widget errors would fire when entering The Nether as the startup dimension at Editor open
+
+
+Fixed a bug that caused mouse cursor to be released when changing to Crosshair mode
+
+
+Entity Filters
+
+Added new entity filter &quot;has_equipment_tag&quot;, works like &quot;has_equipment&quot; but takes an item tag instead of an item name
+
+General
+
+Updated the client side biome component &apos;minecraft:water_appearance&apos; field &apos;surface_color&apos; to be optional. Added a content error that fires if the component is empty.
+
+Goals
+
+
+minecraft:behavior.float_wander has been updated with new fields:
+
+
+navigate_around_surface: enables the usage of a new algorithm to find random positions to navigate to. The new algorithm aims to find random positions in the vicinity of solid (i.e. non-Air and non-liquid) blocks, and if that fails will fall back to finding a random position in the vicinity of the current dimension&apos;s surface level.
+
+additional_collision_buffer: makes sure there are no blocks present in an inflated area around the target position.
+
+allow_navigating_through_liquids: allow the mob to have target positions inside liquids
+
+surface_xz_dist: the distance in the horizontal directions to look for nearby surfaces. Only valid when navigate_around_surface is true.
+
+surface_y_dist: the distance in the vertical directions to look for nearby surfaces. Only valid when navigate_around_surface is true.
+
+
+
+minecraft:behavior.follow_mob has been updated with the following new fields
+
+
+use_home_position_restriction: If true, the mob will respect the &apos;minecraft:home&apos; component&apos;s &apos;restriction_radius&apos; field when choosing a target to follow. If false, it will choose target position without considering home restrictions.
+
+preferred_actor_type: The type of actor to prefer following. If left unspecified, a random actor among those in range will be chosen.
+
+filters: If non-empty, provides criteria for filtering which nearby Mobs can be followed. If empty default criteria will be used, which will exclude Players, Squid variants, Fish variants, Tadpoles, Dolphins, and mobs of the same type as the owner of the Goal.
+
+
+
+Added fields to &quot;minecraft:behavior.tempt&quot; goal
+
+The &quot;stop_distance&quot; field specifies a custom distance for when the tempted mob should stop moving towards the player
+The &quot;on_start&quot; field specifies the event to trigger when the goal starts
+The &quot;on_end&quot; field specifies the event to trigger when the goal ends
+
+
+
+Added &quot;minecraft:behavior.float_tempt&quot; goal, which allows a tempted mob to move in a line towards the player
+
+This goal is a variant of the &quot;minecraft:behavior.tempt&quot; goal and shares the same fields
+Requires the mob to be in a floating state (e.g. use the &quot;minecraft:navigation.float&quot; component)
+
+
+
+Graphical
+
+Added support for multiple locators for use with leashes for rendering multiple ropes between two entities.
+
+&quot;multi_lead_n&quot;:
+
+where n = {1, 2, 3, 4} defines locators when the entity is leashed to a different entity.
+Used if and only if it has a corresponding &quot;multi_lead_hold_n&quot; and the number n is equal on the two entites.
+
+
+&quot;multi_lead_hold_n&quot;
+
+Where n = {1, 2, 3, 4} defines locators where the entity is leashing a different entity.
+Used if and only if it has a corresponding &quot;multi_lead_n&quot; and the number n is equal on the two entites.
+
+
+&quot;lead&quot;
+
+is set to origin if it is not defined in the geo.
+
+
+&quot;lead_hold&quot;
+
+is set to origin if it is not defined in the geo.
+
+
+
+Re-enabled local exposure on all platforms in Vibrant Visuals mode.
+
+
+Fixed an issue that caused candles, chiseled bookshelves and dried kelp blocks not to use PBR textures in Vibrant Visuals mode and Raytracing mode (MCPE-132021)
+
+
+Stained glass now renders with correct colors when using Vibrant Visuals.
+
+
+
+
+Items
+
+Bundles&apos; open icons are now specified via IconItemComponent. This addresses the issue where a missing texture would appear for an opened custom Bundle. Bundle icon paths have also now be separated into unique keys in item_texture.json.
+
+Marketplace
+
+Upon reading encrypted files on Xbox we would sometimes lose the last byte, causing some files to become invalid and fail to load.
+
+Mobs
+
+Spawn Eggs from Custom Mobs from Behavior Packs now show up again in the spawn eggs group (MCPE-190620)
+
+Molang
+
+
+Added the &quot;query.leashed_entity_count&quot; Molang query, which allows querying how many entities have the given entity as their leash holder
+
+
+Added &apos;query.has_any_leashed_entity_of_type&apos; which takes a list of entity identities and checks if the actor has any of the listed entities leashed. Available on both the client and the server.
+
+Usage: &quot;query.has_any_leashed_entity_of_type( &apos;minecraft:sheep&apos;, &apos;minecraft:creeper&apos; )&quot;
+
+
+
+Network Protocol
+
+Added ActorFlags::DOES_SERVER_AUTH_ONLY_DISMOUNT
+
+Stability and Performance
+
+
+Make friends drawer and play screen more performant using a cached view.
+
+
+Fixed a crash caused by buffer overrun in the data driven renderer when multiple values wrote to overlay color
+
+
+Fixed null pointer de-referencing crash in chunk rendering
+
+
+Structures
+
+
+Fixed mirroring of door blocks when part of a structure that is being placed.
+
+
+Exposed new fields to data driven jigsaw structures: start_height, dimensional_padding, pool_aliases, max_distance_from_center
+
+
+made height_map_projection optional and changed anchor to start_jigsaw_name
+
+
+User Interface
+
+Fixed a bug where worlds set to Creative would be created with cheats turned on
+
+Technical Experimental Updates
+
+Removed unused experimental json field minecraft:nether_surface in the behavior pack biome file
+
+API
+
+
+EntityMarkVariantComponent has been changed to read-only in version 2.0 beta
+
+
+@minecraft/server 2.0.0-beta
+
+
+EntityPushThroughComponent has been changed to read-only.
+
+
+resetHudElements method on ScreenDisplay has been renamed to resetHudElementsVisibility.
+
+
+ItemStack methods getComponent and getComponents will return ItemCustomComponentInstance for custom components registered with ItemComponentRegistry.
+
+
+ItemStack method hasComponent will return true for custom components registered with ItemComponentRegistry.
+
+
+EntitySkinIdComponent has been changed to read-only in version 2.0 beta
+
+
+Added property localizationKey to Entity, Block, and ItemStack which returns the key used for finding the localized names of these objects
+
+
+Added CustomCommandOrigin to custom command script callback.
+
+
+Added CustomCommandSource enum.
+
+
+Renamed CustomCommandPermissionLevel to CommandPermissionLevel.
+
+
+Renamed CustomCommandParamType.Position to CustomCommandParamType.Location
+
+
+BlockCustomComponent now take an optional CustomComponentParameters object for Custom Components V2 experiment as a second argument to event callbacks in 2.0.0-beta
+
+
+CustomComponentParameters added to 2.0.0-beta
+
+
+params property added to CustomComponentparameters to 2.0.0-beta
+
+
+
+ItemCustomComponent now take an optional CustomComponentParameters object for Custom Components V2 experiment as a second argument to event callbacks in 2.0.0-beta
+
+
+EntityFrictionModifierComponent has been changed to read-only in version 2.0.0-beta
+
+
+@minecraft/server-admin
+
+Added AsyncPlayerJoinBeforeEvent
+
+Added beforeEvents.asyncPlayerJoin, AsyncPlayerJoinBeforeEvent, and AsyncPlayerJoinBeforeEventSignal to allow creators to delay players joining the world.
+
+AsyncPlayerJoinBeforeEventSignal.subscribe is different than other events because the callback it accepts returns a promise. Once the promise is resolved, the player will join the world, or if the promise is rejected the player will be disconnected without joining the server. The player will be at the loading screen while the promise is pending.
+
+
+
+
+@minecraft/server-ui 2.0.0-beta
+
+Class ModalFormData.
+
+Changed function dropdown.
+
+Removed parameter defaultValueIndex?: number.
+Added parameter dropdownOptions?: ModalFormDataDropdownOptions.
+
+
+Changed function slider.
+
+Removed parameter valueStep: number,.
+Removed parameter defaultValue?: number.
+Added parameter sliderOptions?: ModalFormDataSliderOptions.
+
+
+Changed function textField.
+
+Removed parameter defaultValue?: minecraftserver.RawMessage | string.
+Added parameter textFieldOptions?: ModalFormDataTextFieldOptions.
+
+
+Changed function toggle.
+
+Removed parameter defaultValue?: boolean.
+Added parameter toggleOptions?: ModalFormDataToggleOptions.
+
+
+
+
+Added interface ModalFormDataDropdownOptions:
+
+export interface ModalFormDataDropdownOptions {
+    defaultValueIndex?: number;
+    tooltip?: minecraftserver.RawMessage | string;
+}
+
+
+Added interface ModalFormDataSliderOptions:
+
+export interface ModalFormDataSliderOptions {
+    defaultValue?: number;
+    tooltip?: minecraftserver.RawMessage | string;
+    valueStep?: number;
+}
+
+
+Added interface ModalFormDataTextFieldOptions:
+
+export interface ModalFormDataTextFieldOptions {
+    defaultValue?: string;
+    tooltip?: minecraftserver.RawMessage | string;
+}
+
+
+Added interface ModalFormDataToggleOptions:
+
+export interface ModalFormDataToggleOptions {
+    defaultValue?: boolean;
+    tooltip?: minecraftserver.RawMessage | string;
+}
+
+Added new Container APIs:
+
+
+contains(ItemStack): Attempts to find an instance of an item inside the container
+
+firstEmptySlot(): Finds the index of the first empty slot inside the container
+
+firstItem(): Finds the index of the first item inside the container
+
+find(ItemStack): Find the index of the first instance of an item inside the container
+
+reverseFind(ItemStack): Find the index of the last instance of an item inside the container
+
+Custom Commands
+Added support for custom commands authored in script. The new CustomCommandRegistry is provided when listening to ModuleStartupEvent. More APIs in the area will come in the coming weeks.
+Additional types added:
+
+CustomCommandRegistry
+CustomCommandPermissionLevel
+CustomCommandParamType
+
+CustomCommandResult and CustomCommandStatus
+
+CustomCommandParameter
+
+Blocks
+
+
+Always add a missing Destruction Particles component to blocks that have a Material Instances component, using the &quot;down&quot; material as reference
+
+The &quot;texture&quot; field in &quot;minecraft:destruction_particles&quot; is now optional; if not provided or empty, it will be populated from the Material Instances component
+
+
+
+When Custom Components V2 experiment is enabled, minecraft:custom_components component is deprecated in 1.21.80 and higher format versions
+
+
+When Custom Components V2 experiment is enabled, custom components are flattened inline with other components and allow parameters in 1.21.80 and higher format versions. Example:
+
+
+&quot;components&quot;: {
+    &quot;example_namespace:example_component&quot;: {
+        &quot;someParam&quot;: 3,
+        &quot;anotherParam&quot;: &quot;test&quot;
+    }
+}
+
+
+
+New field &quot;condition&quot; added to the culling rules schema. It provides more control over which neighbor blocks will trigger a face or part to be culled.
+
+The supported values are &quot;default&quot;, &quot;same_culling_layer&quot;, &quot;same_block&quot; and &quot;same_block_permutation&quot;.
+
+&quot;default&quot; will pass the condition if the neighbor block is full and opaque
+
+All conditions are an extension of &quot;default&quot;, meaning a full and opaque neighbor will always be a passing condition, before the extended &quot;same_*&quot; condition is checked
+
+
+&quot;same_culling_layer&quot; will pass the condition if the neighbor block shares the same &quot;culling_layer&quot; as the block being occluded, defined in the geometry component
+
+If either of the culling layers being compared is &quot;minecraft:culling_layer.undefined&quot;, the condition will never pass
+
+
+&quot;same_block&quot; will pass the condition if the neighbor block has the same identifier
+&quot;same_block_permutation&quot; will pass the condition if the neighbor block has the same identifier and is the exact same permutation
+
+
+Additionally, the feature is currently only usable behind the &quot;upcoming creator features&quot; toggle.
+
+
+
+New field &quot;culling_layer&quot; added to the block&apos;s geometry component. It allows different blocks to be grouped together when using the &quot;same_culling_layer&quot; condition in a culling rules file.
+
+When using the minecraft namespace, the only allowed culling layer identifiers are : &quot;minecraft:culling_layer.undefined&quot; or &quot;minecraft:culling_layer.leaves&quot;.
+Additionally, the feature is currently only usable behind the &quot;upcoming creator features&quot; toggle.
+
+
+
+Bug
+
+Fixed rotation of Jigsaw sections when Data-Driven Jigsaw Structures is enabled.
+
+Cameras
+
+Changed approach for the easing between moving targets under the Experimental Creator Camera Features toggle
+
+Commands
+
+Added the /controlscheme command for switching control schemes when the Experimental Creator Camera toggle is enabled
+
+Experiments
+
+Added Custom Components V2 experiment
+
+Gameplay
+
+
+Added &apos;minecraft:replace_biomes&apos; component to allow for custom biomes to replace portions of vanilla biomes. To use, add to custom biome files in behavior packs
+
+Known issues: Mob spawning on custom blocks is not working, removing an add-on with a custom biome will cause issues, a total replacement of all biomes will cause the locate structure command to lag
+
+
+
+Items
+
+When Custom Components V2 experiment is enabled, minecraft:custom_components component is deprecated in 1.21.80 and higher format versions
+When Custom Components V2 experiment is enabled, custom components are flattened inline with other components and allow parameters in 1.21.80 and higher format versions. Example:
+
+&quot;components&quot;: {
+    &quot;example_namespace:example_component&quot;: {
+        &quot;someParam&quot;: 3,
+        &quot;anotherParam&quot;: &quot;test&quot;
+    }
+}</description>
+    </item>
+    <item>
+      <title>Minecraft - 1.21.72 (Bedrock)</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/35674713271949-Minecraft-1-21-72-Bedrock</link>
+      <pubDate>Invalid Date</pubDate>
+      <description>Posted: 8 April 2025
+A new update has been released to address a few more important issues since the 1.21.70 release. Please continue to report and upvote any bugs you find at bugs.mojang.com.
+Please note: This update will be rolling out to the various platforms as they become available - thank you for your patience!
+Update 11 April 2025: A small additional hotfix (1.21.73) is rolling out for Windows and servers, addressing some minor backend fixes.
+Fixes 
+
+Fixed several crashes that could occur during gameplay
+Sea Pickles no longer replace blocks when being placed on a partial block
+Fixed an issue that could cause renamed Book &amp; Quill to become blank (MCPE-194195) 
+Fixed some cases of players&apos; locations being massively rewound during long server stalls</description>
+    </item>
+    <item>
+      <title>Minecraft - 1.21.71 (Bedrock)</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/35325099799821-Minecraft-1-21-71-Bedrock</link>
+      <pubDate>Invalid Date</pubDate>
+      <description>Posted: 28 March 2025
+A new update has been released to address a few issues with the 1.21.70 release. Please continue to report and upvote any bugs you find at bugs.mojang.com.
+Fixes:
+
+Fixes flashing screen on certain devices when loading a world at the end of the progress screen (MCPE-190555)
+Fixed an issue that prevented buttons for external links from working correctly on iOS devices
+Fixed mobs playing their death animation twice as quickly as they should have (MCPE-191525)
+Fixed client and server desynchronizing on entities the client erroneously thought were dead</description>
+    </item>
+  </channel>
+</rss>

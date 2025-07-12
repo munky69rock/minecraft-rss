@@ -5,6 +5,7 @@
   "devDependencies": {
     "@prettier/plugin-oxc": "^0.0.4",
     "@types/bun": "latest",
+    "@types/node": "^24.0.13",
     "oxlint": "^1.6.0",
     "prettier": "^3.6.2"
   },
@@ -12,7 +13,12 @@
     "typescript": "^5"
   },
   "scripts": {
+    "test": "bun test",
     "lint": "oxlint --fix --fix-suggestions",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "generate": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.0"
   }
 }
