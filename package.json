@@ -27,6 +27,9 @@
     "*.{ts,tsx}": [
       "oxlint --fix --fix-suggestions",
       "prettier --write"
+    ],
+    "*.{js,jsx,json,yaml,yml,md}": [
+      "prettier --write"
     ]
   },
   "dependencies": {
