@@ -1,6 +1,6 @@
 import { describe, it, expect } from "bun:test";
 import { generateRSS } from "../../src/rss/generator";
-import { ChangelogEntry } from "../../src/types";
+import type { ChangelogEntry } from "../../src/types";
 
 describe("generateRSS", () => {
   it("should generate RSS with single entry", () => {

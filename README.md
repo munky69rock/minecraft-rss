@@ -7,6 +7,7 @@ Minecraft公式リリースチェンジログのRSSフィードを生成する�
 [Minecraft Feedback](https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs)から最新のリリース情報を取得し、RSS 2.0形式のフィードを生成します。
 
 生成されたRSSフィードは以下のURLで購読できます：
+
 ```
 https://raw.githubusercontent.com/[username]/minecraft-rss/main/dist/rss.xml
 ```

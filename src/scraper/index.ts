@@ -1,4 +1,4 @@
-import { ChangelogEntry } from "../types";
+import type { ChangelogEntry } from "../types";
 import { load } from "cheerio";
 
 const CHANGELOG_URL =

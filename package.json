@@ -6,6 +6,8 @@
     "@prettier/plugin-oxc": "^0.0.4",
     "@types/bun": "latest",
     "@types/node": "^24.0.13",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
     "oxlint": "^1.6.0",
     "prettier": "^3.6.2"
   },
@@ -16,7 +18,16 @@
     "test": "bun test",
     "lint": "oxlint --fix --fix-suggestions",
     "format": "prettier --write .",
-    "generate": "bun run src/index.ts"
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "generate": "bun run src/index.ts",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "oxlint --fix --fix-suggestions",
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "cheerio": "^1.1.0"
