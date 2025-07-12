@@ -1,4 +1,4 @@
-import { ChangelogEntry } from "../types";
+import type { ChangelogEntry } from "../types";
 
 export function generateRSS(entries: ChangelogEntry[]): string {
   const items = entries

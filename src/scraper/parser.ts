@@ -1,5 +1,5 @@
 import { load } from "cheerio";
-import { ChangelogEntry } from "../types";
+import type { ChangelogEntry } from "../types";
 
 export function parseChangelogEntry(html: string): ChangelogEntry {
   const $ = load(html);

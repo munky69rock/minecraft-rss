@@ -39,17 +39,17 @@ describe("fetchChangelogs", () => {
           text: () => Promise.resolve(articlePageHtml),
         } as Response);
       }
-    });
+    }) as unknown as typeof fetch;
 
     const entries = await fetchChangelogs();
 
     expect(entries).toHaveLength(1);
-    expect(entries[0].title).toBe("Minecraft 1.20.0 Release");
-    expect(entries[0].date).toBe("2023-06-07T00:00:00Z");
-    expect(entries[0].link).toBe(
+    expect(entries[0]!.title).toBe("Minecraft 1.20.0 Release");
+    expect(entries[0]!.date).toBe("2023-06-07T00:00:00Z");
+    expect(entries[0]!.link).toBe(
       "https://feedback.minecraft.net/hc/en-us/articles/123456789",
     );
-    expect(entries[0].content).toContain("New features and improvements");
+    expect(entries[0]!.content).toContain("New features and improvements");
   });
 
   it("should handle fetch errors", async () => {
@@ -58,7 +58,7 @@ describe("fetchChangelogs", () => {
         ok: false,
         status: 404,
       } as Response),
-    );
+    ) as unknown as typeof fetch;
 
     expect(fetchChangelogs()).rejects.toThrow(
       "Failed to fetch changelogs: 404",
