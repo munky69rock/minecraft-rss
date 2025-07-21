@@ -5,10 +5,16 @@
     <link>https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs</link>
     <description>Minecraft release changelogs</description>
     <item>
-      <title>Minecraft - 1.21.93 (Bedrock)</title>
-      <link>https://feedback.minecraft.net/hc/en-us/articles/37810171798029-Minecraft-1-21-93-Bedrock</link>
-      <pubDate>Sat, 12 Jul 2025 06:27:44 GMT</pubDate>
-      <description>Posted: 3 July 2025A new update has been released to address a few issues with the 1.21.90 release.Bug Fixes and FeaturesGeneral
+      <title>Minecraft: Java Edition 1.21.8</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/38129892058893-Minecraft-Java-Edition-1-21-8</link>
+      <pubDate>Mon, 21 Jul 2025 04:36:02 GMT</pubDate>
+      <description>Nothing beats graphical corruption and freeze issues like a blazing, steamy hotfix. Today we are releasing 1.21.8 fixing various issues experienced on certain graphics devices.Fixed bugs in 1.21.8MC-295947 - The game screen occasionally freezes while the game keeps running on Intel graphics of Gen11 architectureMC-296107 - Entity and block entity textures become corrupted over time on Intel graphics of Gen11 architectureMC-296585 - Flickering and other graphical corruption appears after summoning one or multiple text_display entities on some Intel devicesMC-296908 - Texture atlases, most notably those of text, become corrupted over time on Intel graphics of Gen11 architectureMC-297784 - Entities and block entities are lit incorrectly after a while on Intel graphics of Gen11 architectureMC-298903 - Items in the inventory and text are rendered in a solid color after a while, and the items sometimes become invisible, on Intel graphics of Gen11 architectureMC-298908 - Items in the inventory are lit incorrectly after a while on Intel graphics of Gen11 architectureMC-299144 - The game crashes when loading a resource pack with an invalid shader on some AMD graphicsGet the ReleaseTo install the Release, open up the Minecraft Launcher and click play! Make sure your Launcher is set to the &quot;Latest Release” option.Cross-platform server jar:Minecraft server jarReport bugs here:Minecraft issue tracker!Want to give feedback?For any feedback and suggestions, head over to the Feedback site. If you&apos;re feeling chatty, join us over at the official Minecraft Discord.</description>
+    </item>
+    <item>
+      <title>Minecraft - 1.21.93/94 (Bedrock)</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/37810171798029-Minecraft-1-21-93-94-Bedrock</link>
+      <pubDate>Mon, 21 Jul 2025 04:36:02 GMT</pubDate>
+      <description>Update: 14 July 2025Another small hotfix (1.21.94) is being rolled out.Fixed an issue that caused entities in some Marketplace packs to revert to their vanilla behaviorsPosted: 3 July 2025A new update has been released to address a few issues with the 1.21.90 release.Bug Fixes and FeaturesGeneral
 Fixed a bug causing packs in world templates to disappear (MCPE-222906)
 Added music disc &quot;Lava Chicken&quot; by Hyper PotionsDrops when defeating a baby Zombie riding a Chicken (Chicken Jockey)
 
@@ -4867,19 +4873,6 @@ Fixed several crashes that could occur during gameplay
 Sea Pickles no longer replace blocks when being placed on a partial block
 Fixed an issue that could cause renamed Book &amp; Quill to become blank (MCPE-194195) 
 Fixed some cases of players&apos; locations being massively rewound during long server stalls</description>
-    </item>
-    <item>
-      <title>Minecraft - 1.21.71 (Bedrock)</title>
-      <link>https://feedback.minecraft.net/hc/en-us/articles/35325099799821-Minecraft-1-21-71-Bedrock</link>
-      <pubDate>Thu, 27 Mar 2025 15:00:00 GMT</pubDate>
-      <description>Posted: 28 March 2025
-A new update has been released to address a few issues with the 1.21.70 release. Please continue to report and upvote any bugs you find at bugs.mojang.com.
-Fixes:
-
-Fixes flashing screen on certain devices when loading a world at the end of the progress screen (MCPE-190555)
-Fixed an issue that prevented buttons for external links from working correctly on iOS devices
-Fixed mobs playing their death animation twice as quickly as they should have (MCPE-191525)
-Fixed client and server desynchronizing on entities the client erroneously thought were dead</description>
     </item>
   </channel>
 </rss>
