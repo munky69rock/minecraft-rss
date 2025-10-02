@@ -2008,6 +2008,7 @@ Moved setLore(loreList?: (RawMessage | string)[]): void from beta to V2.2.0
 Moved getRawLore(): RawMessage[] from beta to V2.2.0
 
 
+Moved LootTableManager API from beta to v2.2.0.
 Biomes
 Custom Biomes are now out of experimental
 Added content errors in server-side biome components that were missing them to more easily identify issues and how to fix them
