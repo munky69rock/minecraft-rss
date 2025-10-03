@@ -1926,6 +1926,7 @@ Fixed infinite duration blindness effect visuals
 Colored text on signs no longer appear dark in Vibrant Visuals
 Fixed an issue that caused certain mobs to display incorrectly when using the Minecraft Classic Texture Pack (MCPE-221572)
 Added an option to Hide Sky Flashes in the End when playing with Vibrant Visuals
+Adoption of Xbox Dynamic Power States platform feature to dynamically adjust GPU power usage to keep gameplay consistent with less power consumed
 Mobs
 Wolves no longer start shaking off water if they are already shaking off water
 Foxes now consider Honey Bottle to be a food item and will prioritize picking it up the same way it does other food items
