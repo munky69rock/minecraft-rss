@@ -5,6 +5,18 @@
     <link>https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs</link>
     <description>Minecraft release changelogs</description>
     <item>
+      <title>Minecraft - 1.21.114 (Bedrock)</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/40380755991181-Minecraft-1-21-114-Bedrock</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:04 GMT</pubDate>
+      <description>Posted: 16 October 2025A new update has been released to address issues discovered in the 1.21.111 release. This update will be rolling to the various platforms as they become available, so please allow time for the update to reach you.
+Fixes:
+
+Fixed several crashes that could occur
+Fixed various issues related to player skins and character creator
+Editor
+Fixed a bug that prevented Summon tool from spawning custom entities</description>
+    </item>
+    <item>
       <title>Minecraft: Java Edition 1.21.10 Hotfix</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/40290064247693-Minecraft-Java-Edition-1-21-10-Hotfix</link>
       <pubDate>Tue, 14 Oct 2025 00:00:03 GMT</pubDate>
@@ -2696,12 +2708,6 @@ User InterfaceFixed issue where the player was not able to move the camera while
 Added a new condition passenger_of_entity that allows checking which vehicle entity type is being ridden by the damaged entity that is dropping lootLike damaged_by_entity, allows specifying an entity_type field to check against when deciding which entry in a loot table to select
 
 Added a new condition is_baby that allows checking if the entity that is dropping loot is a baby</description>
-    </item>
-    <item>
-      <title>Minecraft: Java Edition 1.21.7</title>
-      <link>https://feedback.minecraft.net/hc/en-us/articles/37749451341965-Minecraft-Java-Edition-1-21-7</link>
-      <pubDate>Sat, 12 Jul 2025 06:27:45 GMT</pubDate>
-      <description>A hot-as-lava hotfix. It&apos;s Minecraft 1.21.7, bringing updates to your disco, plus a fresco and some crash and bug fixes. We&apos;ve added a new 3x3 painting to honor everyone&apos;s best friend, as well as refreshed the loot dropped by an iconic mob. The Baby Zombie riding a Chicken (Chicken Jockey) will drop the “Lava Chicken” music disc when defeated.We will be back with the next snapshot in a few weeks.Happy Mining!New FeaturesAdded a painting of a good boy by artist Sarah BoevingAdded music disc &quot;Lava Chicken&quot; by Hyper PotionsDrops when defeating a Baby Zombie riding a Chicken (Chicken Jockey)Technical ChangesThe Data Pack version is now 81The Resource Pack version is now 64Fixed bugs in 1.21.7MC-280354 - Loading and unloading a resource pack that uses a x32000 atlas breaks the gameMC-297748 - The moon is rendered incorrectly on some Qualcomm graphicsMC-298448 - Filled maps are rendered incorrectly on some Qualcomm graphicsMC-298681 - Text displays with the &quot;shadow&quot; tag enabled and the &quot;see_through&quot; tag disabled exhibit z-plane fighting at a close distanceMC-298710 - TTF glyphs are incorrectly rendered over some elementsMC-298818 - Good boy is missing from Java EditionMC-298832 - The breaking particles of droppers and dispensers facing up or down appear incorrect on some Qualcomm graphicsMC-298856 - Blindness and darkness fog effects no longer work underwaterMC-298879 - The game crashes upon startup on some AMD graphicsMC-298898 - TextureAtlas leaks textures after resource reloadMC-298919 - Sometimes you pass through the happy ghast when you get off while going forwardMC-298986 - Repeatedly reloading a 512x512 resource pack will eventually result in severe graphics corruptionMC-299017 - Text on glowing signs is not visible on some graphicsMC-299071 - Memory Leak in ItemStackRenderState leads to OutOfMemoryErrorMC-299110 - Force upgrading does not write new DataVersion to converted dataMC-299126 - The server crashes when certain mobs ride a turtleGet the ReleaseTo install the Release, open up the Minecraft Launcher and click play! Make sure your Launcher is set to the &quot;Latest Release” option.Cross-platform server jar:Minecraft server jarReport bugs here:Minecraft issue tracker!Want to give feedback?For any feedback and suggestions, head over to the Feedback site. If you&apos;re feeling chatty, join us over at the official Minecraft Discord.</description>
     </item>
   </channel>
 </rss>
