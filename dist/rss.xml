@@ -5,6 +5,459 @@
     <link>https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs</link>
     <description>Minecraft release changelogs</description>
     <item>
+      <title>Minecraft - 1.21.120 (Bedrock)</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/40566672351885-Minecraft-1-21-120-Bedrock</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:02 GMT</pubDate>
+      <description>Posted: 28 October 2025Please note: This update will roll out to various platforms as they become available throughout the day. It may take up to 24 hours to appear for everyone - thank you for your patience. Also, please note that Vibrant Visuals enhanced Marketplace content can only be downloaded after updating to the 1.21.120 version on Bedrock. We apologize for the inconvenience!While you&apos;ve been having mayhem with mounts, we&apos;ve been squashing bugs and implementing important fixes! Alongside adding animated lantern textures, the copper golem statues will now glow when placed in a glow item frame, and interacting with the copper golem will make it drop whatever its carrying. We&apos;ve also done some work on older worlds for PlayStation 5 – which will now load in with the correct terrain and structures, as well as some work to make world generation more flexible for creators. Want to know what else we&apos;ve been up to? Let&apos;s dive into this week&apos;s changelog!Features and Bug FixesBlocks
+Tadpoles now spawn in the water block below the Frogspawn block (MCPE-225997)
+Fixed an issue with being unable to continue destroying valid blocks in Adventure Mode when they are behind water
+Weathered Copper Bars no longer have pixels that look out of place
+Tilling Coarse Dirt no longer sometimes tills the block twice converting it directly to Farmland
+Copper Lantern and Copper Torch have new textures to make them easier to distinguish from regular Lantern and Torch
+Copper Golem Statue item is no longer offset when dropped (MCPE-225213)
+Copper Lantern textures are now animated (MCPE-226142)
+Soul Fire Lantern textures are now animated (MCPE-89643)
+Interacting with a Shelf while empty-handed in Creative mode no longer produces a sound effect (MCPE-227586)
+The Copper Golem Statue now takes the custom name of the Copper Golem it came from (MCPE-227714)
+Fixed Copper Trapdoor recipe giving an extra Trapdoor (MCPE-227893)
+Double Copper Chest textures&apos; diagonal glint direction now match its single chest counterpart
+Bolts on single and double Copper Chests are now shaded in the same way
+Double and single Copper Chest now has consistent shading
+Weathered Double Copper Chest bottom textures are now consistent with other Double Copper Chests
+Shelf
+Adding or removing Redstone power to or from the Shelf now emits vibrations
+Anvil and Wall Blocks have been repositioned on the Shelf and Item Frame (MCPE-225309)
+When a Player places/removes/swaps an item on an Unpowered Shelf, a vibration of frequency 3 is emitted
+When a Player places/removes an item on a Powered Shelf, a vibration of frequency 3 is emitted
+When a Player swaps item with one on a Powered Shelf, a vibration of frequency 6 is emitted
+Commands
+Fixed an issue where the Damage command would incorrectly report failure when applying damage to an Ender Crystal (MCPE-191379)
+Fixed /locate biome command to no longer direct the player into wrong biome areas (MCPE-159992)
+Gameplay
+Fixed loading of text for Sign blocks from very old worlds
+Mitigated an issue that the player can get pushed to the void after teleporting from end portal. (REALMS-12993)
+Fixed the Shield taking damage when mining with it (MCPE-190339)
+Fixed knockback from projectiles applying even when blocking with the Shield (MCPE-220733)
+Fixed a bug where the contents of a Bundle would get deleted if placed in a container above a Hopper with all slots filled (MCPE-226250)
+General
+Starting a world with a missing Marketplace template will now correctly redownload the template and start the world
+The first person camera will now offset backwards slightly when facing and climbing blocks such as Ladders and Vines
+Marketplace content can now be searched for using Graphics filters for RTX and Vibrant Visuals
+Graphical
+Restored Java parity on how ambient occlusion is computed for partial blocks (MCPE-226160)
+Added TAA upscaling to weather effects like snow
+Fixed enchantment glint animation still playing when the game was paused (MCPE-190569)
+Fixed snowflakes flickering during player movement
+Improved quality of gamma correction on PC and Consoles and fixed the brightness of Creeper textures in the gamma calibration screen in Vibrant Visuals
+Mobs will now become slightly transparent when the camera gets too close or passes through them
+Glass blocks and panes will now become slightly transparent if the camera is very close to them
+Reduced distortion on water surface reflections during the Nausea effect in Vibrant Visuals (MCPE-220700)
+Fixed an issue that caused water surfaces to appear noisy and jittery when water waves were enabled in Vibrant Visuals (MCPE-221279)
+The parameter &quot;sampleWidth&quot; was removed from the water configuration JSON file, and consequently the file has a new format and was upgraded to version 1.21.120
+Fixed an issue where the Copper Golem&apos;s eyes did not glow when viewed through water in Vibrant Visuals (MCPE-226550)
+
+Adjusted rendering settings in Vibrant Visuals
+
+Slightly reduced contrast across all biomes
+Reduced the intensity of temperature-based color grading in certain biomes, such as Desert and Mesa biomes
+Adjusted the sky color in the End dimension
+Added unique biome settings for the Roofed Forest biomes
+
+
+Fixed a bug that caused lighting to be too bright when the player was underwater in caves in Vibrant Visuals (MCPE-208089)
+
+Fixed a bug with the &quot;biome blending&quot; system in Vibrant Visuals that caused non-surface biomes to be ignored. Biomes will now blend vertically as well as horizontally, meaning that custom rendering configurations for biomes such as Deep Dark and Lush Caves will now function properly
+Note that this issue is only fixed for Atmospherics, Color Grading, Lighting, and Tone Mapping, while Water configurations still suffer from the issue
+
+Fixed the sky appearing black on certain Android devices (MCPE-222915)
+Fixed some missing pixels on the body texture of the Drowned mob (MCPE-169440)
+Fixed the top of the Donkey&apos;s ear being the wrong color (MCPE-166776)
+Fixed missing pixels on Copper, Iron, Gold, and Diamond Horse Armor textures
+Inventory empty Chest Armor slot and Brewing Stand empty Bottle background now match the items texture (MCPE-43234)
+Fixed an issue with color grading in Vibrant Visuals that caused the white balance mode to become inverted (MCPE-228283)
+Updated the mers for the Gray, Light Blue, Light Gray, and Green Dye items (MCPE-226433)
+The textures of Chests and Saddles on Llamas, Donkeys, Mules, and Skeleton/Zombie Horses now match between Java and Bedrock (MCPE-154327) (MCPE-165390)
+When the Vibrant Visuals renderer is enabled, particles now receive correct ambient lighting regardless of whether or not they have the &quot;minecraft:particle_appearance_lighting&quot; component. Particles can be made to glow in Vibrant Visuals by supplying emissive values via MERS uniforms or textures (MCPE-220830)
+Items
+Suspicious Stew is now present in Creative Mode with effect description (MCPE-51173)
+Copper Golem Statue now glows when placed in a Glow Item Frame
+Shields, Decorated Pots, and Maps now glow when placed in a Glow Item Frame (MCPE-147418)
+Mobs
+Chicken Jockeys now drop the Lava Chicken music disc when killed by the player or tamed Wolves
+Copper Golem now drops its carried item when player interacts while holding an item in offhand, or when player has armor equipped (MCPE-225249)
+Copper Golem Statue no longer has cutoff pixels when in the sitting pose (MCPE-225999)
+The Lead now attaches to the body of the Copper Golem instead of the top of its Lightning Rod (MCPE-227208)
+The hitbox of the Copper Golem Statue block is now in parity with Java (MCPE-225669)
+Copper Golems with a flower on their head now drops a Poppy when becoming a statue
+The size of Tadpoles&apos; shadows are now in parity with Java (MCPE-154318)
+Copper Golem Statue no longer renders incorrectly in the UI (MCPE-225212)
+Wither Skeletons can now pick up Copper Swords
+When interacting with a Copper Golem, Scraping and Waxing particles now appear at the Copper Golem&apos;s location instead of at the Block location
+The Copper Golem now takes the custom name of the Copper Golem Statue it came from (MCPE-227714)
+Drowned no longer drop Tridents to pick up Nautilus Shells (MCPE-155739)
+Drowned can now spawn with enchanted Tridents
+Parrot imitating hostile mob sounds are now affected by the &quot;Friendly Creatures&quot; volume slider in settings
+Absorption Effect is now cleared immediately when all Golden Hearts are lost from damage (MCPE-55449)
+Drowned right arm and overlay layer no longer intersects with chest (MCPE-82082)
+PlayStation 4Shifted download storage to new location. Players may need to redownload Marketplace contentSounds
+Copper Chest Opening and Close sounds now use a natural attenuation curve (MCPE-224011)
+Copper Golem Step and Spin sounds now use a natural attenuation curve
+Unique ambient sound effects are now played when the player is underwater (MCPE-79532)
+Stability and Performance
+Improved stability around Hopper Block destruction
+Fixed issue that could cause excess critical hit particles to spawn
+Fixed a bug that caused some world data saved by previous PlayStation 5 releases to be loaded incorrectly, resulting in missing or altered terrain and structures (MCPE-228500)
+User Interface
+Clicking on text fields now places the cursor in the correct spot even for scrolled message boxes (MCPE-186409)
+Keyboard button on the chat screen is now only visible for touch controls (MCPE-105710)
+Fixed a bug that could cause Armor Trims to appear applied to untrimmed armor in the inventory
+Updated the text that is shown when more players are required to sleep to skip to dawn (MCPE-183832)
+Brightness adjustment was renamed to gamma adjustment in Vibrant Visuals
+A &quot;Reset to Defaults&quot; button was added to the gamma adjustment screen in Vibrant Visuals
+The slider widget that controls the Vibrant Visuals gamma value shows the current gamma value, and the center of the slider corresponds to the default value
+Fixed issue where worlds backed by Xbox cloud storage would show a default tile when local data was present but invalid
+Fixed a bug where players could not move items from the Creative inventory to inventory in Pocket UI (MCPE-226829)
+
+The Game Menu has been updated with a new layout and design
+Any feedback on this change can be added here
+
+
+Copper Chests are no longer sometimes named &quot;Chest&quot; in the chest UI (MCPE-226332)
+Fixed a bug preventing the deletion of Miscellaneous content from the storage management screen (MCPE-226999)
+Fixed a bug where the death screen could be shown for a short while after using a Bed (MCPE-226081)
+Touch Controls: Sneak button now has its proper outline when activating Swap Jump and Sneak. (MCPE-185069)
+
+Accessibility and Language Settings are now updated with a new layout and design
+We&apos;d love to hear your thoughts on this here
+
+
+Text to Speech with Device Settings and Improved Input Response toggles are now available from settings screen on Windows (MCPE-227865)
+
+Items can now be transported to hotbar slots using their corresponding hotkeys (MCPE-105889)
+Hotbar hotkeys now also work when hovering over output slots (MCPE-228275)
+
+Fixed a bug where a sound played on certain screens after an invalid navigation with gamepad or keyboard even when Text To Speech was disabled
+The paper doll on the inventory screen should now look at the cursor (MCPE-227626)
+Added a toggle to the Accessibility menu to enable/disable the dithering effect on mobs
+Fixed an issue that prevented playersfrom creating a new world from templates inside the Play Screen (MCPE-227855)
+
+General Settings have been updated with a new layout and design
+We&apos;d love to hear your thoughts on these changes at the feedback site
+
+
+Items can now be transported onto hovered empty slots from hotbar slots using their corresponding hotkeys (MCPE-228289)
+Fixed an issue where keyboard input would not register if the game window is unfocused while loading a world (MCPE-227839) (MCPE-228288)
+World GenerationStructures no longer build on top of features (e.g. trees) at chunk bordersTechnical UpdatesAI Goals
+Made the schemas for the minecraft:behavior.dig, minecraft:behavior.drink_milk, minecraft:behavior.avoid_block, and minecraft:behavior.avoid_mob_type stricter when parsing and will fail to load an entity json that has invalid data in versions 1.21.120 and newer
+Fixed a crash occurring on mobs running the &quot;minecraft:behavior.delayed_attack&quot; AI goal
+API
+
+Optionally set version property to &quot;beta&quot; to always choose the latest beta version of the module
+Example from manifest.json:
+&quot;dependencies&quot;: [
+{
+  &quot;module_name&quot;: &quot;@minecraft/server&quot;,
+  &quot;version&quot;: &quot;beta&quot;
+}
+
+
+Fixed Player.graphicsMode not returning the correct graphics mode when a player has switched to Vibrant Visuals
+LootTableManager&apos;s loot generation methods now properly recognize tools enchanted with looting
+Moved type ScriptBiomeType from beta into 2.3.0
+Moved API Dimension.getBiome(location: Vector3) from beta into 2.3.0
+Released initialRotation member of SpawnEntityOptions to 2.3.0
+Released initialPersistence member of SpawnEntityOptions to 2.3.0
+Fixed an issue with Players phasing through blocks when using applyImpulse(vector: Vector3): void (MCPE-226702)
+Releasing the light detection API from experimental to stable
+Removed entity override limit on Player method setPropertyOverrideForEntity
+Fixing some scenarios where the additional context information for error messages was inaccurate after previously catching an exception
+Released setDynamicProperties method on Entity, ContainerSlot, ItemStack and World to 2.3.0
+
+Dimension
+Moved isChunkLoaded(location: Vector3): boolean from beta to V2.3.0
+
+
+
+ContainerRulesError
+Moved property reason: ContainerRulesErrorReason from beta to v2.3.0
+
+
+Moved enum ContainerRulesErrorReason from beta to v2.3.0
+Moved interface ContainerRules from beta to v2.3.0
+
+Container
+
+Moved property readonly containerRules?: ContainerRules from beta to v2.3.0
+Moved property readonly weight: number from beta to v2.3.0
+
+
+Moved class ItemInventoryComponent from beta to v2.3.0
+BiomesFixed an issue where the replacement biomes were not read for client-side chunk generationBlocks
+Custom blocks using a non-opaque render_method in the minecraft:material_instances component that are placed above water will no longer incorrectly cull the top face of the water block
+Removed Upcoming Creator Features toggle requirement from the minecraft:redstone_producer component
+Fixed minecraft:grass_block rendering in dark forests (MCPE-228169)
+Fixed ambient occlusion for custom blocks displayed in HUD
+Component minecraft:embedded_visual no longer requires the &quot;Upcoming Creator Features&quot; toggle
+Component minecraft:flower_pottable no longer requires the &quot;Upcoming Creator Features&quot; toggle
+Fixed a crash that occurs when selecting Vibrant Visuals panel settings
+
+Added boolean field &quot;alpha_masked_tint&quot; to materials in &quot;minecraft:material_instances&quot; component
+
+Defaults to false
+When true, the alpha channel of the texture will be used to multiply the tint to the albedo of the texture
+Requires &quot;format_version&quot; &gt;= 1.21.120
+Requires &quot;Upcoming Creator Features&quot; toggle
+Requires &quot;tint_method&quot; other than &quot;none&quot;
+Requires &quot;render_method&quot; to be &quot;opaque&quot;
+
+
+Block Components
+
+Added &quot;emissive&quot; field to minecraft:material_instances block component with these requirements
+
+World must enable Upcoming Creator Features experiment for emissive face materials to work
+Block format_version must be greater than or equal to 1.21.120
+
+
+
+
+Added underwater_addition, underwater_loop, and underwater_mood fields to minecraft:ambient_sounds. They will be played when the audio listener position is inside of water
+
+
+underwater_addition and addition now take both an asset and chance, the chance determines the chance for the sound to be played
+Format versions before 1.21.120 will automatically set the underwater versions to the same as the normal ones, and the chance to the previously hardcoded chance of 0.0111
+
+
+Block TexturesWeighted &apos;variations&apos; block textures no longer require Upcoming Creator Features experiment to work on custom blocksCommandsFixed an issue where we weren&apos;t able to use certain non-alphanumeric characters in the name field of a score raw text object. (MCPE-108989)ComponentsThe &quot;all_slots_empty&quot;, &quot;any_slot_empty&quot;, &quot;has_equipment&quot; filters now support &quot;main_hand&quot; as an equipment locationEditor
+Added confirmation dialog in Keyboard Settings when resetting, restoring or closing the modal without saved changes
+Fixed a bug that caused lightning bolts to not despawn when entities are paused
+Fixed a bug that caused text to speech narration to read shortcuts incorrectly
+Removed unusable entities from Summon tool list
+Fixed a bug that enables to select volumes using Enter key and Shift+Enter key while in Selection&apos;s Freehand Brush Mode
+Added gradient background color on the Color timeline that interpolates between the colors of two adjacent nodes
+Added optional boolean property in Timeline API (renderGradientBackground) that allows the rendering of the background color to be turned off. By default it is ON
+Added a showAlpha flag to color timeline so we can hide picker alpha elements conditionally
+Added IVector2PropertyItem API for property pane
+Added IMenuPropertyItem which represents a hamburger menu button that can support nested submenus
+Fixed a bug that caused scrollbar to pop in/out in the AGFX Graph Color component
+Added a preview thumbnail of a structure is added to the structure list item
+Added undo/redo support for Ruler Tool
+Fixed an issue with client hanging when copy/pasting large structures
+Added an offset and alignment property to the summon tool so that creators can more easily position entities at specific locations
+Added support for Double Left Click, so the Color Picker and Editable popup open with DLC on the Graph
+Added custom icon support for the checkbox variant of IBoolPropertyItem with checkboxIcon optional property
+
+Added a new Scale Tool to resize selection
+
+Enabled scaling along X, Y, Z axes individually or uniformly
+Added Fractional scaling with fractional scale factors; maintained structure shapes during enlargement/shrink
+Added preview visualization showing the scaled size before applying changes
+Integrated the tool with undo and redo behaviors
+Disabled scaling if current volume or resulting volume, whichever is larger, exceeds MAX_ALLOWED_BLOCKS (currently 200,000)
+
+
+Added &apos;orientation&apos; settings which allows the use to decide what orientation the block should be placed
+Added keyboard shortcuts and accompanying tooltips to all pencil &apos;modes&apos; (mode, draw mode, orientation mode)
+Added error message (log &amp; toast) for when an object cannot be placed to due gameplay rules
+
+Updated Pencil functionality to have more polish
+Updated the pencil tool, now when you erase, if you&apos;re in face selection mode it will switch to block selection (so you can actually erase things) and then will switch back when you go back to draw mode
+
+Updated settings/usage to now persists between sessions
+Fixed a bug that caused creating multiple hotbars to error when the hotbar management panel is open
+Fixed a bug that caused dismissing interactive tooltips to not work
+Block picker images&apos; layout is consistent across different window sizes and after exiting a test world
+Fixed Confirm button in hotbar dialog to immediately turn green when typing begins, providing proper visual feedback
+Fixed undo behavior when using &apos;object&apos; mode
+Added jigsaw support to make the creation of jigsaws less technical and more intuitive
+Added curves into the line tool to make more organic shapes. Curves also work with node weights
+Fixed outdated terminology in Vibrant Visuals Settings panel. Changed &apos;Deferred Lighting&apos; to &apos;Vibrant Visuals&apos; in the error messages
+Fixed the issue where the background of hover text clips prematurely
+Fixed a bug where command blocks couldn&apos;t use the /structure command in editor projects
+Fixed an issue that was preventing manually entering node value in the textbox (in Edit mode - turned on with double left click) for two dimensional graph
+Fixed a bug where only one player in a multiplayer Editor session can use the Terrain Tool at a time
+Fixed a bug where the Terrain Tool was ignoring Mask and Replace filters
+Fixed a bug that caused unusable buttons to show up in editor pause menu
+The Line tool now has the ability to make curves
+Add axis locking &amp; nudging support to Ruler Tool
+Entity ComponentsAdded apply_knockback_to_blocking_targets property to impact_damage in minecraft:projectile
+GDK Update on Windows
+Minecraft now runs on the latest GDK (Game Development Kit)This update aligns the game with the standard distribution model on Windows platforms
+
+File paths have been updated and upon first install load of this version of Minecraft, your existing Minecraft worlds and content will shift to: %APPDATA%\Minecraft Bedrock
+
+If you encounter issues, please report them at bugs.mojang.com.
+Please note: Vibrant Visuals enhanced Marketplace content can only be downloaded after updating to the 1.21.120 version on Bedrock. We apologize for the inconvenience!
+
+GraphicalFixed an issue for some cases where custom stencil states on entities would cause visual glitches (MCPE-219845)Item Components
+Items with the new minecraft:fire_resistant item component no longer visually disappear on the client when thrown in fire while persisting on the server, as the property is now synced correctly across both
+
+Added the new minecraft:swing_duration item component, which defines the duration, in seconds, of the item&apos;s swing animation when mining or attacking
+
+The duration is specified in the component&apos;s &quot;value&quot; field
+Affects visuals only and does not impact attack frequency or gameplay mechanics
+
+
+The minecraft:fire_resistant item component no longer accepts a direct value assignment and now requires the value to be specified through the &quot;value&quot; field
+Added the emit_vibrations field to the minecraft:use_modifiers item component, which controls whether an item emits vibrations when it starts or stops being used
+Items
+Starting with format version 1.21.110, when a custom item&apos;s menu_category&apos;s category is set to &quot;none&quot; (or not specified) the item will be usable in commands (MCPE-177866)
+Fixed issue with rendering custom blocks as &quot;flying items&quot; (MCPE-180489)
+MobsThe Dolphin&apos;s bubble particle emissions have been updated and are now emitted through its animation controllerMolang
+Fixed query.graphics_mode_is_any not being correct when switching to Vibrant Visuals
+
+Added 21 new Molang expressions:
+
+&quot;math.inverse_lerp(start, end, value)&quot;, returns the normalized progress between start and end given value
+&quot;math.ease_in_quad(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting slow and accelerating toward the end
+&quot;math.ease_out_quad(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting fast and decelerating toward the end
+&quot;math.ease_in_out_quad(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting slow, accelerating in the middle, then slowing again at the end
+&quot;math.ease_in_cubic(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting slow and accelerating strongly toward the end
+&quot;math.ease_out_cubic(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting fast and decelerating strongly toward the end
+&quot;math.ease_in_out_cubic(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting slow, accelerating strongly in the middle, then slowing again at the end
+&quot;math.ease_in_quart(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting slow and accelerating rapidly toward the end
+&quot;math.ease_out_quart(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting fast and decelerating rapidly toward the end
+&quot;math.ease_in_out_quart(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting slow, accelerating rapidly in the middle, then slowing again at the end
+&quot;math.ease_in_quint(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting slow and accelerating sharply toward the end
+&quot;math.ease_out_quint(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting fast and decelerating sharply toward the end
+&quot;math.ease_in_out_quint(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting slow, accelerating sharply in the middle, then slowing again at the end
+&quot;math.ease_in_sine(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting slow and accelerating smoothly toward the end
+&quot;math.ease_out_sine(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting fast and decelerating smoothly toward the end
+&quot;math.ease_in_out_sine(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting and ending slow, with smoother change in the middle
+&quot;math.ease_in_expo(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting slow and accelerating very rapidly toward the end
+&quot;math.ease_out_expo(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting fast and decelerating gradually toward the end
+&quot;math.ease_in_out_expo(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting and ending slow, with very rapid change in the middle
+&quot;math.ease_in_circ(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting slow and accelerating along a circular curve toward the end
+&quot;math.ease_out_circ(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting fast and decelerating along a circular curve toward the end
+&quot;math.ease_in_out_circ(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting and ending slow, with circular acceleration and deceleration in the middle
+&quot;math.ease_in_bounce(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting with bounce oscillations and settling into the end
+&quot;math.ease_out_bounce(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, approaching the end with bounce oscillations that diminish over time
+&quot;math.ease_in_out_bounce(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting and ending with bounce oscillations, smoother in the middle
+&quot;math.ease_in_back(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, overshooting backward before accelerating into the end
+&quot;math.ease_out_back(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, overshooting past the end before settling into it
+&quot;math.ease_in_out_back(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, overshooting at both start and end, with smoother change in the middle
+&quot;math.ease_in_elastic(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, starting with elastic oscillations before accelerating into the end
+&quot;math.ease_out_elastic(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, overshooting the end with elastic oscillations before settling
+&quot;math.ease_in_out_elastic(start, end, 0_to_1)&quot;, output goes from start to end via 0_to_1, oscillating elastically at both start and end, with stable change in the middle
+
+
+Added query.base_swing_duration, which returns the duration of the mob&apos;s swing/attack animation, determined by the carried item and unmodified by effects applied on the mob
+Added query.modified_swing_duration, which returns the duration of the mob&apos;s swing/attack animation, determined by the carried item and modified by effects applied on the mob
+Network
+The following level events now emit particles at the exact specified position instead of at the center of the matching block position:
+
+WaxOn, WaxOff, Scrape
+
+StructuresReleased Data Driven Jigsaw Structures. They can now be used beyond the experimental contextStructure BlocksFixed Structure Block preview GUI misplacing opaque custom blocksExperimental Technical UpdatesAPI
+Added Dimension.getGeneratedStructures(location: Vector3) which can be used to locate the Structures (Pillager Outpost, Mineshaft, etc.) of a given location
+Added worldAfterEvents.playerUseNameTag which fires when a Player uses a named NameTag Item on an Entity
+Added ControlScheme string enum
+Added method Player.setControlScheme(controlScheme?: string): void; to beta
+Added method Player.getControlScheme(): ControlScheme; to beta
+
+Added the BlockRedstoneProducerComponent to beta
+
+Added power read-only property
+Added getStronglyPoweredFace method
+Added getConnectedFaces method
+
+
+
+Dimension
+Remove CompoundBlockVolume parameter from fillBlocks in beta
+
+
+Loot table discovery API now includes information about Loot Item Conditions
+
+Added ControlScheme string enum
+
+Added method setControlScheme(controlScheme?: string): void; to beta.
+Added method getControlScheme(): ControlScheme; to beta
+
+
+
+Added Scripting API for BlockPrecipitationInteractions component
+This API includes a component class for the BlockPrecipitationInteractions component and the two methods (accumulatesSnow and obstructsRain) of said component
+
+
+Loot table discovery API now includes information about Loot Item Conditions
+Modified method from setControlScheme(controlScheme?: string): void; to setControlScheme(controlScheme?: ControlScheme): void; in beta
+
+
+
+Added the BlockComponentBlockBreakEvent Custom Component Event to beta. This event is called when a specific block is broken by either the player or other entity, a block (such as fire or water), or from a script or command that removes or destroys the block.
+
+Added entitySource read-only property. This contains the entity that caused the block&apos;s destruction
+Added blockDestructionSource read-only property. This contains the block that caused the block&apos;s destruction
+Added brokenBlockPermutation read-only property. This contains the block permutation this custom component exists on
+
+
+
+Added the ability for the custom creator camera to move on a spline
+
+Added method playAnimation(splineType: CatmullRomSpline | LinearSpline, cameraAnimationOptions: AnimationOptions): void to beta to play an animation curve. Only works when used on the minecraft:free camera preset
+Added class CatmullRomSpline to beta to create catmullrom splines for minecraft:free camera preset
+Added class LinearSpline to beta to create linearly interpolated splines for minecraft:free camera preset
+Added interface AnimationOptions to beta for creating and playing a spline on the minecraft:free camera preset
+Added interface ProgressKeyFrame to beta for setting progress key frames on a spline
+Added interface RotationKeyFrame to beta for setting rotation key frames on a spline
+Added interface SplineAnimation to beta for storing spline key frames
+
+
+CommandsAdded attach_to_entity and detach_from_entity camera commands for minecraft:fixed_boom and minecraft:follow_orbit presetsAccessible under the Experimental Creator Cameras experimental toggle
+BiomesMolang
+Added query.entity_biome_has_any_identifier, query.entity_biome_has_any_tags, and query.entity_biome_has_all_tags molang query functions to Upcoming Creator Features
+
+These queries only work in resource packs (client-side), and are not supported in behavior packs
+
+entity_biome_has_any_identifier(&apos;namespace:biome_name&apos;) takes a list of biome identifiers and checks if any are the specified biome the entity is in
+
+entity_biome_has_any_tags(&apos;my_tag_name&apos;) takes a list of biome tags and checks if the biome the entity is in matches any
+
+entity_biome_has_all_tags(&apos;my_tag_name&apos;) takes a list of biome tags and checks if the biome the entity is in matches all
+
+Blocks
+Allow items referencing a pottable block in their minecraft:block_placer component to be pottable when replace_block_item is true
+
+Added minecraft:precipitation_interactions component
+This component allows creators to determine whether a block should obstruct precipitations or not. And if it does, whether falling snow should accumulate on the block or not
+
+Added getBlockStandingOn(options?: GetBlocksStandingOnOptions): Block | undefined method to beta
+Added getAllBlocksStandingOn(options?: GetBlocksStandingOnOptions): Block[]; methods to beta
+Added GetBlocksStandingOnOptions interface
+
+Added AABB interface which defines an axis-aligned bounding box to beta
+
+Added parameter center:Vector3 which defines the centerpoint of the box
+Added parameter extent:Vector3 which defines the distance from the centerpoint to the edges of the box
+Added method Entity.getAABB(): AABB to beta
+
+
+
+Added unbreakable property to ItemDurabilityComponent in beta
+Fixed an issue when inserting items into storage items through the UI. Previously the items inserted could result in gaps in the container stack when it was previously modified through the ItemInventoryComponent API. The storage container now sorts items to remove gaps prior to an item being inserted via the UI
+(Beta) Player method clearPropertyOverridesForEntity can now take an Entity or Entity ID as valid arguments
+Graphical
+
+Deprecated point_lights/global.json in favor of a new file and schema, local_lighting/local_lighting.json. Creators can still make use of point_lights/global.json, but are encouraged to migrate to the new schema
+
+Extended per-block local lighting information to include a light_type which can be either static_light or point_light
+A block will only be considered for point lighting if its light_type is set to point_light
+
+
+static_light is currently unused
+
+
+The light_color property is now optional. If unprovided, the block will use a fallback light color instead
+A sample local_lighting.json could look like this: &quot;format_version&quot;: &quot;1.21.120&quot;, &quot;minecraft:local_light_settings&quot;: { &quot;minecraft:torch&quot;: { &quot;light_color&quot;: &quot;#EFE39D&quot;, &quot;light_type&quot;: &quot;point_light&quot; }
+Learn more at https://learn.microsoft.com/en-us/minecraft/creator/documents/vibrantvisuals/lightingcustomization
+
+
+
+Updated point light tracking to be able to link to custom blocks. Learn how to apply point lights to custom blocks at https://learn.microsoft.com/en-us/minecraft/creator/documents/vibrantvisuals/lightingcustomization
+The RenderDragon Features for Creators experiment now includes a resource pack that will be automatically loaded when entering a world with the experiment enabled (MCPE-227624)</description>
+    </item>
+    <item>
       <title>Minecraft - 1.21.114 (Bedrock)</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/40380755991181-Minecraft-1-21-114-Bedrock</link>
       <pubDate>Fri, 17 Oct 2025 00:00:04 GMT</pubDate>
@@ -2683,31 +3136,6 @@ ScriptingAdded support for text to speech for tooltips at Server-UI forms.UIAdde
       <link>https://feedback.minecraft.net/hc/en-us/articles/38129892058893-Minecraft-Java-Edition-1-21-8</link>
       <pubDate>Mon, 21 Jul 2025 04:36:02 GMT</pubDate>
       <description>Nothing beats graphical corruption and freeze issues like a blazing, steamy hotfix. Today we are releasing 1.21.8 fixing various issues experienced on certain graphics devices.Fixed bugs in 1.21.8MC-295947 - The game screen occasionally freezes while the game keeps running on Intel graphics of Gen11 architectureMC-296107 - Entity and block entity textures become corrupted over time on Intel graphics of Gen11 architectureMC-296585 - Flickering and other graphical corruption appears after summoning one or multiple text_display entities on some Intel devicesMC-296908 - Texture atlases, most notably those of text, become corrupted over time on Intel graphics of Gen11 architectureMC-297784 - Entities and block entities are lit incorrectly after a while on Intel graphics of Gen11 architectureMC-298903 - Items in the inventory and text are rendered in a solid color after a while, and the items sometimes become invisible, on Intel graphics of Gen11 architectureMC-298908 - Items in the inventory are lit incorrectly after a while on Intel graphics of Gen11 architectureMC-299144 - The game crashes when loading a resource pack with an invalid shader on some AMD graphicsGet the ReleaseTo install the Release, open up the Minecraft Launcher and click play! Make sure your Launcher is set to the &quot;Latest Release” option.Cross-platform server jar:Minecraft server jarReport bugs here:Minecraft issue tracker!Want to give feedback?For any feedback and suggestions, head over to the Feedback site. If you&apos;re feeling chatty, join us over at the official Minecraft Discord.</description>
-    </item>
-    <item>
-      <title>Minecraft - 1.21.93/94 (Bedrock)</title>
-      <link>https://feedback.minecraft.net/hc/en-us/articles/37810171798029-Minecraft-1-21-93-94-Bedrock</link>
-      <pubDate>Mon, 21 Jul 2025 04:36:02 GMT</pubDate>
-      <description>Update: 14 July 2025Another small hotfix (1.21.94) is being rolled out.Fixed an issue that caused entities in some Marketplace packs to revert to their vanilla behaviorsPosted: 3 July 2025A new update has been released to address a few issues with the 1.21.90 release.Bug Fixes and FeaturesGeneral
-Fixed a bug causing packs in world templates to disappear (MCPE-222906)
-Added music disc &quot;Lava Chicken&quot; by Hyper PotionsDrops when defeating a baby Zombie riding a Chicken (Chicken Jockey)
-
-Split-screen players on PlayStation and Switch can now access their player data (e.g. inventory) created in 1.21.80 and earlier (MCPE-222048)
-Graphical
-Slightly reduced the emissive intensity of Torches, Redstone Torches, Soul Torches, and Soul Lanterns in Vibrant Visuals (MCPE-222020)
-Fixed parent_setup not running with the correct context, which caused animation issues in some packs
-Glowing text on Signs no longer gets overly bright when looked at directly in Vibrant Visuals
-Mobs
-Fixed performance degradation when a Happy Ghast is leashed close to the ground (MCPE-222147)
-Air friction is now only applied to Boats when they are leashed (MCPE-222298)
-Boats are still prevented from orbiting the player when leashed
-Boats once again retain momentum when moving off ledges
-
-
-User InterfaceFixed issue where the player was not able to move the camera while using the interact buttons on touch devices (MCPE-220353)Technical UpdatesAPI
-Added a new condition passenger_of_entity that allows checking which vehicle entity type is being ridden by the damaged entity that is dropping lootLike damaged_by_entity, allows specifying an entity_type field to check against when deciding which entry in a loot table to select
-
-Added a new condition is_baby that allows checking if the entity that is dropping loot is a baby</description>
     </item>
   </channel>
 </rss>
