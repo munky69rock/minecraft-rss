@@ -1,93 +1,93 @@
 # minecraft-rss
 
-Minecraft公式リリースチェンジログのRSSフィードを生成するツールです。
+A tool to generate RSS feeds from official Minecraft release changelogs.
 
-## 概要
+## Overview
 
-[Minecraft Feedback](https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs)から最新のリリース情報を取得し、RSS 2.0形式のフィードを生成します。
+Fetches the latest release information from [Minecraft Feedback](https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs) and generates RSS 2.0 format feeds.
 
-生成されたRSSフィードは以下のURLで購読できます：
+You can subscribe to the generated RSS feed at:
 
 ```
-https://raw.githubusercontent.com/[username]/minecraft-rss/main/dist/rss.xml
+https://raw.githubusercontent.com/munky69rock/minecraft-rss/main/dist/rss.xml
 ```
 
-## 機能
+## Features
 
-- Minecraft公式サイトから最新10件のリリース情報を取得
-- RSS 2.0形式でフィードを生成
-- GitHub Actionsによる毎日自動更新（0:00 UTC）
-- TDD（テスト駆動開発）で実装
+- Fetches the latest 10 release updates from the official Minecraft site
+- Generates RSS 2.0 format feeds
+- Daily automatic updates via GitHub Actions (0:00 UTC)
+- Implemented using TDD (Test-Driven Development)
 
-## セットアップ
+## Setup
 
-### 依存関係のインストール
+### Install Dependencies
 
 ```bash
 bun install
 ```
 
-### RSSフィードの生成
+### Generate RSS Feed
 
 ```bash
 bun run generate
 ```
 
-生成されたRSSフィードは `dist/rss.xml` に保存されます。
+The generated RSS feed will be saved to `dist/rss.xml`.
 
-## 開発
+## Development
 
-### テストの実行
+### Run Tests
 
 ```bash
 bun test
 ```
 
-### リンターの実行
+### Run Linter
 
 ```bash
 bun run lint
 ```
 
-### フォーマッターの実行
+### Run Formatter
 
 ```bash
 bun run format
 ```
 
-## プロジェクト構造
+## Project Structure
 
 ```
 minecraft-rss/
 ├── src/
-│   ├── index.ts          # エントリーポイント
-│   ├── scraper/          # スクレイピング関連
-│   │   ├── index.ts      # メインのスクレイピング処理
-│   │   └── parser.ts     # HTML解析処理
-│   ├── rss/              # RSS生成関連
-│   │   └── generator.ts  # RSS生成処理
-│   └── types.ts          # 型定義
-├── tests/                # テストファイル
+│   ├── index.ts          # Entry point
+│   ├── scraper/          # Scraping related
+│   │   ├── index.ts      # Main scraping logic
+│   │   └── parser.ts     # HTML parsing logic
+│   ├── rss/              # RSS generation related
+│   │   └── generator.ts  # RSS generation logic
+│   └── types.ts          # Type definitions
+├── tests/                # Test files
 ├── dist/
-│   └── rss.xml          # 生成されるRSSファイル
+│   └── rss.xml          # Generated RSS file
 └── .github/workflows/
-    └── update-rss.yml   # GitHub Actions設定
+    └── update-rss.yml   # GitHub Actions configuration
 ```
 
 ## GitHub Actions
 
-毎日0:00 UTCに自動的にRSSフィードを更新します。手動実行も可能です。
+Automatically updates the RSS feed daily at 0:00 UTC. Manual execution is also available.
 
-### Pull Request自動マージ
+### Automatic Pull Request Merging
 
-CI（テスト、型チェック、リント、フォーマット確認）がすべて成功した場合、以下の条件でPull Requestが自動的にマージされます：
+When all CI checks (tests, type checking, linting, format verification) pass, Pull Requests are automatically merged under the following conditions:
 
-- Dependabotによる依存関係更新PR
-- `auto-merge`ラベルが付けられたPR
+- Dependency update PRs from Dependabot
+- PRs labeled with `auto-merge`
 
-## 技術スタック
+## Tech Stack
 
-- [Bun](https://bun.sh) - JavaScriptランタイム
+- [Bun](https://bun.sh) - JavaScript runtime
 - TypeScript
-- Cheerio - HTML解析
-- GitHub Actions - 自動更新
+- Cheerio - HTML parsing
+- GitHub Actions - Automated updates
