@@ -5,6 +5,26 @@
     <link>https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs</link>
     <description>Minecraft release changelogs</description>
     <item>
+      <title>Minecraft - 1.21.123 (Bedrock)</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/41112550913677-Minecraft-1-21-123-Bedrock</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:01 GMT</pubDate>
+      <description>Posted: 13 November 2025A new update has been released to address issues discovered in the 1.21.120 release. This update will be rolling out to the various platforms as they become available, so please allow time for the update to reach you.Developer&apos;s Note: Huge thanks to everyone who has been sending us bug reports and feedback around the game on Windows! We&apos;re actively investigating all the reports coming in and working to improve game quality. We&apos;ll keep you all updated on further improvements through these changelogs. Please keep the reports coming in through bugs.mojang.com. Known Issue
+Mouse cursor moves in the background during gameplay (MCPE-230832)Thank you for your patience while we continue to work on this issue. We’re pleased to hear it’s resolved for many of you, but we know more work is needed. Please be assured that we’re actively addressing the remaining problems and aim to have the bug fully fixed as soon as possible.
+Fixes:
+Performance and Stability
+
+Reduced increased memory utilization from using Improved Input Latency (MCPE-179496)
+Fixed several crashes that could occur during gameplay 
+Fixed a crash when using hotbar hotkeys while hovering over the Stonecutter preview interface (MCPE-230558)
+Graphical
+Fixed an issue where pink textures could occur on Windows devices (MCPE-167489)Input
+
+Fixed an issue where IME Candidates would appear in the wrong monitor or misplaced in relation to text field 
+Fixed IME input when application lost and regained focus (switching from the app and back while editing) 
+World Generation
+Blocks with the tick component tick when placed by Jigsaw Structure during world generation</description>
+    </item>
+    <item>
       <title>Minecraft - 1.21.122 (Bedrock)</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/40947085632141-Minecraft-1-21-122-Bedrock</link>
       <pubDate>Tue, 11 Nov 2025 00:00:01 GMT</pubDate>
@@ -2783,21 +2803,6 @@ If the field is not defined, the default transformation is a 0.75x scale, simila
 
 
 GraphicalFixed Candles not casting point light shadows</description>
-    </item>
-    <item>
-      <title>Minecraft - 1.21.101 (Bedrock)</title>
-      <link>https://feedback.minecraft.net/hc/en-us/articles/38783390143885-Minecraft-1-21-101-Bedrock</link>
-      <pubDate>Thu, 14 Aug 2025 00:00:03 GMT</pubDate>
-      <description>Posted: 13 August 2025A new update has been released to address a few issues with the 1.21.100 release. Please note: This update will be rolling to the various platforms as they become available, so please allow time for the update to reach you.Fixes:
-
-Fixed several crashes that could occur during gameplay
-Fixed a crash that could occur when treatment packs were removed while loading game or loading into a world
-Corrected the Grass color in Swamps and Mangrove Swamps (MCPE-223910)
-Firefly Bush particles now appear in the correct place (MCPE-225267 )
-Fixed Firefly Bushes not generating as frequently as they should (MCPE-226072)
-Fixed an issue with items not being placed into Bundles correctly when interacting with Hoppers
-Fixed an issue on PlayStation 5 where downloading large packs when joining Realms and multiplayer worlds would sometimes fail
-Fixed issue where command selector &apos;c=-1&apos; would not return the furthest matching entity. (MCPE-226102)</description>
     </item>
   </channel>
 </rss>
