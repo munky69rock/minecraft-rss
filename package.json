@@ -3,7 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
-    "@prettier/plugin-oxc": "^0.0.5",
+    "@prettier/plugin-oxc": "^0.1.2",
     "@types/bun": "latest",
     "@types/node": "^24.0.13",
     "husky": "^9.1.7",
