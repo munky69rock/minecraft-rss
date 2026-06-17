@@ -5,6 +5,1914 @@
     <link>https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs</link>
     <description>Minecraft release changelogs</description>
     <item>
+      <title>Minecraft Java Edition - 26.2</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/46690753273997-Minecraft-Java-Edition-26-2</link>
+      <pubDate>Wed, 17 Jun 2026 00:00:01 GMT</pubDate>
+      <description>Chaos Cubed has landed in Minecraft Java Edition! Explore a striking cave biome filled with bubbling sulfur pools, build with sulfur and cinnabar, and discover the sulfur cube&apos;s curious appetite for blocks! From bouncing and sliding to explosive surprises, this unpredictable mob unlocks exciting new ways to build, compete, and survive. Play Chaos Cubed today in Minecraft!
+Happy mining!
+New Features
+
+Added the Sulfur Cube mob
+Added the Sulfur Caves biome
+Added the Cinnabar and Sulfur block sets
+Added the Sulfur Spike and Potent Sulfur block
+Added a new Music Disc with the track &quot;Bounce&quot; by fingerspit
+Added 5 new music tracks by fingerspit
+Added the Friends List
+Added new settings for Friends List in Online Options
+Added experimental support for rendering the game through Vulkan
+Added new option &quot;Graphics API&quot; in Video Settings
+Added Swiss French, Chuvash, Gallo, Uzbek, and Võro language support to the game
+
+Sulfur Cube
+ 
+Steve is riding a Pig in a Boat leashed to a Blue Ice absorbed Sulfur Cube, holding a Diamond Spear. Click here for a link to the full-size image.
+ 
+
+
+Added the Sulfur Cube mob
+Spawns in the new Sulfur Caves biome
+When a Player interacts with it while holding a block:
+The Sulfur Cube absorbs the block
+Its AI is disabled
+While a block is absorbed:
+The Sulfur Cube becomes a physical object:
+It does not take fall or Player damage
+Players can punch and push it
+
+
+It assumes one of the archetypes (listed below), changing its physical properties to match the absorbed block
+The Player can interact with it using Shears:
+This removes the absorbed block
+The Sulfur Cube&apos;s AI is re-enabled
+
+
+
+
+
+
+The Sulfur Cube will follow a Player holding a block it can absorb
+The Sulfur Cube can look for nearby block items and move towards them to absorb them
+When killed, the Sulfur Cube splits into two smaller Sulfur Cubes
+Small Sulfur Cubes can be fed Slime Balls to grow into large Sulfur Cubes
+A large Sulfur Cube can be picked up using an empty Bucket
+Sulfur Cubes cannot enter Boats, but can ride Minecarts
+Dispensers can:
+Insert and swap blocks inside a Sulfur Cube
+Use Shears to remove the held block
+Spawn a Sulfur Cube from a Bucket of Sulfur Cube
+
+
+Pufferfish are not scared by Sulfur Cubes
+
+Sulfur Cube Archetypes
+ 
+
+Noor and Sunny are playing football, using the birch absorbed Sulfur Cube as a ball in a stadium. Steve is goalkeeping. Click here for a link to the full-size image.
+ 
+
+
+Each archetype is characterized by the speed of the Sulfur Cube when hit, how bouncy it is when colliding with blocks and collidable entities, as well as its ground friction, air drag, and if it floats in liquids
+There are the following archetypes:
+Regular: medium speed, medium bounciness, medium ground friction, and low air drag
+It is buoyant
+Used when absorbing loose mineral and soil blocks
+
+
+Bouncy: fast speed, high bounciness, medium ground friction, and low air drag
+It is buoyant
+Used when absorbing wooden blocks
+
+
+Slow Bouncy: slow speed, high bounciness, medium friction, and medium air dragUsed when absorbing stone-like blocks
+
+Slow Flat: slow speed, low bounciness, medium ground friction, and medium air dragUsed when absorbing metal blocks
+
+Fast Flat: fast speed, low bounciness, medium ground friction, and low air dragUsed when absorbing organic blocks
+
+Light: slow speed, high bounciness, medium ground friction, and high air drag
+It is buoyant
+Used when absorbing wool blocks
+
+
+Fast Sliding: fast speed, no bounciness, low ground friction, and low air dragUsed when absorbing icy blocks
+
+Slow Sliding: slow speed, no bounciness, low ground friction, and low air dragUsed when absorbing shroom blocks
+
+
+
+There are also the following special archetypes:
+High Resistance: very slow, low drag with low bounce with high frictionUsed when absorbing Soul Sand and Soul Soil
+
+Sticky: same properties as the Fast Flat archetype, but sticks with extremely high ground friction and no bounce to simulate stickinessUsed when absorbing a Honeycomb Block
+
+Explosive: similar properties to the Regular archetype with a slightly higher air drag
+Used when absorbing a TNT block
+Absorbed TNT can be primed by Redstone, fire sources (including a Dispenser with a Flint and Steel), or nearby explosions
+When primed by fire or Redstone, absorbed TNT uses a fuse time of 6 seconds
+When primed by an explosion, absorbed TNT uses a randomized fuse time between 0.75 and 3 seconds
+Sulfur Cubes with an absorbed, primed TNT block cannot be picked up with a Bucket
+Absorbed, primed TNT blocks cannot be sheared out
+On explosion, no small Sulfur Cubes are spawned
+
+
+Hot: same properties as the Regular archetype, but damages entities on contactUsed when absorbing a Magma Block
+
+
+
+
+Sulfur Caves Biome
+
+Added Sulfur Caves biome
+Generates naturally underground
+The Sulfur Caves biome has bands of Sulfur and Cinnabar
+Spawns the new Sulfur Cube mob as well as Cave Spiders
+Generates with Sulfur Pools which contain Potent Sulfur
+
+ 
+
+Four Minecart with Chests are being pulled from a Nether Portal in a Sulfur Cave Biome. Click here for a link to the full-size image.
+ 
+
+Sulfur Spring
+
+Is a new feature which generates naturally above the Sulfur Caves biome
+Consists of Sulfur, Potent Sulfur, and Magma Blocks
+Sulfur Springs come in 4 different size variants:
+Small
+Medium
+Large
+Extra Large
+
+
+
+Cinnabar and Sulfur Block Sets
+ 
+
+A cute chimney made of Polished Cinnabar blocks and Cinnabar Bricks in a Forest Biome. Click here for a link to the full-size image.
+ 
+
+
+Added Cinnabar and Sulfur stone block sets
+Each of them has Polished and Bricks variants
+Each variant has its Slabs, Stairs and Walls blocks
+Added Chiseled Cinnabar and Chiseled Sulfur blocks
+
+Potent Sulfur
+
+Is a new block that generates naturally in Water Pools inside the Sulfur Caves biome
+Produces bubbles which rise up to 4 Water source blocks above it
+When placed underneath up to 4 Water source blocks, it generates a cloud of nausea-causing gas on the water surfaceThis cloud spreads across adjacent water with a maximum radius of 3 blocks
+
+Can be crafted from 9 Sulfur blocks
+When placed above a Magma Block or a Lava Block, and under 1-4 Water source blocks, it creates a geyser
+With Magma underneath, the geyser will erupt at random intervals, shooting a plume of water particles upwards and applying an upward impulse to entities above it
+With Lava underneath, the geyser eruption is continuous, but with slightly muted sounds compared to the eruption from a Magma Block
+Geyser eruptions emit game events at the beginning and at the end of the eruption that can be detected by Sculk Sensors
+
+Sulfur Spike
+ 
+
+Efe standing next to a cozy Cinnabar house, looking up to a Glowstone absorbed Sulfur Cube. Click here for a link to the full-size image.
+ 
+
+
+Is a new block that generates naturally on Sulfur blocks inside the Sulfur Caves biome
+Forms a stalactite if placed on the ceiling or a stalagmite if placed on the floor
+Can be combined to form longer stalactites &amp; stalagmites
+Stalactites and stalagmites merge if the tips are next to each other, unless you sneak while placing
+Sulfur Spike stalactites can grow when placed under a Sulfur block
+Stalagmites will break if they&apos;re not attached to something below
+Stalactites fall down if not attached to something above
+Being hit by a falling stalactite hurts because they are sharp!
+Stalagmites are not sharp and do not hurt more to land on
+Thrown Tridents break Sulfur Spikes
+Four Sulfur Spikes can be crafted into one Sulfur
+
+Music and Sound
+
+Added a new music disc:&quot;Bounce&quot; by fingerspit
+Has a chance of being found in Mineshaft Chest Minecarts that are located in a Sulfur Caves biome
+Has a comparator output of 8 when played in a Jukebox
+
+
+
+Added 5 new background music tracks by fingerspit:
+&quot;Shores&quot;
+&quot;Memories&quot;
+&quot;Nightly&quot;
+&quot;Home&quot;
+&quot;Ebb&quot;
+
+
+Added block sounds for Sulfur, Potent Sulfur, and Cinnabar
+Added mob sounds for Sulfur Cube and small Sulfur Cube
+Added sounds for when using a bucket on a Sulfur Cube
+Added sounds for geyser eruptions
+
+Advancements
+Added new &quot;Uh Oh&quot; Husbandry advancement for having a Sulfur Cube absorb a TNT block
+ 
+
+Steve pushing a Zombie in a minecart towards another minecart with TNT-absorbed Sulfur Cube on top of a mineshaft bridge with rails in a Sulfur Cave Biome. Click here for a link to the full-size image.
+ 
+
+Friends List
+
+Added a Friends List, accessible from a new Friends button on the Title Screen and the Pause Menu
+The Friends List can be opened with a new key bind (default: &quot;O&quot;)
+The Friends button shows a notification badge with the number of incoming friend requests, up to 5 (a &quot;more&quot; indicator is shown beyond that)
+The Friends List is presented as an overlay with two tabs:
+Friends: shows your current friends, lets you remove them, and lets you send a new friend request by Profile Name
+Pending: shows incoming friend requests (which can be accepted or declined) and outgoing friend requests (which can be canceled)
+
+
+The presence of your friends is shown under their name in the Friends List as one of the following:
+&quot;Offline&quot;
+&quot;Online&quot;
+&quot;Online (LAN)&quot;
+&quot;Online (World)&quot;
+&quot;Online (Realm)&quot;
+&quot;Online (Server)&quot;
+
+
+Sending, accepting, declining, cancelling, and removing actions are confirmed in the UI and show a clear error message when the service is unreachable, rate limited, or the requested Profile Name does not exist
+Friend changes that happen while the game is running are shown through toast notifications:
+When a friend request is sent
+When a friend request is received
+When an outgoing friend request is accepted by the other player
+
+
+Toasts show the other player&apos;s face when the skin is available
+The Friends List checks for updates once per minute while the Friends List is open, or every 5 minutes otherwise
+The first time the Friends button is shown on the Title Screen, a confirmation dialog is presented to opt in to the Friends List
+The Friends List, friend request privacy, and the Microsoft account safety settings link are managed from the new &quot;Friends List&quot; section in Online Options
+Players that have their chat settings set to &quot;Friends Only&quot; on their Xbox profile will only see chat messages from other players if they are friends
+
+ 
+
+A new user interface for Friends List feature. Click here for a link to the full-size image.
+ 
+
+Friends List Settings in Online Options
+
+Added a setting to control the availability of the Friends List and its features in Online Options
+Added an &quot;In-Game Notification&quot; toggle in Online Options to control whether Friends List toasts appear while in a world
+Added an &quot;Allow Requests&quot; toggle in Online Options to control whether other players can send you friend requests
+Added a &quot;Visibility&quot; option in Online Options screen to control how much activity is shared with friends (default: &quot;All&quot;)
+&quot;Full&quot;: shares in-game activity
+&quot;Hidden&quot;: no activity shared, appearing as &quot;Offline&quot; to friends
+&quot;Limited&quot;: activity sharing limited to &quot;Online&quot; &amp; &quot;Offline&quot;
+
+
+Added an &quot;Xbox Settings...&quot; button in Online Options that opens the Microsoft account privacy and online safety settings
+
+Vulkan Support
+
+As previously announced, we intend to switch the game from OpenGL to Vulkan
+Vulkan is not supported by older hardware or drivers - OpenGL will be used as a fallback on those casesThe current requirement is Vulkan 1.2 with dynamic rendering and push descriptors, but this requirement may increase or decrease over time
+
+This is currently an experimental rendering backend, and may not be as performant or stablePlease report any bugs you find with it to our bug tracker
+
+
+Under Vulkan, we will prefer your dedicated graphics card over any integrated graphics, which is a change from OpenGL
+You can see which backend is being used in your F3 debug overlay (in the system_specs section)
+On macOS, we use MoltenVK to translate Vulkan to Metal
+
+&quot;Graphics API&quot; Video Setting
+
+This is a new option available in the &quot;Video Settings&quot;
+There are three values: Default, Prefer Vulkan (Experimental) and Prefer OpenGL
+
+&quot;Default&quot; may be changed at our discretion, and we recommend this for all users unless you experience issues and need to changeCurrently, it is the same as &quot;Prefer OpenGL&quot;
+
+&quot;Prefer Vulkan (Experimental)&quot; will attempt to render using Vulkan, but fall back to OpenGL if it doesn&apos;t workVulkan support is experimental for now, and using it might reduce performance or cause instability on some systems
+
+&quot;Prefer OpenGL&quot; will attempt to render using OpenGL, but fall back to Vulkan if it doesn&apos;t work
+
+Startup and Fallback Behavior
+
+If the game crashes at startup with &quot;Prefer Vulkan (Experimental)&quot; set, the setting will automatically be changed to &quot;Default&quot;
+When set to &quot;Default&quot;, the game will still attempt to gather systems information about Vulkan at startup
+If the game crashes at startup with &quot;Default&quot; set, the setting will automatically be changed to &quot;Prefer OpenGL&quot;With &quot;Prefer OpenGL&quot; set, no interaction will be made with Vulkan in case that causes crashes
+
+
+Changes
+
+Tweaked various mobs hitbox, eye height, and rider positions
+Hoglins are now considered hostile and do not spawn on Peaceful difficulty
+Fixed baby Hoglin&apos;s and Zoglin&apos;s left ear texture so it&apos;s properly mirrored
+Updated the Main Menu background panorama
+When the game is overwhelmed with particles, instead of removing existing particles in flight, it will now randomly select for particles to render or not render to stay under the particle limitThis change is especially visible with a large number of new geyser eruptions
+
+As the host of a world, changing the game mode with F3 + F4 or with commands changes the default game mode of the world
+Upgrading certain worlds from before 26.1 can now be faster
+Respawning (as a spectator) in a hardcore world no longer turns off the spectators_generate_chunks game rule
+Removed Touchscreen Mode
+
+Developer&apos;s Note: Touchscreen mode has been poorly implemented and not properly supported for a long time. We are removing this feature in this release. To provide your feedback on this topic, head over to the feedback site.
+Minor Tweaks to Blocks, Items and Entities
+
+Beds are now slightly more bouncy to match Bedrock
+When an entity bounces off of a block or other collidable entity, it emits a vibration of frequency 2
+
+Developer&apos;s Note: We have tweaked how Beds and Slime Blocks restitute entity velocity after collisions. For instance, when air drag is removed via the entity attribute, Slime Blocks will now correctly bounce Mobs indefinitely. This may affect player perception of the bounciness of Beds and Slime Blocks.
+Sounds
+
+Updated sounds for Nautilus jets and Nautilus recovers
+Updated hurt and death sounds for one of the Chicken&apos;s sound variants
+
+UI
+
+Added a Friends button to the Title Screen and the Pause Menu
+The tooltip for the &quot;Exclusive Fullscreen&quot; video setting now mentions that Adaptive Sync (Nvidia G-Sync, AMD FreeSync) should work when it is enabled and will not work when it is disabled
+
+World Options Screen
+The host of a world now has access to the &quot;Game Mode&quot; and &quot;Allow Commands&quot; buttons in the World Options screenThese buttons are not available in Hardcore
+
+Open to LAN Screen
+The host of a world can now configure the &quot;Game Mode&quot; and &quot;Allow Commands&quot; values for other players in your world (separate from themselves)These buttons are available under a &quot;Settings for Other Players&quot; header in the Open to LAN screen
+
+ 
+
+A small Sulfur Cube rising on top of a geyser on a surface Sulfur Cave biome. Many others are happily bouncing on the water in the background. Click here for a link to the full-size image.
+ 
+
+Technical Changes
+
+The Data Pack version is now 107.1
+The Resource Pack version is now 88.0
+Profiling the game with Tracy (launching with --tracy) now includes GPU timings
+Rendering now uses a reversed depth buffer, which helps with Z-fighting on most hardware
+The fps F3 screen entry will now report which type of present mode is used (e.g. mailbox or fifo relaxed), as opposed to just vsync
+The particle_render_stats now includes the counts of different particle groups (SQ for single quads, NR for no render, EG for elder guardians and IP for item pickup), as well as the total
+A player&apos;s score will no longer be displayed in the player tab overlay if the player doesn&apos;t have the objective
+Updates to telemetry
+
+Server Properties
+Added chat-spam-threshold-seconds and command-spam-threshold-seconds properties, separating the spam thresholds for chat vs commands
+Both thresholds are set to 10 by default, which was the existing threshold for combined command+chat spam
+These thresholds configure the mechanism that automatically kicks players for sending too many chat messages or commands
+The value describes how many seconds worth of spamming a player must do to get kicked, where each message a player sends increases the counter by 1 second
+The counter is decremented once per tick (equivalent to 1/20th of a second), and a player is kicked if their counter reaches the configured threshold
+Either threshold can be set to 0 to disable kicks for the associated type of spam
+Examples of message rates that would cause a kick, given the default threshold of 10:
+Sending 11 messages in 1 second
+Sending 14 messages in 2 seconds
+Sending 21 messages in 10 seconds
+
+
+
+
+Minecraft Server Management Protocol 3.0.0
+
+The management server now starts before the Minecraft server startsMost notably, this means the heartbeat will be sent while the world is loading and potentially upgrading
+
+The rpc.discover and notification/server/status methods are now accessible before the dedicated server spins upThe server will return an error when other methods are called during this time
+
+
+Telemetry
+New Property in World Events
+server_session_id a unique identifier for a multiplayer session, shared across all players in that session
+A &quot;session&quot; is defined as a continuous period where at least one player was in the server
+This property is required and not affected by the opt-in setting
+
+
+New Required Events
+graphics_capabilities
+This is a new event that posts on startup, and informs us of the capabilities of the graphics device used to play the game
+Added new property: backend_nameThis will be Vulkan or OpenGL, and will help us understand which Graphics API players are using
+
+Added new property: backend_failure_reasonThis will be a list of short error codes, for example vulkan_device_version_too_low, which will help us identify any issues with our targeted Vulkan requirements
+
+Added new property: backend_failure_messageThis will be short and vague messages, such as Failed to find the GLFW platform surface extensions, which will help us narrow down issues if players are experiencing issues running with Vulkan
+
+Added new property: backend_failure_missing_capabilitiesThis will be a list of missing capabilities from Vulkan, for example VULKAN_CORE_1_2, VK_KHR_dynamic_rendering, which will help us know which capabilities players would need in order to use Vulkan
+
+
+
+Data Pack Version 107.1
+Sulfur Cube Archetype Registry
+Added data-driven minecraft:sulfur_cube_archetype registry. Elements are loaded from data/&lt;namespace&gt;/sulfur_cube_archetype/&lt;path&gt;.json.
+Entry format: Object with fields:
+
+items - item tag that contains all items that can be fed to Sulfur Cubes of this archetype
+buoyant - boolean indicating if the Sulfur Cube of this archetype floats in liquids
+explosion - an optional field, if present, the Sulfur Cube of this archetype will explode:
+fuse - positive integer, the fuse time when ignited
+power - non-negative integer, the explosion power
+causes_fire - boolean, whether the explosion causes fire
+
+
+contact_damage - an optional field, if present, the Sulfur Cube of this archetype will deal damage to entities when they come in contact with it
+amount - non-negative float, amount of damage dealt
+damage_type - damage type
+attribute_to_source - boolean indicating if the damage is attributed to the Sulfur Cube
+
+
+attribute_modifiers - a list of objects with fields:
+attribute - entity attribute, the attribute to modify
+id - namespaced ID, unique identifier for the modifier
+amount - double, the amount to modify the attribute by
+operation - string, how to modify the attribute, one of add_value, add_multiplied_base, and add_multiplied_total
+
+
+knockback_modifiers - a field that contains various modifier fields for the Sulfur Cube&apos;s knockback magnitude and direction
+horizontal_power - float that represents the horizontal power of the knockback
+vertical_power - float that represents the vertical power of the knockback
+
+
+sound_settings - a field that contains various sound settings for the Sulfur Cube
+hit_sound - sound event that is played when the Sulfur Cube is hit while it has a block inside
+push_sound - sound event that is played when the Sulfur Cube is pushed while it has a block inside
+push_sound_impulse_threshold - float that specifies the smallest impulse required to trigger the push sound effect on the Sulfur Cube
+push_sound_cooldown - float that specifies the cooldown in seconds for the push sound effect
+
+
+
+Commands
+
+When granting or revoking several advancements, the command output will now report how many advancements changed state across all players
+When granting or revoking advancements or a criterion on several players, the command output will now report the number of players that any change applied to
+Team color arguments (used in team modify [name] color and waypoint modify [name] color) now accept only lowercase names with underscores
+e.g. only dark_purple is accepted and not darkpurple or DarkPurple
+Values now match the color names in text components
+
+
+The execute on owner command will now consider Vexes as owned by their Evoker
+
+Added unpublish
+Allows to unpublish the integrated server if there is one present
+Attributes
+Added minecraft:bounciness
+
+Determines what portion of the velocity is restituted after the entity collides with blocks and collidable entities
+When landing on bouncy blocks, like Beds and Slime Blocks, the higher bounciness (of the block or the entity) is applied
+Accepts values between 0.0 and 1.0
+Default value: 0.0 - no velocity is restituted
+Maximum value: 1.0 - full velocity is restituted, collisions with blocks and collidable entities will have no effect on lowering the velocity
+
+Added minecraft:friction_modifier
+
+Determines how much ground friction is applied to the entity in regard to the block it is on
+Accepts values between 0.0 and 2048.0
+Default value: 1.0 - friction of blocks is not modified
+Minimum value: 0.0 - friction of blocks is reduced to zero
+Values higher than 1.0 increase the friction applied to the entity from the blocks it is on
+
+Added minecraft:air_drag_modifier
+
+Determines how much drag is applied to an entity while in the air
+Accepts values between 0.0 and 2048.0
+Default value: 1.0 - the entity uses existing drag when moving in the air
+Minimum value: 0.0 - no drag is applied to the entity
+Values higher than 1.0 increase the drag applied to the entity when moving through the air
+
+Added minecraft:name_tag_distance
+
+Controls how far away in blocks the name tag of an entity is visible
+The name cannot be visible if the entity is not visible
+Accepts values between 0.0 and 512.0
+Default value: 64.0
+
+Added minecraft:below_name_distance
+
+Controls how far away in blocks the below_name scoreboard display is visible
+The display cannot be visible if the entity is not visible
+Accepts values between 0.0 and 512.0
+Default value: 10.0
+
+Changes to minecraft:knockback_resistance
+The minimum value was changed from 0.0 to -2.0
+Data Components
+Added minecraft:sulfur_cube_content
+
+Represents the item that is absorbed by the Sulfur Cube
+Format: item that is absorbed by the Sulfur Cubee.g. minecraft:sulfur_cube_content=green_wool
+
+
+Entity Data
+Removed the HurtByTimestamp tag from Living Entities, ticks_since_last_hurt_by_mob should be used instead
+Block Entity Data
+The minecraft:bed block entity has been removed
+Damage Types
+Added a new minecraft:sulfur_cube_hot damage type
+Predicates
+Entity Predicates
+Entity predicate format has changed from a structure with multiple optional fields to one similar to data component maps.
+For example: previously, effects was an optional field:
+{
+    &quot;effects&quot;: {...}
+}
+In this version it has become a component-like sub-predicate entry:
+{
+    &quot;minecraft:effects&quot;: {...}
+}
+The main functional changes are:
+
+All keys in entity predicates are now namespaced IDs
+Since namespaced IDs can be written without a namespace (defaulting to the minecraft namespace), existing field names are still valid
+Exception: the field type has been renamed to minecraft:entity_type
+
+
+Unrecognized sub-predicate components are now rejected (previously, unknown fields were ignored)
+
+Existing type-specific sub-predicates have been renamed and moved to top-level.
+
+minecraft:lightning to minecraft:type_specific/lightning
+minecraft:fishing_hook to minecraft:type_specific/fishing_hook
+minecraft:player to minecraft:type_specific/player
+minecraft:raider to minecraft:type_specific/raider
+minecraft:sheep to minecraft:type_specific/sheep
+minecraft:slime to minecraft:type_specific/cube_mob as it now includes Sulfur Cubes in addition to Slimes and Magma Cubes
+
+For example:
+{
+  &quot;type_specific&quot;: {
+    &quot;type&quot;: &quot;minecraft:player&quot;,
+    &quot;looking_at&quot;: {
+      &quot;type&quot;: &quot;minecraft:ender_dragon&quot;
+    }
+  }
+}
+becomes
+{
+  &quot;minecraft:type_specific/player&quot;: {
+    &quot;looking_at&quot;: {
+      &quot;minecraft:type&quot;: &quot;minecraft:ender_dragon&quot;
+    }
+  }
+}
+Added minecraft:entity_tags entity sub-predicate
+This predicate matches entity tags (i.e. ones set with the /tag command).
+Fields:
+
+any_of - optional list of strings, if present the matched entity must have at least one of the listed tags
+all_of - optional list of strings, if present the matched entity must have all the listed tags
+none_of - optional list of strings, if present the matched entity must have none of the listed tags
+
+World Generation
+
+Added matching_biomes world generation-type block predicate type which checks if the block position matches one of the specified biomesFormat: object with fields:biomes - biome ID, list of biome IDs, or hash-prefixed biome tag: the biomes to match
+
+
+tree feature configuration&apos;s below_trunk_provider block state provider no longer has a default value
+
+Surface Rules
+Changes to noise_threshold Condition
+Added new is_3d field - boolean, true if the noise should be evaluated in 3DIf not specified, defaults to false
+
+Dimension Types
+The field infiniburn now also accepts an ID and a list of IDs in addition to a tag
+Configured Features
+Added minecraft:sequence Feature Type
+Generates a list of Placed Features in order. If any feature in the list is not placed, the following features will also be skipped.
+Format: object with fields:
+features - list of Placed Features or hash-prefixed Placed Feature tag, the features to generate
+Added minecraft:template Feature Type
+Places one template randomly chosen from the given weighted list of namespaced IDs. By default, the template will be spawned randomly rotated, centered around the origin.
+Format: object with fields:
+templates - weighted list of structure template entries. Each structure template entry is composed of a namespaced ID and a list of rotations to randomly choose from
+id - The template&apos;s namespaced ID
+rotations - Optional list of rotations to choose from and apply to this template if it is picked
+Allowed values: none, clockwise_90, 180, counterclockwise_90
+If not specified, defaults to all allowed values
+
+
+
+
+Added minecraft:weighted_random_selector Feature Type
+Randomly selects one of the given features to generate based on their weights.
+Format: object with fields:
+features - list of Placed Features and their weights
+Changes to minecraft:pointed_dripstone
+
+Renamed Feature Type pointed_dripstone to speleothem
+Added field base_block - block state, describes the block forming the base of the speleothem
+Added field pointed_block - block state, describes the block creating the columns of the speleothem
+Added field replaceable_blocks - block ID, list of block IDs, or hash-prefixed block tag describing which blocks this feature can generate on
+Renamed field chance_of_taller_dripstone to chance_of_taller_generation
+
+Changes to minecraft:dripstone_cluster
+
+Renamed Feature Type dripstone_cluster to speleothem_cluster
+Added field base_block - block state, describes the block forming the base of the speleothem
+Added field pointed_block - block state, describes the block creating the columns of the speleothem
+Added field replaceable_blocks - block ID, list of block IDs, or hash-prefixed block tag describing which blocks this feature can generate on
+Renamed field dripstone_block_layer_thickness to speleothem_block_layer_thickness
+Renamed field chance_of_dripstone_column_at_max_distance_from_center to chance_of_speleothem_at_max_distance_from_center
+Renamed field max_distance_from_edge_affecting_chance_of_dripstone_column to max_distance_from_edge_affecting_chance_of_speleothem
+
+Changes to minecraft:large_dripstone
+
+Added field replaceable_blocks - block ID, list of block IDs, or hash-prefixed block tag describing which blocks this feature can generate on
+The maximum allowed value for column_radius has been reduced from 19 to 16 to prevent features from reaching beyond neighboring chunks
+Wind offset is now clamped to ensure the full dripstone (radius + wind) stays within neighboring chunk bounds
+
+Changes to minecraft:lake
+
+Added field can_place_feature - block predicate, describes which blocks this feature can be placed on
+Added field can_replace_with_air_or_fluid - block predicate, describes which blocks this feature can replace with air or the provided fluid block
+Added field can_replace_with_barrier - block predicate, describes which blocks this feature can replace with the provided barrier block
+
+Changes to minecraft:geode
+The fields cannot_replace and invalid_blocks in the blocks section of the feature configuration now also accept an ID and a list of IDs in addition to a tag
+Changes to minecraft:root_system
+
+The field root_replaceable in the feature configuration now also accepts an ID or a list of IDs in addition to a tag
+New field level_test_distance indicating how far away from the origin the root system will check the existing terrain
+New field max_level_deviation indicating how far the ground level can deviate from the original ground level at these test positions
+
+Changes to minecraft:vegetation_patch
+The field replaceable in the feature configuration now also accepts an ID and a list of IDs in addition to a tag
+Changes to minecraft:waterlogged_vegetation_patch
+The field replaceable in the feature configuration now also accepts an ID and a list of IDs in addition to a tag
+Changes to minecraft:multiface_growth
+Field block is now mandatory (defaulted to minecraft:grow_lichen)
+Structure Processors
+Changes to minecraft:block_rot
+Now evaluates the block state produced by previous block processors in the chain, instead of always using the original block defined in the structureThe first processor in the chain still always evaluates against the original structure-defined block
+
+minecraft:protected_blocks
+The field value now also accepts an ID or a list of IDs in addition to a tag
+Density Functions
+Added minecraft:interval_select
+Selects between a number of Density Functions based on an input Density Function and a set of threshold values.
+Format: object with fields:
+
+input - Density Function, the value to be compared with any given thresholds
+thresholds - non-empty list of floats, the threshold values to compare input with
+If input &lt; thresholds[i], the result of functions[i] will be selected
+If the input is greater than the last threshold value, the last function will be selected
+Must be one fewer element in thresholds than in functions
+
+
+functions - list of at least 2 Density Functions, the resulting functions to be selected fromMust be one more element in functions than in thresholds
+
+
+Removed minecraft:weird_scaled_sampler
+
+This Density Function has been removed, with its functionality replaced by interval_select
+When rarity_value_mapper was type_1, equivalent to:
+interval_select with thresholds -0.75, -0.5, 0.5, 0.75
+Selected functions follow: abs(rarity * noise(x/rarity, y/rarity, z/rarity))Corresponding rarity values: 0.5, 0.75, 1.0, 2.0, 3.0
+
+
+
+When rarity_value_mapper was type_2, equivalent to:
+interval_select with thresholds -0.5, 0.0, 0.5
+Selected functions follow: abs(rarity * noise(x/rarity, y/rarity, z/rarity))Corresponding rarity values: 0.75, 1.0, 1.5, 2.0
+
+
+
+
+Tags
+Block Tags
+
+Added #suppresses_bounce - all blocks that suppress the bounciness of entities when colliding with them
+Added #causes_periodic_geyser_eruptions - all blocks that cause periodic eruptions of Potent Sulfur blocks
+Added #causes_continuous_geyser_eruptions - all blocks that cause continuous eruptions of Potent Sulfur blocks
+Added #glazed_terracotta and #concrete collection tags
+Renamed #concrete_powder collection tag to #concrete_powders
+Added #shears_extreme_breaking_speed for blocks that can be broken with shears with speed 15
+Added #shears_major_breaking_speed for blocks that can be broken with shears with speed 5
+Added #shears_minor_breaking_speed for blocks that can be broken with shears with speed 2
+Added #speleothems for blocks which are speleothems like Pointed Dripstone and Sulfur Spike
+Added the following tags for blocks which some mobs are immune to. These have an effect on dismounting and valid surroundings of spawn placements for some mobs, but do not have an effect on pathfinding
+#fox_immune_to
+#polar_bear_immune_to
+#snow_golem_immune_to
+#stray_immune_to
+#wither_immune_to
+#wither_skeleton_immune_to
+#default_immune_to - this tag is intentionally left empty
+
+
+
+Item Tags
+
+Added #glazed_terracotta, #concrete, and #concrete_powders collection tags
+Added #sulfur_cube_food - all items that can be fed to a small Sulfur Cube
+Added #sulfur_cube_swallowable - all items that can be placed inside a large Sulfur Cube
+Added the following tags for items that can be placed inside a Sulfur Cube to determine its archetype:
+#sulfur_cube_archetype/regular
+#sulfur_cube_archetype/bouncy
+#sulfur_cube_archetype/slow_flat
+#sulfur_cube_archetype/fast_flat
+#sulfur_cube_archetype/light
+#sulfur_cube_archetype/fast_sliding
+#sulfur_cube_archetype/slow_sliding
+#sulfur_cube_archetype/high_resistance
+#sulfur_cube_archetype/sticky
+#sulfur_cube_archetype/hot
+#sulfur_cube_archetype/slow_bouncy
+
+
+
+Damage Type Tags
+Added minecraft:sulfur_cube_with_block_immune_to - all damage types that Sulfur Cubes are immune to when having a block absorbed
+Entity Tags
+Added #not_affected_by_geysers - entities that are not affected by the upward impulse applied by geyser eruptions
+Game Events
+Added minecraft:bounce
+
+Emitted when an entity collides with a block or a collidable entity with non-zero bounciness
+Has a vibration frequency of 2
+
+Particles
+Added minecraft:sulfur_cube_goo
+
+This particle is showing on a Sulfur Cube mob when hopping around
+Has no fields
+
+Added minecraft:geyser_base
+
+Spawns as a cloud on the base of an erupting Potent Sulfur block
+Format: object with fields:
+water_blocks - positive integer, scales the particle size and its burst impulse
+burst_impulse_base - float, scales the initial burst impulse
+
+
+
+Added minecraft:geyser_poof
+
+Spawns as a cloud on the base of an erupting Potent Sulfur block
+Format: object with fields:
+water_blocks - positive integer, scales the particle size and its burst impulse
+burst_impulse_base - float, scales the initial burst impulse
+
+
+
+Added minecraft:geyser_plume
+
+Spawns as an upwards stream above an erupting Potent Sulfur block
+Format: object with fields:water_blocks - positive integer, scales the particle size and its burst impulse
+
+
+Added minecraft:geyser
+
+An emitter particle that spawns the geyser_base, geyser_poof, and geyser_plume particles above an erupting Potent Sulfur block
+Format: object with fields:water_blocks - positive integer, scales the particle size and its burst impulse
+
+
+Game Test Environments
+Added minecraft:difficulty
+
+Sets the difficulty of the game test environment
+Format: object with fields:difficulty - the difficulty ID to set, one of peaceful, easy, normal, hard
+
+
+World Presets
+Added a new minecraft:flat_all_dimensions world presetThis preset does not show up by default in the Create New World screen
+
+ 
+
+Steve swimming inside an underground Sulfur Cave filled with water avoiding big Sulfur Spikes with a Glow Squid accompanying him. Click here for a link to the full-size image.
+ 
+
+Resource Pack Version 88.0
+
+Beds, Signs, and Hanging Signs now use block models instead of built-in entity modelsThe text on Signs and Hanging Signs cannot be configured yet
+
+The minecraft:beds atlas has been removed
+The minecraft:signs atlas has been removed
+
+Block Sprites
+
+Added new Block textures:
+block/chiseled_cinnabar.png
+block/chiseled_sulfur.png
+block/cinnabar.png
+block/cinnabar_bricks.png
+block/polished_cinnabar.png
+block/polished_sulfur.png
+block/potent_sulfur.png
+block/sulfur.png
+block/sulfur_bricks.png
+block/sulfur_spike_down_base.png
+block/sulfur_spike_down_frustum.png
+block/sulfur_spike_down_middle.png
+block/sulfur_spike_down_tip.png
+block/sulfur_spike_down_tip_merge.png
+block/sulfur_spike_up_base.png
+block/sulfur_spike_up_frustum.png
+block/sulfur_spike_up_middle.png
+block/sulfur_spike_up_tip.png
+block/sulfur_spike_up_tip_merge.png
+
+
+Beds now use block models and textures, replacing &lt;color&gt; with the respective bed&apos;s color&apos;s name
+block/bed_down.png
+block/bed_head_north.png
+block/&lt;color&gt;_bed_foot_east.png
+block/&lt;color&gt;_bed_foot_south.png
+block/&lt;color&gt;_bed_foot_up.png
+block/&lt;color&gt;_bed_foot_west.png
+block/&lt;color&gt;_bed_head_east.png
+block/&lt;color&gt;_bed_head_up.png
+block/&lt;color&gt;_bed_head_west.png
+
+
+Signs and Hanging Signs now use block models and textures, replacing &lt;wood_type&gt; with the sign&apos;s wood type (e.g. mangrove)
+block/&lt;wood_type&gt;_sign.png
+block/&lt;wood_type&gt;_hanging_sign.png
+
+
+The process of upgrading your pack&apos;s Bed, Sign, and Hanging Sign textures can be assisted by using this automated Slicer tool
+Renamed block/quartz_pillar.png and block/purpur_pillar.png to append _side as a suffix
+
+Item Sprites
+Added new Item sprites:
+item/sulfur_cube_bucket.png
+item/sulfur_spike.png
+item/music_disc_bounce.png
+
+
+UI Sprites
+
+Added new textures for the Sign edit screen background, replacing &lt;wood_type&gt; with the sign&apos;s wood type (e.g. mangrove):gui/sign/&lt;wood_type&gt;.png
+
+Added new UI sprites:
+gui/sprites/friends/accept.png
+gui/sprites/friends/accept_highlighted.png
+gui/sprites/friends/cancel.png
+gui/sprites/friends/friends.png
+gui/sprites/friends/illustrations_00.png
+gui/sprites/friends/list_separator_top.png
+gui/sprites/friends/loading.png
+gui/sprites/friends/reject.png
+gui/sprites/friends/reject_highlighted.png
+gui/sprites/friends/remove.png
+gui/sprites/friends/background.png
+gui/sprites/friends/button.png
+gui/sprites/friends/button_disabled.png
+gui/sprites/friends/button_highlighted.png
+gui/sprites/friends/toast_background.png
+gui/sprites/pause_menu/player_reporting.png
+gui/sprites/pause_menu/bug.png
+gui/sprites/pause_menu/social_interactions.png
+
+
+
+Entity Textures
+Added new Entity textures:
+entity/sulfur_cube/sulfur_cube_outer.png
+entity/sulfur_cube/sulfur_cube_inner.png
+entity/sulfur_cube/sulfur_cube_outer_small.png
+entity/sulfur_cube/sulfur_cube_inner_small.png
+
+
+Sounds
+
+Added sounds for the Sulfur Block:
+block.sulfur.break
+block.sulfur.hit
+block.sulfur.place
+block.sulfur.step
+block.sulfur.fall
+
+
+Added sounds for the Potent Sulfur Block:
+block.potent_sulfur.break
+block.potent_sulfur.hit
+block.potent_sulfur.place
+block.potent_sulfur.step
+block.potent_sulfur.fall
+block.potent_sulfur.noxious_gas
+
+
+Added sounds for the Cinnabar Block:
+block.cinnabar.break
+block.cinnabar.hit
+block.cinnabar.place
+block.cinnabar.step
+block.cinnabar.fall
+
+
+Added sounds for the Sulfur Cube:
+entity.sulfur_cube.jump
+entity.sulfur_cube.squish
+entity.sulfur_cube.hurt
+entity.sulfur_cube.death
+entity.sulfur_cube.absorb
+entity.sulfur_cube.eject
+entity.sulfur_cube.bounce
+entity.sulfur_cube.regular.hit
+entity.sulfur_cube.regular.push
+entity.sulfur_cube.bouncy.hit
+entity.sulfur_cube.bouncy.push
+entity.sulfur_cube.slow_flat.hit
+entity.sulfur_cube.slow_flat.push
+entity.sulfur_cube.fast_flat.hit
+entity.sulfur_cube.fast_flat.push
+entity.sulfur_cube.light.hit
+entity.sulfur_cube.light.push
+entity.sulfur_cube.fast_sliding.hit
+entity.sulfur_cube.fast_sliding.push
+entity.sulfur_cube.slow_sliding.hit
+entity.sulfur_cube.slow_sliding.push
+entity.sulfur_cube.high_resistance.hit
+entity.sulfur_cube.high_resistance.push
+entity.sulfur_cube.sticky.hit
+entity.sulfur_cube.sticky.push
+entity.sulfur_cube.hot.hit
+entity.sulfur_cube.hot.push
+
+
+Added sounds for the small Sulfur Cube:
+entity.small_sulfur_cube.jump
+entity.small_sulfur_cube.squish
+entity.small_sulfur_cube.hurt
+entity.small_sulfur_cube.death
+
+
+Added sounds for geyser eruptions:
+block.potent_sulfur.geyser_eruption
+block.potent_sulfur.geyser_eruption_active
+block.potent_sulfur.geyser_continuous_eruption
+block.potent_sulfur.geyser_continuous_eruption_active
+
+
+Added biome music for Sulfur Caves:music.overworld.sulfur_caves
+
+
+Particles
+Added new Particle textures:
+particle/noxious_gas_01.png
+particle/noxious_gas_02.png
+particle/noxious_gas_03.png
+particle/noxious_gas_04.png
+particle/noxious_gas_05.png
+particle/noxious_gas_06.png
+particle/noxious_gas_07.png
+particle/noxious_gas_08.png
+particle/geyser_base_01.png
+particle/geyser_base_02.png
+particle/geyser_base_03.png
+particle/geyser_base_04.png
+particle/geyser_base_05.png
+particle/geyser_base_06.png
+particle/geyser_base_07.png
+particle/geyser_base_08.png
+particle/geyser_plume_01.png
+particle/geyser_plume_02.png
+particle/geyser_plume_03.png
+particle/geyser_plume_04.png
+particle/geyser_plume_05.png
+particle/geyser_plume_06.png
+particle/geyser_plume_07.png
+particle/geyser_plume_08.png
+particle/geyser_poof_01.png
+particle/geyser_poof_02.png
+particle/geyser_poof_03.png
+particle/geyser_poof_04.png
+particle/geyser_poof_05.png
+particle/geyser_poof_06.png
+particle/geyser_poof_07.png
+particle/geyser_poof_08.png
+
+
+Item Models
+The following special model types have been removed:
+minecraft:bed
+minecraft:standing_sign
+minecraft:hanging_sign
+
+
+Shaders &amp; Post-process Effects
+The core/rendertype_text, core/rendertype_text_see_through, core/rendertype_text_intensity, core/rendertype_text_intensity_see_through, core/rendertype_text_background, and core/rendertype_text_background_see_through shaders have been replaced by core/text and core/text_backgroundVariants are now controlled by shader defines: IS_GUI, IS_SEE_THROUGH, and IS_GRAYSCALE
+
+Fixed bugs in 26.2
+
+
+MC-1788 - Ocelots do not spawn naturally on Peaceful difficulty in jungles and bamboo jungles
+
+MC-123068 - The number of advancements said to be revoked from the player is incorrect
+
+MC-134349 - Making a zoomed-out version of a map fails when using the &quot;Pick Block&quot; key
+
+MC-174630 - The secondary beacon effect remains when switching the primary effect
+
+MC-186131 - Piglins and hoglins cannot spawn naturally on Peaceful difficulty
+
+MC-190728 - The side and bottom surfaces of waterlogged blocks z-fight when looking at them from a distance
+
+MC-223248 - Spore blossom particles gradually disappear/lessen until the world is reloaded
+
+MC-229057 - Picking up an axolotl with a lead attached destroys the lead
+
+MC-236770 - The &quot;Ambient&quot; and &quot;Axolotl&quot; mob caps both display as &quot;A&quot; in the debug overlay
+
+MC-248758 - Logged error: Detected setBlock in a far chunk
+
+MC-252814 - The clamp density function takes a direct input and doesn&apos;t allow a reference
+
+MC-268008 - Players&apos; sneaking state can sometimes desync
+
+MC-269520 - The game freezes when using /locate in a world without structures enabled
+
+MC-269786 - &quot;ID&quot; is not capitalized in some strings
+
+MC-271008 - Unused pixels in bed textures
+
+MC-276733 - Bed items produce wool particles, but bed blocks produce planks particles
+
+MC-277395 - The options.screenEffectScale.tooltip string displayed when holding your mouse cursor over the &quot;Distortion Effects&quot; slider is improperly capitalized
+
+MC-277396 - Strings referencing nether portals are inconsistently capitalized
+
+MC-277487 - The game softlocks when attempting to create a new world if the saves folder is not writable
+
+MC-279122 - Some strings that contain the abbreviation &quot;id&quot; are improperly capitalized
+
+MC-279125 - Some &quot;/locate&quot; strings are missing articles before the word &quot;reasonable&quot;
+
+MC-279126 - The mco.configure.world.restore.download.question.line1 string incorrectly spells the word &quot;singleplayer&quot; as &quot;single player&quot;
+
+MC-279137 - The options.directionalAudio.on.tooltip string is missing a hyphen between the words &quot;HRTF&quot; and &quot;compatible&quot;
+
+MC-279138 - The command.failed string is missing a conjunction
+
+MC-279154 - The advancements.story.enter_the_nether.description string is missing a serial comma
+
+MC-279156 - The titles within some player reporting and punishment menus are improperly capitalized
+
+MC-279158 - The &quot;I know what I&apos;m doing!&quot; button is improperly capitalized
+
+MC-279182 - Strings used to describe water and lava conversion game rules are missing commas
+
+MC-279183 - The options.allowServerListing.tooltip string is missing a comma
+
+MC-279184 - The datapackFailure.title string is missing an article and always pluralizes the word &quot;pack&quot;
+
+MC-279186 - The build.tooHigh string is missing an article before the word &quot;Height&quot;
+
+MC-279189 - The mco.configure.world.leave.question.line1 string is missing a comma
+
+MC-296343 - Using the mouse wheel to switch between cast fishing rods briefly displays the uncast texture in first-person
+
+MC-297491 - Glyphs from TTF files are no longer rendered correctly on glow signs
+
+MC-301325 - Menu music starts for a brief moment during the creation of a new world
+
+MC-301761 - Elements within the Realms “Players” tab all move down slightly when the “Invited” element is selected using the TAB key
+
+MC-302144 - Players respawn inside the bottom bedrock layers when the world spawn point is set in the Nether
+
+MC-302268 - Running multiple commands quickly kicks the player for spamming in multiplayer
+
+MC-302488 - Strings that contain the term &quot;Safe Mode&quot; are inconsistently capitalized
+
+MC-302496 - Glowing dragon fireballs no longer show the glowing outline
+
+MC-302554 - Glowing falling blocks no longer show the glowing outline
+
+MC-302628 - Dolphins don&apos;t dismount minecarts when passing over activator rails
+
+MC-303401 - Using the &quot;Pick Block&quot; key on maps with map_post_processing from a cartography table in Creative mode causes the game to crash
+
+MC-304113 - Underwater fog is not applied correctly at low render distances
+
+MC-304862 - Activating a dispenser with a hostile mob spawn egg in Peaceful difficulty consumes the egg and plays a sound
+
+MC-304873 - The options.textureFiltering.rgss.tooltip string is missing a hyphen between the words &quot;shader&quot; and &quot;based&quot;
+
+MC-304874 - The options.textureFiltering.anisotropic.tooltip string is missing a hyphen between the words &quot;hardware&quot; and &quot;based&quot;
+
+MC-305182 - Textures far away from the player sometimes have black spots (with certain resource packs)
+
+MC-305239 - Growing world borders reset to their starting size upon reopening the world
+
+MC-305467 - The ender dragon&apos;s death animation effects render in front of worn armor
+
+MC-305475 - Tripwire above the player&apos;s head gets triggered twice when jumping
+
+MC-306064 - Mobs can be forced to look like they&apos;re dying while they aren&apos;t by using commands
+
+MC-306399 - The Spectator mode &quot;Teleport to Player&quot; action only updates the list of valid targets after the Spectator mode menu is hidden
+
+MC-306401 - Shulkers&apos; name tags display inside them when they&apos;re open
+
+MC-306460 - The game window is one pixel too tall in fullscreen mode
+
+MC-306622 - The height of chicken jockeys is slightly off
+
+MC-306673 - The color of sleeping baby snow foxes&apos; eyes is inconsistent with their adult variant
+
+MC-306685 - The riding position on baby hoglins is too low
+
+MC-306726 - Transparent blocks flicker as the camera is moved
+
+MC-306738 - Blocks sometimes remain visible after breaking
+
+MC-306750 - The texture of snifflets contains unused pixels
+
+MC-306840 - Dolphins still drown themselves when no players are nearby
+
+MC-306890 - Campfires cause bees to work much more slowly
+
+MC-306903 - Cubic Bézier easing functions sometimes produce wrong values
+
+MC-306946 - The block light transition from level 1 to 0 under the night sky is not smooth when Smooth Lighting is enabled
+
+MC-306962 - The &quot;Take Screenshot&quot; key bind doesn&apos;t work when set to a mouse button
+
+MC-306972 - Wardens repeatedly roar in place when detecting ghasts
+
+MC-307002 - Using /kill on one of the end crystals used to respawn the ender dragon no longer aborts the respawn sequence
+
+MC-307008 - Severe framerate drops since 26.1
+
+MC-307012 - When a scoreboard objective is set to the below_name display mode, all named entities with no score display it with a score of 0
+
+MC-307043 - Applying a freeze effect while damaging a mob causes an incorrect value for ticks_since_last_hurt_by_mob
+
+MC-307054 - Bone meal can no longer be applied to sweet berry bushes with a block above them
+
+MC-307125 - Target selectors with duplicate team arguments are parsed inconsistently depending on argument order
+
+MC-307144 - The game reads world generation data from data packs or world_gen_settings.dat inconsistently, preventing updating large biome sources
+
+MC-307159 - Using bone meal from the main hand simultaneously places a block held in the off hand
+
+MC-307418 - The game crashes when trying to upgrade a legacy world
+
+MC-307690 - The error message produced by /difficulty doesn&apos;t use the difficulty&apos;s translated name
+
+MC-307877 - Bone meal cannot be used on dry grass with a block directly above it
+
+Get the Release
+To install the Release, open up the Minecraft Launcher and click play! Make sure your Launcher is set to the &quot;Latest Release” option.
+Cross-platform server jar:
+Minecraft server jar
+Report bugs here:
+
+Minecraft issue tracker!
+Want to give feedback?
+For any feedback and suggestions, head over to the Feedback site. If you&apos;re feeling chatty, join us over at the official Minecraft Discord.</description>
+    </item>
+    <item>
+      <title>Minecraft: Bedrock Edition 26.30 Changelog - Chaos Cubed</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/46570672409997-Minecraft-Bedrock-Edition-26-30-Changelog-Chaos-Cubed</link>
+      <pubDate>Wed, 17 Jun 2026 00:00:01 GMT</pubDate>
+      <description>Posted: 16 June 2026Chaos Cubed has landed in Minecraft! Hunt for vibrant Sulfur springs in the Overworld to discover a striking cave biome hidden below. Swim in bubbling Sulfur pools if you dare, build with colorful Cinnabar and Sulfur, but best of all – uncover the Sulfur Cube’s relentless appetite for blocks! From bouncing and sliding to explosive surprises, this unpredictable mob unlocks exciting new ways to build, compete, and survive depending on what you feed it. Chaos is only a block away in our newest drop. Play today in Minecraft!Chaos Cubed FeaturesBucket of Sulfur Cube Need an easy way of getting your new Sulfur Cube friend from the Sulfur caves to your base? Sure, you could experiment with blocks to make the Sulfur Cube bounce, slide, or traverse long distances – or you can just scoop it up with a bucket and tuck it safely away in your inventory.  Sulfur Cubes Sulfur Cubes are a new mob coming to Minecraft with a curious appetite for... blocks! Found in Sulfur caves, this curious mob transforms depending on which block the player feeds it. Experiment and discover how to send Sulfur Cubes bouncing, sliding, and more! Sulfur springs Found across the Overworld, you’ll know if you’ve spotted a Sulfur pool thanks to its Sulfur and Cinnabar blocks – and the noxious gas coming from it! But dig beneath these and you’ll discover a Sulfur cave, filled with new blocks to mine and a new mob to meet! Potent Sulfur The new potent Sulfur block is the reason why Sulfur springs are so bubbly – and a bit nauseating. You can also create hot bubbling pools by placing potent Sulfur beneath water! You’ll soon spy bubble columns, as well as puffs of noxious gas. Build with caution, because noxious gas will trigger nausea in players and nearby mobs! Sulfur caves Discover this new cave type, with shallow pools of water and glow lichen. Sulfur caves are filled with yellow blocks of Sulfur, red blocks of Cinnabar, Sulfur spikes, and a curious mob called the Sulfur Cube! New block sets You’ll find two new block sets in Sulfur caves – Cinnabar and Sulfur! These new blocks allow you to add rich reds and yellows into your builds, and each comes with its own full block set. Cobble them, craft with them, turn them into stairs or bricks – the choice is yours!  Sulfur Spikes Sulfur Spikes grow on Cinnabar and Sulfur blocks, giving Sulfur caves a distinctive look. Unlike Pointed Dripstone, stepping on Sulfur Spikes is harmless, but they can still fall and hurt you – it’s just a pretty rare occurrence.  Geysers Watch your step or you’ll go flying! Geysers form when a Magma block is generated or placed underneath a potent Sulfur block that’s submerged underneath 1 to 4 blocks of water. Use them for a vertical boost or a dramatic landscaping element! Special block: TNT Why would anyone feed a TNT block to a Sulfur Cube? To see what happens, of course! Try it out for yourself, ignite it, and enjoy (or deeply regret) the explosive results.Special block: Magma Play hot potato by having a Sulfur Cube absorb a Magma block.Music
+Added new music by composer fingerspit (Paula Ruiz) to the game
+Added a new music disc with the song &quot;Bounce&quot; that may be found inside Minecarts with Chests in abandoned mineshaft structures within Sulfur Caves
+Added new music tracks Ebb, Home, Memories, Nightly, and Shores to the main Menu music, Creative Mode music, and several biomes
+
+
+The new music tracks will play in the following biomes:
+Mesa
+Bamboo Jungle
+Cherry Grove
+Desert
+Dripstone Caves
+Flower Forest
+Forest
+Frozen Peaks
+Grove
+Jagged Peaks
+Jungle
+Lush Caves
+Meadow
+Old Growth Spruce Taiga
+Old Growth Pine Taiga
+Snowy Slopes
+Sparse Jungle
+Snowy Peaks
+Swamp
+Sulfur Caves
+
+
+Features and Bug FixesAccessibility Features
+Added a Panorama Scroll Speed slider to Video settings that controls the rotation speed of the main menu background (MCPE-180178)
+Fixed a bug where animations always generated closed captions regardless of distance (MCPE-238088)
+&quot;Hide Sky Flashes&quot; setting now also suppresses lightning sky flashes in the Overworld, matching Java Edition behavior (MCPE-180737)
+Text to speech (TTS) will now read the character &apos;&amp;&apos; as &apos;and&apos; instead of &apos;ampersand&apos;
+BiomesFixed a bug that caused custom Nether biomes to generate with a repeating tiling pattern across chunk boundariesBlocks
+Fixed Command Block Hover Note text not updating after changing it until the world is reloaded (MCPE-236701)
+Iron doors and stone buttons now generate in strongholds (MCPE-11765)
+Fixed wooden doors in strongholds being placed with the wrong orientation
+Fixed Java parity issue where Cauldron/Composter blocks pulled by sticky pistons can pull player through walls (MCPE-181221)
+Using Bone Meal on Dirt in shallow water will now correctly create Seagrass or Coral (MCPE-91152)
+Fixed a client-side display issue that caused falling blocks (such as Sand, Gravel, and Anvils) to appear to pass through Cobwebs without slowing down and to lose their collision after landing
+TNT blocks now have smoke particles when ignited (MCPE-238488)
+Character Creator
+Improved character load time on the main menu
+Fixed error message displayed when importing a custom skin on Android without enough device space (MCPE-231262)
+Gameplay
+Fixed items being duplicated when crossing chunk borders in The End (MCPE-233883)
+Fixed a bug that caused entities on the edge of less-than full-height water and lava to still be affected by the liquid. (MCPE-45633 ) (MCPE-183531)
+Fixed a bug where bees don&apos;t pollinate Spore Blossoms and Chorus Flowers (MCPE-174401)
+Fixed a bug where Strider&apos;s loot was not affected by Looting Enchantment (MCPE-112761)
+Fixed Experience Orbs spawning at an incorrect position after killing a Bee, Phantom, or Vex (MCPE-61885) (MCPE-49418)
+Bees now follow players holding Chorus Flowers or Spore Blossoms
+Bees can now be bred and aged by Chorus Flowers and Spore Blossoms
+Fixed a bug where trees growing next to Spore Blossoms and Chorus Flowers did not have a chance to generate beehives.
+Fixed an issue where dimensions with large sections of air blocks could degrade performance during initial load
+Fixed a bug where vehicles with a non-zero lock_rider_rotation value would continuously rotate when a player was riding them without giving any movement input
+Removed warning text that &quot;you can&apos;t earn achievements&quot; when creating a world with Add-ons enabled.
+General
+Fixed the rest of the cases where offline multiplayer would load infinitely (MCPE-173418)
+Fixed bug where boat would jitter when switching from one to the other.
+Connections from players with names that could interfere with game functions are now rejected (MCPE-233682)
+Fixed an issue where players could not join another player&apos;s game session when launching the game from an external invitation
+Dedicated servers now have the allow list enabled by default in the server.properties, and will display a warning on server startup if the allow list is enabled but contains no entries
+Party chat now appears in the world, and you can respond from world chat with the /party command
+Fixed a crash that could occur when loading behavior packs with multiple custom dimension definitions (MCPE-238456)
+Updated the game credits
+Updated the Cubemap
+Fixed an issue where accepting a game invite while the game was loading could fail due to skins not yet being loaded
+Fixed placement of Lakes where they would not break above the surface
+Fixed a scenario where the game would send excessive web requests.
+Graphical
+Texture streaming is now enabled by default on supported platforms and can be disabled in Video settings. Texture streaming is currently only available to PC and mobile devices and will be expanded to other platforms in the future
+Fixed some blocks appearing as semi-transparent in the inventory when Texture Streaming is enabled (MCPE-235799)
+Streamed textures are no longer completely invisible after being off-screen for a while.
+Fixed an issue where dithered objects would flicker in split-screen.
+Fixed an issue where item-in-hand was clipping when inside a block in Vibrant Visuals
+Fixed an issue for certain item-in-hand not rendering when inside a block in Fancy
+Snow golem heads no longer render as completely black with Vibrant Visuals enabled
+Added fog in the End Dimension while the Ender Dragon is alive.
+Fixed some animations not working correctly on certain Android devices (MCPE-235729)
+Fixed an issue that caused dropped items to sometimes appear behind other objects in Ray Tracing graphics mode
+Fixed snow golem heads disappearing in Ray Tracing mode when the player is too close
+Fixed z-fighting on scaffolding top face.
+Fixed an issue where loading in some Marketplace worlds would result in all white screen in Vibrant Visuals.
+Updated the fog JSON schemas to allow keyframes for the following volumetric fog data members. JSONs must target the 1.26.20 schema version to use this new capability :
+Max Density: Maximum fog density (0.0–1.0)
+Zero Density Height: Y level with maximum density
+Max Density Height: Y level where density reaches 0
+Scattering: RGB scattering coefficients (light bouncing in fog)
+Absorption: RGB absorption coefficients (light absorbed by fog)
+Henyey Greenstein G: Scattering asymmetry parameter
+
+
+Fixed bug with the sky Cubemap and volumetrics not updating after teleport in Vibrant Visuals.
+Fixed incorrect tile border seam for tiles with heightmaps in Vibrant Visuals.
+Fixed Snow Golem heads being sometimes incorrectly lit in Vibrant Visuals
+Fixed an issue where emissive parts of Eyeblossom and Firefly Bush were affected by Dithering. (MCPE-225919)
+Fixed issue causing textures to appear broken when Ray Tracing is enabled.
+Fixed issue causing name tags to not appear when Ray Tracing is enabled.
+Fixed a bug where Boats and Chest Boats would visually fill with water when the player was seated inside them near the water surface
+Re-enabled texture streaming in PC and mobile previews after fixing a bug with blank textures
+Fixed shulker boxes appearing as semi-transparent in the inventory when Texture Streaming is enabled (MCPE-235799)
+Fishing line no longer disconnects from the bobber in split-screen mode (MCPE-230910)
+Clouds no longer jitter when upscaling is enabled in Vibrant Visuals.
+Armor attached to player no longer flickers when upscaling is enabled in Vibrant Visuals.
+Atlas composited textures for in-hand items now render correctly (JIRA (MCPE-223126)
+Fixed Vibrant Visuals shadows and reflections not rendering on PlayStation 4
+Fixed a crash that could occur on Windows when resizing the game window during initial loading
+Fixed corrupted visuals on mobs when using Vibrant Visuals with PBR resource packs that include heightmap textures for actors
+InputFixed a crash that can occur when prompted about extra Joy-Con controllers that are connectedLoot TablesFixed loot table container filling so that when trying to insert a new item, existing partial stacks will be merged to open up slots for new additions (MCPE-233039)Marketplace
+Fixed instances where open color picker button appeared on pages with no color picker (MCPE-229764)
+Fixed flickering crosshair in split screen (MCPE-123918)
+Mobs
+Skeletons, Strays, Bogged, and Parched now shoot arrows at the same rate as Java Edition, with difficulty-based attack intervals instead of distance-scaled intervals (MCPE-61036)
+Fixed issue where Villager farmers get stuck nodding while planting crops (MCPE-237708)
+Fixed a bug where Ghasts could get stuck in the preparing-to-fire animation pose after the player walks out of attack range
+Fixed an issue where mob audio could switch to underwater sound variants while the mob was still above the visible water surface
+Sulfur Cubes can now receive angled knockback when hit using weapons enchanted with Knockback and when the attacker is sprinting or swimming (MCPE-238284)
+Realms
+Fixed a bug in the Realms saves screen where the &quot;Save to storage&quot; button on an automatic save displayed the active world&apos;s size instead of the selected save&apos;s size, and the &quot;Free up space&quot; dialog was not shown when the selected automatic save was too large to fit in the Realm&apos;s storage
+Fixed an issue where two states could be presented in the moderate feed screen
+Added information surrounding resource packs download progress to join Realm progress message
+Fixed number of online players not showing on chosen Realm screen
+Added achievements disabled warning modal to Realms Edit World
+Fixed an issue where clearing Realm members via &quot;Clear All Members&quot; resulted in a crash
+Realms Hub
+Realms Hub added to In-game pause screen, replacing the Realms Stories button.
+Server Settings added for Render distance, Simulation distance and Max player count.
+&quot;No Members Found&quot; modal no longer briefly shows up before loading members in Realms Stories and Realms Hub
+Fixed Realms Hub settings screens not exiting properly after saving changes made on the screens.
+Disable clear all members button for admin roles to avoid confusion, since admins cannot remove other admins or owners
+Adding in a hardcore heart and border in the Realms Hub Slots section
+&quot;No Members Found&quot; empty state no longer briefly shows up before loading members in the Realms Hub Members tab
+Social DrawerFixed a crash that could occur when trying to search for players without signing in (MCPE-235488)SoundsTune trumpet sound assets for Copper variants Note Block interaction so that they are in tune with other Note Block variants (MCPE-237578)Stability and Performance
+Fixed a crash related to the data-driven renderer when an entity&apos;s geometry expression was unable to be resolved
+Fixed crash when using a structure block that contains a glow stone in Ray Tracing graphics mode . (MCPE-236402)
+Fixed constant hard drive activity caused by the texture cache flushing to disk every frame (MCPE-238187)
+Fixed a crash that could occur when loading recipes with invalid result counts from behavior packs during server initialization
+Fixed a crash that could occur on world exit or join when texture streaming is enabled
+Reduced unnecessary copies in atmospheric scattering keyframe lookups to improve frame time when Vibrant Visuals are enabled
+Fixed a crash that could occur when initializing a dimension on the client side if the spawn dimension was set to a non-Overworld dimension
+Fix a crash that could occur when a player takes too long to join local multiplayer on XBOX
+User Interface
+Text fields can now be navigated using the Tab key, which enters editing mode with all text selected. Pressing Tab while editing moves to the next field
+Fixed an issue that caused the Default Game Mode and the Activate Cheats settings to appear editable to players that don&apos;t have operator permissions. (MCPE-237784)
+Fixed the on-screen keyboard not dismissing after submitting text in JSON UI text fields on iOS and Android
+Fixed Banner message for graphics mode settings option (MCPE-231879)
+Storage indicator now is taller and has a square action button. Copy has been updated from &quot;Go to storage settings&quot; to &quot;Settings&quot;.
+Enabled add-ons in the create from template screen for preview (MCPE-232902)
+Narrate chat text if UI or Char narration is enabled
+Stop narration of typed letters when the message is sent
+Narrate chat input text when it&apos;s auto-completed or taken from history
+Updated Recipe unlocked tooltip design
+Fixed issue on the idle device screen on Switch, which could result in the text showing incorrectly. The image has been updated also.
+Fixes buttons sometimes becoming unselectable at the bottom of a scroll panel while using a controller (
+Crafting preview now shows the correct wood material variants.Recipes containing different wood materials now show the variants related to the materials you own.
+
+Fixed a bug where resource packs with subpacks would not correctly save to new worlds when they were added automatically by activating a corresponding behavior pack.
+Fixed a bug where resource packs with subpacks would not display the valid default settings when they were added automatically by activating a corresponding behavior pack.
+Fixed format for number percentage strings in Turkish language
+Fixed the profile picture on the start screen showing a blank space instead of the default Alex icon while loading
+Fixed the profile picture not updating after signing in due to the refresh window closing prematurely
+Ctrl + Left/Right Arrow now correctly moves the cursor by word in Ore UI text fields on Windows
+Ctrl + Backspace and Ctrl + Delete now correctly delete an entire word in Ore UI text fields on Windows (MCPE-237189)
+Fixed sorting by Installed state in player library not working on Switch
+Players are now informed when their skin is not compatible with cross-platform multiplayer and can choose to proceed when creating or starting a world
+Double tap or click now selects a word, and triple selects all text in Ore UI text fields
+Tap and drag now moves the cursor in Ore UI text fields
+Tap and hold now allows selecting text in Ore UI text fields
+Added ContentCard component to display marketplace items with pricing, ratings, and content badges
+Furnace recipe book was moved from experiments to the common game
+Fixed Fullscreen mode to remember which screen it was last on.
+Added a new color formatting code (§w) for the shade of blue used by party chat
+Added Wishlist grid component to display marketplace wishlist items with responsive column layout
+Prevent game freezing when loading a world if a specific resource pack is enabled - Fixed a bug that could cause the game to freeze when loading a world with a specific resource pack applied (MCPE-237537)
+Fixed a bug where the emote wheel could be opened while riding a mob or Minecart, causing the player to crouch instead of dismounting
+Added Marketplace Error component to display marketplace errors
+Non-gameplay related toast notifications (e.g. Minecraft Live reminders) will no longer be able to show during gameplay
+Added ability to access Marketplace for Preview
+Fixed an issue that caused the framerate limit option under Vibrant Visual Options to behave differently from the other quality options
+Improved the furnace recipe book UI
+Fixed a freeze when opening a furnace without recipes
+Replaced the Locator Bar toggle in the Multiplayer tab of the Create New World and Edit World screens with a Player Waypoints setting, allowing players to choose between &quot;Off&quot; (no players shown on the locator bar) and &quot;Everyone&quot; (all players shown on the locator bar)
+Added support for new Marketplace Content Cards
+Updated skin info panel in dressing room to remove duplicate author label
+World Storage
+Added OREUI Storage Settings: Storage Status and Management
+Added cloud backup of Windows worlds as an early previewPlease share your feedback at feedback.minecraft.net and report any bugs you find at bugs.mojang.com to help inform next our steps
+
+Increased Windows Preview cloud backup storage capacity to 4GB
+Technical UpdatesAdd-OnsReleased the Custom Projectiles experiment. They can now be used beyond the experimental contextAI Goals
+Made schemas for the following goals stricter when parsing and will fail to load an entity json that has invalid data in versions 1.26.30 and newer.
+minecraft:behavior.make_love
+minecraft:behavior.receive_love
+minecraft:behavior.skeleton_horse_trap
+minecraft:behavior.swell
+
+
+Made the schema for minecraft:behavior.croak stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer. Float Range fields interval and duration now only accepts an object with min and max values. Other formats will fail to parse
+Made the schema for minecraft:behavior.emerge stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.fire_at_target stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer. Float Range field attack_range now only accepts an object with min and max values. Other formats will fail to parse
+Made schemas for the following goals stricter when parsing and will fail to load an entity json that has invalid data in versions 1.26.30 and newer.
+minecraft:behavior.restrict_open_door
+minecraft:behavior.restrict_sun
+minecraft:behavior.rise_to_liquid_level
+
+
+Made schemas for the following goals stricter when parsing and will fail to load an entity json that has invalid data in versions 1.26.30 and newer.
+minecraft:behavior.roll
+minecraft:behavior.run_around_like_crazy
+minecraft:behavior.scared
+
+
+Made schemas for the following goals stricter when parsing and will fail to load an entity json that has invalid data in versions 1.26.30 and newer.
+minecraft:behavior.stay_while_sitting
+minecraft:behavior.sneeze
+minecraft:behavior.trade_interest
+
+
+Made schemas for the following goals stricter when parsing and will fail to load an entity json that has invalid data in versions 1.26.30 and newer.
+minecraft:behavior.follow_caravan
+minecraft:behavior.share_items
+minecraft:behavior.target_when_pushed
+
+
+Made the schema for minecraft:behavior.hurt_by_target stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.owner_hurt_by_target stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.owner_hurt_target stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.wither_target_highest_damage stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:wither_target_highest_damage stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.random_look_around stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer. Int Range field look_time now only accepts an object with min and max values. Other formats will fail to parse
+Made the schema for minecraft:behavior.random_look_around_and_sit stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.door_interact stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.break_door stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.open_door stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.follow_target_leader stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.defend_trusted_target stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.nearest_prioritized_attackable_target stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.random_breach stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.random_fly stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.random_swim stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made the schema for minecraft:behavior.wither_random_attack_pos_goal stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.30 and newer
+Made schemas for the following goals stricter when parsing and will fail to load an entity json that has invalid data in versions 1.26.30 and newer.
+minecraft:behavior.dragondeath
+minecraft:behavior.dragonholdingpattern
+minecraft:behavior.dragonlanding
+minecraft:behavior.dragonscanning
+minecraft:behavior.dragontakeoff
+
+
+Made schemas for minecraft:behavior.place_block and minecraft:behavior.take_block stricter when parsing and will fail to load an entity json that has invalid data in versions 1.26.30 and newer.Fields xz_range and y_range now only accept an object with min and max values. Other formats will fail to parse
+
+API
+Fixed a crash that would sometimes occur when setting the color of an item with DyeableItemComponent (MCPE-237909)
+Released @minecraft/server version 2.8.0
+Added @minecraft/server version 2.9.0-beta
+Significantly improved block search speed when using BlockVolume for &apos;getBlocks&apos; API.
+Significantly improved block search speed when using BlockVolume for &apos;containsBlock&apos; API.
+Released ClientSystemInfo.locale from beta to 2.8.0
+Released class BlockContainerClosedAfterEvent from beta to 2.8.0
+Released class BlockContainerClosedAfterEventSignal from beta to 2.8.0
+Released class BlockContainerOpenedAfterEvent from beta to 2.8.0
+Released class BlockContainerOpenedAfterEventSignal from beta to 2.8.0
+Released class EntityContainerClosedAfterEvent from beta to 2.8.0
+Released class EntityContainerClosedAfterEventSignal from beta to 2.8.0
+Released class EntityContainerOpenedAfterEvent from beta to 2.8.0
+Released class EntityContainerOpenedAfterEventSignal from beta to 2.8.0
+Released class ContainerAccessSource from beta to 2.8.0
+Released interface BlockContainerAccessEventOptions from beta to 2.8.0
+Released interface EntityContainerAccessEventOptions from beta to 2.8.0
+Released interface ContainerAccessSourceFilter from beta to 2.8.0
+Released class EntityEnderInventoryComponent from beta to 2.8.0
+Released function StructureManager.getPackStructureIds from beta to 2.8.0
+Fixed issue where SimulatedPlayers do not spawn with properties defined in player.json.
+Fixed Dimension.containsBlock() returning incorrect results when using exclude filters on a BlockVolume smaller than 16x16x16
+Released EntityUpgradeAfterEvent from beta to stable
+Entity version upgrades are no longer gated behind the Upcoming Creator Features experiment
+Added a new condition &quot;biome_has_tag&quot; that allows checking which biome tag is present at the location of the entity that is dropping lootSpecify which Biome tag to check in the &quot;tag&quot; field of the condition
+
+Releasing PrimitiveShapesManager, PrimitiveShape, TextPrimitive and PrimitiveShapeError from beta to 2.8.0
+Released enum member EntityHealCause.TotemOfUndying from beta to v2.8.0
+Released minecraft:totem_of_undying firing entityHeal events from beta to v2.8.0
+Released class BlockComponentBlockStateChangeEvent from beta to v2.8.0
+Fixed a bug where the @minecraft/debug-utilities package didn&apos;t have a peer dependency on the beta version of @minecraft/server.
+Released EntityUpgradeAfterEvent and EntityUpgradeAfterEventSignal from beta to stable
+Released LocatorBarErrorReason from beta to v2.8.0
+Released WaypointTexture from beta to v2.8.0
+Released EntityWaypoint from beta to v2.8.0
+Released LocationWaypoint from beta to v2.8.0
+Released LocatorBar from beta to v2.8.0
+Released PlayerWaypoint from beta to v2.8.0
+Released Waypoint from beta to v2.8.0
+Released WaypointTextureBounds from beta to v2.8.0
+Released WaypointTextureSelector from beta to v2.8.0
+Released InvalidWaypointError from beta to v2.8.0
+Released InvalidWaypointTextureSelectorError from beta to v2.8.0
+Released LocatorBarError from beta to v2.8.0
+Released CustomTexture from beta to v2.8.0
+Released EntityVisibilityRules from beta to v2.8.0
+Released PlayerVisibilityRules from beta to v2.8.0
+Released DimensionRegistry from beta to v2.8.0
+Released StartupBeforeEvent.dimensionRegistry from beta to v2.8.0
+Released CustomDimensionAlreadyRegisteredError from beta to v2.8.0
+Released CustomDimensionInvalidRegistryError from beta to v2.8.0
+Released CustomDimensionNameError from beta to v2.8.0
+Released CustomDimensionReloadNewDimensionError from beta to v2.8.0
+Added new @minecraft/server-ui 2.1.0 release
+Data-driven UI (DDUI)We have significantly updated the implementation of DDUI as we prepare for stabalization. Please test the latest changes in this week&apos;s preview and let us know if you&apos;re seeing any issue.
+Replaced Observable with ObservableString, ObservableNumber, ObservableUIRawMessage, and ObservableBoolean.Instead of using Observable.create you should now use the constructor, i.e. new ObservableString(&quot;hello!&quot;)
+
+Renamed DropdownItem to DropdownItemData
+Changed values of DataDrivenScreenClosedReason:
+UserClose -&gt; ClientClosed
+ServerClose -&gt; ServerClosed
+UserBusy is unchanged
+
+
+Fixed a bug where you could not show ModalFormData or MessageFormData directly after CustomForm or MessageBox.
+Released MessageBox, CustomForm, and all supporting APIs out of beta and into @minecraft/server-ui 2.1.0
+Biome Components
+The following biome components have been taken out of beta and are available starting with the &quot;1.26.30&quot; format version:
+&quot;minecraft:surface_builder&quot;
+&quot;minecraft:subsurface_builder&quot;
+
+
+The minecraft:noise_gradient surface builder type has been updated. The API is the same as before, but the noise ranges provided are now clamped to the range [-1, 1] instead of [0, 1]
+Blocks
+Fixed a bug where the &quot;minecraft:material_instances&quot; on custom blocks would override the &quot;minecraft:material_instances&quot; inside a &quot;minecraft:item_visual&quot;, causing custom blocks held by the player to be rendered incorrectly (MCPE-234766)
+Fixed permutation component constraints for multi-blocks with format_version &gt;= 1.26.20
+Released the culling_shape field in the minecraft:geometry component from behind the VoxelShapes experiment. Non-unit-Cube culling shapes for vanilla blocks (e.g. fences, bells, slabs) still require the experiment.
+Released the snow logging behavior for Block Precipitation Interaction component out of experimental. The feature requires version 1.21.120+
+Fixed bug where custom blocks with random_offset would be put back in the center of its position when snow logged.
+Changed the precipitation behavior value from &quot;snow_log_no_collision&quot; to &quot;snowlogging&quot; to avoid confusion regarding its functionality.
+
+
+Added n_way_visual_rotation field to block geometry component, which takes the name of a block state as a string, which drives visual-only rotation of the block based on that state. Supported states are: &quot;minecraft:cardinal_direction&quot;,  &quot;minecraft:sixteen_way_rotation&quot;, and all custom states.
+ Added &quot;minecraft:sixteen_way_rotation&quot; as an enabled state for the &quot;minecraft:placement_direction&quot; block trait, which will automatically apply a state value from 0-15 based on player rotation at time of block placement.
+Fixed block traits not respecting experimental requirements for format_version &gt;= 1.26.20
+Blocks with a custom beforeOnPlayerPlace scripting event placed by an item with a minecraft:block_placer component no longer desyncs upon placement (MCPE-238017)
+Added the lava_flammable field to the minecraft:flammable component
+Supported values are always and never (default)
+When set to always, the block is considered when lava attempts to spread fire after adjacent block updates, while still respecting normal fire placement rules
+When set to never, the block is excluded from that check
+The &quot;lava_flammable&quot; field of the &quot;minecraft:flammable&quot; component is now usable without the Experimental Upcoming Creator Features
+
+
+Client EntitiesAdded the hide_held_items Molang expression property to minecraft:client_entity&apos;s scripts section that hides held items when it evaluates to a non-zero valueComponents
+Fixed an assert that would occur when trying to use the minecraft:noise_gradient builder type inside a minecraft:surface_builder biome component if the biome definition&apos;s schema version was set to beta.
+Added field &apos;stop_if_holding_item&apos; to &quot;minecraft:behavior.pickup_items&quot;
+Defaults to false,
+If true, the mob will not pick up another item if the item&apos;s preferred slot matches
+
+
+Commands
+Fixed command auto-completion for custom block states with integer values showing incorrect zero-based indices instead of the actual defined values (MCPE-236301)
+Removed the locatorbar boolean gamerule. Worlds that previously had locatorbar set to true will automatically migrate to the new playerWaypoints Game Rule with a value of everyone, and false will migrate to off.
+Added the playerWaypoints gamerule as a replacement for the deprecated locatorbar Game Rule. Accepted values are off (players are not shown on the locator bar) and everyone (all players are visible on the locator bar).
+/stopsound command now produces exactly one success or failure message upon completion (MCPE-236165)
+/playsound command now produces exactly one success or failure message upon completion (MCPE-236157)
+Change how the localization process percentage signs in formatted strings: a numbered form with an invalid parameter will be left as it is
+Fixed an issue where every /camerashake add changed the shake types of previously added shake events
+Fix missing suggestions for commands typed after &apos;/execute run setblock&apos; (MCPE-238266)
+Content LogContent log messages now cut out the user&apos;s personal file path prefix to instead only show the relevant pathDedicated ServerJSON schema outputs now include beta format versionsEditor
+Added Custom Dimensions tool to the action bar. Easy and teleport between custom dimensions inside your world.
+Added Dimensions and Biome Data Assignment tools
+Added the Custom Mesh tool to Editor, allowing creators to import STL mesh files and place them as blocks
+Added Cherry, Mangrove, Pale Oak, Crimson, and Warped tree types to the Tree Generator sample tool
+Added Melon as a crop option in the Farm Generator tool
+Added tooltip with keyboard shortcut information to the Flood Tool &quot;Apply Flood&quot; button
+Fixed Flood Tool preview placement and movement not supporting Undo and Redo actions
+Fixed Flood Tool preview being visually displaced by one block when placed at Y coordinate of 0 or lower
+Fixed a bug where adding a new Jigsaw collection would cause the selected collection to switch to the last one alphabetically instead of staying on the newly created collection
+Fixed a crash and missing blocks when generating a Jigsaw preview containing wall blocks or other blocks whose post-placement state depends on neighboring blocks
+Fixed a crash that occurred when generating a Jigsaw preview with structures containing Jigsaw blocks that have an invalid &quot;Turns Into&quot; block name
+Fixed a bug that the Jigsaw was built using only one structure from pool of pieces after rejoining a Project
+Fixed a bug that the preview offset has been changed after click Quick Move in Selection Tool
+Fixed a bug that the LayoutInstance structure rotation/mirror didn&apos;t match the structure preview
+Fixed transition when loading a project on Editor play screen from Instant to Slide, and making it consistent with Play screen
+Fixed a bug in the Editor Workbench tool where doors could only be edited by clicking the bottom half. Clicks on the top half (upper_block_bit=true) are now resolved to the bottom half so block state highlighting and property edits work consistently from either half.
+Added TooltipButton API for interactive tooltips to support buttons
+Improved performance for frequently updating scripted panes. Also removed beginConstruct and endConstruct functions
+Added setSortOrder and getSortOrder to IModalToolContainer for custom tool organization
+Implemented Jigsaw auto-save for changing structure and weight in pool
+Implemented auto-save for Prefab template layout changing.
+Added Minimap click and hover interactions
+Added click-to-teleport on the minimap and markers.
+Added hover tooltips showing block, biome, and coordinate info on the minimap, and label info on markers.
+
+
+Improved Minimap architecture and added new features
+Moved block scanning to a client-driven model with spread-over-frames processing to avoid frame spikes.
+Added marker system with Multiplayer, Location, and Custom marker types.
+Added FollowPlayer and FreeCenter tracking modes.
+Added Y-level control for top-block scanning depth.
+Added client-side block change detection via BlockSourceListener.
+Changed minimap position types from Vec2 to VecXZ.
+Reworked MinimapItem script API with typed marker methods and options-based createMinimap.
+Added comprehensive unit tests for minimap services, cache, and block change tracking.
+
+
+Status bar now displays the biome under the cursor
+Added IPaneManager to IPlayerUISession for creating panes, createPropertyPane function will be deprecated
+Added IIntroductionPane API to support creating user education content to be displayed in a floating window
+Added IContentBadgeManager API for managing content badges that will highlight UI controls. Content badges could be restored or dismissed from settings panel
+Added contentBadgeId to IRootPropertyPaneOptions API for highlighting infoTooltip button, it will persist until tooltip is displayed. Content badges can also be added to action bar items with IActionBarItemCreationParams.
+Added RootPaneLocation.Bottom to display scripted root panes in a bottom drawer panel
+Added sortIndex for menu API to organize them within the submenu
+Fixed a bug where stairs/torches/doors in a structure faced the wrong direction when applying Mirror X/Z in the PastePreview tool.
+The Paste Preview Tool remembers your current clipboard&apos;s changed origin
+Fixed the Publish to Realms help link so it stays available when a Bedrock Editor user does not have an active Realms subscription
+Fixed Navigation Panel teleport-to-player so it also moves the local player to the target player&apos;s dimension instead of teleporting to their XYZ in the local player&apos;s current dimension
+Introduced infrastructure to enable custom cursor icon in Editor, per context
+Introduced new enum MouseCursorIconType for the supported cursor icons.
+Player Input Service extended to support cosmetic feature in Editor.
+Cursor icon can be set/clear with context priority resolution.
+Priority is Global -&gt; Modal Tool -&gt; Viewport.
+
+
+Added a new modal to display information about the new changes in editor, this can be access from the Help menu
+Removed Quick Start panel
+Added PrimaryAttention and SecondaryAttention to ThemeSettingsColorKey API for content badges
+GameCore builds no longer crash or incorrectly copies data out of the Shared &apos;minecraftWorlds&apos; folder for worlds (with behavior / resource packs enabled) upon exiting the Edit Project screen using the Back / Resume buttons
+Fixed a crash that occurred when removing structures from a layout template when a template was placed into the world
+Added a modal dialog to Vibrant Visuals that allows users to map per-biome lighting configurations, letting creators assign specific lighting groups, atmospheric scattering, color grading, water, and Cubemap settings to individual biomes
+Updated editor tools to show a load/busy mouse cursor during longer-running operations (shape placement, flood apply, chunk operations).
+Modifying buttons in a button pane now works correctly again
+Disabled the &quot;Export World&quot; button on the Edit Project screen. To export the world, enter the Project, go to File -&gt; Export, and select &quot;Shareable World&quot; from the dropdown
+Added three new export types to Export Settings (Project Backup, World Template, Shareable World).
+Project Backup: Creates a packaged backup of the current editor project into the archive folder (.mcproject file)
+World Template: Creates a packaged World Template (.mctemplate) with all Editor settings and metadata removed into the archive folder
+Shareable World: Creates a packaged playable world (.mcworld) with all Editor settings and metadata removed into the archive folder
+
+
+Added a new flag to Bedrock Dedicated Server to allow converting standard vanilla worlds to an Editor Project when launching BDS as Editor
+The Line Tool with two control points now respects the maximum allowable distance when moving the second point
+EntityReleased execute_event_on_home_block entity event response out of experimentalEntity Components
+The following entity components have been taken out of beta and are available starting with the &quot;1.26.30&quot; format version:
+&quot;minecraft:apply_knockback_rules&quot;
+&quot;minecraft:pushable_by_entity&quot;
+&quot;minecraft:bounciness&quot;
+&quot;minecraft:air_drag_modifier&quot;
+
+
+Added the use_self_as_damage_source property to the minecraft:area_attack componentIf set to false, other entites won&apos;t retaliate against the attacking entity
+
+Added &quot;presets&quot; field to the &quot;minecraft:pushable_by_entity&quot; component, allowing customization of push behavior per entity type
+These changes are in beta format version, the intent is to add these changes to format version 1.26.30, when going out of beta
+Each preset entry supports the following fields:
+&quot;filter&quot;, conditions that must be met for the preset to be applied
+&quot;push_mode&quot;, the type of push calculation: &quot;default&quot;, &quot;legacy_boat&quot;, or &quot;legacy_minecart&quot;
+&quot;strength_multiplier&quot;, scales the push force applied to the entity
+&quot;min_distance&quot;, minimum distance between entities for push forces to be applied
+&quot;push_scale_self&quot;, scales how much push force this entity applies to itself away on collision
+&quot;push_scale_other&quot;, scales how much push force this entity applies to the other entity on collision
+&quot;play_sound_cooldown_in_seconds&quot;, cooldown in seconds between sounds, a lower number results in more sounds
+&quot;play_sound_impulse_threshold&quot;, minimum change of velocity needed to trigger the push sound, a lower value means higher sensitivity
+
+
+
+
+Added unleash_on_removal field to minecraft:leashable component
+When set to true (the default), the entity is unleashed from the entity it is leashed to once the component is removed
+Entities with format versions prior to 1.26.30 will have this field defaulted to false to preserve existing behavior
+
+
+Added unleash_on_removal field to minecraft:leashable_to component
+When set to true (the default), entities leashed to the entity are unleashed once the component is removed
+Entities with format versions prior to 1.26.30 will have this field defaulted to false to preserve existing behavior
+
+
+Added the field extra_knockback_approach to minecraft:apply_knockback_rules preset settings for handling extra knockback from enchantments, sprinting and swimming
+reapply_default preserves the current behaviour where knockback is reapplied with the new power and a default preset
+multiply instead combines it into the original knockback calculation by multiplying the power value in the preset provided by minecraft:apply_knockback_rules
+
+
+Made several changes to minecraft:pushable_by_entity presets:
+The min_distance field now controls the minimum range at which push interactions can occur for all push_mode valuesDistance is measured as the horizontal distance between the centers of the two entities
+
+Renamed the kick_distance_threshold field to max_distance, which now controls the maximum range at which push interactions can occur for all push_mode valuesDistance is measured as the horizontal distance between the center of the pushed entity and the edge of the pushing entity&apos;s collision box
+
+Added a play_sound field to control whether the pushed_by_player sound is played
+Added a new none value to the push_mode field, which disables pushing behavior entirely
+
+
+Entity Event ResponsesAdded unleash entity event response
+If its unleash_self field is set to true, it unleashes the entity from the entity it is leashed to
+If its unleash_others field is set to true, it unleashes all entities that are leashed to the entity
+
+Entity Filters
+Added the redstone_strength_at_position entity filter that tests the redstone signal strength at the subject entity&apos;s position
+The redstone_strength_at_position entity filter now correctly evaluates to 0 when no signal is present
+The redstone_strength_at_position entity filter now correctly evaluates to the redstone strength when a Redstone Wire is pointing at the evaluated position
+Features
+
+Adding a new feature type height_difference_filter_feature
+
+This feature is meant to be used as a filter to filter away positions based on height differences close to the placed feature
+Example usage to allow Pink Petals to only place close to cliffs:
+
+{
+  &quot;format_version&quot;: &quot;1.26.30&quot;,
+  &quot;minecraft:height_difference_filter_feature&quot;: {
+    &quot;description&quot;: {
+      &quot;identifier&quot;: &quot;minecraft:pink_petals_near_cliff_feature&quot;
+    },
+    &quot;places_feature&quot;: &quot;minecraft:pink_petals_feature&quot;,
+    &quot;min_required_negative_height_diff&quot;: 5,
+    &quot;search_radius&quot;: 5
+  }
+}
+
+
+min_required_upward_height_diff Specifies the minimum height difference required upwards
+min_required_downward_height_diff Specifies the minimum height difference required downwards
+max_allowed_upward_height_diff Specifies the maximum height difference allowed upwards
+max_allowed_downward_height_diff Specifies the maximum height difference allowed downwards
+search_radius specifies the length in each cardinal direction the filter will check for blocks against the given differences
+places_feature specifies what feature should be placed when filter succeeds
+
+
+Added an only_check_intersection_for_motion_blocking_blocks field to the block_intersection constraint of minecraft:structure_template_feature
+When true, only motion-blocking blocks within the structure are checked for intersections against the block_allowlist
+When false, all blocks in the structure except empty ones are checked for intersections, including air
+Defaults to true, preserving existing behavior
+Motion-blocking blocks are full blocks that block motion
+
+
+Added a ground_level field to minecraft:structure_template_feature
+Specifies which Y coordinate of the structure is considered its ground level
+Used as a vertical offset during placement and determines which layer of the structure is checked by the leveled and grounded constraints
+All non-air blocks at this level define positions where the leveled and grounded constraints are checked
+If the value exceeds the structure&apos;s height, it is clamped to the maximum valid value and a content warning is emitted
+Defaults to 0
+
+
+Added a new leveled option to the constraints field of minecraft:structure_template_feature
+When specified, ensures the structure&apos;s ground level is placed on mostly flat terrain
+Includes a max_steepness field that defines the maximum allowed height difference between the placement position and terrain samples taken at the structure&apos;s ground level
+A valid terrain sample consists of a solid block with a non-solid block above it
+Defaults to 2
+
+
+
+
+The only_check_intersection_for_motion_blocking_blocks field in the block_intersection constraint of minecraft:structure_template_feature is now optional
+GameplayFixed a bug where the loot table match_tool condition could match when blocks were broken or mobs were killed with an empty hand (MCPE-188723)General
+Projectiles spawned using the &quot;minecraft:spawn_entity&quot; component now respect the anchor field of &quot;minecraft:projectile&quot;
+Fixed a bug where pack settings could be lost when an older version of the same pack without settings defined existed in the cache
+Fixed an issue where on slower connections the hotbar would swap between items if you placed a block and immediately swapped
+String length validation for JSON now correctly apply to multi-byte characters
+Graphical
+Fixed an issue where &quot;should_update_bones_and_effects_offscreen&quot; and &quot;should_update_effects_offscreen&quot; settings were not applied as expected
+Removed padding from terrain atlas on RenderDragon.Known issue around RTX textures displaying incorrectly; this will be resolved in an upcoming Preview.
+
+Restructured internal graphics settings to be more compact and separated by platform
+Items
+A new field &quot;start_using&quot; was added to the &quot;minecraft:use_modifiers&quot; item component. It can either be set to &quot;always&quot; or &quot;if_first&quot;. It is defaulted to &quot;always&quot; with format version lower than 1.26.30 and &quot;if_first&quot; otherwise. When set to &quot;if_first&quot;, &quot;minecraft:use_modifiers&quot; will only attempt to start using the item if no other component has already attempted to.
+Items with both a &quot;minecraft:use_modifiers&quot; and a &quot;minecraft:shooter&quot; component with a charge duration will now properly charge and shoot with &quot;start_using&quot; set to &quot;if_first&quot;. (MCPE-228331) (MCPE-228332) (MCPE-228333)
+The &quot;minecraft:wearable&quot; component no longer overrides the &quot;minecraft:max_stack_size&quot; component when both are present on a custom item (MCPE-176931)
+Items with both a &quot;minecraft:use_modifiers&quot; and a &quot;minecraft:shooter&quot; component with no available ammo will no longer draw with &quot;start_using&quot; set to &quot;if_first&quot; on the &quot;minecraft:use_modifiers&quot; component (MCPE-228331)
+Loot TablesFixed loot table container filling so when no empty slots remain, generated loot now merges into matching non-full stacks instead of failing to place (MCPE-233039)Mobs
+The effect_amplifier field on the minecraft:attack component is now applied to the inflicted status effect, so amplifier-sensitive effects such as Hunger now scale correctly when triggered by a mob&apos;s melee attack
+Fixed actor textures not loading properly when applying packs with older min engine version
+MolangAdded the query.fuse_time query that returns the remaining fuse time of an entity, or -1 if the entity doesn&apos;t have a &quot;minecraft:explode&quot; componentNetwork ProtocolModified the binary format of BossEventPacketRenderer
+Fixed a bug where held_item_scale was not correctly applied to data driven blocks
+Entity held_item_scale now accepts a Molang expression for state-driven scaling, and consistently applies to the main hand only in both first- and third-person
+Scripting
+Releasing isSnowLoggable method in ScriptBlockPrecipitationComponent from beta to 2.8.0.
+LootItem scripting class now returns correct values for Name field on custom items and blocks (MCPE-238050)
+LootPool scripting class now returns correct values for Rolls and Bonus Rolls fields. (MCPE-238055) (MCPE-238056)
+Added BiomeWater API for water graphics overrides to beta
+Added BiomeColorGrading API for color grading and tone mapping graphics overrides to beta
+Added BiomeLighting API for lighting graphics overrides to beta
+Added PlayerWater API for per-player water graphics overrides to beta
+Added PlayerColorGrading API for per-player color grading and tone mapping graphics overrides to beta
+Added PlayerLighting API for per-player lighting graphics overrides to beta
+Added PlayerAtmospherics API for per-player atmospherics graphics overrides to beta
+Added LootItem.conditions to beta. MCPE: 238052
+Sounds
+Updated sound assets for Nautilus jets and Nautilus recovers
+Added bespoke sound event for when Slime mobs landActual sound on Slime and Magma Cube is unchanged, this is to support the Sulfur Cube
+
+Correct subtitle is now showing when Sulfur Cube is jumping around
+Stability and PerformanceWhen leaving the game in split screen the ecomode system could receive a callback after the client had been removed causing a crashSurface Builders
+The NoiseDescriptor schema definition has been introduced. The purpose of this schema is to be used as part of a surface- or subsurface-builder&apos;s schema. It has the following fields:
+name: The string used to initialize the noise. Has no impact on the qualitative aspects of the generated values (required)
+first_octave: Governs the general frequency characteristics of the generated noise. Lower value results in noise with lower frequency content (required)
+amplitudes: Governs the attenuation of the first n octaves in the generated noise (required)
+
+
+The NoiseBlockSpecifier schema definition has been introduced. The purpose of this schema is to be used as part of a surface- or subsurface-builder&apos;s schema. It has the following fields:
+noise: The noise identifier associated with a particular NoiseBlockSpecifier (non-required)
+threshold: The minimum sampled noise value associated with the provided Block (non-required)
+range: The range of sampled noise value associated with the provided Block (non-required)
+block: The block to place if the noise sample satisfies either the threshold or range condition (required)
+
+
+The minecraft:noise_gradient surface- and subsurface builder has an updated API consisting of the following:
+noise: a NoiseDescriptor (required)
+non_replaceable_blocks: A list of blocks that the surface builder is not allowed to replace. Leaving this list empty or unspecified will allow the replacement of any (non-air) block type (non-required)
+noise_block_specifiers: An array of NoiseBlockSpecifiers defining which sample ranges of noise are associated with which blocks. The ranges provided are valid on the interval [0, 1], and may overlap at their endpoints (required)
+
+
+User Interface
+Fixed marketplace offers sometimes showing coin icons in places they shouldn&apos;t
+Fixed a bug where the coin icon may not appear on certain Marketplace offers
+Voxel Shapes
+Internally used Voxel Shapes have been released to the bedrock-samples Github repo (https://github.com/Mojang/bedrock-samples/) for creator reference when making their own shapes.
+Matching shapes will be merged at runtime for better performance.ex. minecraft:composter &amp; custom:composter (where custom:composter is a copy of the exported minecraft:composter shape) will be de-duplicated down on world load to save memory.
+
+For a deeper dive into Voxel Shape usage please see the additional documentation available here: Voxel Shapes | Microsoft Learn.
+World Generation
+Fixed infinite loading issue for biomes with subsurface builder (MCPE-238131)
+Bedrock floor and ceiling will be placed regardless of &quot;minecraft:surface_builder&quot; and &quot;minecraft:subsurface_builder&quot; presence in the biome.json file
+Experimental Technical UpdatesAdd-OnsCustom projectiles spawned via the &quot;minecraft:spawn_entity&quot; component now apply the offset field of &quot;minecraft:projectile&quot; when the experimental toggle &quot;Custom Projectiles&quot; is enabledAPI
+Adds WebSocketClientCloseReasons enum to @minecraft/server-net in beta.
+WebSocketClientCloseAfterEvent
+Adds property reason: WebSocketClientCloseReasons in beta
+This event is now sent when WebSocketClient.close() is called
+
+
+Adds max_websocket_payload_size to @minecraft/sever-net module configurationThis setting, if set, will prevent a websocket from being spammed by the server and close the socket if all data payloads size received during a tick exceeds this value.
+
+Added getPing() to Player in @minecraft/server in beta
+Added playfabId property to Player in @minecraft/server in beta
+Adds HttpStatusCode enum to @minecraft/server-net in beta
+WebSocketConnectionFailedErrorProperty errorCode is now a HttpStatusCode in beta
+
+@minecraft/server-net in betaWhen connection websockets, you can now provide headers for the connection packet: WebSocket.connect(uri: string, headers?: HttpHeader[]) : Promise&lt;WebSocketClient&gt;
+
+GameRules
+Removed locatorBar: boolean property from beta.
+Added playerWaypoints: PlayerWaypointsMode property to beta. This replaces the removed locatorBar rule.
+
+
+Added PlayerWaypointMode enum to beta.
+Added EntityUpgradeAfterEvent which fires when an entity upgrade occurs in @minecraft/server
+Added entityUpgrade event to WorldAfterEvents in @minecraft/server
+Added SoundInstance class to beta with a stop method that allows stopping a playing sound
+Dimension.playSound now returns a SoundInstance in beta
+Player.playSound now returns a SoundInstance in beta
+Added new shape classes to @minecraft/debug-utilities library:DebugCone, DebugCylinder, DebugPyramid, DebugEllipsoid
+
+Fixed bug where @minecraft/server-net was using the incorrect dedicated server configuration ID for a pack. Under ./config/&lt;moduleID&gt;/* is a pack&apos;s configuration for scripting. The server-net module was looking at the pack ID rather than the script module ID like all other modules.
+Added class PlayerStartBreakingBlockAfterEvent to beta
+Added class PlayerStartBreakingBlockAfterEventSignal to beta
+Added interface PlayerBreakingBlockEventOptions to beta
+Added property WorldAfterEvents.playerStartBreakingBlock to beta
+Removed the beta Player.partyInfo scripting property and PartyInfo interface from @minecraft/server
+Added the minecraft:dynamic_properties block component
+It is only present on blocks defined with a &apos;minecraft:block_entity component with dynamic_properties` set to true
+It stores properties of the same DynamicProperties type that can be found on entities or item stacks
+It comes with a get, set and totalByteCount API
+It may only store up to 1KBytes of data per block entity
+It (currently) does not carry over its data to the item resulting from mining or picking the block entity
+
+
+Added EntityFogComponent to @minecraft/server (beta) for manipulating a player&apos;s fog settings, with push, pop, remove, getStack, getTags, and applyStack methods
+Added EntityFogComponentError to @minecraft/server (beta)
+Fixed a race condition when connecting script websocket clients to a server which caused the socket to fail to connect.
+Added class PlayerCancelBreakingBlockAfterEvent to beta
+Added class PlayerCancelBreakingBlockAfterEventSignal to beta
+Added property WorldAfterEvents.playerCancelBreakingBlock to beta
+DDUI
+Added class ScriptInvalidObservableError that is thrown when an observable value is expected to be writable, but it is not.
+Changed class CustomForm
+Changed function dropdownChanged return type from CustomForm (throws InvalidFormModificationError) to CustomForm (throws InvalidFormModificationError, InvalidObservableError)
+
+Changed function sliderChanged return type from CustomForm (throws InvalidFormModificationError) to CustomForm (throws InvalidFormModificationError, InvalidObservableError)
+
+Changed function textFieldChanged return type from CustomForm (throws InvalidFormModificationError) to CustomForm (throws InvalidFormModificationError, InvalidObservableError)
+
+Changed function toggleChanged return type from CustomForm (throws InvalidFormModificationError) to CustomForm (throws InvalidFormModificationError, InvalidObservableError)
+
+
+
+Blocks
+Added snow logging behavior for multi-blocks
+Added the &apos;minecraft:block_entity` block component
+It has a single boolean field dynamic_properties
+It requires format version 1.26.20 and Experimental Upcoming Creator Features
+It cannot be used in permutations
+
+
+When a block with a &apos;minecraft:block_entity` is placed in the world, an associated block-entity will be placed with the intent to provide persistent local metadata, akin to chests, spawners, signs, etc...While leaner than their Vanilla counterparts, they still are heavier on the RAM than non-block-entities; use them sparingly
+
+Added the minecraft:instrument_sound block component behind the Upcoming Creator Features experimentit can be used to assign an instrument to &quot;up&quot; and &quot;down&quot; faces of a block and it&apos;s permutations
+all current instruments can be used to define a sound
+newly added &quot;note.none&quot; can be used to specify no sound for a face
+if a face is not defined it will use its default value; &quot;up&quot;: &quot;note.harp&quot; and &quot;down&quot;: &quot;note.none&quot;
+at least one face must be defined for the component to be valid Example:
+
+
+
+{
+    &quot;format_version&quot;: &quot;1.26.20&quot;,
+    &quot;minecraft:block&quot;: {
+        &quot;description&quot;: {
+            &quot;identifier&quot;: &quot;test:test_block&quot;
+        },
+        &quot;components&quot;: {
+            &quot;minecraft:instrument_sound&quot;: {
+                &quot;up&quot;: &quot;note.bit&quot;,
+                        &quot;down&quot;: &quot;note.bell&quot;
+            }
+        }
+    }
+}
+Voxel Shapes
+Added non-unit-Cube voxel shapes for 8 Vanilla blocks when the Voxel Shapes experiment is enabled. These shapes improve face culling so that hidden faces between adjacent blocks are correctly removed
+Anvil shape (3 blocks): Anvil, Chipped Anvil, Damaged Anvil
+Cactus shape (1 block)
+End Portal Frame eye shape (1 block): added shape for the eye-filled state
+Grindstone shape (1 block)
+Heavy Core shape (1 block)
+Lectern shape (1 block)
+
+
+Added directional voxel shapes for 13 Vanilla blocks when the Voxel Shapes experiment is enabled. These shapes improve face culling so that hidden faces between adjacent blocks are correctly removed based on placement orientation
+Shelf shapes (12 blocks): Acacia Shelf, Bamboo Shelf, Birch Shelf, Cherry Shelf, Crimson Shelf, Dark Oak Shelf, Jungle Shelf, Mangrove Shelf, Oak Shelf, Pale Oak Shelf, Spruce Shelf, Warped Shelf
+Bell attachment shapes (1 block): floor, ceiling, single wall, and double wall variants
+
+
+Added voxel shapes for 46 Vanilla blocks that change geometry during runtime based on player interactions or the environment. These shapes need the Voxel Shapes experiment to be enabled. These shapes improve face culling so that hidden faces between adjacent blocks are correctly removed.
+Big Dripleaf shape (3 blocks): Big Dripleaf, Big Dripleaf Tilt Partial, and Big Dripleaf Tilt Full
+Fence shape (13 blocks): Fence for each wood type (13)
+Fence Gate shape (26 blocks): Fence Gate and Fence Gate In Wall for each wood type (13)
+
+
+Added occlusion voxel shapes for wall-mounted skull blocks when the Voxel Shapes experiment is enabled
+These shapes improve face culling so that hidden faces of custom blocks are correctly removed when a skull block is attached
+Wall-mounted skull shapes (6 blocks): Creeper Head, Dragon Head, Player Head, Skeleton Skull, Wither Skeleton Skull, Zombie Head
+Wall-mounted Piglin shape (1 block): Piglin Head
+
+
+Custom DimensionsFixed Custom Dimension height range to match Overworld defaultsEntitiesAdded support for using entity actions in entity_version upgradersEntity Components
+The following beta fields of minecraft:apply_knockback_rules now use the direction of the tap location when using a touch input device
+horizontal_hit_angle_scale
+vertical_hit_angle_scale
+vertical_position_angle_scale
+
+
+The beta field vertical_hit_angle_scale from minecraft:apply_knockback_rules is now correctly applied when horizontal_hit_angle_scale negative
+EventsAdded EntityStartSneakingAfterEvent and EntityStartSneakingAfterEventSignal to beta.General
+Added &quot;owner_launch_immunity_ticks&quot; field to the projectile component
+Fixed player spawn position when rejoining a world after their previously saved custom dimension becomes inactive
+Graphical
+Point lights are now disabled on unsupported hardware (Android, PS4, Xbox One) when the RenderDragon Features for Creators experiment is enabled in Vibrant Visuals.
+Fixed an issue where square artifacts would appear when looking at point lights
+Items
+Item components minecraft:swing_sounds, minecraft:durability_sensor, minecraft:record, and minecraft:use_modifiers now accept string-based sound event names in addition to enum values when using the Beta APIs experimental toggle
+String-based sound names reference entries in sound_definitions.json, allowing content creators to use custom sounds in data-driven items without needing new enum values
+PacksAdded new pack folder to dedicated server for system packs (packs which are loaded automatically to the world and disallow other packs using their IDs)system_behavior_packs and system_resource_packs
+User Interface
+Fixed formatting codes when using multiline texts in Ore UI system.
+Add support for responding to Xbox friend requests from the Social Drawer</description>
+    </item>
+    <item>
       <title>Minecraft: Bedrock Edition 26.23 Hotfix Changelog</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/46043306833805-Minecraft-Bedrock-Edition-26-23-Hotfix-Changelog</link>
       <pubDate>Wed, 03 Jun 2026 00:00:05 GMT</pubDate>
@@ -2830,922 +4738,6 @@ Report bugs here:
 Minecraft issue tracker!
 Want to give feedback?
 For any feedback and suggestions, head over to the Feedback site. If you&apos;re feeling chatty, join us over at the official Minecraft Discord.</description>
-    </item>
-    <item>
-      <title>Minecraft: Bedrock Edition 26.10 - Tiny Takeover</title>
-      <link>https://feedback.minecraft.net/hc/en-us/articles/44418129038733-Minecraft-Bedrock-Edition-26-10-Tiny-Takeover</link>
-      <pubDate>Wed, 03 Jun 2026 00:00:11 GMT</pubDate>
-      <description>Posted: 24 March 2026Ready or not, here comes the Tiny Takeover drop! New versions of baby mobs have stormed Minecraft, causing cuteness overload across biomes and builds. Listen out for heart-melting sounds, craft name tags for your pets, and keep babies forever young with the golden dandelion. The babies are officially on the loose, so get ready to collect, coo over, and create chaos with these tiny rascals!Drop 1 2026Mobs
-Using a Spawn Egg on the corresponding Mob will now spawn the Baby form of that Mob
-
-Updated the models and textures of the following Baby Mobs:
-
-
-Cow
-Tweaked the bounding box of both adult and baby to align with Java Edition and the new model
-
-
-Mooshroom
-Tweaked the bounding box of both adult and baby to align with Java Edition and the new model
-
-Pig
-
-Wolf
-Tweaked the bounding box of both adult and baby to align with Java Edition and the new model
-
-
-Rabbit
-
-Both adult and baby Rabbits also received new animations
-Tweaked the bounding box to align with the new model
-
-
-
-Cat
-Tweaked the baby&apos;s bounding box to align with the new model
-
-Ocelot
-
-Chicken
-Tweaked the bounding box to align with the new model
-
-Sheep
-
-Axolotl
-Added new baby-specific animations for the Axolotl
-
-Dolphin
-Donkey
-Horse
-Mule
-Skeleton Horse
-Zombie Horse
-Glow Squid
-Squid
-Turtle
-Polar Bear
-Goat
-
-Fox
-Added new baby-specific animations for the Fox
-
-
-Camel
-Added new baby-specific animations for the Camel
-
-
-Armadillo
-Added new baby-specific animations for the Armadillo
-
-
-Llama
-Trader Llama
-
-Bee
-Piglin
-Villager
-Zombie Villager
-Zombified Piglin
-Zombie
-Husk
-Drowned
-Panda
-Strider
-Hoglin
-Sniffer
-Zoglin
-
-
-Sounds
-Baby Pigs, Cats, Horses, Cows, Chickens, and Wolves, now have a unique set of sounds
-Pig, Cat, Cow and Chicken now have adult sound variants
-Added Note Block trumpet instrument for Block of Copper, Cut Copper and Chiseled Copper
-Golden Dandelion
-
-Introduced Golden Dandelion as a new type of flower that can be used to stop baby mobs from aging
-Can be crafted using a Dandelion and Gold Nuggets
-
-
-Enabled the Golden Dandelion effect on the following Baby Mobs:
-
-Baby Armadillo
-Baby Axolotl
-Baby Bee
-Baby Camel
-Baby Cat
-Baby Chicken
-Baby Cow
-Baby Dolphin
-Baby Donkey
-Baby Fox
-Ghastling
-Baby Hoglin
-Baby Goat
-Baby Horse
-Baby Llama
-Baby Mooshroom
-Baby Mule
-Baby Nautilus
-Baby Ocelot
-Baby Panda
-Baby Pig
-Baby Polar Bear
-Baby Rabbit
-Baby Sheep
-Baby Sniffer
-Baby Strider
-Baby Trader Llama
-Baby Turtle
-Baby Wolf
-Tadpole
-
-
-Golden Dandelion can be used to craft Suspicious Stew
-Golden Dandelion can be crafted into Yellow Dye
-Placed Golden Dandelion can be picked up by Endermen
-Golden Dandelion can be picked up by mobs who can pick up items
-Golden Dandelion can be used to distract Piglins
-
-Golden Dandelion displays green particles when used on a Baby Mob
-
-Particles moving downwards indicate that aging is paused
-Particles moving upwards indicate that age has been reset and is now resumed
-
-
-Golden Dandelion plays pause growth and reset growth sounds on use
-ItemsName Tags are now craftable, using paper and any metal nuggetFeatures and Bug FixesAccessibility
-Fixed issue where text to speech doesn&apos;t get enabled on launch despite the &apos;Text To Speech For UI&apos; toggle being enabled
-
-Added a key binding for Describe, a feature that will let you know through text and TTS what block or mob you have in front of you
-Available for keyboard and controller inputs
-
-
-Updated the name of Describe to Identify Block, a feature that lets you know through text and text to speech (TTS) what block or mob you have in front of you
-Share your feedback on this feature here
-
-
-AchievementsFixed the issue preventing some item related achievements from being obtained.Blocks
-Stone and Deepslate can now be crafted into their Cobbled variants in the Stonecutter
-Dead bush can be placed on farmland
-Corner stairs next to a stair block of a different type will no longer leak water for worlds of base game version 26.10 or higher (MCPE-104070))
-Character Creator
-Selected appearance should no longer reset to 3rd appearance at times upon starting up the client
-Skins will be correctly shown to other players when switching to a Classic skin and then back to a Character Creator choice.
-While playing in a multiplayer world, users will no longer be randomly messaged about other users updating their appearances when no change was actually made.
-Fixed an issue that could cause invalid classic skins to be shown as blank skins
-Gameplay
-Cooldowns on custom items now visualize correctly
-Fixed a bug where the Trial Spawner in some cases spawned too many mobs (MCPE-186092)
-Graphical
-Armor trims are now visible again when worn by players or adult mobs (MCPE-236105)
-Added static/colorized block light shading to particles in Vibrant Visuals
-Fixed an issue where some players on PlayStation had vertical sync disabled, causing image tearing
-Items being quickly moved between inventory slots now have the back of their faces rendered too (MCPE-229843)
-Fixed a bug where some light source blocks held in hand would appear unlit when near other light source blocks in Vibrant Visuals.
-Added static local lighting support for more entities and items, including pistons, moving blocks, signs, beds and chests in Vibrant Visuals.
-Fixed UI icons not showing at the lowest GUI scale setting (MCPE-234762)
-Fix player flickering when flying at high speed towards the camera (MCPE-23451)
-Fixed broken or incorrect textures after loading a world (MCPE-202009)
-Input
-Fixed an issue on Windows where the mouse highlight appeared in game when &quot;Show location of pointer when I press the CTRL key&quot; option was enabled in Windows settings. (MCPE-168787)
-Fixed an issue on Windows where the system&apos;s ClickLock mouse setting was not recognized. (MCPE-231488)
-Fixed a bug on Windows where the system setting &quot;Scrolling direction&quot; had no effect (MCPE-232634)
-Items
-Combining an Enchanted Shield with an Illager Banner now correctly transfers the enchantments to the crafted Illager Banner Shield (MCPE-174103)
-Bundle and Wolf Armor no longer have larger scale with textures bigger than 16x (MCPE-225207)
-Clocks, Compasses, and Recovery Compasses no longer have a corrupted appearance after turning high resolution texture packs on/off (MCPE-173775)
-Fixed player inventory sometimes not being updated properly when picking up items already held in off-hand (MCPE-235655)
-Name Tags can no longer be bought from Librarians
-Name Tags are added as an Ordinary Trade to Wandering Traders at 1 for 1 Emerald, with a 7% probability and 5 Name Tags in stock
-Name Tags can no longer be obtained from chests in Ancient Cities or Woodland Mansions
-Librarian Villagers on Master level can now trade red or yellow Candles
-MarketplaceFixed the inability to download RealismCraft 2.X add-on from &quot;Create from...&quot; menu with active Marketplace Pass subscription (MCPE-232505)Mobs
-Copper Golem now properly picks up Spears, Tridents, and Crossbows
-Baby Polar Bear no longer becomes hostile towards the player (MCPE-173833)
-The movement of Boats, Horses, Donkeys, and Mules is now as responsive as it used to be before the release of the Mounts of Mayhem game drop (MCPE-231719)
-Boats&apos; paddle animation no longer glitches when paddling backwards
-Zombie Horses can no longer catch fire while in water (MCPE-229542)
-Ghast&apos;s no longer display old face textures while shooting fireballs (MCPE-218741)
-Fixed incorrect allele range syntax for the Panda and Goat
-
-Zombie Horses no longer flee from sunlight
-This aligns them with the behavior of regular Zombies
-
-Baby Skeleton Horses no longer grow up (MCPE-234733)
-
-Adjusted which blocks Zombie Horses, Skeleton Horses and Camel Husks try to avoid:
-
-They try to avoid water
-They try to avoid dangerous blocks
-They do not try to avoid rails
-
-
-Fixed an issue causing villagers to occasionally appear lying on the ground rather than in their bed while sleeping. (MCPE-119736)
-MovementFixed desync in player position when toggling input permissions (MCPE-232109)MusicFixed long running sounds such as jukebox music from playing in the menu when leaving a multiplayer worldRealms
-Added message and logic for error joining a Realm whose owner is banned
-Fixed crash when opening Realms tab with 150+ joined Realms
-Added a trailing space to the Server Region localized string
-The information dropdown for Realm saves now displays the correct version format
-Fix text is unreadable on &quot;Your Realm is ready&quot; screen on large UI
-Fixing the download world button for Realms not present on old UI
-Fixed broken modals shown when client attempts to play on a Realm
-Added Realm purchase success modal, shown when purchase is successful but fetching the Realm fails
-SavesEnsure worlds created after signing out are saved to the new Users\Shared directory on Windows.SoundBaby wolves now correctly play baby variant soundsStability and Performance
-Fixed an issue where Marketplace textures would be cached when re-entering worlds and could potentially degrade performance on some platforms
-Fixed a crash that sometimes happened when players were climbing
-Fixed slow server when loading into a world with too many blocks scheduled for ticking (MCPE-224638)
-Fixed game freezes and large save files when spending time near Lava flow in the Nether (MCPE-224638)
-SwitchReduced audio delays when entering a world (MCPE-177148)User Interface
-Added a Recipe Book for Furnace, Smoker, and Blast Furnace as an experimental feature. Share your feedback here
-Fixed screen narration reading previously typed chat messages letter by letter when context changed
-Added button enumeration narration to the death screen when text to speech is enabled
-Text input fields now support arrow key navigation between lines and keyboard shortcuts such as Ctrl+V on Android
-Text input fields in Ore UI now support mouse caret positioning and selection on Android
-Improved the chat auto scroll behavior to allow reading older messages while new messages are being sent
-Player is now able to change time using the &quot;Time&quot; button in the chat/command window when &quot;Always Day&quot; option is enabled (MCPE-226307)
-Added new registry keys so the Preview and Retail games don&apos;t share each other&apos;s previous window size and position (MCPE-233168)
-Fixed the Bed and Death screens fading animations (MCPE-235024)
-Add a few missing characters to the default font. (MCPE-183866)
-Fixed a crash caused by High-Data-Volume text in Books. (MCPE-235419)
-Added an option to disable pausing the game when the application loses focus (Desktop only)
-Fix a bug where the opacity of the pick block button could not be adjusted (MCPE-191027)
-Fixed a bug that caused the &quot;Go to Settings&quot; button from the Skin Type modal to navigate to the JSON UI Settings. (MCPE-235400)
-Updating the inventory and sdl screens to properly reflect purchases made when navigating back to it from a related page.
-Touch controls: updated the interact button design
-Fixed an issue with images for the Marketplace Pass and Realms FAQs pages being excessively large
-Fixed back button not working after exiting friend&apos;s profile (MCPE-232736)
-Add support for more mouse cursor types to Ore UI on Windows.
-Fixed double item trades overlapping in Trader Screen Pocket UI. (MCPE-235009)
-Updated headers in pocket UI inventory
-Hardcore worlds in the Play screen will now display the number of days played if the &quot;show days played&quot; gamerule is enabled.
-Updated Servers Tab to display custom servers even if Minecraft provided servers were not found
-Fixed narration for elements outside a scroller
-Fixed characters rotating incorrectly in UI when riding a mob
-Fixed an issue that prevented some Ore UI Keyboard &amp; Mouse settings from being saved when modified while in-game. (MCPE-235690)
-Add experimental toggle to enable the new Furnace Recipe Book
-The &quot;How to play&quot; section has been moved from Settings to the Pause screen
-Made it possible to move the caret position within signs using a mouse or touch (MCPE-174365)
-Unified inventory search in both Creative and Survival gamemodes
-General improvements and bug fixes related to closed captions (MCPE-233144) (MCPE-233144) (MCPE-233116)
-Navigation tabs for the new Service-driven Inventory Screen
-Some sign-in errors have new codenames to avoid overlap with codenames for networking errors, sign-in error codenames are no longer localized
-Improvements to closed captions UI (MCPE-234709)
-Fixed scaling values on certain devices (MCPE-234792)
-Technical UpdatesAI Goals
-Migrated minecraft:behavior.ocelotattack (&apos;_&apos; misname is legacy and cannot safely be changed).
-We will fail to load an entity json that has invalid data in versions 1.26.0 and newer.
-
-Made schemas for the following goals stricter when parsing and will fail to load an entity json that has invalid data in versions 1.26.10 and newer. Also unified and updated documentation for the following goals
-
-minecraft:behavior.drop_item_for
-minecraft:behavior.fertilize_farm_block
-minecraft:behavior.harvest_farm_block
-minecraft:behavior.inspect_bookshelf
-minecraft:behavior.lay_egg
-
-
-Float Range field time_of_day_range in minecraft:behavior.drop_item_for now only accepts an object with min and max values. Other formats will fail to parse
-Field lay_seconds in minecraft:behavior.lay_egg now only accepts numbers greater than or equal to 0
-Made the schema for minecraft:behavior.ram_attack stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.10 and newer. Float Range field cooldown_range now only accepts an object with min and max values. Other formats will fail to parse
-Made the schema for minecraft:behavior.celebrate stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.10 and newer. Float Range fields sound_interval and jump_interval now only accepts an object with min and max values. Other formats will fail to parse
-
-Made schemas for the following goals stricter when parsing and will fail to load an entity json that has invalid data in versions 1.26.10 and newer
-
-minecraft:behavior.celebrate_survive
-minecraft:behavior.random_search_and_dig
-minecraft:behavior.swim_with_entity
-minecraft:behavior.take_flower
-minecraft:behavior.trade_with_player
-minecraft:behavior.teleport_to_owner
-minecraft:behavior.work
-minecraft:behavior.work_composter
-
-
-
-The following float range fields now only accepts an object with min and max values. Other formats will fail to parse
-
-
-fireworks_interval in minecraft:behavior.celebrate_survive
-
-
-cooldown_range and digging_duration_range in minecraft:behavior.random_search_and_dig
-
-
-
-
-Made schemas for the following goals stricter when parsing and will fail to load an entity json that has invalid data in versions 1.26.10 and newer.
-
-minecraft:behavior.move_to_land
-minecraft:behavior.move_to_water
-minecraft:behavior.ocelot_sit_on_block
-minecraft:behavior.raid_garden
-minecraft:behavior.stomp_turtle_egg
-
-
-Made the schema for minecraft:behavior.offer_flower stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.10 and newer
-Made the schema for minecraft:behavior.play_dead stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.10 and newer. Int Range field random_damage_range now only accepts an object with min and max values. Other formats will fail to parse
-Made the schema for minecraft:behavior.play stricter when parsing, now will fail to load an entity json that has invalid data in versions 1.26.10 and newer
-The minecraft:behavior.panic goal has been made more robust in how it calculates an entity&apos;s desired path
-API
-Generate JSON metadata for molang queries available in the game
-Released @minecraft/server version 2.6.0
-Added @minecraft/server version 2.7.0-beta
-Released Block.getComponents and Block.hasComponent into 2.6.0.
-Released EntityHealBeforeEvent from beta to v2.6.0
-Released EntityHealAfterEvent from beta to v2.6.0
-Released EntityHealCause from beta to v2.6.0
-Released EntityHealSource from beta to v2.6.0
-Released EntityHealEventOptions from beta to v2.6.0
-Released EntityHealBeforeEventSignal from beta to v2.6.0
-Released EntityHealAfterEventSignal from beta to v2.6.0
-Released WorldBeforeEvents.entityHeal from beta to v2.6.0
-Released WorldAfterEvents.entityHeal from beta to v2.6.0
-Released EntityHurtBeforeEvent from beta to v2.6.0
-Released EntityHurtBeforeEventOptions from beta to v2.6.0
-Released EntityHurtBeforeEventSignal from beta to v2.6.0
-Released WorldBeforeEvents.entityHurt from beta to v2.6.0
-Released EntityHurtAfterEventOptions from beta to v2.6.0
-Released change of EntityHurtAfterEventSignal to use EntityHurtAfterEventOptions from beta to v2.6.0
-Released EntityItemPickupAfterEvent from beta to v2.6.0
-Released EntityItemPickupBeforeEvent from beta to v2.6.0
-Released EntityItemPickupEventOptions from beta to v2.6.0
-Released ItemFilter from beta to v2.6.0
-Released EntityItemPickupAfterEventSignal from beta to v2.6.0
-Released EntityItemPickupBeforeEventSignal from beta to v2.6.0
-Released WorldAfterEvents.entityItemPickup from beta to v2.6.0
-Released WorldBeforeEvents.entityItemPickup from beta to v2.6.0
-Moving world.getSeed to stable
-Moving query.get_level_seed_based_fraction out from behind the Upcoming Creator Features toggle
-Adding isSuperset parameter to world.containsBiomes
-Moving world.containsBiomes to stable
-Removing superset property from BiomeFilter
-Moving ScriptBiomeFilter to stable
-Released BlockComponentRedstoneUpdateEvent.previousPowerLevel from beta to v2.6.0
-Released property ItemDurabilityComponent.unbreakable from beta to v2.6.0
-Include built in math functions in generated metadata for molang
-Fixed a bug where isValid could return false for a valid SimulatedPlayer after it had been spawned.
-Changed resultItem on EntityDefinitionFeedItem and FeedItem to be of type string | undefined.
-Released resultItem on EntityDefinitionFeedItem and FeedItem from beta to V2.6.0.
-Released EntityItemDropAfterEvent from beta to v2.6.0
-Released EntityItemDropAfterEventSignal from beta to v2.6.0
-Released EntityItemDropEventOptions from beta to v2.6.0
-Released WorldAfterEvents.entityItemDrop from beta to v2.6.0
-Released AimAssistCategory from beta to v2.6.0
-Released AimAssistCategorySettings from beta to v2.6.0
-Released AimAssistPreset from beta to v2.6.0
-Released AimAssistPresetSettings from beta to v2.6.0
-Released AimAssistRegistry from beta to v2.6.0
-Released PlayerAimAssist from beta to v2.6.0
-Released PlayerAimAssistSettings from beta to v2.6.0
-Released AimAssistTargetMode from beta to v2.6.0
-Released World.getAimAssist from beta to v2.6.0
-Released Player.getAimAssist from beta to v2.6.0
-Released BlockComponentEntityEvent from beta to v2.6.0
-Fixed localization string for tile.sticky_piston_arm_collision.name to Sticky Piston Arm Collision.
-Moved interface TickingAreaOptions from beta to V2.6.0
-Moved class TickingAreaManager from beta to V2.6.0
-Moved interface TickingArea from beta to V2.6.0
-Moved error TickingAreaError from beta to V2.6.0
-Moved enum TickingAreaErrorReason from beta to V2.6.0
-
-Camera
-
-Released playAnimation method from beta to v2.6.0
-Released attachToEntity method from beta to v2.6.0
-Released EntityAttachPoint from beta to v2.6.0
-Released CatmullRomSpline from beta to v2.6.0
-Released LinearSpline from beta to v2.6.0
-Released AnimationOptions from beta to v2.6.0
-Released CameraAttachOptions from beta to v2.6.0
-Released ProgressKeyFrame from beta to v2.6.0
-Released RotationKeyFrame from beta to v2.6.0
-Released SplineAnimation from beta to v2.6.0
-
-
-
-World
-Moved property readonly tickingAreaManager: TickingAreaManager from beta to V2.6.0
-
-
-@minecraft/server-netAdded addional error types for HTTP requests:
-
-HttpRequestBodyTooLargeError - Request body exceeds configured limit
-
-HttpRequestLimitExceededError - Concurrent request limit reached
-
-HttpRequestNotAllowedError - Request targets a URI not in the allow list
-
-HttpsOnlyError - HTTPS required but non-HTTPS URI provided
-Blocks
-Blocks using the minecraft:corner_and_cardinal_direction value of minecraft:placement_direction now will correctly form inner corners when there are other stairs next to them (MCPE-232019)
-
-Fixed rotation issue for blocks in item frames that use &quot;minecraft:geometry.full_block&quot; for Json &quot;format_version&quot; &gt;= 1.26.0 (MCPE-234715)
-
-Used to define a block composed of multiple block parts. A multi block treats all individual parts as a single block, like Door blocks
-The selection box can be extended for the size of the multi block, by setting &quot;minecraft:selection_box&quot; to true and the trait will update it based on the parts total and geoemtry size
-The trait combines the AABBs from the &quot;minecraft:selection_box&quot; for each part.
-So if this is in the components section: &quot;minecraft:selection_box&quot;: {&quot;origin&quot;: [-8, 0, 5], &quot;size&quot;: [16, 16, 3] }
-
-Then each part will have an AABB of 16x16x3 and when the player looks at the multi block the outline AABB will be a combined 16x16x9(in world space)
-
-
-Enables new state minecraft:multi_block_part
-
-Required direction property used to define which direction the block parts are placed from 0 to N. Valid values are limited to &quot;up&quot; and &quot;down&quot;
-
-Optional part_count property used to initialize state minecraft:multi_block_part, valid value range is [2, 4]
-Command inspection &amp; api support will be coming in an upcoming preview Example:
-
-
-{
-	&quot;format_version&quot;: &quot;1.26.0&quot;,
-	&quot;minecraft:block&quot;: {
-		&quot;description&quot;: {
-			&quot;identifier&quot;: &quot;example:triple_block&quot;,
-			&quot;traits&quot;: {
-				&quot;minecraft:multi_block&quot;: {
-					&quot;enabled_states&quot;: [
-						&quot;minecraft:multi_block_part&quot;
-					],
-					&quot;parts&quot;: 3,
-					&quot;direction&quot;: &quot;up&quot;
-				}
-			}
-		},
-		&quot;components&quot;: {
-            &quot;minecraft:selection_box&quot;: true
-		},
-		&quot;permutations&quot;: [
-			{
-				&quot;condition&quot;: &quot;q.block_state(&apos;minecraft:multi_block_part&apos;) == 0&quot;,
-				&quot;components&quot;: {
-					&quot;minecraft:geometry&quot;: &quot;geometry.triple_block_part_0&quot;,
-					&quot;minecraft:material_instances&quot;: {
-						&quot;*&quot;: {
-							&quot;texture&quot;: &quot;wood_triple_block_part_0&quot;,
-							&quot;render_method&quot;: &quot;opaque&quot;
-						}
-					}
-				}
-			},
-			{
-				&quot;condition&quot;: &quot;q.block_state(&apos;minecraft:multi_block_part&apos;) == 1&quot;,
-				&quot;components&quot;: {
-					&quot;minecraft:geometry&quot;: &quot;geometry.triple_block_part_1&quot;,
-					&quot;minecraft:material_instances&quot;: {
-						&quot;*&quot;: {
-							&quot;texture&quot;: &quot;wood_triple_block_part_1&quot;,
-							&quot;render_method&quot;: &quot;opaque&quot;
-						}
-					}
-				}
-			},
-			{
-				&quot;condition&quot;: &quot;q.block_state(&apos;minecraft:multi_block_part&apos;) == 2&quot;,
-				&quot;components&quot;: {
-					&quot;minecraft:geometry&quot;: &quot;geometry.triple_block_part_2&quot;,
-					&quot;minecraft:material_instances&quot;: {
-						&quot;*&quot;: {
-							&quot;texture&quot;: &quot;wood_triple_block_part_2&quot;,
-							&quot;render_method&quot;: &quot;alpha_test_single_sided&quot;
-						}
-					}
-				}
-			}	
-		]
-	}
-}
-
-
-Fixed client crash on world load from out of bounds minecraft:geometry in the minecraft:item_visual component
-Fixed placement_filter and block_placer components to support placing on liquid blocks when used with liquid_clipped
-Character Creator
-Added check for usage of banned skin in model delegate and added case to display default appearance and inform user when banned skin is detected
-Exiting the game after changing your appearance will immediately cache all changes
-Client Entities
-Added &quot;held_item_scale&quot; field to entity.json schema
-
-Allows items held by mobs to be scaled by a factor greater than zero
-Defaults to 1.0
-
-Commands
-Fixed an issue where the &quot;/reload all&quot; command would not reload packs outside of the development folders. (MCPE-234722)
-Chat command completion on iOS keyboard no longer produces &quot;ō&quot; or &quot;ō&quot; and suggestion, it will properly autocomplete a suggestion (MCPE-158584)
-Fixed /setblock and /fill commands from placing partial double blocks, like the upper part of a door Block
-Components
-
-Replaced the &quot;simulate_waves&quot; field of the &quot;minecraft:buoyant&quot; component with the new &quot;movement_type&quot; field
-
-The &quot;movement_type&quot; field accepts one of three values:
-&quot;waves&quot;, makes the entity move up and down based on its speed (default value)
-&quot;bobbing&quot;, makes the entity move up and down at a constant pace
-&quot;none&quot;, doesn&apos;t do anything
-
-
-The &quot;big_wave_probability&quot; and &quot;big_wave_speed&quot; fields are only used when &quot;movement_type&quot; is set to &quot;waves&quot;
-
-
-
-Added a &quot;can_auto_step_from_liquid&quot; field to the &quot;minecraft:buoyant&quot; component
-Defines whether the entity can move out of a liquid block to a neighboring solid block if pushed against it
-
-Blocks with minecraft:liquid_detection component containing an empty array will now fail to load and produce a content error. (MCPE-235481)
-Dedicated ServerAdded HTTP configuration capabilities for the @minecraft/server-net scripting module on dedicated servers. Server operators can now configure HTTP request limits and restrictions via the permissions.json file. All of the configurable options are optional. If not specified, limits for the particular setting will not be enforced. Example config: .\config\&lt;module_id&gt;\permissions.json
-{
-  &quot;allowed_modules&quot;: [
-    ...
-    &quot;@minecraft/server-net&quot;
-  ],
-  &quot;module_permissions&quot;: {
-    &quot;@minecraft/server-net&quot;: {
-      &quot;allowed_uris&quot;: [
-        &quot;https://example.com/&quot;,
-      ],
-      &quot;force_https&quot;: true,
-      &quot;max_body_bytes&quot;: 1048576,
-      &quot;max_concurrent_requests&quot;: 1,
-      &quot;session_headers&quot;: {
-        &quot;session-data&quot;: &quot;abc123&quot;
-      }
-    }
-  }
-}
-Editor
-Added variant and layout section support for IListPanePropertyItem API
-Added IStringPropertyItem API will now support multiline string if multilineHeight optional property is defined
-Added hasClearButton optional API property to IStringPropertyItemOptions for modifying clear button visibility
-Added a feature to keep player data on export for any player that had previously played in that world.
-Added an option to creator options to enable or disable editor metrics collection. Those metrics can be viewed in the VSCode live diagnostics view.
-Added an option to the Bedrock Dedicated Server configuration to enable or disable editor metrics collection when running an Editor server
-Updated Selection Tool to displays toast notifications when Quick Actions (Fill, Delete) or Trim Actions (Trim Selection, Remove Air, Hollow) cannot be performed due to no selection or when they result in no changes
-Updated jigsaw tool to save registry when the editor is closed or tool is changed.
-Updated API type ListPaneSlotLayout to ListPaneSlotConfiguration, and updated IListPanePropertyItemOptions property layout to slotConfig
-Fixed bug that player cannot select any volumes using Enter key while in Line Tool
-Fixed bug that &quot;New from Clipboard&quot; button is inactive outside of Paste Preview tool
-Fixed a bug causing the tutorial dimmer to render misaligned relative to the viewport
-Fixed a bug where the flood tool would not close the modal dialog when block change limit was exceeded.
-Fixed a bug with the Apply Flood keybinding.
-Fixed changing between Crosshair and Tool modes to no longer cause world geometry to get re-created
-Improved performance of Editor in Vibrant Visuals mode by preventing extra deferred rendering call.
-Fixed a bug where players could not use the Enter key in the Terrain tool.
-Added ICollectionTreePropertyItem API to display a tree view of nested folders and sequential entries
-
-Added Vector3 Timeline Control
-
-New timeline type for editing Vector3 values over time, complementing existing Number and Color timelines.
-Nodes are draggable along the X-axis (time) only; Vector3 values can be edited via the node popup by double-clicking a node.
-Timeline slider displays current time position rather than interpolated values.
-
-
-Updated text selection and caret colors for default themes
-The Vibrant Visuals pane can now update globally configured Local Lights properly
-Added structure display name to the dropdowns for jigsaw pieces
-Sorted the jigsaw piece list alphabetically
-Fixed UX to expand correctly when pane is stretched so that you can read dropdowns and labels
-Fixed a bug that entities can&apos;t spawn in the center of the cursor position for Summon Tool.
-
-Updated Jigsaw Tool UX
-
-Converted Jigsaw Tool UI from dropdown-based to CollectionTree component (pools displayed as folders with pieces as entries)
-Added localized error logging when jigsaw files can&apos;t be saved (file locked by another program)
-Moved checkboxes (Reuse Seed, Skip Validation) into a wrapping row layout
-Updated Jigsaw UI strings
-
-
-Farm generator now places crop block on tilled dirt and not water blocks
-Fixed a bug where most double slab blocks were missing from the Block Picker menu, preventing users from adding them to the Hotbar or using them in Brush Block filters.
-Large volume trim operations now do not freeze the UI screen and keyboard/mouse
-Fixed a bug where players were unable to create a selection volume using the Enter key in Marquee mode.
-Fixed the /structure load command placing structures at a different position in Editor mode compared to Test World
-Fixed a bug where exporting a world did not display the file path in the Log Panel
-Added IListPaneViewControlPane API for list pane to create a view control with buildViewControl function. When the view control is set to visible, it will be displayed at the bottom of the root pane
-Fixed a bug where Brush Settings were displayed incorrectly across all Terrain Modes.
-Added &quot;New Collection...&quot; option to the Jigsaw Editor Collection dropdown, allowing users to create a new collection directly from the dropdown
-Added Tag Container control as Property Pane API
-Added icon property to the Property Pane API for root panes and sub panes, enabling icon display in pane headers.
-Added structure block support for multi blocks
-Added editor brush/pencil erasing support for multi blocks
-Repeater tool now dynamically limits repetition count based on selection size and spacing to prevent offset errors
-Re-enabled 3-point selection and re-added 2-point selection toggle (off by default)
-Fixed click-drag-release issue where it doesn&apos;t finalize the 2nd point in the 3-point selection
-Fixed visual inconsistencies for expanders
-Fixed a bug to allow opening .mcproject files now correctly launches the game in Editor mode.
-Removed block masks and filters pane in Elevation terrain mode
-Updated the Editor Landing Page, this will gradually roll out over the next few weeks
-Fixed a bug that prevented graphs from rendering inside the Vibrant Visuals pane
-Fixed a bug where the Brush dropdown should be hidden in Elevation mode for Terrain tool
-Fixed a bug where clearing the name of a stored location in the Navigation panel caused it to alternate between &quot;Location&quot; and &quot;Location {1}&quot; on each edit
-Fixed a bug that caused sliders with invalid ranges to show an error, instead they will get disabled now
-Fixed a bug where the selection volume would not be updated in Marquee mode after deselecting items in the Block Manifest Table
-Jigsaw Editor Collection dropdown no longer automatically opens the New Collection dialog when the tool is first opened
-Canceling the New Collection dialog now correctly reverts the dropdown to no selection
-Add Pool, Export, and Delete buttons are now hidden when no collection is selected
-Collection tree is now hidden when no collection is selected
-Added confirmation dialog when deleting a Jigsaw Collection
-Added validation to prevent generating a Jigsaw when all elements in the starting pool are empty
-Fixed tool names to make them align with existing patterns
-Updating Primitive tool localization for block filter mode and placement progress dialog strings
-Fixed an issue where the Texel Size slider in Vibrant Visuals Shadow settings displayed decimal values instead of integers
-Fixed a bug where the &quot;Spawn at Current Location&quot; checkbox in Test World settings was always treated as enabled, causing the player to always spawn at the Editor camera&apos;s location regardless of the checkbox state
-Fixed an issue where switching to the Extrude Tool would remove any active selection volumes
-Fixed Farm Generator&apos;s preview displaying one block lower than the actual farm placement position
-Cinematic Tool now supports undo/redo for control point position and rotation changes via the Editor&apos;s transaction system
-Added speed dots to the Cinematic Tool to visualize camera travel speed along the spline path
-Cinematic Tool now hides control points, spline, and speed dots during cinematic preview playback
-Cinematic Tool Import JSON button now opens a modal dialog for pasting exported cinematic data
-Cinematic Tool now uses Redistribute Evenly to properly distribute control point times across the total duration
-Cinematic Tool Export JSON button now copies cinematic data to the clipboard for sharing between sessions
-Fixed &apos;Update&apos; and &apos;Move to&apos; Camera Point referring to different y levels in the Cinematic Tool
-Scripting
-Added new widget render primitive types to the @minecraft/server-editor module:
-
-WidgetComponentRenderPrimitiveTypeCylinder - Cylinder primitive with elliptical cross-section (radiusX, radiusZ, height)
-
-WidgetComponentRenderPrimitiveTypeCone - Cone primitive with elliptical base (radiusX, radiusZ, height)
-
-WidgetComponentRenderPrimitiveTypeCuboid - Cuboid primitive with independent dimensions (lengthX, lengthY, lengthZ)
-
-WidgetComponentRenderPrimitiveTypePyramid - Pyramid primitive with rectangular base (xWidth, zWidth, height)
-
-WidgetComponentRenderPrimitiveTypeEllipsoid - Ellipsoid primitive with Vector3 radii
-
-
-Added corresponding PrimitiveType enum values: Cylinder, Cone, Cuboid, Pyramid, Ellipsoid
-
-All new primitives support optional rotation (Vector3) and transparency parameters
-User Interface
-Updated the default Editor UI zoom level from 75% to 100% for improved out-of-box accessibility and readability.
-Users with previously saved preferences are unaffected—their saved zoom level will continue to be restored.
-Entity Components
-
-Added the ability to pause and reset growth of entities in minecraft:ageable using specified items
-
-Introduced field &quot;pause_growth_items&quot;, which is a list of items that can be fed to the entity to pause growth for baby entities
-Introduced field &quot;reset_growth_items&quot;, which is a list of items that can be fed to the entity to reset growth for baby entities
-Introduced ActorDefinitionTrigger field &quot;reset_growth&quot; to trigger an event when aging is reset for baby entities
-Introduced ActorDefinitionTrigger field &quot;pause_growth&quot; to trigger an event when aging is paused for baby entities
-
-
-A content warning will throw if the amount of experience orbs requested to be spawned in a single tick exceeds the recommended max of 512. It is possible that performance will degrade when a large number of experience orbs are spawned at once.
-
-Split the minecraft:pushable component into two new components:
-
-
-minecraft:pushable_by_block is the equivalent of setting &quot;is_pushable_by_piston&quot;: true
-If minecraft:pushable_by_block exists on the entity then Pistons and Shulker Boxes can attempt to push it
-Removing minecraft:pushable_by_block is the equivalent of setting &quot;is_pushable_by_piston&quot;: false
-
-
-
-
-minecraft:pushable_by_entity is the equivalent of setting setting &quot;is_pushable&quot;: true
-If minecraft:pushable_by_entity exists on the entity then other entities can attempt to push it
-Removing minecraft:pushable_by_entity is the equivalent of setting &quot;is_pushable&quot;: false
-
-
-
-The component minecraft:pushable will no longer be parsed
-
-
-Entity FiltersAdded the &quot;is_tamed&quot; entity filter, telling if the subject entity is tamed (MCPE-234672)FeaturesFixed feature loading to allow for sub-directories and any filename, will now only use identifier in JSON.##GameplayCamera splines and attach entity APIs are now out of experimentalGeneral
-Fixed an issue where &apos;minecraft://?addExternalServer&apos; and other similar URIs might not work when containing URL-encodable characters. (MCPE-232900)
-Upgraded actor JSON resources to Cereal slice 1.26.0 and re-serialized to align with the updated schema.
-Graphical
-
-The colored block lighting feature is no longer restricted to the Render Dragon Features for Creator Experiment
-
-To enable this feature, PBR resource packs must include a local_lighting.json with static_light entries. Blocks that do not have a static_light and light_color specified via a provided resource pack will be treated as non-colored lighting and use the standard uniform light color.
-See Local Lights documentation for more information
-
-
-Static colored lighting on flowing lava and other blocks no longer appears too dark in Vibrant Visuals.
-Adding static_light shading to data driven entities in Vibrant Visuals.
-Added static_light shading to more entities and items in Vibrant Visuals.
-Static colored lighting no longer leaks through corners in Vibrant Visuals.
-Adjusted the light attenuation of static colored block lighting to be less intense
-Fixed issue with z-fighting on the Brewing Stand and Stonecutter on PlayStation in certain lighting conditions.
-Custom blocks with ambient occlusion disabled do not have the occasional black vertex issue anymore
-Improve ambient occlusion for blocks using a custom geometry
-Fixed issue that caused the spyglass full screen effect to brighten the scene in Vibrant Visuals.
-Fixed an issue that caused the End Portal to have invisible panels in Vibrant Visuals.
-Removed ESSL_300 shader language support
-
-Began rollout of a new texture streaming feature available in Preview for some selected devices. Toggling on this feature will reduce the GPU memory for certain textures, especially when multiple Add-Ons or packs are in use.
-
-This feature is toggled off by default and can be found in Video Settings.
-Note that the availability of this toggle for devices may change over subsequent releases.
-
-
-Fixed gamma encoding of sun, moon, weather, and end sky in Vibrant Visuals mode.
-Vibrant visuals now correctly support grayscale crushed images in texture sets
-Fixed sky light calculations being applied multiple times per chunk, causing excessive memory usage.
-
-Static/Colorized block lighting in Vibrant Visuals is no longer restricted to Preview builds
-Known issue around empty chunks not propagating colors will be fixed in a future update
-
-Item
-The minecraft:block_placer item component has a new boolean field &quot;aligned_placement&quot; (MCPE-234686)
-
-When true, block placement through this item will be aligned while holding the interaction button down
-It is defaulted to false
-It is supported from format version 1.26.0 onward
-
-JSON SchemaUpdating the canopy_decoratorschema to support placing several blocks in a row as a decorator. New schema includes decoration_blocks_sequence as a list of blocks and a count per block to be placed. This aims to replace decoration_block and num_steps, however the old format is still supported but if both are give the new one is prioritised. Example of new format: &quot;canopy_decoration&quot; : {
-        &quot;decoration_blocks_sequence&quot; : [
-          {
-            &quot;block&quot;: &quot;minecraft:bedrock&quot;,
-            &quot;count&quot;: 1
-          },
-          {
-            &quot;block&quot;: &quot;minecraft:dirt&quot;,
-            &quot;count&quot;: [1, 2]
-          },
-          {
-            &quot;block&quot;: &quot;minecraft:stone&quot;,
-            &quot;count&quot;: {
-              &quot;range_min&quot;: 1,
-              &quot;range_max&quot;: 2
-            }
-          }
-        ],
-        &quot;decoration_chance&quot;: {
-          &quot;numerator&quot;: 1,
-          &quot;denominator&quot;: 4
-        },
-        &quot;step_direction&quot;: &quot;out&quot;
-      }
-User InterfaceFixed bug that made buttons at the top of the Marketplace screen difficult to select with controllerExperimental Technical UpdatesAdd-Ons and Script Engine
-Added experimental toggle &quot;Voxel Shapes&quot; which enables the use of voxel shapes on Vanilla and custom blocks
-
-Voxel shapes are currently only used for occlusion/culling.
-Currently, only unit cube Vanilla blocks have a voxel shape associated. With this experiment enabled, custom blocks with a voxel shape will only cull against Vanilla unit cube blocks or other custom blocks with a voxel shape.
-
-API
-Added minimum, maximum, or both bounds to several APIs.
-Fixed EntityHurtBeforeEvent.cancel to not allow some sources of knockback (sprint bonus, enchantment, mace smash, projectiles) when set to true
-Moved localizationKey property on ItemType, EntityType, BlockType, and BlockPermutation from beta to stable.
-
-This release introduces new UI capabilities called Data-Driven UI (DDUI). These APIs introduce a new way to create modal forms with new capabilities and an all new look. New modal forms is the first step in our UI journey for creators. Stay tuned for more features in future updates!
-
-More information can be found here: Introduction to the Data-Driven UI (DDUI) Framework
-
-Known Issues:
-You need to wait a tick between programmatically closing a CustomForm/MessageBox and opening another.
-Showing a CustomForm/MessageBox while UI is already up &quot;queues&quot; the UI to show up instead of failing like the previous form APIs.
-CustomForms will only update after being shown via Observables, you cannot add a new button/dropdown/slider/etc while the form is shown.
-
-
-
-
-Reload command. Now it closes all the Data Driven UI screens as part of the execution.
-ScriptSetBannerDetailsFunction now includes base color and pattern data.
-Fixed an issue with DebugBox where the position was being used as the bottom-left corner, instead of the centre. .
-Fixed an issue with DebugShape.attachedTo where the attachment position was unintentionally using the height offset of the entity.
-
-Game Test
-When running /gametest run &lt;test&gt; on a game tests with an invalid structure, the game test is no longer spawned at the world ceiling.
-
-Added dedicatedServer optional global to beta of server-admin for accessing dedicated server only APIs
-Added DedicatedServerUtils to beta of server-admin with dedicated server only APIs
-Added LevelStorage to beta of server-admin with dedicated server save state management APIs
-Added LevelStorageQuerySnapshotFile to beta of server-admin
-Added AllowList to beta of server-admin with dedicated server allow list management APIs
-Added function Entity.addItem for directly giving items to a mob or player.
-Added Block.getParts method behind beta. Returns an array of Block parts if the block has the minecraft:multi_block trait
-
-Observable is a new class that fires change events when the data it is wrapping changes
-
-
-CustomForm and MessageBox use these to sync data between the client and the server and you can use observables to get notifications if data changes
-Localizable messages can be provided by using the interface UIRawMessage.
-
-
-
-TickingAreaManager
-Changed createTickingArea() to return Promise&lt;void&gt; instead of Promise&lt;TickingArea&gt; in beta
-
-Added locatorBar property to beta - Manages the collection of waypoints displayed on this player&apos;s locator bar
-Added Waypoint class to beta - Base class for waypoints displayed on the player&apos;s locator bar
-Added EntityWaypoint class to beta - Waypoint that tracks an entity&apos;s position
-Added PlayerWaypoint class to beta - Waypoint that tracks a player&apos;s position with player-specific visibility rules
-Added LocationWaypoint class to beta - Waypoint that points to a fixed location in the world
-Added WaypointTexture enum to beta - Enum representing different texture icons for waypoints
-Added WaypointTextureBounds interface to beta - Defines a texture and distance range for waypoint display
-Added WaypointTextureSelector interface to beta - Defines how waypoint textures change based on distance
-Added EntityVisibilityRules interface to beta - Controls waypoint visibility based on entity state
-Added PlayerVisibilityRules interface to beta - Controls waypoint visibility based on player-specific states
-Added LocatorBar class to beta - Manages the collection of waypoints displayed on a player&apos;s locator bar
-Added LocatorBarError error class to beta - Error thrown when a locator bar operation fails
-Added LocatorBarErrorReason enum to beta - Enum representing reasons why locator bar operations fail
-Added InvalidWaypointError error class to beta - Error thrown when attempting operations on an invalid waypoint
-Added InvalidWaypointTextureSelectorError error class to beta - Error thrown when using WaypointTextureSelector size over limit
-Server-UI DDUI
-Changed Class CustomForm
-Changed return of method show(): Promise&lt;void&gt; to Promise&lt;boolean&gt; where returning true means it was shown and false means it was not shown.
-Added isShowing(): boolean method.
-
-
-Changed Class MessageBoxAdded isShowing(): boolean method.
-
-Changed interface MessageBoxResult.Added property wasShown which is set to true if the message box was shown to the player.
-
-Blocks
-
-Added culling_shape field to minecraft:geometry component behind the VoxelShapes toggle.
-
-The value should be an identifier of a voxel shape and can refer to either a custom voxel shape file, minecraft:unit_cube, or minecraft:empty.
-If the VoxelShapes experiment is enabled and a shape is not specified, minecraft:empty will be used by default if the block does not use minecraft:geometry.full_block.
-
-
-
-Blocks can handle the following entity events in scripting through the &quot;onEntity&quot; handler:
-
-Custom named events:
-&quot;on_home&quot; from &quot;minecraft:behavior.go_home&quot;
-“on_escape” from &quot;minecraft:behavior.avoid_block&quot;
-&quot;on_reach&quot; from &quot;minecraft:behavior.move_to_block&quot;
-&quot;on_place&quot; from &quot;minecraft:behavior.place_block&quot;
-&quot;on_take&quot; from &quot;minecraft:behavior.take_block&quot;
-
-
-Unlike the current vanilla blocks that handle those events, custom blocks may receive those events up to one tick after they were emitted, depending on how late in the tick the event was emitted.
-
-
-Added Block trait minecraft:multi_block behind &apos;Upcoming Creator Features&apos; experiment
-
-Added some Json constraints for blocks with trait minecraft:multi_block
-
-Component &quot;minecraft:movable&quot; must be defined and cannot be defined in permutations. Valid values for &quot;movement_type&quot; are &quot;popped&quot; or &quot;immovable&quot;
-Component &quot;minecraft:placement_filter&quot; cannot be defined in permutations
-
-
-Added minecraft:chest_obstruction component under the Upcoming Creator Features toggle
-
-It defines how a block placed above a chest or ender_chest should obstruct their opening
-
-&quot;obstruction_rule&quot; (Optional): Specifies how the block is evaluated during chest opening if placed above; &quot;shape&quot; is the default when not specified.
-&quot;always&quot;: Will always obstruct a chest from opening.
-&quot;never&quot; : Will never obstruct a chest from opening.
-&quot;shape&quot; : Will use the Blocks AABB shape to determine if the chest is obstructed from opening.
-
-
-Blocks prior to 26.10 will behave as expected based on their defined geometry and material instances
-Example:
-
-
-	&quot;format_version&quot;: &quot;26.10&quot;,
-	&quot;minecraft:block&quot;: {
-		&quot;description&quot;: {
-			&quot;identifier&quot;: &quot;test:test_block&quot;
-		},
-		&quot;components&quot;: {
-			&quot;minecraft:chest_obstruction&quot;: {
-				&quot;obstruction_rule&quot;: &quot;always&quot;
-			}
-		}
-	}
-Voxel Shapes
-
-Fixed voxel shape loading to properly validate custom shape files. (MCPE-235789)
-
-Individual boxes must now be within the allowed bounds of (-14, -14, -14) to (30, 30, 30) pixels.
-At least one box must overlap the base block (0-16 pixels on all axes).
-Total shape extent cannot exceed 30 pixels (1 block + 14 pixels) on any axis.
-
-
-Fixed rare crash on PS5 native due to inconsistency of packet ordering
-Fixed content warnings for unit cube and empty shapes that appear when joining a voxel shape enabled world as a client
-DDUIFixed scroll bar for message boxIt was showing all the time, now it is only rendered when needed
-GraphicalRemoved the legacy format for specifying light colors in the &quot;Render Dragon for Creators&quot; experiment. point_lights/global.json will no longer be loaded. Creators should migrate to the newer format of local_lighting/local_lighting.json.Mobs
-Updated baby chicken textures, previously they were missing the texture underneath the wings
-Updated the bone hierarchy of Baby Mule and Baby Donkey to match the Baby Horse and Adult Horse hierarchy
-Renamed the bones of Baby Donkey and Baby Mule to match Baby Horse
-Updated the UVs for the rear legs of both Baby Donkey and Baby Mule
-
-The new Rabbit models and textures are now version sliced
-Textures are prefixed with rabbit_
-
-
-User Interface
-Added the correct icon for Party settings (MCPE-235095)
-Changed screen narration to not read the Marketplace Pass banner
-RealmsRealms Moderate Feed screen has been updated to OreUIRenderingArmor attachables for Players now use a new render controller called controller.render.armor.player
-Server-UI DDUI
-Renamed interface LabelOptions to TextOptions.
-Class CustomForm.Added method label(text: Observable&lt;string&gt; | string | UIRawMessage, options?: TextOptions): CustomForm.
-
-Class MessageBox.
-Removed method title(text: Observable&lt;string&gt; | string | UIRawMessage): MessageBox.
-Added parameter title to static method create:
-static create(player: Player, title: Observable&lt;string&gt; | string | UIRawMessage): MessageBox.</description>
-    </item>
-    <item>
-      <title>Minecraft: Bedrock Edition 26.3 Changelog</title>
-      <link>https://feedback.minecraft.net/hc/en-us/articles/43861703542925-Minecraft-Bedrock-Edition-26-3-Changelog</link>
-      <pubDate>Wed, 03 Jun 2026 00:00:11 GMT</pubDate>
-      <description>Posted: 2 March 2026A new hotfix has been released to address issues discovered in the latest update. This update will be rolling out to the various platforms as they become available, so please allow time for the update to reach you.Fixes:
-Fixed an issue with the localization of some items from the Mounts of Mayhem drop. These will now show in the chosen language correctly (MCPE-235956)
-Fixed a crash that could occur when loading a world or Realm</description>
     </item>
   </channel>
 </rss>
