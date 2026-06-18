@@ -1282,7 +1282,7 @@ Added achievements disabled warning modal to Realms Edit World
 Fixed an issue where clearing Realm members via &quot;Clear All Members&quot; resulted in a crash
 Realms Hub
 Realms Hub added to In-game pause screen, replacing the Realms Stories button.
-Server Settings added for Render distance, Simulation distance and Max player count.
+Server Settings added for Simulation distance and Max player count.
 &quot;No Members Found&quot; modal no longer briefly shows up before loading members in Realms Stories and Realms Hub
 Fixed Realms Hub settings screens not exiting properly after saving changes made on the screens.
 Disable clear all members button for admin roles to avoid confusion, since admins cannot remove other admins or owners
