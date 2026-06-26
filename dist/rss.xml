@@ -5,10 +5,20 @@
     <link>https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs</link>
     <description>Minecraft release changelogs</description>
     <item>
+      <title>Minecraft: Bedrock Edition 26.32 Hotfix Changelog</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/46916326665485-Minecraft-Bedrock-Edition-26-32-Hotfix-Changelog</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:01 GMT</pubDate>
+      <description>Posted: 25 June 2026A new hotfix is rolling out to address issues found in the latest update. It will become available on each platform as it’s approved, so please allow a little time for it to reach you.Fixes:AudioFixed custom streamed audio not playing when its resource pack also contains subpacks (MCPE-239719)GraphicalFixed custom blocks rendering a stray solid face that could bleed through textures when a model face was hidden by setting one of its UV size dimensions to zeroPerformance and Stability
+Fixed several crashes that could occur during gameplay
+Fixed an issue that could cause the framerate to drop or become locked at 30 FPS while playing (MCPE-239693)
+Fixed an issue where a Book and Quill from pre-26.30 worlds freezes the game (MCPE-239753)
+User InterfacePlayers with multiplayer restricted skins can now enter worlds with multiplayer disabled</description>
+    </item>
+    <item>
       <title>Minecraft: Bedrock Edition 26.31 Hotfix Changelog</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/46826058100621-Minecraft-Bedrock-Edition-26-31-Hotfix-Changelog</link>
       <pubDate>Tue, 23 Jun 2026 00:00:01 GMT</pubDate>
-      <description>Posted: 22 June 2026A new hotfix is rolling out to address issues found in the latest update. It will become available on each platform as it’s approved, so please allow a little time for it to reach you.Fixes:User InterfaceFixed a bug where players could not join Experiences when the &apos;Screen Animations&apos; setting was turned off, causing the game to hang on the loading screenGameplayFixed an ID collision when adding split-screen guests on Nintendo Switch, allowing multiple guests to joinBlocksFixed a bug where projectiles fired from an upward-facing dispenser would not launch into the air (MCPE-239709)NetworkingFixed an issue causing slower server connectivity issues (MCPE-239705)Performance and Stability
+      <description>Posted: 22 June 2026A new hotfix is rolling out to address issues found in the latest update. It will become available on each platform as it’s approved, so please allow a little time for it to reach you.Fixes:User InterfaceFixed a bug where players could not join Experiences when the &apos;Screen Animations&apos; setting was turned off, causing the game to hang on the loading screenGameplayFixed an ID collision when adding split-screen guests on Nintendo Switch, allowing multiple guests to join (MCPE-239681)BlocksFixed a bug where projectiles fired from an upward-facing dispenser would not launch into the air (MCPE-239709)NetworkingFixed an issue causing slower server connectivity issues (MCPE-239705)Performance and Stability
 Fixed several crashes that could occur during gameplay
 Fixed a crash that could occur in the main menu on Switch (MCPE-238647)</description>
     </item>
@@ -2669,12 +2679,6 @@ Minecraft issue tracker!Want to give feedback?For any feedback and suggestions, 
 Fixed several bugs that could affect gameplay
 Fixed an issue in Realms Stories where the Members tab did not load in correctly
 Fixed an allowlist issue for servers (MCPE-237527)</description>
-    </item>
-    <item>
-      <title>Minecraft: Bedrock Edition 26.11 Hotfix Changelog</title>
-      <link>https://feedback.minecraft.net/hc/en-us/articles/44610903078797-Minecraft-Bedrock-Edition-26-11-Hotfix-Changelog</link>
-      <pubDate>Wed, 03 Jun 2026 00:00:09 GMT</pubDate>
-      <description>Posted: 26 March 2026A new hotfix has been released (Windows only) to address issues discovered in the latest update. This update will be rolling out as it becomes available, so please allow time for the update to reach you.GameplayFixed mouse camera sensitivity being higher than expected on Windows (MCPE-235748)</description>
     </item>
   </channel>
 </rss>
