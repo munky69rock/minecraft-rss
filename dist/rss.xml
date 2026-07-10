@@ -5,6 +5,12 @@
     <link>https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs</link>
     <description>Minecraft release changelogs</description>
     <item>
+      <title>Minecraft: Bedrock Edition 26.33 Hotfix Changelog</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/47262667617677-Minecraft-Bedrock-Edition-26-33-Hotfix-Changelog</link>
+      <pubDate>Fri, 10 Jul 2026 00:00:01 GMT</pubDate>
+      <description>Posted: 9 July 2026A new hotfix is rolling out to address issues found in the latest update. It will become available on each platform as it’s approved, so please allow a little time for it to reach you.Fixes:Fixed texture bleeding on custom blocks using automatic block face UV assignment with undersized textures</description>
+    </item>
+    <item>
       <title>Minecraft: Bedrock Edition 26.32 Hotfix Changelog</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/46916326665485-Minecraft-Bedrock-Edition-26-32-Hotfix-Changelog</link>
       <pubDate>Fri, 26 Jun 2026 00:00:01 GMT</pubDate>
@@ -2670,15 +2676,6 @@ Selected emotes no longer revert to defaults when relaunching the title (MCPE-18
       <description>It&apos;s a sunny Wednesday in the shipping room and we&apos;re starting the day off with releasing 26.1.1, a hotfix release that addresses an important issue reported in the 26.1 release.Happy mining!Fixed bugs in 26.1.1
 MC-307140 - Chat messages can no longer be reported if the chat is enabledGet the ReleaseTo install the Release, open up the Minecraft Launcher and click play! Make sure your Launcher is set to the &quot;Latest Release” option.Cross-platform server jar:Minecraft server jarReport bugs here:
 Minecraft issue tracker!Want to give feedback?For any feedback and suggestions, head over to the Feedback site. If you&apos;re feeling chatty, join us over at the official Minecraft Discord.</description>
-    </item>
-    <item>
-      <title>Minecraft: Bedrock Edition 26.12 Hotfix Changelog</title>
-      <link>https://feedback.minecraft.net/hc/en-us/articles/44732288765837-Minecraft-Bedrock-Edition-26-12-Hotfix-Changelog</link>
-      <pubDate>Wed, 03 Jun 2026 00:00:08 GMT</pubDate>
-      <description>A new hotfix is rolling out to address issues discovered in the latest update. This update will be rolling out to various platforms as it becomes available, so please allow time for the update to reach you.Fixes:
-Fixed several bugs that could affect gameplay
-Fixed an issue in Realms Stories where the Members tab did not load in correctly
-Fixed an allowlist issue for servers (MCPE-237527)</description>
     </item>
   </channel>
 </rss>
