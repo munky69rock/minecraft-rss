@@ -5,6 +5,13 @@
     <link>https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs</link>
     <description>Minecraft release changelogs</description>
     <item>
+      <title>Minecraft: Bedrock Edition 26.34 Hotfix Changelog</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/47592941525517-Minecraft-Bedrock-Edition-26-34-Hotfix-Changelog</link>
+      <pubDate>Fri, 24 Jul 2026 00:00:01 GMT</pubDate>
+      <description>Posted: 23 July 2026A new hotfix is rolling out on PlayStation and Switch to address issues found in the latest update. It will become available on each platform as it’s approved, so please allow a little time for it to reach you.Graphical
+Fixed texture bleeding on custom blocks using automatic block face UV assignment with undersized textures</description>
+    </item>
+    <item>
       <title>Minecraft: Bedrock Edition 26.33 Hotfix Changelog</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/47262667617677-Minecraft-Bedrock-Edition-26-33-Hotfix-Changelog</link>
       <pubDate>Fri, 10 Jul 2026 00:00:01 GMT</pubDate>
@@ -2668,14 +2675,6 @@ ScriptingAdded scripting method that allows creators to check the snow logging b
 Fixed several bugs that could affect gameplay
 Fixed an issue with custom entity components locked behind runtime IDs (MCPE-237713)
 Selected emotes no longer revert to defaults when relaunching the title (MCPE-188449)</description>
-    </item>
-    <item>
-      <title>Minecraft Java Edition - 26.1.1 Hotfix</title>
-      <link>https://feedback.minecraft.net/hc/en-us/articles/44759148669325-Minecraft-Java-Edition-26-1-1-Hotfix</link>
-      <pubDate>Wed, 03 Jun 2026 00:00:08 GMT</pubDate>
-      <description>It&apos;s a sunny Wednesday in the shipping room and we&apos;re starting the day off with releasing 26.1.1, a hotfix release that addresses an important issue reported in the 26.1 release.Happy mining!Fixed bugs in 26.1.1
-MC-307140 - Chat messages can no longer be reported if the chat is enabledGet the ReleaseTo install the Release, open up the Minecraft Launcher and click play! Make sure your Launcher is set to the &quot;Latest Release” option.Cross-platform server jar:Minecraft server jarReport bugs here:
-Minecraft issue tracker!Want to give feedback?For any feedback and suggestions, head over to the Feedback site. If you&apos;re feeling chatty, join us over at the official Minecraft Discord.</description>
     </item>
   </channel>
 </rss>
