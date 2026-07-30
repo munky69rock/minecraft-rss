@@ -5,10 +5,10 @@
     <link>https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs</link>
     <description>Minecraft release changelogs</description>
     <item>
-      <title>Minecraft: Bedrock Edition 26.34 Hotfix Changelog</title>
-      <link>https://feedback.minecraft.net/hc/en-us/articles/47592941525517-Minecraft-Bedrock-Edition-26-34-Hotfix-Changelog</link>
-      <pubDate>Fri, 24 Jul 2026 00:00:01 GMT</pubDate>
-      <description>Posted: 23 July 2026A new hotfix is rolling out on PlayStation and Switch to address issues found in the latest update. It will become available on each platform as it’s approved, so please allow a little time for it to reach you.Graphical
+      <title>Minecraft: Bedrock Edition 26.34/35 Hotfix Changelog</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/47592941525517-Minecraft-Bedrock-Edition-26-34-35-Hotfix-Changelog</link>
+      <pubDate>Thu, 30 Jul 2026 00:00:02 GMT</pubDate>
+      <description>Update: 28 July 202626.35 - Switch OnlyPlease note, we have additional fixes rolling out to players on Switch devices to address some important bugs that could occur during gameplay. Posted: 23 July 2026A new hotfix is rolling out on PlayStation and Switch to address issues found in the latest update. It will become available on each platform as it’s approved, so please allow a little time for it to reach you.Graphical
 Fixed texture bleeding on custom blocks using automatic block face UV assignment with undersized textures</description>
     </item>
     <item>
