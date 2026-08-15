@@ -5,6 +5,12 @@
     <link>https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs</link>
     <description>Minecraft release changelogs</description>
     <item>
+      <title>Minecraft: Bedrock Edition 26.44 Hotfix Changelog</title>
+      <link>https://feedback.minecraft.net/hc/en-us/articles/48149564061965-Minecraft-Bedrock-Edition-26-44-Hotfix-Changelog</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:02 GMT</pubDate>
+      <description>Posted: 14 August 2026A new hotfix is rolling out to address issues found in the latest update. It will become available on each platform as it’s approved, so please allow a little time for it to reach you.Fixes:CommandsRemoved self selection expansion when using commands (i.e. /tell) for non-operator players. (MCPE-241436)GraphicalVibrant Visuals are no longer disabled when loading a world with Education features enabled (MCPE-240476)InputPressing the Back button on Android now performs the expected in-game back action instead of moving the game to the background (MCPE-241324)ItemsArrow shot by a slightly charged Bow no longer hits the shooting player (MCPE-240527)Stability and PerformanceFixed an issue that could disconnect players while loading worlds with certain add-on content (MCPE-241505)User InterfaceShift-clicking items in Creative mode while using Pocket UI no longer deletes them and instead quick-moves them to available inventory slots (MCPE-241415)Technical UpdatesDimensionsFixed a bug where minecraft:dimension_bounds and other values defined in a dimension JSON file were ignored (MCPE-241528)</description>
+    </item>
+    <item>
       <title>Minecraft: Bedrock Edition 26.41/42/43 Hotfix Changelog</title>
       <link>https://feedback.minecraft.net/hc/en-us/articles/48021584755341-Minecraft-Bedrock-Edition-26-41-42-43-Hotfix-Changelog</link>
       <pubDate>Tue, 11 Aug 2026 00:00:02 GMT</pubDate>
@@ -2763,16 +2769,6 @@ Add support for responding to Xbox friend requests from the Social Drawer</descr
 
 Fixed an issue that caused black squares to appear on the screen when Vibrant Visuals was enabled on certain Android devices (MCPE-238627)
 Fixed several crashes that could occur during gameplay</description>
-    </item>
-    <item>
-      <title>Minecraft: Bedrock Edition 26.21 Hotfix Changelog</title>
-      <link>https://feedback.minecraft.net/hc/en-us/articles/45844706302221-Minecraft-Bedrock-Edition-26-21-Hotfix-Changelog</link>
-      <pubDate>Wed, 03 Jun 2026 00:00:06 GMT</pubDate>
-      <description>Posted: 14 May 2026A new hotfix is rolling out to address issues found in the latest update. It will become available on each platform as it’s approved, so please allow a little time for it to reach you.Fixes:GameplayVarious bug fixes and improvementsUser InterfaceFixed a freeze when opening a furnace without recipesStability and Performance
-Fixed Several crashes that could occur during gameplay
-Fixed a crash that could occur on launch
-Fixed a crash when clicking the &apos;Search for people&apos; button while not signed in (MCPE-235488)
-Technical UpdatesBlocksFixed block traits not respecting experimental requirements for format_version &gt;= 1.26.20</description>
     </item>
   </channel>
 </rss>
