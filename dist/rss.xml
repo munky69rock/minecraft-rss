@@ -356,7 +356,7 @@ Players with multiplayer restricted skins can now enter worlds with multiplayer 
 Removed space appearing between the chat tab and the social drawer (MCPE-239456)
 World Storage
 Added OREUI Storage Settings: Storage Status and Management
-Added cloud backup of Windows worlds, more information can be found at aka.ms/aka.ms/cloudPCPlease share your feedback at feedback.minecraft.net and report any bugs you find at bugs.mojang.com
+Added cloud backup of Windows worldsPlease share your feedback at feedback.minecraft.net and report any bugs you find at bugs.mojang.com
 
 
 Adds Cloud Sync support for World data on Windows, ensuring world data is backed up and accessible across devices on that platform.
